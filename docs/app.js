@@ -59,6 +59,7 @@
         } else {
             klassen = klassenDef[loc] || [];
         }
+        klassen.sort((a, b) => a.localeCompare(b, 'nl'));
 
         // Info bar
         const infoBar = document.getElementById('info-bar');
