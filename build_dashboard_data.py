@@ -9,7 +9,7 @@ from collections import defaultdict
 
 BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "output"
-DASHBOARD_DATA_DIR = BASE_DIR / "dashboard" / "data"
+DASHBOARD_DATA_DIR = BASE_DIR / "docs" / "data"
 
 # Schoolkalender 2025-2026
 MODULE_WEEKS = {

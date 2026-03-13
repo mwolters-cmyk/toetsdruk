@@ -13,10 +13,10 @@ Toetsdruk/
 ├── CLAUDE.md                    # Dit bestand
 ├── vision.md                    # Projectvisie & ontwerp (LEES DIT EERST)
 ├── standardize.py               # Studiewijzer → JSON pipeline (Claude Haiku API)
-├── build_dashboard_data.py      # Aggregeert output/ → dashboard/data/toetsdruk.json
+├── build_dashboard_data.py      # Aggregeert output/ → docs/data/toetsdruk.json
 ├── _extracted/                  # Bronbestanden studiewijzers (niet in git)
 ├── output/                      # Verwerkte JSON per studiewijzer (niet in git)
-└── dashboard/                   # GitHub Pages site
+└── docs/                   # GitHub Pages site
     ├── index.html               # Hoofdpagina
     ├── style.css                # Styling (Vensters design system)
     ├── app.js                   # Heatmap rendering + filters
@@ -29,7 +29,7 @@ Toetsdruk/
 
 1. Gebruiker plaatst studiewijzers in `_extracted/{klas}/Studiewijzers/{KLAS}/Module {N}/`
 2. `python standardize.py` → verwerkt naar `output/*.json` via Claude Haiku API
-3. `python build_dashboard_data.py` → aggregeert naar `dashboard/data/toetsdruk.json`
+3. `python build_dashboard_data.py` → aggregeert naar `docs/data/toetsdruk.json`
 4. Dashboard leest toetsdruk.json en toont heatmap
 
 ## Technische conventies
@@ -38,7 +38,7 @@ Toetsdruk/
 - API calls via Claude Haiku (claude-haiku-4-5-20251001)
 - API key: `../Jaaroverstijgend wiskunde/Toetsenbank/Leerlijn/data/llm_batch/.api_key`
 - Frontend: vanilla HTML/CSS/JS, geen framework, geen build stap
-- Deployment: GitHub Pages uit `dashboard/` directory
+- Deployment: GitHub Pages uit `docs/` directory
 
 ## Schoolstructuur
 

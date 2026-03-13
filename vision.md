@@ -58,9 +58,9 @@ Gebruiker plaatst studiewijzers in _extracted/{klas}/Studiewijzers/{KLAS}/Module
     ↓
 standardize.py → Claude Haiku API → output/*.json (per studiewijzer)
     ↓
-build_dashboard_data.py → dashboard/data/toetsdruk.json (1 geaggregeerd bestand)
+build_dashboard_data.py → docs/data/toetsdruk.json (1 geaggregeerd bestand)
     ↓
-dashboard/ (statische website op GitHub Pages)
+docs/ (statische website op GitHub Pages)
 ```
 
 ### Stap 1: Studiewijzers plaatsen
@@ -70,7 +70,7 @@ Gebruiker (niet de tool, niet collega's) plaatst studiewijzer-bestanden (docx/pd
 Bestaand script. Leest alle formats, roept Claude Haiku API aan, produceert gestandaardiseerde JSON per studiewijzer in `output/`. Werkt uitstekend (552/554 bestanden succesvol op 5 maart 2026).
 
 ### Stap 3: build_dashboard_data.py
-Nieuw script. Aggregeert alle output/*.json tot één `dashboard/data/toetsdruk.json`. Filtert toetsen met `in_toetsweek: true` eruit. Dedupliceert (max 1 toets per vak/type/week per klas).
+Nieuw script. Aggregeert alle output/*.json tot één `docs/data/toetsdruk.json`. Filtert toetsen met `in_toetsweek: true` eruit. Dedupliceert (max 1 toets per vak/type/week per klas).
 
 ### Stap 4: Dashboard
 Statische website. Leest toetsdruk.json, toont heatmap per jaarlaag/locatie/module.
@@ -80,7 +80,7 @@ Statische website. Leest toetsdruk.json, toont heatmap per jaarlaag/locatie/modu
 - **Frontend:** Vanilla HTML/CSS/JS (geen framework, geen build stap)
 - **Styling:** CSS variables hergebruikt van SHZG Vensters dashboard
 - **Auth:** PIN-authenticatie (zelfde PIN als Vensters dashboard)
-- **Deployment:** GitHub Pages, serveert uit `dashboard/` directory
+- **Deployment:** GitHub Pages, serveert uit `docs/` directory
 - **Backend:** Geen. Alles is statisch. Data wordt lokaal gegenereerd en gecommit.
 - **LLM:** Claude Haiku (claude-haiku-4-5-20251001) voor studiewijzer-parsing
 
@@ -94,7 +94,7 @@ Toetsdruk/
 ├── build_dashboard_data.py      # Aggregeert output/ → dashboard JSON
 ├── _extracted/                  # Bronbestanden studiewijzers (niet in git)
 ├── output/                      # Verwerkte JSON (niet in git)
-└── dashboard/                   # GitHub Pages site
+└── docs/                   # GitHub Pages site
     ├── index.html
     ├── style.css
     ├── app.js
