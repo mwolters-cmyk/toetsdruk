@@ -20,12 +20,14 @@ MODULE_WEEKS = {
 TOETSWEEK_WEEKS = [47, 48, 10, 11, 25, 26]
 VAKANTIE_WEEKS = [43, 52, 1, 9, 18, 19]
 
-# Onderbouw klasindeling per locatie
-KLASSEN = {
-    1: {"Athena": ["1G", "1H", "1K", "1M"], "Socrates": ["1P", "1Q"]},
-    2: {"Athena": ["2G", "2H"], "Socrates": ["2K", "2M"]},
-    3: {"Athena": ["3G", "3H"], "Socrates": ["3K", "3M", "3P"]},
-}
+# Onderbouw locatie-indeling: A-F = Socrates, G-Q = Athena
+SOCRATES_LETTERS = set("ABCDEF")
+
+
+def classify_locatie(klas: str) -> str:
+    """Bepaal locatie op basis van klasletter. A-F=Socrates, G+=Athena."""
+    letter = klas[-1].upper() if klas else ""
+    return "Socrates" if letter in SOCRATES_LETTERS else "Athena"
 
 # Vaknaam-afkortingen voor compacte weergave in dashboard
 VAK_AFKORTINGEN = {
@@ -159,6 +161,14 @@ def build_data():
         except ValueError:
             week_labels[str(w)] = f"wk{w}"
 
+    # Dynamisch klassen detecteren per jaarlaag en locatie
+    klassen_per_lj = defaultdict(lambda: {"Athena": [], "Socrates": []})
+    for klas in sorted(klas_toetsen.keys()):
+        lj = int(klas[0]) if klas[0].isdigit() else None
+        if lj:
+            loc = classify_locatie(klas)
+            klassen_per_lj[lj][loc].append(klas)
+
     # Output structuur
     output = {
         "schooljaar": "2025-2026",
@@ -170,8 +180,7 @@ def build_data():
             "week_labels": week_labels,
         },
         "klassen": {
-            str(lj): {loc: klassen for loc, klassen in locs.items()}
-            for lj, locs in KLASSEN.items()
+            str(lj): locs for lj, locs in sorted(klassen_per_lj.items())
         },
         "toetsen": dict(klas_toetsen),
     }
@@ -182,16 +191,11 @@ def build_data():
         for weeks in klas_toetsen.values()
         for toetsen in weeks.values()
     )
-    klassen_met_data = len(klas_toetsen)
-    print(f"Totaal: {total_toetsen} toetsen over {klassen_met_data} klassen")
-    for lj in [1, 2, 3]:
-        alle_klassen = KLASSEN[lj]["Athena"] + KLASSEN[lj]["Socrates"]
-        n = sum(
-            len(toetsen)
-            for k in alle_klassen
-            for toetsen in klas_toetsen.get(k, {}).values()
-        )
-        print(f"  Klas {lj}: {n} toetsen")
+    print(f"Totaal: {total_toetsen} toetsen over {len(klas_toetsen)} klassen")
+    for lj in sorted(klassen_per_lj):
+        alle = klassen_per_lj[lj]["Athena"] + klassen_per_lj[lj]["Socrates"]
+        n = sum(len(t) for k in alle for t in klas_toetsen.get(k, {}).values())
+        print(f"  Klas {lj}: {n} toetsen ({klassen_per_lj[lj]['Athena']} Athena, {klassen_per_lj[lj]['Socrates']} Socrates)")
 
     # Schrijf output
     DASHBOARD_DATA_DIR.mkdir(parents=True, exist_ok=True)

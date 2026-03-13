@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-13T08:31:48",
+  "gegenereerd": "2026-03-13T08:47:45",
   "kalender": {
     "module_weken": {
       "1": [
@@ -121,33 +121,30 @@
         "1G",
         "1H",
         "1K",
-        "1M"
-      ],
-      "Socrates": [
+        "1M",
         "1P",
         "1Q"
-      ]
+      ],
+      "Socrates": []
     },
     "2": {
       "Athena": [
         "2G",
-        "2H"
-      ],
-      "Socrates": [
+        "2H",
         "2K",
         "2M"
-      ]
+      ],
+      "Socrates": []
     },
     "3": {
       "Athena": [
         "3G",
-        "3H"
-      ],
-      "Socrates": [
+        "3H",
         "3K",
         "3M",
         "3P"
-      ]
+      ],
+      "Socrates": []
     }
   },
   "toetsen": {

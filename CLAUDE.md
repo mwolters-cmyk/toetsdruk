@@ -42,10 +42,9 @@ Toetsdruk/
 
 ## Schoolstructuur
 
-- **Onderbouw (klas 1-3):** vaste klassen per locatie
-  - Klas 1: 1G, 1H, 1K, 1M (Athena) + 1P, 1Q (Socrates)
-  - Klas 2: 2G, 2H (Athena) + 2K, 2M (Socrates)
-  - Klas 3: 3G, 3H (Athena) + 3K, 3M, 3P (Socrates)
+- **Onderbouw (klas 1-3):** vaste klassen, locatie op basis van klasletter
+  - A-F = Socrates, G-Q = Athena (dynamisch gedetecteerd uit data)
+  - Klas 1: ~17 klassen (1A t/m 1Q), klas 2 en 3 iets minder
 - **Bovenbouw (klas 4-6):** later, clustergroepen per profiel
 - **3 modules** per jaar, proefwerkweken: wk 47-48, 10-11, 25-26
 - **Vakanties:** wk 43, 52, 1, 9, 18-19

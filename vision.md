@@ -32,11 +32,10 @@ Een heatmap/tabel met:
 ## Schoolstructuur
 
 ### Onderbouw — vaste klassen
-| Jaarlaag | Athena | Socrates |
-|----------|--------|----------|
-| Klas 1   | 1G, 1H, 1K, 1M | 1P, 1Q |
-| Klas 2   | 2G, 2H | 2K, 2M |
-| Klas 3   | 3G, 3H | 3K, 3M, 3P |
+- **Locatie-indeling op basis van klasletter:** A-F = Socrates, G-Q = Athena
+- Klassen worden dynamisch gedetecteerd uit de studiewijzer-data
+- Klas 1 heeft ~17 klassen (1A t/m 1Q), klas 2 en 3 iets minder
+- Studiewijzers van Socrates (A-F) ontbreken nog in de huidige dataset
 
 ### Modules & kalender 2025-2026
 | Module | Weken | Toetsweek |
