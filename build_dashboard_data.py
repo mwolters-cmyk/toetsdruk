@@ -133,9 +133,14 @@ def detect_vak_from_filename(bron: str) -> str | None:
 
 
 def detect_vak_from_beschrijving(beschrijving: str) -> str | None:
-    """Detecteer vak uit toetsbeschrijving als laatste fallback."""
+    """Detecteer vak uit toetsbeschrijving als laatste fallback.
+
+    Twee lagen: eerst vakspecifieke termen, dan vaknamen letterlijk in de tekst.
+    """
     desc = unicodedata.normalize("NFC", beschrijving.lower())
-    patterns = {
+
+    # Laag 1: vakspecifieke termen (hoge betrouwbaarheid)
+    specifieke_patterns = {
         "Frans": ["vocabulaire", "grammaire", "verbe", "unité", "leçon",
                   "écriture", "écrit", "production écrite"],
         "Duits": ["grammatik", "kapitel", "vokabel", "prüfung", "hörverstehen",
@@ -154,10 +159,35 @@ def detect_vak_from_beschrijving(beschrijving: str) -> str | None:
         "Kunst - BV": ["knutsel"],
         "Latijn": ["godenopdracht", "verbuigingsgroep"],
     }
-    for vak, keywords in patterns.items():
+    for vak, keywords in specifieke_patterns.items():
         for kw in keywords:
             if kw in desc:
                 return vak
+
+    # Laag 2: vaknaam letterlijk in beschrijving (catch-all voor generieke bestanden)
+    vaknaam_patterns = {
+        "Nederlands": "nederlands",
+        "Engels": "engels",
+        "Frans": "frans",
+        "Duits": "duits",
+        "Wiskunde": "wiskunde",
+        "Biologie": "biologie",
+        "Natuurkunde": "natuurkunde",
+        "Scheikunde": "scheikunde",
+        "Geschiedenis": "geschiedenis",
+        "Aardrijkskunde": "aardrijkskunde",
+        "Latijn": "latijn",
+        "Grieks": "grieks",
+        "Economie": "economie",
+        "Filosofie": "filosofie",
+        "Informatica": "informatica",
+        "Muziek": "muziek",
+        "Drama": "drama",
+    }
+    for vak, vaknaam in vaknaam_patterns.items():
+        if vaknaam in desc:
+            return vak
+
     return None
 
 
