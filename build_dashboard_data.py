@@ -151,6 +151,7 @@ def detect_vak_from_beschrijving(beschrijving: str) -> str | None:
                        "taal en identiteit", "opvallend schrijven"],
         "Geschiedenis": ["franse revolutie", "staten-generaal", "rechtszaak",
                          "samos", "egypte", "en bronnen"],
+        "Kunst - BV": ["knutsel"],
         "Latijn": ["godenopdracht", "verbuigingsgroep"],
     }
     for vak, keywords in patterns.items():
@@ -171,6 +172,11 @@ def build_data():
 
     # Deduplicatie: track (klas, week, vak, type) om duplicaten te voorkomen
     seen = set()
+    # Track (klas, week, type) met bekend vak — voorkomt dat Onbekend-dubbelen verschijnen
+    seen_known = set()
+
+    # Sorteer: bestanden met bekend vak eerst, zodat dedup Onbekend-dubbelen onderdrukt
+    all_files.sort(key=lambda d: (d["metadata"].get("vak") is None, d.get("bron_bestand", "")))
 
     for doc in all_files:
         meta = doc["metadata"]
@@ -207,6 +213,15 @@ def build_data():
 
             if dedup_key in seen:
                 continue
+
+            # Onderdruk Onbekend-entries als er al een entry met bekend vak is
+            # voor dezelfde (klas, week, type) — voorkomt dubbelen uit overzichtsdocumenten
+            base_key = (klas, week, toets_type)
+            if vak == "Onbekend" and base_key in seen_known:
+                continue
+            if vak != "Onbekend":
+                seen_known.add(base_key)
+
             seen.add(dedup_key)
 
             klas_toetsen[klas][str(week)].append({
