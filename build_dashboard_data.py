@@ -3,6 +3,7 @@
 
 import json
 import os
+import unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
 from collections import defaultdict
@@ -40,6 +41,7 @@ VAK_AFKORTINGEN = {
     "Muziek": "Mu", "Drama": "Dr", "Techniek": "Te",
     "Lichamelijke opvoeding": "LO", "Godsdienst": "Go",
     "Mens en maatschappij": "M&M", "Mens en natuur": "M&N",
+    "Onbekend": "??",
 }
 
 # Toetstype afkortingen
@@ -92,6 +94,72 @@ def type_kort(toets_type: str) -> str:
     return TYPE_AFKORTINGEN.get(toets_type, toets_type.upper()[:3])
 
 
+def detect_vak_from_filename(bron: str) -> str | None:
+    """Detecteer vak uit bestandsnaam als metadata.vak ontbreekt."""
+    name = unicodedata.normalize("NFC", bron.lower())
+    patterns = {
+        "Nederlands": ["nederland", "1ne ", "2ne ", "3ne ", " ne ", "_ne_", "ned ",
+                        "planner 1ne", "planner 2ne", "planner 3ne", "leesles"],
+        "Engels": ["english", "engels", " eng ", "englsh"],
+        "Frans": ["français", "francais", "fran ", "planning fa ", "planning période",
+                  "planning periode", " fa p"],
+        "Duits": ["deutsch", "duits", " du ", "2k m2 2526", "2m m2 2526"],
+        "Wiskunde": ["wiskunde", " wi ", "wis ", "rekenen", "rekenlessen"],
+        "Biologie": ["biologie", "bio ", "k3m1 biologie", "k3m2"],
+        "Natuurkunde": ["natuurkunde", "nask", "elektriciteit", "kracht en beweging",
+                        "warmte", "geluid", "licht fer"],
+        "Scheikunde": ["scheikunde", " sk ", "verbranding"],
+        "Geschiedenis": ["geschiedenis", "geschied", " ges ", "gesbng", "gsbng",
+                         "fascisme", "planner ges", " gs ", "samos"],
+        "Aardrijkskunde": ["aardrijkskunde", " ak "],
+        "Latijn": ["latijn", "_la_", " la ", "1la ", "2la ", "3la ",
+                   "1la_", "2la_", "3la_", "lagr"],
+        "Grieks": ["grieks", "_gr_", " gr ", "1gr ", "2gr ", "3gr ",
+                   "1gr_", "2gr_", "3gr_"],
+        "Economie": ["economie", " ec "],
+        "Kunst - BV": ["beeldende", " bv ", "portret", "maskers", "linoleum",
+                       "waarneming tekenen", "druktechniek", "tekenen en schilderen"],
+        "Muziek": ["muziek", "begrippenlijst klas 1 periode 2 met audio"],
+        "Drama": ["drama"],
+        "Filosofie": ["filosofie"],
+        "Lichamelijke opvoeding": ["lichamelijke", " lo "],
+        "Informatica": ["informatica"],
+    }
+    for vak, keywords in patterns.items():
+        for kw in keywords:
+            if kw in name:
+                return vak
+    return None
+
+
+def detect_vak_from_beschrijving(beschrijving: str) -> str | None:
+    """Detecteer vak uit toetsbeschrijving als laatste fallback."""
+    desc = unicodedata.normalize("NFC", beschrijving.lower())
+    patterns = {
+        "Frans": ["vocabulaire", "grammaire", "verbe", "unité", "leçon",
+                  "écriture", "écrit", "production écrite"],
+        "Duits": ["grammatik", "kapitel", "vokabel", "prüfung", "hörverstehen",
+                  "leseverstehen", "haustier", "restaurantspiel", "berühmtheiten",
+                  "lesefertigkeit", "haben/sein/werden", "ergänze"],
+        "Wiskunde": ["haakjes", "herleiden", "breuken met letters", "cirkels",
+                     "middelloodlijn", "zwaartelijnen", "hoogtelijnen",
+                     "oppervlakte driehoek", "procenten", "evenwijdige lijnen",
+                     "exceltoets"],
+        "Scheikunde": ["verbranding en ademhaling"],
+        "Aardrijkskunde": ["himalaya", "croquis", "demografie", "croquisatlas"],
+        "Nederlands": ["leesles", "fictie en werkelijkheid", "vermaken en ontroeren",
+                       "taal en identiteit", "opvallend schrijven"],
+        "Geschiedenis": ["franse revolutie", "staten-generaal", "rechtszaak",
+                         "samos", "egypte", "en bronnen"],
+        "Latijn": ["godenopdracht", "verbuigingsgroep"],
+    }
+    for vak, keywords in patterns.items():
+        for kw in keywords:
+            if kw in desc:
+                return vak
+    return None
+
+
 def build_data():
     """Bouwt het dashboard databestand."""
     all_files = load_all_json()
@@ -125,7 +193,10 @@ def build_data():
             if not week:
                 continue
 
-            vak = meta.get("vak", "Onbekend")
+            vak = (meta.get("vak")
+                   or detect_vak_from_filename(doc.get("bron_bestand", ""))
+                   or detect_vak_from_beschrijving(toets.get("beschrijving", ""))
+                   or "Onbekend")
             # Gecombineerde studiewijzers: Latijn/Grieks-correctie
             if vak == "Latijn":
                 desc_lower = beschrijving
