@@ -25,29 +25,91 @@ VAKANTIE_WEEKS = [43, 52, 1, 9, 18, 19]
 # Onderbouw locatie-indeling: A-F = Socrates, G-Q = Athena
 SOCRATES_LETTERS = set("ABCDEF")
 
-# Docentcode → vak mapping (afgeleid uit bestanden met bekend vak, ≥80% betrouwbaar)
+# Docentcode → vak mapping (bron: "Overzicht collega's 2025-2026" + bestandsanalyse)
+# kt = Klassieke Talen → standaard "Latijn", code corrigeert naar Grieks op basis van beschrijving
 DOCENT_VAK = {
-    "AUS": "Muziek", "AVP": "Geschiedenis", "BAR": "Wiskunde",
-    "BOO": "Latijn", "BOS": "Kunst - BV", "BRD": "Geschiedenis",
-    "BRM": "Nederlands", "DDP": "Nederlands", "DHE": "Duits",
-    "DJK": "Muziek", "DWB": "Scheikunde", "EBE": "Drama",
-    "ESC": "Drama", "FER": "Natuurkunde", "GDR": "Wiskunde",
-    "GES": "Geschiedenis", "GRN": "Muziek", "HDE": "Duits",
-    "HPR": "Wiskunde", "HSC": "Wiskunde", "IST": "Engels",
+    # A
+    "AAL": "Wiskunde", "ABO": "Latijn", "AJE": "Kunst - BV",
+    "AOU": "Informatica", "ASK": "Lichamelijke opvoeding",
+    "AST": "Latijn", "AUS": "Muziek", "AVP": "Geschiedenis",
+    # B
+    "BAR": "Wiskunde", "BLE": "Lichamelijke opvoeding",
+    "BML": "Natuurkunde", "BNG": "Geschiedenis", "BOO": "Latijn",
+    "BOS": "Kunst - BV", "BRD": "Geschiedenis", "BRM": "Nederlands",
+    "BVW": "Filosofie",
+    # C
+    "CGI": "Nederlands", "CLC": "Frans", "COL": "Aardrijkskunde",
+    # D
+    "DBA": "Latijn", "DDP": "Nederlands", "DHE": "Duits",
+    "DJK": "Muziek", "DKO": "Latijn", "DWB": "Scheikunde",
+    # E
+    "EBE": "Drama", "ECK": "Latijn", "EDH": "Nederlands",
+    "ENS": "Duits", "ESC": "Drama", "EVH": "Economie",
+    # F
+    "FER": "Natuurkunde", "FPE": "Biologie", "FRA": "Economie",
+    # G
+    "GDR": "Wiskunde", "GES": "Geschiedenis", "GIR": "Aardrijkskunde",
+    "GRN": "Muziek", "GRV": "Frans", "GST": "Latijn",
+    "GVN": "Lichamelijke opvoeding",
+    # H
+    "HDE": "Duits", "HEI": "Latijn", "HGV": "Biologie",
+    "HKT": "Maatschappijleer", "HNS": "Geschiedenis",
+    "HPR": "Wiskunde", "HSC": "Wiskunde", "HTA": "Engels",
+    "HUI": "Latijn", "HVL": "Latijn",
+    # I
+    "IST": "Engels",
+    # J
     "JCB": "Biologie", "JJO": "Wiskunde", "JNG": "Engels",
-    "JST": "Engels", "JVZ": "Engels", "JWI": "Wiskunde",
-    "KFM": "Frans", "KOM": "Wiskunde", "KUA": "Kunst - BV",
-    "LIN": "Engels", "LNS": "Engels", "LSK": "Nederlands",
-    "LVL": "Nederlands", "LWN": "Aardrijkskunde", "MER": "Scheikunde",
-    "MHA": "Engels", "MKP": "Scheikunde", "MRA": "Duits",
-    "MRL": "Frans", "NBL": "Nederlands", "NBR": "Wiskunde",
-    "NHE": "Drama", "NVM": "Nederlands", "NVS": "Nederlands",
-    "OJN": "Engels", "PHN": "Frans", "RET": "Engels",
-    "RJO": "Wiskunde", "RTP": "Geschiedenis", "SGL": "Muziek",
-    "SMI": "Scheikunde", "SON": "Kunst - BV", "TVL": "Latijn",
-    "VHL": "Kunst - BV", "VHN": "Geschiedenis", "VKO": "Kunst - BV",
-    "VRT": "Scheikunde", "WAG": "Natuurkunde", "WLT": "Wiskunde",
-    "ZAN": "Natuurkunde",
+    "JST": "Engels", "JVZ": "Engels", "JWI": "Frans",
+    # K
+    "KAS": "Latijn", "KFM": "Frans", "KHL": "Duits",
+    "KNA": "Biologie", "KOM": "Wiskunde", "KUA": "Kunst - BV",
+    # L
+    "LIE": "Natuurkunde", "LIN": "Engels", "LJA": "Latijn",
+    "LNS": "Engels", "LSK": "Nederlands", "LVL": "Nederlands",
+    "LWN": "Aardrijkskunde",
+    # M
+    "MER": "Scheikunde", "MHA": "Engels", "MKP": "Scheikunde",
+    "MNT": "Natuurkunde", "MRA": "Duits", "MRL": "Frans",
+    "MSM": "Natuurkunde", "MSS": "Latijn", "MVI": "Wiskunde",
+    # N
+    "NBL": "Nederlands", "NBR": "Wiskunde", "NHE": "Drama",
+    "NVM": "Nederlands", "NVS": "Nederlands",
+    # O
+    "OJN": "Engels", "OST": "Natuurkunde",
+    # P
+    "PHN": "Frans", "PON": "Economie",
+    # R
+    "RBO": "Drama", "RBR": "Biologie", "RDR": "Wiskunde",
+    "RET": "Engels", "RJO": "Wiskunde", "RNP": "Wiskunde",
+    "ROE": "Latijn", "ROS": "Geschiedenis", "ROZ": "Economie",
+    "RTE": "Biologie", "RTP": "Geschiedenis", "RVD": "Latijn",
+    "RWA": "Aardrijkskunde",
+    # S
+    "SAH": "Aardrijkskunde", "SBU": "Nederlands", "SCB": "Latijn",
+    "SCM": "Latijn", "SDC": "Muziek", "SDR": "Lichamelijke opvoeding",
+    "SFL": "Frans", "SGL": "Muziek", "SIS": "Aardrijkskunde",
+    "SMI": "Scheikunde", "SMK": "Kunst - BV", "SON": "Kunst - BV",
+    # T
+    "TCM": "Latijn", "TIN": "Duits", "TMS": "Kunst - BV",
+    "TSL": "Maatschappijleer", "TVL": "Latijn", "TVS": "Economie",
+    # V
+    "VHL": "Kunst - BV", "VHN": "Geschiedenis", "VIN": "Lichamelijke opvoeding",
+    "VKO": "Kunst - BV", "VLK": "Filosofie", "VLT": "Biologie",
+    "VRL": "Wiskunde", "VRT": "Scheikunde",
+    # W
+    "WAG": "Natuurkunde", "WIT": "Lichamelijke opvoeding",
+    "WLT": "Wiskunde", "WNS": "Latijn", "WRN": "Lichamelijke opvoeding",
+    # Z
+    "ZAN": "Natuurkunde", "ZEE": "Economie", "ZIL": "Latijn",
+    "ZRN": "Natuurkunde", "ZVN": "Latijn",
+}
+
+
+# Handmatige overrides voor bestanden die niet automatisch gedetecteerd kunnen worden
+# Key: (deel van) bestandsnaam (lowercase), Value: vaknaam
+MANUAL_OVERRIDES = {
+    "studiewijzer klas 3 gh module 2 25-26": "Wiskunde",  # Goudriaan (GDR)
 }
 
 
@@ -118,6 +180,15 @@ def vak_kort(vak: str | None) -> str:
 def type_kort(toets_type: str) -> str:
     """Verkort toetstype."""
     return TYPE_AFKORTINGEN.get(toets_type, toets_type.upper()[:3])
+
+
+def detect_vak_from_override(bron: str) -> str | None:
+    """Check handmatige overrides voor ondetecteerbare bestanden."""
+    name = os.path.splitext(os.path.basename(bron))[0].lower()
+    for pattern, vak in MANUAL_OVERRIDES.items():
+        if pattern in name:
+            return vak
+    return None
 
 
 def detect_vak_from_filename(bron: str) -> str | None:
@@ -197,7 +268,8 @@ def detect_vak_from_beschrijving(beschrijving: str) -> str | None:
         "Geschiedenis": ["franse revolutie", "staten-generaal", "rechtszaak",
                          "samos", "egypte", "en bronnen"],
         "Kunst - BV": ["knutsel"],
-        "Latijn": ["godenopdracht", "verbuigingsgroep"],
+        "Latijn": ["godenopdracht", "verbuigingsgroep", "grammatica les",
+                   "woorden les", "tekst 44", "tekst 43"],
     }
     for vak, keywords in specifieke_patterns.items():
         for kw in keywords:
@@ -270,6 +342,7 @@ def build_data():
                 continue
 
             vak = (meta.get("vak")
+                   or detect_vak_from_override(doc.get("bron_bestand", ""))
                    or detect_vak_from_filename(doc.get("bron_bestand", ""))
                    or detect_vak_from_docentcode(doc.get("bron_bestand", ""))
                    or detect_vak_from_beschrijving(toets.get("beschrijving", ""))

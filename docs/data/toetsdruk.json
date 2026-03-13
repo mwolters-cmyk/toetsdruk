@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-13T10:05:00",
+  "gegenereerd": "2026-03-13T10:16:40",
   "kalender": {
     "module_weken": {
       "1": [
@@ -6186,6 +6186,14 @@
           "type_kort": "USO",
           "beschrijving": "USO woorden 11 tm 14",
           "stof": "Woorden 11 tot en met 14"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO woorden Les 24 t/m 27 + blz. 126 (facultatief)",
+          "stof": "woorden Les 24 t/m 27, blz. 126"
         }
       ],
       "51": [
@@ -11392,8 +11400,8 @@
           "stof": "Herhaalboekje, zelfstandig naamwoord, persoonlijk voornaamwoord, werkwoordstijden (praesens, imperfecum, sigmatische, pseudosigmatische en thematische aoristus), bijvoeglijk naamwoord"
         },
         {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
+          "vak": "Latijn",
+          "vak_kort": "La",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO Vermaken en ontroeren (C of D – keuze docent)",
@@ -11470,8 +11478,8 @@
           "stof": "Leçon 1: vocabulaire leçon 1, présent (verbes être, avoir, aller, faire, prendre, vouloir), imparfait (pages 102-105 LT, page 18)"
         },
         {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
+          "vak": "Latijn",
+          "vak_kort": "La",
           "type": "mondeling",
           "type_kort": "MO",
           "beschrijving": "Leesles - plot, tijd en ruimte (fictie en werkelijkheid D)",
@@ -11506,8 +11514,8 @@
           "stof": "H1 par. 3 en 4"
         },
         {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
+          "vak": "Latijn",
+          "vak_kort": "La",
           "type": "mondeling",
           "type_kort": "MO",
           "beschrijving": "Leesles - vermaken en ontroeren (opvallend schrijven)",
@@ -11792,8 +11800,8 @@
       ],
       "37": [
         {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
+          "vak": "Latijn",
+          "vak_kort": "La",
           "type": "mondeling",
           "type_kort": "MO",
           "beschrijving": "Leesles - romans (fictie en werkelijkheid A)",
@@ -11802,8 +11810,8 @@
       ],
       "40": [
         {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
+          "vak": "Latijn",
+          "vak_kort": "La",
           "type": "mondeling",
           "type_kort": "MO",
           "beschrijving": "Leesles - taal en identiteit (thema en motieven)",
@@ -12044,20 +12052,20 @@
           "stof": "Grammatica t/m les 44 (nadruk op les 43 en 44), woorden les 41-44, tekst 44 inclusief niet-dikgedrukte woorden, achtergronden les 43 en 44"
         },
         {
-          "vak": "Onbekend",
-          "vak_kort": "??",
-          "type": "proefwerk",
-          "type_kort": "PW",
-          "beschrijving": "Proefwerk H3",
-          "stof": "Hoofdstuk 3"
-        },
-        {
           "vak": "Scheikunde",
           "vak_kort": "Sk",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO over atoommodel",
           "stof": "3.1 Atoommodel"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk H3",
+          "stof": "Hoofdstuk 3"
         }
       ],
       "5": [
@@ -12412,20 +12420,20 @@
           "stof": "§4.5 Krachten, §4.6 Hefbomen"
         },
         {
-          "vak": "Onbekend",
-          "vak_kort": "??",
-          "type": "proefwerk",
-          "type_kort": "PW",
-          "beschrijving": "PW H3",
-          "stof": "H3 (Hoofdstuk 3)"
-        },
-        {
           "vak": "Scheikunde",
           "vak_kort": "Sk",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO over atoommodel",
           "stof": "3.1 Atoommodel"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "PW H3",
+          "stof": "H3 (Hoofdstuk 3)"
         }
       ],
       "7": [
@@ -12812,20 +12820,20 @@
       ],
       "3": [
         {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO tekst 44, grammatica les 43-44, woorden les 41-44",
+          "stof": "Tekst 44, grammatica les 43-44, woorden les 41-44"
+        },
+        {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "presentatie",
           "type_kort": "PR",
           "beschrijving": "USO Beroepenpresentatie in duo's",
           "stof": "Interviewen (p.92 handboek), Spreken voor publiek (p. 96 handboek)"
-        },
-        {
-          "vak": "Onbekend",
-          "vak_kort": "??",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO tekst 44, grammatica les 43-44, woorden les 41-44",
-          "stof": "Tekst 44, grammatica les 43-44, woorden les 41-44"
         },
         {
           "vak": "Scheikunde",
@@ -13240,6 +13248,14 @@
           "type_kort": "USO",
           "beschrijving": "USO Unit 3",
           "stof": "Unit 3: Present & Past Speculation, used to & would, Phrasal Verbs, Writing"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO tekst 44, grammatica les 43-44, woorden les 41-44",
+          "stof": "tekst 44, grammatica les 43-44, woorden les 41-44"
         },
         {
           "vak": "Wiskunde",
