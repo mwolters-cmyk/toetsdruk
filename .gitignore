@@ -1,0 +1,7 @@
+_extracted/
+output/
+__pycache__/
+*.pyc
+.api_key
+*.zip
+.claude/

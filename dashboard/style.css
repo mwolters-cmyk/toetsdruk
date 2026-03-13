@@ -1,0 +1,335 @@
+/* ───── Toetsdruk Monitor — Stylesheet ───── */
+:root {
+    --primary: #1a5276;
+    --primary-light: #2980b9;
+    --accent: #e67e22;
+    --bg: #f4f6f8;
+    --card-bg: #ffffff;
+    --text: #2c3e50;
+    --text-light: #7f8c8d;
+    --border: #dce1e6;
+    --radius: 10px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+}
+
+/* ── Header ── */
+header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: white;
+    padding: 1.2rem 2rem;
+    text-align: center;
+}
+header h1 { font-size: 1.4rem; font-weight: 700; }
+header p { font-size: 0.85rem; opacity: 0.85; margin-top: 0.2rem; }
+
+/* ── Controls ── */
+.controls {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--border);
+    padding: 0.8rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.control-group label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.btn-group {
+    display: inline-flex;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+.btn-group button {
+    padding: 0.4rem 0.9rem;
+    border: none;
+    background: var(--card-bg);
+    color: var(--text);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    border-right: 1px solid var(--border);
+}
+.btn-group button:last-child { border-right: none; }
+.btn-group button.active {
+    background: var(--primary);
+    color: white;
+}
+.btn-group button:hover:not(.active) {
+    background: #eaf2f8;
+}
+
+/* ── Main content ── */
+main {
+    padding: 1.5rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.info-bar {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.info-item {
+    font-size: 0.82rem;
+    color: var(--text-light);
+}
+.info-item strong {
+    color: var(--text);
+}
+
+/* ── Heatmap table ── */
+.table-wrapper {
+    overflow-x: auto;
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+}
+
+.heatmap {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 800px;
+    font-size: 0.78rem;
+}
+
+.heatmap th, .heatmap td {
+    border: 1px solid var(--border);
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Sticky first column */
+.heatmap th:first-child,
+.heatmap td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: var(--card-bg);
+    font-weight: 600;
+    min-width: 52px;
+    text-align: left;
+    padding-left: 0.6rem;
+}
+
+/* Header row */
+.heatmap thead th {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 0.3rem;
+    font-weight: 600;
+    font-size: 0.72rem;
+    white-space: nowrap;
+}
+.heatmap thead th:first-child {
+    z-index: 4;
+    background: var(--primary);
+    color: white;
+}
+
+/* Week number sub-row */
+.heatmap .week-nr {
+    font-size: 0.68rem;
+    opacity: 0.8;
+    display: block;
+}
+
+/* Data cells */
+.heatmap td {
+    padding: 0.25rem 0.3rem;
+    min-width: 80px;
+    max-width: 120px;
+    line-height: 1.35;
+    transition: background 0.15s;
+    cursor: default;
+}
+
+/* Cell content: each test on its own line */
+.heatmap .toets-entry {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.72rem;
+}
+.heatmap .toets-entry .vak { font-weight: 600; }
+.heatmap .toets-entry .type { color: var(--text-light); }
+
+/* Heat colors: intensity levels 0-5+ */
+.heat-0 { background: #ffffff; }
+.heat-1 { background: #e8f4fd; }
+.heat-2 { background: #bee5fb; }
+.heat-3 { background: #7dccf5; }
+.heat-4 { background: #3ba3e0; color: white; }
+.heat-5 { background: #1a5276; color: white; }
+
+.heat-4 .type, .heat-5 .type { color: rgba(255,255,255,0.7); }
+
+/* Special week types */
+.week-toetsweek {
+    background: #fff3e0 !important;
+    color: var(--accent) !important;
+    font-style: italic;
+}
+.week-vakantie {
+    background: #f0f0f0 !important;
+    color: #bbb !important;
+}
+
+/* TOTAAL row */
+.heatmap .totaal-row td {
+    font-weight: 700;
+    border-top: 2px solid var(--primary);
+    font-size: 0.82rem;
+}
+.heatmap .totaal-row td:first-child {
+    font-weight: 800;
+}
+
+/* ── Tooltip ── */
+.tooltip {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    padding: 0.8rem 1rem;
+    max-width: 320px;
+    font-size: 0.8rem;
+    pointer-events: none;
+}
+.tooltip.visible { display: block; }
+.tooltip h4 {
+    font-size: 0.82rem;
+    color: var(--primary);
+    margin-bottom: 0.4rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.3rem;
+}
+.tooltip .tt-entry {
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.tooltip .tt-entry:last-child { border-bottom: none; }
+.tooltip .tt-vak { font-weight: 600; }
+.tooltip .tt-type {
+    display: inline-block;
+    background: #eaf2f8;
+    color: var(--primary);
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-left: 0.3rem;
+}
+.tooltip .tt-desc {
+    color: var(--text-light);
+    font-size: 0.72rem;
+    margin-top: 0.15rem;
+}
+
+/* ── PIN overlay ── */
+#pin-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pin-box {
+    background: white;
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    width: 340px;
+}
+.pin-box h2 {
+    color: var(--primary);
+    margin-bottom: 0.4rem;
+    font-size: 1.3rem;
+}
+.pin-box > p {
+    color: var(--text-light);
+    font-size: 0.88rem;
+    margin-bottom: 1.5rem;
+}
+.pin-input-row {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.pin-input-row input {
+    width: 48px;
+    height: 56px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.15s;
+}
+.pin-input-row input:focus {
+    border-color: var(--primary-light);
+}
+.pin-error {
+    color: #e74c3c;
+    font-size: 0.82rem;
+    min-height: 1.2em;
+    margin-bottom: 0.8rem;
+}
+#pin-submit {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.7rem 2.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+#pin-submit:hover { background: var(--primary-light); }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    header { padding: 1rem; }
+    header h1 { font-size: 1.1rem; }
+    .controls { padding: 0.6rem 1rem; }
+    main { padding: 1rem; }
+    .heatmap td { min-width: 65px; font-size: 0.7rem; }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toetsdruk Monitor — Stedelijk Gymnasium Leiden</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Toetsdruk Monitor</h1>
+        <p>Stedelijk Gymnasium Leiden — Overzicht toetsen buiten proefwerkweken</p>
+    </header>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Jaarlaag</label>
+            <div class="btn-group" id="jaarlaag-btns">
+                <button data-value="1" class="active">Klas 1</button>
+                <button data-value="2">Klas 2</button>
+                <button data-value="3">Klas 3</button>
+            </div>
+        </div>
+        <div class="control-group">
+            <label>Module</label>
+            <div class="btn-group" id="module-btns">
+                <button data-value="1">1</button>
+                <button data-value="2" class="active">2</button>
+                <button data-value="3">3</button>
+            </div>
+        </div>
+        <div class="control-group">
+            <label>Locatie</label>
+            <div class="btn-group" id="locatie-btns">
+                <button data-value="Alle" class="active">Alle</button>
+                <button data-value="Athena">Athena</button>
+                <button data-value="Socrates">Socrates</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="info-bar" id="info-bar"></div>
+        <div class="table-wrapper">
+            <table class="heatmap" id="heatmap">
+                <thead id="heatmap-head"></thead>
+                <tbody id="heatmap-body"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

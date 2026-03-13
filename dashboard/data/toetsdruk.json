@@ -1,0 +1,5525 @@
+{
+  "schooljaar": "2025-2026",
+  "gegenereerd": "2026-03-13T08:31:48",
+  "kalender": {
+    "module_weken": {
+      "1": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "2": [
+        49,
+        50,
+        51,
+        52,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "3": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    "toetsweken": [
+      47,
+      48,
+      10,
+      11,
+      25,
+      26
+    ],
+    "vakanties": [
+      43,
+      52,
+      1,
+      9,
+      18,
+      19
+    ],
+    "week_labels": {
+      "36": "1 sep",
+      "37": "8 sep",
+      "38": "15 sep",
+      "39": "22 sep",
+      "40": "29 sep",
+      "41": "6 okt",
+      "42": "13 okt",
+      "43": "20 okt",
+      "44": "27 okt",
+      "45": "3 nov",
+      "46": "10 nov",
+      "47": "17 nov",
+      "48": "24 nov",
+      "49": "1 dec",
+      "50": "8 dec",
+      "51": "15 dec",
+      "52": "22 dec",
+      "1": "29 dec",
+      "2": "5 jan",
+      "3": "12 jan",
+      "4": "19 jan",
+      "5": "26 jan",
+      "6": "2 feb",
+      "7": "9 feb",
+      "8": "16 feb",
+      "9": "23 feb",
+      "10": "2 mrt",
+      "11": "9 mrt",
+      "12": "16 mrt",
+      "13": "23 mrt",
+      "14": "30 mrt",
+      "15": "6 apr",
+      "16": "13 apr",
+      "17": "20 apr",
+      "18": "27 apr",
+      "19": "4 mei",
+      "20": "11 mei",
+      "21": "18 mei",
+      "22": "25 mei",
+      "23": "1 jun",
+      "24": "8 jun",
+      "25": "15 jun",
+      "26": "22 jun"
+    }
+  },
+  "klassen": {
+    "1": {
+      "Athena": [
+        "1G",
+        "1H",
+        "1K",
+        "1M"
+      ],
+      "Socrates": [
+        "1P",
+        "1Q"
+      ]
+    },
+    "2": {
+      "Athena": [
+        "2G",
+        "2H"
+      ],
+      "Socrates": [
+        "2K",
+        "2M"
+      ]
+    },
+    "3": {
+      "Athena": [
+        "3G",
+        "3H"
+      ],
+      "Socrates": [
+        "3K",
+        "3M",
+        "3P"
+      ]
+    }
+  },
+  "toetsen": {
+    "3P": {
+      "44": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unité 1 (leçons 1, 2, 3)",
+          "stof": "vocabulaire unité 1 (leçons 1, 2, 3), grammaire (imparfait, comparatif), verbes réguliers (parler, être, avoir, faire, aller, devoir, vouloir)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO les 39 en 40 - woorden les 37-40, grammatica t/m les 40 (nadruk op les 39 en 40), leren tekst 40, achtergronden les 40",
+          "stof": "woorden les 37-40, grammatica t/m les 40 (nadruk op les 39 en 40), leren tekst 40, achtergronden les 40"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Tabellen en grafieken (Practicumvaardigheden)",
+          "stof": "Practicumvaardigheden - Tabellen en grafieken"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Thema 1, Verbranding en ademhaling (BS 1–7 en Aantekeningen en startles)",
+          "stof": "Thema 1: Verbranding en ademhaling, BS 1–7, Aantekeningen en startles"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 1",
+          "stof": "Unit 1: Vocabulary (Words 1.1-1.6), Grammar (Dynamic & state verbs, Present perfect continuous)"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Poster Geologisch Tijdperk",
+          "stof": "Geologisch Tijdperk"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: Novel assignment",
+          "stof": "Novel"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO 2.1 Moleculen en atomen",
+          "stof": "2.1 Moleculen en atomen, tabellen 1-5"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 De Verenigde Staten in beeld, par 1 t/m 5",
+          "stof": "H1 De Verenigde Staten in beeld, paragrafen 1 t/m 5 (Klimaat en landschap, Extreem weer, Stad in Amerika Chicago, Diversiteit van de bevolking, Bevolkingsgroei en migratie)"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik (hebben, zijn & worden Präsens/Präteritum/Perfekt, zwakke werkwoorden Präsens+Perfekt)",
+          "stof": "Grammatik A+B S. 52 / Grammatik blok 1-2 S. 280-281 / blok 5-6 S. 283"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk H1",
+          "stof": "Hoofdstuk 1"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO tekenen licht (§2.2 t/m §2.4)",
+          "stof": "§2.2 t/m §2.4 (Hoe werkt een lens?, Afbeelden met licht, Grote en kleine beelden)"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Poster Geologisch Tijdperk",
+          "stof": "Geologisch Tijdperk"
+        }
+      ],
+      "10": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet lecture/écriture",
+          "stof": "Projet lecture, schrijfvaardigheid"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatica K2 und K5",
+          "stof": "K2 und K5 Grammatik"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire unité 3",
+          "stof": "Vocabulaire leçons 1, 2, 3; Imparfait en passé composé; Grammaire"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Technisch ontwerp (Programma van eisen, theorie, ontwerpvoorstel, bouwen en testen prototype)",
+          "stof": "§4.6 Hefbomen - Technisch ontwerp"
+        }
+      ],
+      "3": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO tekst 44, grammatica les 43-44, woorden les 41-44",
+          "stof": "tekst 44, grammatica les 43-44, woorden les 41-44"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 3",
+          "stof": "Unit 3: Present & Past Speculation, used to & would, Phrasal Verbs, Writing"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk H3",
+          "stof": "Hoofdstuk 3"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Lees- en luistertoets",
+          "stof": "Lezen en Luisteren (K2 en K5)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Research Proposal",
+          "stof": "Research Project proposal"
+        }
+      ],
+      "12": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Projekt Berühmtheiten - Präsentation",
+          "stof": "Berühmtheiten"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Croquisatlas Nederland in 2050",
+          "stof": "Scenariowerk: croquis demografie (H2.1-2.2), mobiliteit (H2.3), energie (H2.4), circulaire economie (H2.5), Amsterdam in 2050"
+        }
+      ],
+      "8": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO over §3.4",
+          "stof": "§3.4 Atoommassa en molaire massa"
+        }
+      ]
+    },
+    "3M": {
+      "44": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unité 1 (leçons 1, 2, 3)",
+          "stof": "Vocabulaire unité 1 leçons 1-3, grammaire (imparfait, comparatif), verbes réguliers (parler, être, avoir, faire, aller, devoir, vouloir)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Tabellen en grafieken",
+          "stof": "Practicumvaardigheden"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Thema 1: Verbranding en ademhaling (BS 1–7 en aantekeningen en startles)",
+          "stof": "Thema 1: Verbranding en ademhaling, BS 1–7, aantekeningen startles, practicum 1–5"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO over les 15 (woorden en grammatica)",
+          "stof": "Woorden en grammatica les 15 (het medium)"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO over woorden van les 15 en 16",
+          "stof": "Woorden les 15 en 16, herhaling woorden les 13 en 12"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO 2.1 Moleculen en atomen",
+          "stof": "2.1 Moleculen en atomen"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 De Verenigde Staten in beeld, par 1 t/m 5",
+          "stof": "Hoofdstuk 1 De Verenigde Staten in beeld, paragrafen 1 t/m 5 (Klimaat en landschap, Extreem weer, Stad in Amerika Chicago, Diversiteit van de bevolking, Bevolkingsgroei en migratie)"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Vermaken en ontroeren (C of D – keuze docent)",
+          "stof": "Vermaken en ontroeren: C (Opvallend schrijven) óf D (Beeldspraak)"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik (hebben, zijn & worden Präsens/Präteritum/Perfekt, zwakke werkwoorden Präsens+Perfekt)",
+          "stof": "haben, sein & werden Präsens/Präteritum/Perfekt; schwache Verben Präsens+Perfekt; Grammatik A+B S. 52 / Grammatik blok 1-2 S. 280-281 / blok 5-6 S. 283"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO tekenen licht",
+          "stof": "§2.2 t/m §2.4"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Poster Geologisch Tijdperk",
+          "stof": "Geologische Tijdperken"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire (leçon 1, 2, 3) + grammaire unité 3 + imparfait + passé composé",
+          "stof": "Vocabulaire unité 3 leçons 1+2+3, imparfait, passé composé, grammaire COD/COI"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Croquisatlas Nederland in 2050",
+          "stof": "H2: 2.1 t/m 2.5 (Demografie, Economie, Mobiliteit, Energie, Amsterdam in 2050, Circulaire economie)"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet lecture/écriture",
+          "stof": "Lecture et écriture (projet)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woorden les 12 t/m 18",
+          "stof": "Woorden les 12 t/m 18"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO – Grammatica K2 und K5. Notizen im Heft",
+          "stof": "Grammatik K2 und K5"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Les 17",
+          "stof": "Les 17"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO (praktische opdracht) - Inleveren in week 9",
+          "stof": "Onderwerp niet gespecificeerd"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostische toets §4.2 t/m §4.4",
+          "stof": "§4.2 Snelheid, §4.3 Versnelling, §4.4 Diagram van de afstand"
+        }
+      ],
+      "3": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 3",
+          "stof": "Unit 3: Words, Grammar (Present & Past Speculation, used to & would), Listening, Reading, Writing"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Lees- en luistertoets. Notizen im Heft",
+          "stof": "Lezen en Horen (Reading and Listening)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Research Proposal",
+          "stof": "Research Project Proposal"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO creatief schrijven (duo-opdracht gekoppeld aan leesboek)",
+          "stof": "Fictie en werkelijkheid E (dialoog), Perspectief E (vertelperspectief), Vermaken en ontroeren E (karakter), Herhaling Vermaken en ontroeren B (stijlfiguren) en D (beeldspraak)"
+        }
+      ],
+      "12": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Projekt Berühmtheiten. Die Präsentation findet immer statt, auch wenn eine Person aus der Gruppe fehlt.",
+          "stof": "Berühmtheiten (Beroemde personen)"
+        }
+      ],
+      "5": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Technisch ontwerp (les 4-17 t/m 4-22: onderwerp kiezen, programma van eisen, theorie, ontwerpvoorstel, prototype bouwen en testen, invulblad afmaken)",
+          "stof": "§4.4 Hefbomen en technisch ontwerp (§4.6)"
+        }
+      ],
+      "8": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO over §3.4",
+          "stof": "§3.4 Atoommassa en molaire massa"
+        }
+      ]
+    },
+    "3K": {
+      "45": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unité 1 (leçons 1, 2, 3)",
+          "stof": "Vocabulaire unité 1 (leçons 1, 2, 3), grammaire (imparfait, comparatif), verbes réguliers (parler, être, avoir, faire, aller, devoir, vouloir, prendre)"
+        },
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Poster Geologisch Tijdperk",
+          "stof": "Geologische Tijdperken"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Chapter 2",
+          "stof": "Vocabulary 2.4 and Grammar 2.2 (Reading + Writing)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO woordjes 13, 15 en 16",
+          "stof": "Woordjes 13, 15 en 16"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Tabellen en grafieken (Practicumvaardigheden)",
+          "stof": "Practicumvaardigheden - Tabellen en grafieken"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 De Verenigde Staten in beeld, paragrafen 1 t/m 5",
+          "stof": "Paragrafen 1.1 t/m 1.5: Klimaat en landschap, Extreem weer, Stad in Amerika (Chicago), Diversiteit van de bevolking, Bevolkingsgroei en migratie"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik (haben, sein & werden Präsens/Präteritum/Perfekt, schwache Verben Präsens+Perfekt)",
+          "stof": "Grammatik A+B S. 52 / Grammatik blok 1-2 S. 280-281 / blok 5-6 S. 283"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Chapter 1",
+          "stof": "Vocabulary and Grammar Unit 1"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Thema 1 Verbranding en ademhaling",
+          "stof": "Thema 1, BS 1–7 en Aantekeningen en startles"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woordjes 15 & rijtjes medium (rijtjes λυω en ποιεω praesens + imperfectum & actief en medium)",
+          "stof": "Woordjes 15, rijtjes medium (λυω en ποιεω praesens + imperfectum & actief en medium)"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO tekenen licht (§2.2 t/m §2.4)",
+          "stof": "§2.2 t/m §2.4 - Hoe werkt een lens / Afbeelden met licht / Grote en kleine beelden"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO les 39 en 40 - woorden les 37-40, grammatica t/m les 40, leren tekst 40, achtergronden les 40",
+          "stof": "Woorden les 37-40, grammatica t/m les 40, nadruk op les 39 en 40, leren tekst 40, achtergronden les 40"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Handelingsdeel Het gouden ei (Leeslogboek kopieën + verwerkingsopdracht)",
+          "stof": "Het gouden ei – Tim Krabbé (klassikaal gelezen boek)"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Vermaken en ontroeren D (Beeldspraak)",
+          "stof": "Vermaken en ontroeren: D (Beeldspraak; Oefenboek blz. 96-99)"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO moleculen en atomen",
+          "stof": "H2.1 moleculen en atomen"
+        }
+      ],
+      "10": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire (leçon 1, 2, 3) + grammaire unité 3",
+          "stof": "Vocabulaire leçons 1 + 2 + 3, imparfait + passé composé, grammaire"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Technisch ontwerp (opdracht: Pietje Precies)",
+          "stof": "§4.6 Hefbomen en technische toepassingen"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Diagnostic PW unit 4 + 5",
+          "stof": "Unit 4 + 5"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet lecture/écriture",
+          "stof": "Projet lecture"
+        }
+      ],
+      "7": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Creatief schrijven (duo-opdracht; gekoppeld aan leesboek)",
+          "stof": "Fictie en werkelijkheid E (Schrijfopdracht - de dialoog), Perspectief E (Schrijfopdracht - het vertelperspectief), Vermaken en ontroeren E (Schrijfopdracht - een uitgesproken karakter), Stijlfiguren, Beeldspraak"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Lees- en luistertoets, notizen im Heft",
+          "stof": "Lesen und Hören"
+        }
+      ],
+      "3": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "USO Beroepenpresentatie in duo's",
+          "stof": "Interviewen (p.92 handboek), Spreken voor publiek (p. 96 handboek)"
+        },
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO tekst 44, grammatica les 43-44, woorden les 41-44",
+          "stof": "Tekst 44, grammatica les 43-44, woorden les 41-44"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO over atoommodel",
+          "stof": "3.1 Atoommodel"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik (K2 und K5), notizen im Heft",
+          "stof": "Grammatik K2 und K5"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Unit 4 – Creative writing",
+          "stof": "Unit 4 – Creative writing"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 3",
+          "stof": "Unit 3 - Vocabulary, Use of English, Grammar"
+        }
+      ],
+      "12": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Projekt Berühmtheiten - Präsentation (auch wenn eine Person aus der Gruppe fehlt)",
+          "stof": "Berühmtheiten"
+        }
+      ],
+      "5": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO rijtjes participium LB blz. 21 + rijtjes medium",
+          "stof": "Rijtjes participium LB blz. 21 + rijtjes medium"
+        }
+      ],
+      "11": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5: 5.1 t/m 5.4 (of 5.5)",
+          "stof": "H5: 5.1, 5.2, 5.3, 5.4 (mogelijk 5.5)"
+        }
+      ],
+      "19": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario-opdracht: Croquisatlas 'Nederland in 2050' - Deel 1: Croquis demografie, Deel 2: Croquis mobiliteit, Deel 3: Croquis energie",
+          "stof": "H2: 2.1, 2.2, 2.3, 2.4 (klimaatverandering, demografische dimensie, mobiliteit, energie)"
+        }
+      ]
+    },
+    "3H": {
+      "41": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 De Verenigde Staten in beeld, par 1 t/m 5",
+          "stof": "Paragrafen 1.1 t/m 1.5: Klimaat en landschap, Extreem weer, Stad in Amerika (Chicago), Diversiteit van de bevolking, Bevolkingsgroei en migratie"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik: hebben, zijn & worden Präsens/Präteritum/Perfekt, zwakke werkwoorden Präsens + Perfekt (Grammatik A+B S. 52, Grammatik blok 1-2 S. 280-281, blok 5-6 S. 283)",
+          "stof": "hebben, zijn & worden Präsens/Präteritum/Perfekt, zwakke werkwoorden Präsens + Perfekt, Grammatik A+B S. 52, Grammatik blok 1-2 S. 280-281, blok 5-6 S. 283"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "U.S.O Unit 1 (All Words / All Grammar / Reading / Writing / All irregular verbs)",
+          "stof": "Unit 1: A new look - All vocabulary, grammar, reading, writing, irregular verbs"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk H1",
+          "stof": "Hoofdstuk 1"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Woorden les 8 t/m 13",
+          "stof": "Woorden les 8 t/m 13"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Vermaken en ontroeren (C of D – keuze docent)",
+          "stof": "Vermaken en ontroeren C (Opvallend schrijven - stijlfiguren) of D (Beeldspraak)"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO moleculen en atomen",
+          "stof": "H2.1 moleculen en atomen"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Thema 1, Verbranding en ademhaling (BS 1–7 en Aantekeningen en startles)",
+          "stof": "Thema 1: Verbranding en ademhaling, BS 1–7, aantekeningen startles"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO les 15 - Woorden en grammatica",
+          "stof": "Woorden les 15, grammatica les 15"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Formatieve toets paragraaf §1.1 t/m §1.4",
+          "stof": "Hoofdstuk 1 Elektrische apparaten - paragrafen 1.1 t/m 1.4"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "D-toets",
+          "stof": "Grammatica onderdeel D (het werkwoord), waarschijnlijk ter voorbereiding op proefwerk"
+        }
+      ],
+      "36": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Diagnostische toets §2.2 t/m §2.4",
+          "stof": "Hoofdstuk 2 Licht - paragrafen 2.2 t/m 2.4"
+        }
+      ],
+      "37": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Tekenen H2 Licht",
+          "stof": "Hoofdstuk 2 Licht - tekenen"
+        }
+      ],
+      "43": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Tabellen en grafieken H1 + H2",
+          "stof": "Hoofdstuk 1 Elektrische apparaten + Hoofdstuk 2 Licht - tabellen en grafieken"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Poster Geologisch Tijdperk",
+          "stof": "Geologische Tijdperken (poster project)"
+        }
+      ],
+      "49": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet Un sac de billes",
+          "stof": "Projet Un sac de billes"
+        }
+      ],
+      "5": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unité 3 (leçons 1, 2, 3)",
+          "stof": "Vocabulaire + grammaire + verbes unité 3 (leçons 1, 2, 3)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 4",
+          "stof": "Unit 4"
+        }
+      ],
+      "6": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik Kapitel 2 + Kapitel 5",
+          "stof": "Grammatik Kapitel 2 + Kapitel 5"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire (leçons 1, 2, 3) + grammaire Unité 3",
+          "stof": "Vocabulaire leçons 1, 2, 3 van Unité 3; grammaire Unité 3 (passé composé, imparfait, venir de, être en train de, voornaamwoorden COD/COI)"
+        }
+      ],
+      "51": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Vokabeltest Lernliste K2BD Seite 88-89",
+          "stof": "Lernliste K2BD Seite 88-89"
+        }
+      ],
+      "7": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Prüfung Hörverstehen + Leseverstehen Kapitel 2 + Kapitel 5",
+          "stof": "Lernlisten ACDH S. 91, 211; Kapitel 2 + Kapitel 5"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woorden en grammatica les 18",
+          "stof": "woorden les 18, grammatica les 18"
+        }
+      ],
+      "12": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Projekt Berühmtheiten - Präsentation",
+          "stof": null
+        }
+      ],
+      "3": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "PW H3",
+          "stof": "H3 (Hoofdstuk 3)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO woorden les 17 en grammatica participium",
+          "stof": "woorden les 17, grammatica participium"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Exit Card §4.5 en §4.6",
+          "stof": "§4.5 Krachten, §4.6 Hefbomen"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO over atoommodel",
+          "stof": "3.1 Atoommodel"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v technisch ontwerp momenten",
+          "stof": "§4.6 Hefbomen - technisch ontwerp"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Exit Card §4.2 en §4.3",
+          "stof": "§4.2 Snelheid, §4.3 Versnelling"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Technisch ontwerp opdracht - Pietje Precies (inclusief meting, dataverwerking en verslaglegging)",
+          "stof": "§4.6 Hefbomen - praktische toepassing met meetproces"
+        }
+      ],
+      "11": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5: 5.1 t/m 5.4 (of 5.5)",
+          "stof": "H5: 5.1, 5.2, 5.3, 5.4 (evt. 5.5)"
+        }
+      ],
+      "14": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario deel 1: Croquis 'demografie'",
+          "stof": "Demografische dimensie, H2: 2.1 en 2.2"
+        }
+      ],
+      "16": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario deel 2: Croquis 'mobiliteit'",
+          "stof": "Mobiliteit in 2050, H2: 2.3"
+        }
+      ],
+      "18": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario deel 3: Croquis 'energie'",
+          "stof": "Energie/klimaatverandering"
+        }
+      ],
+      "19": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Deadline (CoB) 'croquisatlas van NLD in 2050'",
+          "stof": "Samenstelling croquisatlas: demografie, mobiliteit, energie"
+        }
+      ]
+    },
+    "3G": {
+      "40": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Thema 1, Verbranding en ademhaling (BS 1–7 en Aantekeningen en startles)",
+          "stof": "Thema 1, Verbranding en ademhaling, BS 1–7 en Aantekeningen en startles"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 1",
+          "stof": "Unit 1 vocabulary en grammar"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woordjes 15 & rijtjes medium (rijtjes λυω en ποιεω praesens + imperfectum & actief en medium)",
+          "stof": "woordjes 15, rijtjes medium (λυω en ποιεω praesens + imperfectum & actief en medium)"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Poster Geologisch Tijdperk",
+          "stof": "Geologisch Tijdperk (posters van week 41, 42, 43, 45)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: Novel assignment",
+          "stof": "Novel assignment"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO woordjes 13, 15 en 16",
+          "stof": "woordjes 13, 15, 16"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 De Verenigde Staten in beeld, par 1 t/m 5",
+          "stof": "Paragrafen 1.1 tot en met 1.5: Klimaat en landschap, Extreem weer, Stad in Amerika (Chicago), Diversiteit van de bevolking, Bevolkingsgroei en migratie"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "OefenUSO les 39 en 40 (onbeoordeeld)",
+          "stof": "Woorden les 37-40, grammatica t/m les 40 (nadruk op les 39 en 40), tekst 40, achtergronden les 40"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Vermaken en ontroeren (C of D – keuze docent)",
+          "stof": "Vermaken en ontroeren: C (Opvallend schrijven) of D (Beeldspraak)"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO moleculen en atomen",
+          "stof": "H2.1 moleculen en atomen"
+        }
+      ],
+      "36": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Diagnostische toets §2.2 t/m §2.4",
+          "stof": "Hoofdstuk 2 (Licht) §2.2 t/m §2.4"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Tekenen H2 Licht",
+          "stof": "Hoofdstuk 2 (Licht)"
+        }
+      ],
+      "37": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Formatieve toets §1.1 t/m §1.4",
+          "stof": "Hoofdstuk 1 (Elektrische apparaten) §1.1 t/m §1.4"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik (hebben, zijn & worden Präsens/Präteritum/Perfekt; zwakke werkwoorden Präsens + Perfekt)",
+          "stof": "Grammatik A+B S. 52, Grammatik blok 1-2 S. 280-281, blok 5-6 S. 283"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk H1",
+          "stof": "Hoofdstuk 1"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO les 39 en 40",
+          "stof": "Woorden les 37-40, grammatica t/m les 40 (nadruk op les 39 en 40), tekst 40, achtergronden les 40"
+        }
+      ],
+      "49": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet Un sac de billes",
+          "stof": "Projet Un sac de billes"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Exit Card §4.2 en §4.3",
+          "stof": "§4.2 Snelheid, §4.3 Versnelling"
+        }
+      ],
+      "5": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unité 3 (leçons 1, 2, 3)",
+          "stof": "Vocabulaire unité 3 leçons 1, 2, 3 + grammaire + verbes (passé composé, imparfait, venir de, être en train de, pronoms COD/COI)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO rijtjes participium LB blz. 21 + rijtjes medium",
+          "stof": "Participium rijtjes (LB blz. 21) en rijtjes medium"
+        }
+      ],
+      "7": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Prüfung Hörverstehen + Leseverstehen Kapitel 2 + Kapitel 5",
+          "stof": "Lernlisten ACDH S. 91, 211, Kapitel 2+5"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Research Proposal",
+          "stof": "Research Project"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire (leçons 1, 2, 3) + grammaire Unité 3",
+          "stof": "Vocabulaire leçons 1, 2, 3 van Unité 3; grammaire Unité 3 (passé composé, imparfait, venir de, être en train de, werkwoorden)"
+        }
+      ],
+      "3": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk H3",
+          "stof": "Hoofdstuk 3"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 3",
+          "stof": "Unit 3: vocabulary, grammar (Present & Past Speculation, used to & would, phrasal verbs), listening, reading, writing"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "oefenUSO participium en tekst 44",
+          "stof": "Grammatica t/m les 44 (nadruk op les 43 en 44), woorden les 41-44, tekst 44 inclusief niet-dikgedrukte woorden, achtergronden les 43 en 44"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO over atoommodel",
+          "stof": "3.1 Atoommodel"
+        }
+      ],
+      "51": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Vokabeltest A-D S. 88-89 (Lernliste K2)",
+          "stof": "Lernliste K2 ABCD, Seite 88-89"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Schrijfwerk en oefenUSO",
+          "stof": "Grammatica t/m les 44, woorden les 41-44, tekst 44, achtergronden les 43 en 44"
+        }
+      ],
+      "6": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik Kapitel 2 + Kapitel 5",
+          "stof": "Grammatik K2+K5, Lernliste K2BD S. 90"
+        }
+      ],
+      "12": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Projekt Berühmtheiten - Präsentation",
+          "stof": "Projekt Berühmtheiten"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO participium en tekst 44",
+          "stof": "Grammatica t/m les 44 (nadruk op les 43 en 44), woorden les 41-44, tekst 44 inclusief niet-dikgedrukte woorden, achtergronden les 43 en 44"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Exit Card §4.5 en §4.6",
+          "stof": "§4.5 Krachten, §4.6 Hefbomen"
+        }
+      ],
+      "10": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v technisch ontwerp momenten (§4.6)",
+          "stof": "§4.6 Hefbomen"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Exit Card §5.2 en §5.3",
+          "stof": "§5.2 (onbekend), §5.3 Energie en vervoer"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Formatieve toets §4.2 t/m §4.4",
+          "stof": "§4.2 Snelheid, §4.3 Versnelling, §4.4 Diagram van de afstand"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Technisch ontwerp - Pietje Precies (voorbereiding, meten, verslaglegging)",
+          "stof": "§4.4-§4.6 (praktische opdracht)"
+        }
+      ],
+      "11": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5: 5.1 t/m 5.4 (of 5.5)",
+          "stof": "H5: 5.1, 5.2, 5.3, 5.4 (mogelijk 5.5)"
+        }
+      ],
+      "19": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Croquisatlas van Nederland in 2050 (scenario opdracht met 3 croquisdelen: demografie, mobiliteit, energie)",
+          "stof": "H5 (India), H2: 2.1, 2.2, 2.3, 2.4 (Scenarios Nederland 2050: demografische, economische, natuurlijke dimensie en mobiliteit/energie)"
+        }
+      ],
+      "16": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO les 47 en 48: woordenoverhoring + ongeziene tekst met vragen en vertalingsfragment",
+          "stof": "Woorden les 45 t/m 48, grammatica t/m les 48, achtergronden hoofdstuk 47 en 48"
+        }
+      ]
+    },
+    "2M": {
+      "36": [
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Beoordeling van oren, ogen, neuzen en monden",
+          "stof": "Plasticiteit, geleidelijke toonovergangen, stofuitdrukking en verhoudingen binnen oren, ogen, neuzen en monden"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO 1 Hoofdstuk 1 China",
+          "stof": "Paragraaf 1.1 t/m 1.5 (Bevolking en ruimte, Van kopiëren naar innoveren, Migratie en verstedelijking, Water in China, De nieuwe zijderoute)"
+        },
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "USO 2 / Praktische Opdracht",
+          "stof": "Hoofdstuk 1"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Oefentoets Kapitel 2",
+          "stof": "Kapitel 2"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO vocabulaire/verbes Unité 1",
+          "stof": "Vocabulaire français-néerlandais, verbes (présent, passé composé, futur proche, futur simple) - A Plus 2 Unité 1 leçons 1, 2, 3"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO M1: Presentaties Komedie - Script schrijven (Parodie, Theatrale middelen, Grap) en Repeteren",
+          "stof": "Komedie, Humor, Fysiek spel, Slapstick, Status, Parodie, Theatrale middelen, Grap"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostic Test Chapter 2",
+          "stof": "Unit 2 Words, Grammar, Use of English, irregular verbs – groups 1-11"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "S.O. praesens en imperfectum",
+          "stof": "Praesens en imperfectum (hulpboek p.112, 114 en 118)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: proef geleiders en isolatoren",
+          "stof": "Geleiders en isolatoren (paragraaf 3.4 ontdekken en begrijpen)"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO A Plus 2, Unité 1 (vocabulaire, grammaire, verbes - TOUT)",
+          "stof": "Vocabulaire, grammaire, verbes - A Plus 2 Unité 1 leçons 1, 2, 3 (complet)"
+        }
+      ],
+      "38": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Lernliste N-D S. 30 + sein",
+          "stof": "Lernliste N-D S. 30 + sein"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Sprachmittel S. 26 + S. 31",
+          "stof": "Sprachmittel S. 26 + S. 31"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 (§1.1-1.4): Haakjes uitwerken, herleiden van uitdrukkingen, breuken met letters, machten, negatieve exponenten",
+          "stof": "H1 (§1.1-1.4)"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO haben, sein, werden",
+          "stof": "haben, sein, werden"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO grammatica 15-18",
+          "stof": "Grammatica les 15-18"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Taal en Cultuur (A 1, 2 en 4) en Verhalen en gedichten (D 1, 2 en 4)",
+          "stof": "Taal en Cultuur (A 1, 2 en 4) en Verhalen en gedichten (D 1, 2 en 4)"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H2 (§2.1-2.3): Cirkels, evenwijdige lijnen, middelloodlijnen, definities, stellingen, omgeschreven en ingeschreven cirkels, bissectrices",
+          "stof": "H2 (§2.1-2.3)"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "U.S.O chapter 1",
+          "stof": "Unit 1 Words (not 1.6+1.8), Word Store, Grammar, Use of English, Irregular verbs – groups 1-8"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO over paragraaf 1 t/m 3 (Hoofdstuk 1)",
+          "stof": "Paragraaf 1 t/m 3 (H1) met pagina 18 (bruin) en 26, economische/politieke/sociale/culturele aspecten"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "S.O. zelfstandige naamwoorden",
+          "stof": "Zelfstandige naamwoorden (hulpboek p.142 en 143)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woorden les 15 tm les 20",
+          "stof": "Woorden les 15 tm 20"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v: proef bepalen hoogte schoolgebouw Athena met spiegel",
+          "stof": "Paragraaf 2.3 en 2.4: schaduwberekening en spiegelwet"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: 2.2 Kleuren zien, 2.3 Schaduw zonder verdieping, 2.4 Spiegelbeelden bekijken zonder verdieping",
+          "stof": "2.2 Kleuren zien onder verschillende lampen (opgave 21, blz 43); 2.3 Schaduw zonder verdieping; 2.4 Spiegelbeelden bekijken zonder verdieping"
+        }
+      ],
+      "49": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Klassenarbeit, Arbeitsplan K4: 1-3, K4: 4+6-8",
+          "stof": "K4: 1-3, K4: 4+6-8"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk bespreken (module 1)",
+          "stof": "Module 1 stof"
+        }
+      ],
+      "51": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO K4 S.136 Sprachmittel, K4: 30-36",
+          "stof": "S.136, Sprachmittel, K4: 30-36"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Analyse Opdracht Stap 1 - schriftelijk via Teams inleveren",
+          "stof": "Teksttheater: Hamlet - analyse van toneeltekst"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO werkwoordspelling (Taalverzorging C) - OB116-117/HB194-197",
+          "stof": "Werkwoordspelling C"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H2 (§2.4 t/m §2.6) - Zwaartelijnen, hoogtelijnen, oppervlakte driehoeken/vierhoeken",
+          "stof": "Hoofdstuk 2: §2.4, §2.5, §2.6"
+        }
+      ],
+      "5": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Luistertoets, luisteropdrachten K4+K5",
+          "stof": "K4+K5 luisteropdrachten"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 4",
+          "stof": "Unit 4"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2 - vocabulaire + grammaire",
+          "stof": "Unité 2 (leçon 1 + 2 + 3): vocabulaire, prépositions de lieux, pronoms COD, pronoms relatifs, passé composé avec avoir et être"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "P.O. Homerus' Ilias",
+          "stof": "Homerus' Ilias"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Veerproef",
+          "stof": "Veerkracht en uitrekking (H5.3)"
+        }
+      ],
+      "6": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "MO Restaurantspiel K6: 1-6, Grammatik-Übung K4 4, 5, 6",
+          "stof": "Restaurantspiel, K6: 1-6, Grammatik K4, 5, 6"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO Drama spelen voor Cijfer",
+          "stof": "Teksttheater: Hamlet - opvoering met focus op concentratie, personage, emoties, tekstbehandeling, spanningsopbouw, theatrale enscenering"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Rechtszaak (opdracht 5, 6, 7) - groepsopdracht met speeches, vragen en presentaties",
+          "stof": "Oorzaken Franse Revolutie, historische figuren en rollen"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO deel 2 Exceltoetsje - Diagrammen, centrummaten, Excel-formules (in tweetallen)",
+          "stof": "Excel: staafdiagram, cirkeldiagram, centrummaten, formules (vermenigvuldigen, delen, SOM), celopmaak"
+        }
+      ],
+      "7": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik K4, 5, 6",
+          "stof": "Grammatik K4, 5, 6"
+        },
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H4 paragraaf 1 t/m 4",
+          "stof": "H4 paragraaf 1 t/m 4 (Berlijn, Duitsland: de Europese reus I en II, Europa: verenigd in verscheidenheid, Bronnen: fort Europa)"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO Drama spelen voor cijfer",
+          "stof": "Teksttheater: Hamlet - opvoering (vervolg/uitloop)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostic Test Unit 5",
+          "stof": "Unit 5: Words, Grammar, Use of English, Word Store, Listening"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "-SO woorden 24 tm 29",
+          "stof": "Woorden lessen 24 tot en met 29"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Taalverzorging A t/m F",
+          "stof": "Taalverzorging A, B, D, E, F"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H2 paragraaf 1 t/m 4",
+          "stof": "H2 paragraaf 1 t/m 4 (de vorming van de Alpen, rivieren van ijs, het stroomgebied van de Rijn, kustvormen)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO (Grand Examen) §1 t/m 4 (H2)",
+          "stof": "§1 t/m 4 (H2): Wetenschappelijke Revolutie, Verlichting, oorzaken Franse Revolutie"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "U.S.O. thematische aoristus",
+          "stof": "thematische aoristus: hulpboek p.120, 126 en 128"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "-uso gramm en woorden 24, 25 en 26",
+          "stof": "Grammatica en woorden lessen 24, 25 en 26"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO over H4",
+          "stof": "Hoofdstuk 4"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Verslag rechtszaak",
+          "stof": "Rechtszaak"
+        }
+      ],
+      "3": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Projet – Développer un jeu en français",
+          "stof": "Unité 2, leçon 1-3: vocabulaire en grammatica (passé composé met avoir)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Cultuuropdracht (uitgedeeld week 48, in te leveren week 3)",
+          "stof": "Cultuur: Triclinium, Fullonia, Pistrina"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO deel 1 H4 (§4.1 + §4.2 + kruisproduct) - Procentuele toe- en afname, verhoudingstabel",
+          "stof": "Hoofdstuk 4: §4.1, §4.2 + kruisproduct"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO thermometer ijken (schaalverdeling in thermometer zonder streepjes maken)",
+          "stof": "4.4 Temperatuur - proef thermometer ijken"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: Hoofdstuk 4.1, 4.2, 4.3, 4.4 (zonder verdiepen en interpoleren/extrapoleren blz. 187), H1 blz. 14 brander",
+          "stof": "4.1 Starten, 4.2 Hoe maak je iets warm, 4.3 Verbranding en warmte, 4.4 Temperatuur (zonder verdieping), H1 blz. 14 brander"
+        }
+      ],
+      "50": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO cartes de vœux",
+          "stof": "Unité 2, leçon 1: voorzetsels van plaats (prépositions de lieux)"
+        }
+      ]
+    },
+    "2K": {
+      "39": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 (t/m 1.4) - Haakjes, herleiden van uitdrukkingen, breuken met letters, machten en negatieve exponenten",
+          "stof": "Hoofdstuk 1 §1.1–1.4: Haakjes uitwerken, herleiden uitdrukkingen met haakjes, breuken met letters (vermenigvuldigen, optellen, aftrekken, delen, vereenvoudigen), machten (product, som, verschil, macht van macht, macht van product, delen), negatieve exponenten"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Sprachmittel S. 26 + S. 31",
+          "stof": "Sprachmittel S. 26 + S. 31"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 1",
+          "stof": "Unit 1: vocabulary, grammar (present tenses, question forms), irregular verbs groups 1-9"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: Chapter 2 and/or irregular verbs",
+          "stof": "Unit 2: vocabulary, grammar (past continuous, past simple, used to), irregular verbs groups 1-11"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO vocabulaire/verbes Unité 1",
+          "stof": "Vocabulaire en verbes A Plus 2, Unité 1 (leçons 1, 2, 3)"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO M1: Presentaties Komedie - praktische opdracht met script schrijven, repeteren en presenteren",
+          "stof": "Komedie, Humor, Fysiek spel, Slapstick, Status, Parodie, Theatrale middelen, Grap"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Opinion Writing SO",
+          "stof": "Opinion Writing: structure, linking words, language"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "S.O. praesens en imperfectum (hulpboek, p.112, 114 en 118)",
+          "stof": "Praesens en imperfectum (hulpboek p.112, 114, 118)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v: proef geleiders en isolatoren (H3)",
+          "stof": "H3: Paragraaf 3.4 Elektrische stroom (geleiders en isolatoren)"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO A Plus 2, Unité 1 (vocabulaire, grammaire, verbes)",
+          "stof": "A Plus 2, Unité 1 - vocabulaire, grammaire, verbes (leçons 1, 2, 3)"
+        }
+      ],
+      "38": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Lernliste N-D S. 30 + sein",
+          "stof": "Lernliste N-D S. 30 + sein"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO haben, sein, werden",
+          "stof": "hebben, zijn, worden"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO over paragraaf 1 t/m 3 (H1)",
+          "stof": "Paragraaf 1 t/m 3 (H1) met pagina 18 (bruin) en 26, economische/politieke/sociale/culturele aspecten"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "S.O. zelfstandige naamwoorden (hulpboek p.142 en 143)",
+          "stof": "Zelfstandige naamwoorden groep 1, 2 en 3 (hulpboek p.142-143)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: grammatica les 15 t/m 18",
+          "stof": "Grammatica les 15 t/m 18: bijvoeglijk naamwoord (longus, a, um en fortis, e; ingens), congruentie, bezittelijk voornaamwoord, bijwoord, trappen van vergelijking"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v: proef bepalen hoogte schoolgebouw Athena met spiegel (H2)",
+          "stof": "Paragraaf 2.4 Spiegelbeelden bekijken - spiegel toepassing"
+        }
+      ],
+      "41": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H2 (t/m 2.3; 2.2B niet) - Cirkels, evenwijdige lijnen, middelloodlijnen, bissectrices, omgeschreven en ingeschreven cirkels",
+          "stof": "Hoofdstuk 2 §2.1–2.3 (2.2B uitgesloten): Cirkels tekenen en afstanden tot punten, evenwijdige lijnen en afstanden tot lijnen, middelloodlijnen en gelijke afstanden, definities en stellingen, omgeschreven cirkel driehoek, bissectrices en afstanden tot hoekbenen, ingeschreven cirkel driehoek"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: 2.2 Kleuren zien (alleen kleuren zien onder verschillende lampen, zoals opgave 21, blz 43), 2.3 Schaduw (zonder verdieping), 2.4 Spiegelbeelden bekijken (zonder verdieping)",
+          "stof": "H2: Paragraaf 2.2, 2.3, 2.4"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Taal en Cultuur (A 1, 2 en 4) en Verhalen en gedichten (D 1, 2 en 4)",
+          "stof": "Taal en Cultuur (A 1, 2 en 4) en Verhalen en gedichten (D 1, 2 en 4)"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: woorden les 15 t/m 22",
+          "stof": "Woorden les 15 t/m 22"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 3",
+          "stof": "Unit 3"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Unit 4",
+          "stof": "Unit 4"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO (Grand Examen) §1 t/m 4",
+          "stof": "§1 t/m 4 (H2)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "U.S.O. thematische aoristus: hulpboek p.120, 126 en 128",
+          "stof": "Thematische aoristus: hulpboek p.120, 126 en 128"
+        }
+      ],
+      "6": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "MO Restaurantspiel",
+          "stof": "Restaurantspiel, K6: 1-6"
+        },
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "SO2 Exceltoets - USO deel 2 (Handleiding + H4, in tweetallen)",
+          "stof": "Excel: staafdiagram, cirkeldiagram, centrummaten, formules (vermenigvuldigen, delen, SOM), celopmaak, navigatie, sorteren"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO Drama spelen voor Cijfer - deel 1",
+          "stof": "Teksttheater: Hamlet - toneelspel performance"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Book proposal / Book Report",
+          "stof": "Novel"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Rechtszaak (groepswerk met rollen: getuigen, jury, overige groepen)",
+          "stof": "Oorzaken Franse Revolutie, §1 t/m 4 (H2)"
+        }
+      ],
+      "8": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Projekt album de vacances en vidéo",
+          "stof": "Projet album de vacances en vidéo"
+        }
+      ],
+      "49": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Klassenarbeit, Arbeitsplan",
+          "stof": "Arbeitsplan"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO cartes de vœux",
+          "stof": "Unité 2, leçon 1: en ville - prépositions de lieu"
+        }
+      ],
+      "51": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO K4 S. 136 Sprachmittel",
+          "stof": "K4 S. 136 Sprachmittel"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Analyse Opdracht - Stap 1 inleveren via Teams (2 punten)",
+          "stof": "Teksttheater: Hamlet - analyse opdracht"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO werkwoordspelling (Taalverzorging C) - OB116-117/HB194-197",
+          "stof": "Werkwoordspelling, Taalverzorging C"
+        }
+      ],
+      "7": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik K4, 5, 6",
+          "stof": "Grammatik K4, 5, 6"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO Drama spelen voor Cijfer - deel 2",
+          "stof": "Teksttheater: Hamlet - toneelspel performance"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woorden",
+          "stof": "Woorden les 24 t/m 29"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Taalverzorging A t/m F",
+          "stof": "Taalverzorging A, B, D, E, F"
+        }
+      ],
+      "5": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Luistertoets",
+          "stof": "Luisteropdrachten K4+5"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2 - vocabulaire + grammaire",
+          "stof": "Unité 2 (leçon 1+2+3): vocabulaire, prépositions de lieu, pronoms COD, pronoms relatifs (qui/où), passé composé avec avoir et être"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "P.O. Homerus' Ilias - Inleveren op vrijdag 30 januari",
+          "stof": "Homerus' Ilias"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO grammatica en woorden",
+          "stof": "Grammatica en woorden les 24, 25, 26"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v: Veerproef",
+          "stof": "Hoofdstuk 5.3 Grootte van krachten - veerkracht"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Verslag rechtszaak (uit te werken op laptops)",
+          "stof": "Rechtszaak (Franse Revolutie)"
+        }
+      ],
+      "3": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "SO1 Procenten - USO deel 1 (H4VK 4.1 4.2 + Extra) - Schriftelijk individueel",
+          "stof": "Hoofdstuk 4: §4.1, §4.2, §4.4 (Procentberekeningen extra via kruisproduct)"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Projet – Développer un jeu en français",
+          "stof": "Unité 2, leçon 2-3: passé composé avec avoir et être"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Cultuuropdracht (uitgedeeld week 48, inlevering begin les week 3, presentatie week 3)",
+          "stof": "Cultuur: Triclinium, Fullonia, Straatbeeld, Pistrina, Thermae, Vesuvius"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Korte presentaties (2 min) van cultuuropdracht voor de klas",
+          "stof": "Cultuuropdracht"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v: SO thermometer ijken (schaalverdeling in thermometer zonder streepjes maken)",
+          "stof": "Hoofdstuk 4.4 Temperatuur - thermometer ijken"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: 4.1, 4.2, 4.3 en van 4.4 alleen temperatuurschaal van Kelvin en interpoleren en extrapoleren. Deze vier paragrafen zonder verdieping EN H1 blz. 14 brander",
+          "stof": "Hoofdstuk 4.1 Starten, 4.2 Hoe maak je iets warm, 4.3 Verbranding en warmte, 4.4 Temperatuur (Kelvin schaal, interpoleren/extrapoleren), H1 brander"
+        }
+      ]
+    },
+    "2H": {
+      "44": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie komedie (sketch) voor de klas in groepjes",
+          "stof": "Komedie en typematig spel: originele parodie met overdrijving, theatrale vormgeving, komisch spel en timing, transformatie naar typetje, interactie met publiek"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet",
+          "stof": "Project créatif - Unité 1"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v: proef geleiders en isolatoren",
+          "stof": "Hoofdstuk 3 (elektrische stroom, geleiders en isolatoren)"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Taal en Cultuur (A 1, 2 en 4 – oefenboek 2) en Verhalen en gedichten (D 1, 2 en 4 – oefenboek 2)",
+          "stof": "Taal en Cultuur (A 1, 2 en 4) en Verhalen en gedichten (D 1, 2 en 4)"
+        }
+      ],
+      "36": [
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Beoordeling van oren, ogen, neuzen en monden - SO (Oefenopdracht)",
+          "stof": "Tekenen van oren, ogen, neuzen, monden met aandacht voor plasticiteit, toonovergangen, stofuitdrukking en verhoudingen"
+        }
+      ],
+      "37": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Woordjes overhoren",
+          "stof": "Woordjes t/m 6"
+        },
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Beoordeling getekende selfie - PW (Selfie opdracht)",
+          "stof": "Realistische tekening van eigen selfie met aandacht voor beeldvullendheid, licht-schaduwwerking, plasticiteit, verhoudingen en afwerking"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO paragrafen 1.1 t/m 1.5",
+          "stof": "§1.1 t/m §1.5"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 1",
+          "stof": "A Plus 2, Unité 1 (vocabulaire, grammaire, verbes)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Inhaalso / overhoring woordjes",
+          "stof": "Woordjes (inhalen t/m 11)"
+        }
+      ],
+      "41": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Grammatik 2 (üben) - Ergänze die richtige Form von haben/sein/werden + Sprach- und Schreibmittel und Lernlisten",
+          "stof": "Grammatik hebben/zijn/worden (present en toekomst), Sprach- und Schreibmittel, Lernlisten"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Kap 1+2",
+          "stof": "Kapitel 1 + 2, Lernübersichte K1+K2"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Creative task: Horrible Histories reading (Romans or Greeks)",
+          "stof": "Horrible Histories booklets - Romans and Greeks"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: grammatica 15-18",
+          "stof": "grammatica les 15-18"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: 2.2 Kleuren zien (alleen kleuren zien onder verschillende lampen, zoals opgave 21 blz 43), 2.3 Schaduw zonder verdieping, 2.4 Spiegelbeelden bekijken zonder verdieping",
+          "stof": "Hoofdstuk 2: paragrafen 2.2, 2.3, 2.4"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H2 (§2.1-2.3): Cirkels, evenwijdige lijnen, middelloodlijnen, definities en stellingen, omgeschreven en ingeschreven cirkels, bissectrices",
+          "stof": "H2 (§2.1-2.3)"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Proeftoets",
+          "stof": "Kapitel 1, 2, 3"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO over paragraaf 1 t/m 3 (H1)",
+          "stof": "Paragraaf 1 t/m 3 (H1) met pagina 18 (bruin) en 26, eco/pol/soc/cul"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Woordjes",
+          "stof": "Woordjes t/m 11"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woorden les 15 tm les 20",
+          "stof": "woorden les 15 tm les 20"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v: proef bepalen hoogte schoolgebouw Athena met spiegel",
+          "stof": "Hoofdstuk 2 (spiegelbeelden)"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO task for Horrible Histories",
+          "stof": "Horrible Histories"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Woordjes",
+          "stof": "Woordjes t/m 12"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 1: Listening, Vocabulary, Grammar, Sentence Creation, Irregular Verbs",
+          "stof": "Unit 1: Vocabulary, Grammar, Irregular Verbs, Sentence Creation, Listening"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 (§1.1 – 1.4): Haakjes uitwerken, herleiden van uitdrukkingen, bewerkingen met breuken en letters, machten herleiden, negatieve exponenten",
+          "stof": "H1 (§1.1 – 1.4)"
+        }
+      ],
+      "3": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Opdrachten 5, 6, 7 (uitwerking/tekenen)",
+          "stof": "Verlichting en oorzaken Franse Revolutie (§3-4 H2)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Cultuuropdracht (inleveren in week 3 voor SO-cijfer)",
+          "stof": "Cultuur: Triclinium, Fullonia, Pistrina"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v: SO thermometer ijken (schaalverdeling in thermometer zonder streepjes maken)",
+          "stof": "Hoofdstuk 4.4 Temperatuur - thermometer ijken (proef)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: Paragrafen 4.1, 4.2, 4.3 en van 4.4 alleen temperatuurschaal van Kelvin en interpoleren/extrapoleren. Deze vier paragrafen zonder verdieping EN H1 blz. 14 brander",
+          "stof": "Hoofdstuk 4.1, 4.2, 4.3, en 4.4 (Kelvin schaal, interpoleren/extrapoleren) en H1 blz. 14 brander"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Werkwoordspelling (Taalverzorging C) incl. D-toets",
+          "stof": "Werkwoordspelling (p. 194-197 TB en p. 116-117 OB)"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO deel 1 - H4.1 en H4.2 + kruisproduct (schriftelijk, individueel)",
+          "stof": "Hoofdstuk 4: §4.1, §4.2 en kruisproduct"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik K4, K5, K6",
+          "stof": "Grammatik Kapitel 4, 5, 6"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Project - SO: Character Profile and Newspaper or Poster (Trash book project)",
+          "stof": "Trash by Andy Mulligan - Character profiling, creative writing (Newspaper or Poster)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woordjes 11 t/m 16 en aoristusvormen",
+          "stof": "Woordjes 11 t/m 16, thematische aoristusvormen, uitgangen imperfectum en aoristus"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woorden lessen 24 t/m 29",
+          "stof": "Woorden lessen 24 t/m 29"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Lofrede over een leesboek naar keuze",
+          "stof": "Lofrede over zelfgekozen leesboek"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Praktische opdracht: Presentatie van Hamlet-scène in groepswerk. Groepen verdelen scènes uit Hamlet, bereiden die voor met nadruk op mise en scène, transformatie, status, emotie-ontwikkeling, tekstbehandeling en theatrale vormgeving. Uiteindelijke presentatie in twee delen (deel 1 en deel 2).",
+          "stof": "Shakespeare - Hamlet: scènewerk, mise en scène, personagekarakterisering, emotionele transformatie, teatrale vormgeving, tekstbehandeling, samenspel en spanningsopbouw"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO luisteren",
+          "stof": "Luisteren"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO grammaire + vocabulaire A Plus 2, Unité 2 + een deel van Unité 3",
+          "stof": "A Plus 2 Unité 2 (grammaire + vocabulaire, inclusief Nos Outils) + A Plus 2 Unité 3 (geselecteerde grammaire + vocabulaire uit aparte lijst)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Rechtszaak - groepsspeeches en presentaties",
+          "stof": "Franse Revolutie"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO deel 2 - Exceltoetsje (in tweetallen)",
+          "stof": "Excel: staafdiagrammen, cirkeldiagrammen, centrummaten, formules (vermenigvuldigen, delen, SOM), celopmaak"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Pecha Kucha (presentaties 1-4)",
+          "stof": "Kapitel 4"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Pecha Kucha",
+          "stof": "Pecha Kucha"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk (PW) besproken in week 49",
+          "stof": "Wetenschappelijke Revolutie (§1 H2)"
+        }
+      ],
+      "50": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 3 - Vocabulary en Grammar",
+          "stof": "Unit 3: The Arts - Vocabulary (Word Lists 3.1-3.8), Grammar (pp 138-140, 155DE), Irregular verbs"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Opdrachten 1, 2, 3 (uitwerking/tekenen)",
+          "stof": "Verlichting (§2 H2)"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Unit 4 - Listening + Writing",
+          "stof": "Unit 4: Home sweet home - Listening en Writing, Trash by Andy Mulligan (Reading comprehension/Quiz)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO (Grand Examen) §1 t/m 4",
+          "stof": "Wetenschappelijke Revolutie, Verlichting, oorzaken Franse Revolutie (§1-4 H2)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO opdracht tekst 13",
+          "stof": "Tekst 13 Hektor en Achilles"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO grammatica en woorden lessen 24, 25 en 26",
+          "stof": "Grammatica en woorden lessen 24, 25, 26"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Veerproef",
+          "stof": "Hoofdstuk 5.3 - Veerkracht (veerproef blz. 24)"
+        }
+      ],
+      "51": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Quiz over Eilandenopdracht",
+          "stof": null
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H2 (§2.4 t/m §2.6) - Zwaartelijnen, hoogtelijnen, oppervlakte van driehoeken, parallellograms en trapezia",
+          "stof": "Hoofdstuk 2: §2.4, §2.5, §2.6"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Verslag rechtszaak (schriftelijke uitwerking)",
+          "stof": "Franse Revolutie"
+        }
+      ]
+    },
+    "2G": {
+      "37": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet - praktische/creatieve opdracht",
+          "stof": "Voorbereiding op Unit 1"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO 1 Hoofdstuk 1 China",
+          "stof": "Hoofdstuk 1 (par 1.1 t/m 1.5): Bevolking en ruimte, Van kopiëren naar innoveren, Migratie en verstedelijking, Water in China, De nieuwe zijderoute"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 1 - vocabulaire, grammaire en werkwoorden",
+          "stof": "A Plus 2, Unité 1 (leçons 1, 2, 3): vocabulaire F-N/N-F, grammaire, werkwoorden"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Schrijfvaardigheid (E – Goed & Kwaad, oefenboek 2 - schrijfopdracht p. 36-37)",
+          "stof": "Schrijfvaardigheid (E – Goed & Kwaad, oefenboek 2, p. 36-37)"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie komedie - sketch in groepjes met originele parodie, theatrale vormgeving en komisch spel",
+          "stof": "Komedie, parodie, theatrale vormgeving, typematig spel, timing en publiekinteractie"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Horror Story EAP (Edgar Allan Poe project)",
+          "stof": "Edgar Allan Poe"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: woorden 15 t/m 22",
+          "stof": "woorden les 15 t/m 22"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Taal en Cultuur (A 1, 2 en 4 – oefenboek 2) en Verhalen en gedichten (D 1, 2 en 4 – oefenboek 2)",
+          "stof": "Taal en Cultuur (A 1, 2, 4), Verhalen en gedichten (D 1, 2, 4), klassikaal gelezen boek"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Kap 1+2",
+          "stof": "Kapitel 1 en 2, Lernübersichte K1+K2"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO chapter 2",
+          "stof": "Chapter 2: Science and Technology"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H2 (t/m 2.3) - Cirkels, evenwijdige lijnen, middelloodlijnen, definities, stellingen, omgeschreven en ingeschreven cirkel",
+          "stof": "Hoofdstuk 2, paragrafen 2.1 - 2.3"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Proeftoets",
+          "stof": "Kapitel 1, 2, 3"
+        }
+      ],
+      "38": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO chapter 1",
+          "stof": "Chapter 1: Lives people live"
+        }
+      ],
+      "5": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO-cijfer voor praktijkopdracht - uitgelegd in de les",
+          "stof": null
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO grammatica en woorden",
+          "stof": "Grammatica en woorden les 24, 25 en 26"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Veerproef",
+          "stof": "Veerkracht en uitrekking (paragraaf 5.3)"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v: proef bepalen hoogte schoolgebouw Athena met spiegel",
+          "stof": "Paragraaf 2.4 Spiegelbeelden bekijken - spiegelwet toepassen bij het construeren van lichtstralen en blikveld construeren via spiegel"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 (t/m 1.4) - Haakjes uitwerken, herleiden van uitdrukkingen, breuken met letters, machten en negatieve exponenten",
+          "stof": "Hoofdstuk 1, paragrafen 1.1 - 1.4"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: grammatica les 15-18",
+          "stof": "grammatica les 15-18"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: 2.2 Kleuren zien (alleen kleuren zien onder verschillende lampen, zoals opgave 21, blz 43), 2.3 Schaduw zonder verdieping, 2.4 Spiegelbeelden bekijken zonder verdieping",
+          "stof": "Paragraaf 2.2 Kleuren zien: absorptie/reflectie bij kleurbepaling; Paragraaf 2.3 Schaduw: basiskennis kernschaduw en halfschaduw; Paragraaf 2.4 Spiegelbeelden: spiegelwet toepassen"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: proef geleiders en isolatoren",
+          "stof": "Geleiders en isolatoren (3.4)"
+        }
+      ],
+      "6": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H4 deel 2 - Exceltoetsje (in tweetallen)",
+          "stof": "Excel: staafdiagrammen, cirkeldiagrammen, centrummaten, formules (vermenigvuldigen, delen, SOM), celopmaak, tabbladen"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Praktische opdracht: Shakespeare Hamlet scènerepresentatie in groepswerk. Studenten bereiden een scène voor met nadruk op mise en scène, transformatie, status, emotie-ontwikkeling, theatrale vormgeving (tableaus, opkomst, tekstbehandeling, samenspel, spanningsopbouw). Eindresultaat: twee presentaties van Hamlet-scènes voor een cijfer.",
+          "stof": "Shakespeare Hamlet: scèneanalyse, theatrale elementen (mise en scène, personageontwikkeling, emotionele transformatie, samenspel), toneelkunst"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Hamlet deel 1 - groepswerk, uitvoering voor een cijfer",
+          "stof": "Shakespeare Hamlet: scènerepresentatie met theatrale vormgeving"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO luisteren",
+          "stof": ""
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO grammaire + vocabulaire A Plus 2, Unité 2 + deel van Unité 3",
+          "stof": "A Plus 2 Unité 2 (grammaire + vocabulaire inclusief Nos Outils) + A Plus 2 Unité 3 (grammaire geselecteerd + vocabulaire uit aparte lijst)"
+        }
+      ],
+      "3": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Cultuuropdracht (schriftelijk werk, inleveren week 3)",
+          "stof": "Cultuur thema 4"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Korte presentaties (2 min) van cultuuropdracht voor de klas",
+          "stof": "Cultuur thema 4"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Werkwoordspelling (Taalverzorging C) incl. D-toets",
+          "stof": "Taalverzorging C, p. 194-197 TB en p. 116-117 OB"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H4 paragraaf 1 t/m 4",
+          "stof": "Hoofdstuk 4: paragraaf 1 t/m 4 (Berlijn, Duitsland: de Europese reus, Europa: verenigd in verscheidenheid, Bronnen: fort Europa)"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Hamlet deel 2 - groepswerk, uitvoering voor een cijfer",
+          "stof": "Shakespeare Hamlet: scènerepresentatie met theatrale vormgeving"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik K4 + K5 + K6",
+          "stof": ""
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Project: Revolting Rhymes (hand in at end of class, SO mark)",
+          "stof": "Revolting Rhymes project"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woorden",
+          "stof": "Woorden les 24 t/m 29"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Lofrede over een leesboek naar keuze",
+          "stof": "Klassikaal lezen, gekozen leesboeken voor lofredes"
+        }
+      ],
+      "4": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H4 deel 1 - §4.1 + §4.2 + §4.4 (schriftelijk, individueel)",
+          "stof": "Hoofdstuk 4: §4.1, §4.2, §4.4 - Procentuele toe- en afname, frequentiediagrammen en histogrammen"
+        },
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H2 paragraaf 1 t/m 4",
+          "stof": "Hoofdstuk 2: paragraaf 1 t/m 4 (de vorming van de Alpen, rivieren van ijs, Het stroomgebied van de Rijn, kustvormen)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO unit 4: grammar, listening & writing",
+          "stof": "Unit 4: grammar, listening, writing"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Pecha Kucha 1",
+          "stof": ""
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Pecha Kucha",
+          "stof": ""
+        }
+      ],
+      "50": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO unit 3: all vocabulary, grammar, use of English + irregular verbs",
+          "stof": "Unit 3: vocabulary, grammar, use of English, irregular verbs"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostic test unit 4 and 5",
+          "stof": "Unit 4 and 5"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO thermometer ijken (schaalverdeling in thermometer zonder streepjes maken)",
+          "stof": "Proef thermometer ijken"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: paragrafen 4.1, 4.2, 4.3, 4.4 (zonder verdiepen en interpoleren/extrapoleren blz. 187), plus brander uit H1 blz. 14",
+          "stof": "Hoofdstuk 4: Warmte (4.1, 4.2, 4.3, 4.4), brander (H1 blz. 14)"
+        }
+      ],
+      "51": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H2 (§2.4 t/m §2.6) - Zwaartelijnen, hoogtelijnen, oppervlakte driehoeken, parallellogrammen en trapeziums",
+          "stof": "Hoofdstuk 2: §2.4, §2.5, §2.6"
+        }
+      ]
+    },
+    "1Q": {
+      "40": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 Organismen (Boek 1, H1)",
+          "stof": "BS 1.1-1.5 + 1.7"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO chapter 0",
+          "stof": "Chapter 0: vocabulary and grammar"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "D toetsje over woorden Flumen en de rijtjes van femina, servus en donum (p.74). Is nog niet voor een officieel cijfer!",
+          "stof": "Woorden Flumen, rijtjes femina, servus, donum (HB p.74)"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: woorden thema 1 1-3 (t/m regnum). Alle rijtjes van de zelfstandige naamwoorden (zie HB blz 76).",
+          "stof": "Woorden thema 1 (teksten 1-3, t/m regnum), alle rijtjes zelfstandige naamwoorden (HB p.76)"
+        }
+      ],
+      "45": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unités 0 et 1",
+          "stof": "Vocabulaire en grammaire (verbes réguliers être en avoir) unités 0 et 1"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Toets over Primaire en secundaire bronnen, Jagers & Verzamelaars, De Eerste Boeren (Hoofdstuk 1) en Egypte (Hoofdstuk 2)",
+          "stof": "Primaire en secundaire bronnen, Jagers & Verzamelaars, De Eerste Boeren (Hoofdstuk 1), Egypte (Hoofdstuk 2)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO over inleiding en alfabet. Deze USO vervangt de toets in de toetsweek.",
+          "stof": "Kennis over de Grieken (p.12-16), het alfabet"
+        }
+      ],
+      "38": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Leesautobiografie",
+          "stof": "Lezen en Inleven"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO grammatica: A t/m E",
+          "stof": "Grammatica A t/m E (oef. p. 84 t/m 93 + tb)"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Hoofdstuk 1, paragrafen 1 t/m 3",
+          "stof": "Hoofdstuk 1, paragrafen 1.1, 1.2, 1.3"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Microscopie",
+          "stof": "Microscopie, tekenregels en onderdelen van de cellen"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO-cijfer voor een mindmap van de belangen van jouw land voor de Conferentie van Samos",
+          "stof": "Conferentie van Samos - belangen van het land"
+        },
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Huiswerkopdracht: Tekening van zes geometrische vormen in tweepuntsperspectief (A4 papier, HB potlood, met afwerking). Beoordeling op toepassing perspectief en afwerking.",
+          "stof": "Tweepuntsperspectief, geometrische vormen, horizon, diepte, verkorting, verkleining, afsnijding"
+        }
+      ],
+      "47": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Generale repetitie met technicus in de aula",
+          "stof": "Brugstuk en lied (zonder hulp of ingrijpen van regisseurs)"
+        }
+      ],
+      "3": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unité 2",
+          "stof": "vocabulaire et grammaire unité 2, verbes réguliers (aimer) et irréguliers (être, avoir, faire)"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H4 §4.1 t/m §4.5A",
+          "stof": "H4 §4.1 t/m §4.5A"
+        }
+      ],
+      "50": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO production écrite (écrire une carte de vœux)",
+          "stof": "production écrite, rédaction d'une carte de vœux"
+        },
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H4 par 1 t/m 5",
+          "stof": "H4 paragraaf 1 t/m 5"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H3 §3.3 t/m §3.6",
+          "stof": "H3 §3.3 t/m §3.6"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Taalverzorging (TV) A t/m F",
+          "stof": "Taalverzorging A t/m F"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO Drama: Scène maken en spelen in stijl van een zelfgekozen genre met muziek, script, transformatie, speelstijl, samenspel, mise-en-scène, timing op muziek en theatervormgeving. Beoordelingspunten: concentratie, genre, theatrale enscenering, spanningsopbouw, spel (tekstbehandeling, fysieke expressie, mise-en-scène). Duur 2-5 minuten.",
+          "stof": "Genres in drama (thriller, actie, horror, western, maffia, melodrama, avontuur), muziek als theatraal middel, sfeer, mise-en-scène, opkomst, spanningsopbouw, speelstijl, cliffhanger, театральная enscenering"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatica (GR) F t/m J",
+          "stof": "Grammatica F t/m J"
+        }
+      ],
+      "48": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "DIA-toets spelling",
+          "stof": "Spelling"
+        }
+      ],
+      "5": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H3 par 1 t/m 4",
+          "stof": "H3 paragraaf 1 t/m 4"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Latijn USO woorden en grammatica",
+          "stof": "Woorden en grammatica (thema 1-2)"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO unit 3",
+          "stof": "Unit 3: Work (vocabulary 3.1-3.7, grammar, listening, reading, writing, speaking)"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Roald Dahl assignment (hand in for SO mark)",
+          "stof": "Roald Dahl: The Twits"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Grieks USO grammatica en woorden",
+          "stof": "Grammatica en woorden thema 1"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5",
+          "stof": "H5"
+        }
+      ],
+      "10": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostic test unit 4 and 5",
+          "stof": "Unit 4: People en Unit 5: Education"
+        }
+      ],
+      "19": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H2",
+          "stof": "H2"
+        }
+      ],
+      "22": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5",
+          "stof": "H5"
+        }
+      ],
+      "23": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Project Europa",
+          "stof": "Europa"
+        }
+      ]
+    },
+    "1P": {
+      "40": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 Organismen - Symbiose Boek 1, H1: open en gesloten vragen",
+          "stof": "BS 1.1-1.5 + 1.7 (Organismen: Over leven, Waaruit bestaat een organisme, Wat doet mijn lichaam, Hoe blijf je in leven, Hoe blijft mijn soort in leven, Wat leeft er allemaal)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 0",
+          "stof": "Unit 0: wordlist, imperative, to be, subject pronouns, plurals, demonstrative pronouns, can/can't, prepositions, there is/are, to have got, times & dates"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Leesautobiografie",
+          "stof": "Schrijven: leesautobiografie"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostic test",
+          "stof": "Unit 1 en 2: vocabulary en grammar"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Oefentoets",
+          "stof": "Voorbereiding op proefwerk thema 1"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 par 1 t/m 3",
+          "stof": "H1 par 1 t/m 3"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet unité 1",
+          "stof": "Unité 1 (projet)"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Projet (40 minutes)",
+          "stof": "Unité 1"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Toets over Primaire en secundaire bronnen, Jagers & Verzamelaars, De Eerste Boeren (Hoofdstuk 1) en Egypte (Hoofdstuk 2)",
+          "stof": "Hoofdstuk 1 (Primaire en secundaire bronnen, Jagers & Verzamelaars, De Eerste Boeren), Hoofdstuk 2 (Egypte)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO grammatica thema 1",
+          "stof": "Rijtjes verbuigingsgroep 1, 2 en 3 (blz. 76)"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO-cijfer voor een mindmap van de belangen van jouw land, voor de Conferentie van Samos",
+          "stof": "Conferentie van Samos - belangen van het land"
+        }
+      ],
+      "38": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Minitest vocabulaire unité 0",
+          "stof": "Vocabulaire unité 0"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO alfabet",
+          "stof": "Grieks alfabet, uitspraak, spiritus, iota subscriptum, medeklinkercombinaties"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Faire un poster sur Unité 0 + 1",
+          "stof": "Unité 0 + 1"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO ALFABET",
+          "stof": "Grieks alfabet, namen letters, volgorde, kleine en grote letters"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woordjes 1 t/m 3",
+          "stof": "Woordjes les 1, 2 en 3"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unités 0 et 1",
+          "stof": "Vocabulaire + grammaire + verbes unités 0 et 1"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Grammatica A t/m E",
+          "stof": "Grammatica A t/m E (oef. p. 84 t/m 93 + tb)"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Minitest vocabulaire Unité 1, leçons 1+2",
+          "stof": "Vocabulaire Unité 1, leçons 1+2"
+        }
+      ],
+      "47": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Microscopie (na toetsweek 1)",
+          "stof": "Microscopie en biologisch tekenen (pagina's 172-174)"
+        }
+      ],
+      "3": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Chapter 3 (Vocabulary & Grammar)",
+          "stof": "Chapter 3: Work - Vocabulary and Grammar"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H4 §4.1 t/m §4.5A",
+          "stof": "H4 §4.1 t/m §4.5A"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Diagnostic PW (Practice/Diagnostic)",
+          "stof": "Unit 4 & 5 - Vocabulary"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Oefentoets (Grieks)",
+          "stof": "Grieks (cumulatieve stof)"
+        },
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Huiswerkopdracht: tekening van zes geometrische vormen in tweepuntsperspectief met afwerking",
+          "stof": "Lijnperspectief, tweepuntsperspectief, geometrische vormen, perspectiefrules, afwerking"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Oefentoets (Latijn)",
+          "stof": "Latijn (cumulatieve stof)"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unité 2",
+          "stof": "Vocabulaire et grammaire unité 2, verbes réguliers (aimer) et irréguliers (être, avoir, faire)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Overhoren woordjes (Grieks) - week 4",
+          "stof": "Grieks woordjes (selectie uit reeds behandelde stof)"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO TV A t/m F",
+          "stof": "TV A t/m F"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO Genres - praktische opdracht: groepje maakt en speelt een scène in stijl van zelfgekozen genre met instrumentaal muzieknummer, passend verhaal met cliffhanger. Beoordeeld op: concentratie, genre, theatrale enscenering, spanningsopbouw, spel (tekstbehandeling, fysieke expressie, mise en scène). Duur: 2-5 minuten per scène.",
+          "stof": "genres (thriller, actie, horror, western, maffia, melodrama, avontuur), sfeer, muziek, mise en scène, opkomst, spanningsopbouw, speelstijl, cliffhanger, theatrale vormgeving (audio, kostuum, decor, rekwisieten, licht)"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Minitest unité 3 vocabulaire",
+          "stof": "Vocabulaire unité 3"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Gramm F t/m J",
+          "stof": "Gramm F t/m J"
+        }
+      ],
+      "50": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H4 par 1 t/m 5",
+          "stof": "Hoofdstuk 4, paragrafen 1 t/m 5"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Minitest unité 2, leçon 1",
+          "stof": "Unité 2, leçon 1"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H3 §3.3 t/m §3.6",
+          "stof": "H3 §3.3 t/m §3.6"
+        }
+      ],
+      "5": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H3 par 1 t/m 4",
+          "stof": "Hoofdstuk 3, paragrafen 1 t/m 4"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woordjes 1 t/m 11 (Latijn)",
+          "stof": "Latijn woordjes 1 t/m 11"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO woordjes 2 t/m 4 (Grieks) - Kies een god + werkwoord in het Grieks",
+          "stof": "Grieks woordjes 2 t/m 4; god naar keuze + werkwoord"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5",
+          "stof": "H5"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Minitest unité 2, leçon 2",
+          "stof": "Unité 2, leçon 2"
+        }
+      ],
+      "48": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Microscopie",
+          "stof": "Microscopie, tekenregels en onderdelen van cellen"
+        }
+      ],
+      "12": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H2",
+          "stof": "H2"
+        }
+      ],
+      "14": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5",
+          "stof": "H5"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Project Europa",
+          "stof": "Europa"
+        }
+      ]
+    },
+    "1M": {
+      "40": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 Organismen: Boek 1, H1 - open en gesloten vragen",
+          "stof": "BS 1.1-1.5 + 1.7 (Organismen)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 0",
+          "stof": "Unit 0 (woorden en grammatica)"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Diagnostic test",
+          "stof": "Unit 1 en Unit 2"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Computeropdracht 2",
+          "stof": null
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unités 0 et 1",
+          "stof": "Vocabulaire et grammaire unités 0 et 1, verbes réguliers (aimer) et irréguliers (être, avoir), pages 104-106 + outils pages 25, 27, 29, 30-31"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet unité 1 - Projet 'se présenter' (vidéo)",
+          "stof": "Présentation personnelle unité 1, vocabulaire et structures pour se présenter"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO inleiding en alfabet",
+          "stof": "p. 80, 84 en 86 HB + p. 18 en 19 TB"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 par 1 t/m 3",
+          "stof": "Hoofdstuk 1, paragrafen 1 t/m 3"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO over de woorden van flumen en lupa",
+          "stof": "Woorden flumen en lupa"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Computeropdracht 1 schildvulkaan / stratovulkaan",
+          "stof": "Vulkanen (schildvulkaan en stratovulkaan)"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO grammatica (GRAM. A t/m E)",
+          "stof": "Grammatica: GRAM. A t/m E (oef. p. 84-93 + tekstboek)"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Praktische opdracht (knutselopdracht)",
+          "stof": "Praktische opdracht - onderwerp niet nader gespecificeerd"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO grammatica 1.1 tm 3.1",
+          "stof": "Grammatica 1.1 tm 3.1 (werkwoord, zelfstandig naamwoord, persoonlijk voornaamwoord)"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Leesautobiografie (handgeschreven of geprint)",
+          "stof": "Leesautobiografie"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Hoofdstuk 1",
+          "stof": "H1"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Toets Geschiedenis Module 1",
+          "stof": "Hoofdstuk 2 (paragraaf 2 en 3), Hoofdstuk 3 Egypte (paragraaf 1, 2, 3 en 4 en pagina 46), alle aantekeningen en speciale stencils"
+        }
+      ],
+      "48": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO microscopie - plaatsvindend NA toetsweek 1",
+          "stof": "Microscopie en biologisch tekenen (pagina's 172-174)"
+        }
+      ],
+      "3": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Chapter 3",
+          "stof": "Chapter 3: Work - Vocabulary, Grammar"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2",
+          "stof": "Unité 2 (leçons 1, 2, 3) - vocabulaire, werkwoorden (aimer, être, avoir, faire), informatie over school"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO woorden les 2 en 3 + grammatica 3.1, 3.2, 3.3 + vertaal ζευς",
+          "stof": "Woorden les 2 en 3, grammatica 3.1, 3.2, 3.3, vertalingen"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H4 §4.1 t/m §4.5A",
+          "stof": "H4 §4.1 t/m §4.5A"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Diagnostic PW",
+          "stof": "Unit 4 & 5: Vocabulary"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Test diagnostique Unité 3",
+          "stof": "Unité 3"
+        }
+      ],
+      "50": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H4 par 1 t/m 5",
+          "stof": "H4 par 1 t/m 5"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H3 §3.3 t/m §3.6",
+          "stof": "H3 §3.3 t/m §3.6"
+        }
+      ],
+      "5": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H3 par 1 t/m 4",
+          "stof": "H3 par 1 t/m 4"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Microscopie",
+          "stof": "Microscopie, tekenregels en onderdelen van cellen"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Conferentie van Samos - praktische opdracht",
+          "stof": "Conferentie van Samos"
+        },
+        {
+          "vak": "Muziek",
+          "vak_kort": "Mu",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Schriftelijke overhoring - Katern Chew, chew, chew - Lucky (Luisteren blz. 4-5, 12-13)",
+          "stof": "Katern Chew, chew, chew - Lucky; Luisteren blz. 4-5 en 12-13 (intro online); Theorie 1.2"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie scène voor cijfer",
+          "stof": "Zelfgeschreven script: mise en scène, speelstijl, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, einde in freeze, opkomst, effect van muziek"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Praktische opdracht Goden: goden PO",
+          "stof": "Goden, epiloog p. 34, proloog p. 38, p. 40"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5",
+          "stof": "H5"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie scène voor cijfer",
+          "stof": "Zelfgeschreven script: mise en scène, speelstijl, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, einde in freeze, opkomst, effect van muziek"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatica F t/m J",
+          "stof": "Grammatica F t/m J"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO over les 8 en 9 grammatica en woorden",
+          "stof": "grammatica les 8 en 9, woorden les 8 en 9"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Taalverzorging A t/m F",
+          "stof": "Taalverzorging A t/m F"
+        }
+      ],
+      "22": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H2",
+          "stof": "H2"
+        }
+      ],
+      "24": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5",
+          "stof": "H5"
+        }
+      ]
+    },
+    "1K": {
+      "37": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Mini-SO vocabulaire Unité 0",
+          "stof": "Vocabulaire Unité 0"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 0",
+          "stof": "Unit 0: In Class (Imperative), I'm From (to be + subject pronouns), Favourites (demonstrative pronouns + plural nouns), My Family (possessive), Gadgets (have got), At Home (prepositions + there is/there are), Times and Dates"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Mini-SO vocabulaire Unité 0 + Unité 1 leçon 1",
+          "stof": "Vocabulaire Unité 0 + Unité 1 leçon 1"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet préparations",
+          "stof": "Projet préparations"
+        }
+      ],
+      "41": [
+        {
+          "vak": null,
+          "vak_kort": "?",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Hoofdstuk 1",
+          "stof": "Hoofdstuk 1"
+        },
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Uso hoofdstuk 1 §1 t/m 5",
+          "stof": "Hoofdstuk 1, paragrafen 1 t/m 5"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Mini-SO vocabulaire Unité 0 + Unité 1 leçon 1+2 + SO projet préparations",
+          "stof": "Vocabulaire Unité 0 + Unité 1 leçon 1+2, Projet préparations"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Praktische opdracht (knutselwerk) - afhebben voor week 41, 1e les",
+          "stof": "Onderwerp niet expliciet genoemd in studiewijzer"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 Organismen (Boek 1, H1)",
+          "stof": "Symbiose Boek 1, H1 Organismen"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Mini-SO vocabulaire Unité 0 + Unité 1 leçon 1+2+3",
+          "stof": "Vocabulaire Unité 0 + Unité 1 leçon 1+2+3"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Toets Geschiedenis Module 1",
+          "stof": "Hoofdstuk 2 (paragraaf 2 en 3), Hoofdstuk 3 Egypte (paragrafen 1, 2, 3, 4 en pagina 46), aantekeningen en uitgedeelde stencils"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Rattrapage SO Projet (inlevering online op Teams)",
+          "stof": "Projet préparations"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Handelingsdeel: Leesautobiografie",
+          "stof": "Leesautobiografie"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Grammatica A t/m E",
+          "stof": "Grammatica A t/m E (oef. p. 84 t/m 93 + tekstboek)"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: Writing/Listening",
+          "stof": "Unit 2: Vocabulary (Words 2.1-2.3), Grammar (Countable and uncountable nouns, Articles), Reading, Listening, Writing"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO unités 0+1 (vocabulaire + grammaire)",
+          "stof": "Vocabulaire + grammaire unités 0+1"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO alfabet en inleiding",
+          "stof": "Inleiding Argo en het alfabet"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostic test",
+          "stof": "Unit 2: Vocabulary (Words 2.1-2.7), Grammar (Countable/uncountable nouns, Articles), Reading, Listening, Writing"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Rattrapage USO",
+          "stof": "Vocabulaire + grammaire unités 0+1"
+        }
+      ],
+      "47": [
+        {
+          "vak": "Onderzoek",
+          "vak_kort": "Onde",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Verslag: experiment uitgevoerd in groepje, rapport over onderzoek",
+          "stof": "Wetenschappelijk onderzoek, rapportage"
+        }
+      ],
+      "48": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Presentatie 'De eerste voorstelling van de 1e klas' - theatrale voorstelling (toneel, zang & dans) voor publiek (ouders) in de aula",
+          "stof": "5 W's (wie, wat, waar, waarom, wanneer), personage (transformatie in fysiek en stem), tekstbehandeling (script uit het hoofd leren, subtekst, variatie in tempo/volume/klankkleur/accent), emoties (schakelen tussen emoties), theatrale enscenering (kostuums, rekwisieten, mise-en-scene, ruimtegebruik), concentratie, samenwerking, presenteren voor publiek"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Grammatica",
+          "stof": "Grammatica"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO Zintuigen (KCC in het echt! Kennis linken aan ervaringen)",
+          "stof": "Zintuigen (H5)"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Taalverzorging A t/m F",
+          "stof": "Taalverzorging A t/m F"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "PRESENTATIE SCÈNE VOOR CIJFER",
+          "stof": "Groepsscène met script, speelstijl, mise en scène, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, freeze-einde"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatica F t/m J",
+          "stof": "Grammatica F t/m J"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2",
+          "stof": "Unité 2 (leçons 1-3): vocabulaire, regelmatige werkwoorden (aimer) en onregelmatige werkwoorden (être, avoir, faire)"
+        }
+      ],
+      "8": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO project - bande dessinée",
+          "stof": "Unité 2-3"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostic test Unit 4 & 5",
+          "stof": "Unit 4 & 5 - Vocabulary, Grammar (Comparatives & Superlatives, have to/don't have to, must/musn't, should/shouldn't, Past simple)"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Test-D Unité 2+3",
+          "stof": "Unité 2-3: vocabulaire"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Conferentie van Samos",
+          "stof": "Conferentie van Samos"
+        }
+      ],
+      "3": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 3",
+          "stof": "Unit 3 - Vocabulary (3.1-3.7), Grammar (Present continuous, Present simple vs. Continuous)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO - lezen blz 82, 84, 86, 88, 90, 92 HB; werkwoorden les 8 t/m 10 en voorbeeldrijtjes",
+          "stof": "Helpboek blz 82, 84, 86, 88, 90, 92; werkwoorden les 8 t/m 10 en voorbeeldrijtjes"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H4 §4.1 t/m §4.5A",
+          "stof": "H4 §4.1 t/m §4.5A"
+        }
+      ],
+      "11": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO woorden en grammatica t/m les 4",
+          "stof": "Woorden les 2, 3 en 4; Grammatica thema 1"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "PRESENTATIE SCÈNE VOOR CIJFER",
+          "stof": "Groepsscène met script, speelstijl, mise en scène, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, freeze-einde"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5",
+          "stof": "H5"
+        }
+      ],
+      "50": [
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H3 §3.3 t/m §3.6",
+          "stof": "H3 §3.3 t/m §3.6"
+        }
+      ]
+    },
+    "1H": {
+      "37": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Mini-SO vocabulaire Unité 0",
+          "stof": "Vocabulaire Unité 0"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Mini-SO vocabulaire Unité 0 + Unité 1 leçon 1",
+          "stof": "Vocabulaire Unité 0 + Unité 1 leçon 1"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Latijn over de woorden van 1 Flumen: woorden, verplichte aanvullingen ('+ acc'), en meervoud (rex, reges)",
+          "stof": "Woorden H1 Flumen (TB), HB p.115, HB p.103 (naamvallen femina), verplichte aanvullingen, meervoudsvormen"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 0 (Words and grammar)",
+          "stof": "Unit 0: Imperative, to be + subject pronouns, demonstrative pronouns, plural nouns, can/can't, possessive, have got, prepositions, there is/there are, times and dates"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Projet",
+          "stof": "Projet (inlevering filmpje online op Teams uiterlijk 23:59 op 9 oktober)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Latijn over de woorden van 2 Lupa en rijtjes (femina, servus, donum)",
+          "stof": "Woorden H2 Lupa (TB), HB p.115, HB p.103 (rijtjes femina, servus, donum)"
+        }
+      ],
+      "41": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Mini-SO vocabulaire Unité 0 + Unité 1 leçon 1+2+3",
+          "stof": "Vocabulaire Unité 0 + Unité 1 leçon 1+2+3"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Leesautobiografie (handgeschreven of geprint, in te leveren aan het begin van de les)",
+          "stof": "Leesautobiografie"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Hoofdstuk 1",
+          "stof": "Hoofdstuk 1"
+        }
+      ],
+      "43": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Repêchage SO Projet",
+          "stof": "Projet (inlevering online op Teams uiterlijk 23:59)"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO unités 0+1 (vocabulaire + grammaire)",
+          "stof": "Vocabulaire + grammaire Unités 0+1"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Grammatica (GRAM. A t/m E)",
+          "stof": "GRAM. A t/m E (oefenboek p. 84 t/m 93 + tekstboek)"
+        }
+      ],
+      "45": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: Writing/Listening",
+          "stof": "Unit 2 (focus: writing en listening skills)"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Repêchage USO",
+          "stof": "Vocabulaire + grammaire Unités 0+1"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Latijn tekst 3: benoeming en vertaling van tekst 3",
+          "stof": "Tekst 3 (inclusief woorden), woorden H3 en H4, grammatica HB p.103 en p.104"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostic test",
+          "stof": "Module 1 stof (Unit 0, 1, 2)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grieks: inleiding Tekstboek p.8-16 en het alfabet",
+          "stof": "Inleiding TB p.8-16, alfabet HB p.80, 84 en 86 (leestekens, letternamen, hoofdletters, kleine letters, iota subscriptum, 'h', 'ng', tweeklanken)"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO hoofdstuk 1 § 1 t/m 4",
+          "stof": "Hoofdstuk 1 paragraaf 1 t/m 4"
+        },
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H1 Organismen (Symbiose Boek 1, H1) - open en gesloten vragen",
+          "stof": "Symbiose Boek 1, H1 Organismen (paragrafen 1.1-1.7)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Geschiedenis - stof: bronnen (pagina 14), paragrafen 2 en 3 uit hoofdstuk 2, paragrafen 1 t/m 3 uit hoofdstuk 3, gekleurde vakken pagina 45, 46, 49 t/m 51",
+          "stof": "Bronnen (pagina 14), paragrafen 2-3 hoofdstuk 2, paragrafen 1-3 hoofdstuk 3, gekleurde vakken pagina 45, 46, 49-51"
+        }
+      ],
+      "1": [
+        {
+          "vak": "Muziek",
+          "vak_kort": "Mu",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Uitgebreide schriftelijke overhoring op Intro-online: Katernen Can't Stop/Manon (blz. 4+5+12), Ho hey/Brabant (blz. 4+5+10+11) en Theorieboekje 1.1 (Theorie, Horen, Zien, Schrijven, Kennen)",
+          "stof": "Katern Can't Stop/Manon blz. 4+5+12; Katern Ho hey/Brabant blz. 4+5+10+11; Theorieboekje 1.1 (Theorie, Horen, Zien, Schrijven, Kennen)"
+        }
+      ],
+      "48": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Presentatie 'De Eerste Voorstelling van de 1e Klas' - theatrale voorstelling (10 minuten) met toneel, zang en dans voor ouders. Beoordeling op basis van inzet (spel en werkhouding/concentratie) en meespelen met het optreden.",
+          "stof": "5 W's (wie, wat, waar, waarom, wanneer), personagevorming door transformatie in fysiek en stem, tekstbehandeling (uit script leren, subtekst, variatie in tempo/volume/klankkleur/accent), emoties schakelen, theatrale enscenering (kostuums/rekwisieten/mise-en-scene/ruimtegebruik), concentratie, samenwerken, presenteren voor publiek"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2",
+          "stof": "Unité 2 (vocabulaire, werkwoorden aimer, être, avoir, faire)"
+        }
+      ],
+      "8": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO project - BD (présentation)",
+          "stof": "Unité 2 en 3 vocabulaire"
+        }
+      ],
+      "3": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unit 3",
+          "stof": "Unit 3 (vocabulary, grammar: present continuous, present simple vs continuous, reading, writing, listening, speaking)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Verslag Samos-project - Afsluitende fase met schrijven van verslag",
+          "stof": "Samos-conferentie"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "oefenUSO Latijn: achtergronden TB46, tekst 9 met woorden, woorden les 8 HB116, grammatica t/m HB88 (thema 2: HB82-88)",
+          "stof": "achtergronden TB46, tekst 9 inclusief woorden, woorden les 8 HB116, grammatica t/m HB88 (thema 2: HB82-88)"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H4 §4.1 t/m §4.5A",
+          "stof": "H4 §4.1 t/m §4.5A"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Samos-project: naamkaartje, kleding en een presentatie; elk land houdt een praatje over zichzelf",
+          "stof": "Samos-conferentie"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Spotprentopdracht",
+          "stof": "H5 §6: schreeuwtoneelstuk"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "PRESENTATIE SCÈNE VOOR CIJFER",
+          "stof": "Geheugtes script, speelstijl, mise en scène, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, einde in freeze"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5",
+          "stof": "H5"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "PRESENTATIE SCÈNE VOOR CIJFER",
+          "stof": "Geheugtes script, speelstijl, mise en scène, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, einde in freeze"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Godenopdracht Latijn: leren woorden les 11 en 12, inleveren einde les week 9",
+          "stof": "woorden les 11 en 12"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Gram. F t/m J",
+          "stof": "Grammatica F t/m J"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO Zintuigen (KCC in het echt, kennis linken aan ervaringen, conclusie)",
+          "stof": "Zintuigen (H5)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "oefenUSO Grieks: achtergronden TB28, tekst 3 met woorden, woorden les 2 en 3, grammatica thema 1 HB84-94",
+          "stof": "achtergronden TB28, tekst 3 inclusief woorden, woorden les 2 en 3, grammatica thema 1: HB84-94"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Latijn: achtergronden TB46, tekst 9 met woorden, woorden les 8 HB116, grammatica t/m HB88 (thema 2: HB82-88)",
+          "stof": "achtergronden TB46, tekst 9 inclusief woorden, woorden les 8 HB116, grammatica t/m HB88 (thema 2: HB82-88)"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO TV A t/m F",
+          "stof": "Taalverzorging A t/m F"
+        }
+      ],
+      "5": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grieks: achtergronden TB28, tekst 3 met woorden, woorden les 2 en 3, grammatica thema 1 HB84-94",
+          "stof": "achtergronden TB28, tekst 3 inclusief woorden, woorden les 2 en 3, grammatica thema 1: HB84-94"
+        }
+      ],
+      "50": [
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H3 §3.3 t/m §3.6",
+          "stof": "H3 §3.3 t/m §3.6"
+        }
+      ]
+    },
+    "1G": {
+      "45": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO vocabulaire + grammaire + verbes unités 0 et 1",
+          "stof": "Vocabulaire et grammaire unités 0 et 1, verbes réguliers (aimer) et irréguliers (être, avoir)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grieks (weging: 2) - KORT ROOSTER",
+          "stof": "inleiding Tekstboek p.8-16, het alfabet: Tekstboek p.18-19 en Hulpboek p.80, 84 en 86"
+        }
+      ],
+      "40": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO chapter 0",
+          "stof": "Chapter 0 (vocab + grammar): In Class, I'm From, Favourites, My Family, Abilities, At Home, Gadgets, Times and Dates"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Leesautobiografie",
+          "stof": "Leesautobiografie"
+        }
+      ],
+      "42": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Symbiose Boek 1, H1 Organismen",
+          "stof": "H1 Organismen (paragrafen 1.1-1.7)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Uitgebreide schriftelijke overhoring (USO) - Stof: pagina 14 over bronnen, paragrafen 2 en 3 (hoofdstuk 2) en paragrafen 1 t/m 3 (hoofdstuk 3) + gekleurde vakken pagina 45, 46, 49 t/m 51",
+          "stof": "Pagina 14 over bronnen, paragrafen 2 en 3 (hoofdstuk 2), paragrafen 1 t/m 3 (hoofdstuk 3), gekleurde vakken pagina 45, 46, 49 t/m 51"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "oefenUSO tekst 3 (weging: 0) - Leren tekst 3 inclusief woorden",
+          "stof": "tekst 3 inclusief woorden"
+        }
+      ],
+      "44": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO tekst 3 (weging: 2) - Leren tekst 3 incl. woorden",
+          "stof": "tekst 3 inclusief woorden"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Grammatica A t/m E",
+          "stof": "Grammatica A t/m E (oef. p. 84 t/m 93 + tb)"
+        }
+      ],
+      "39": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO inleiding (weging: 2) - leren TB 7-15",
+          "stof": "TB 7-15"
+        }
+      ],
+      "48": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie: 'Eerste voorstelling van de 1e klas avond' - Theatrale voorstelling voor publiek (ouders) in de aula, duur 10 minuten per klas",
+          "stof": "5 W's (wie, wat, waar, waarom, wanneer), personage-transformatie (fysiek en stem), tekstbehandeling (vaste tekst, subtekst, variatie), emoties (schakelen, climax), theatrale enscenering (kostuums, rekwisieten, mise-en-scene, ruimtegebruik), concentratie, samenwerking, presenteren voor publiek"
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Handelingsdeel v-o: Opdracht voltooid door goede inzet (spel en werkhouding/concentratie) en meespelen in het optreden voor de ouders",
+          "stof": "Alle leerdoelen van module 1: 5 W's, personage-transformatie, tekstbehandeling, emoties, theatrale enscenering, concentratie, samenwerking, presenteren voor publiek"
+        }
+      ],
+      "41": [
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Hoofdstuk 1",
+          "stof": "Hoofdstuk 1"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "PO Zintuigen (KCC in het echt, kennis linken aan ervaringen, conclusie trekken)",
+          "stof": "Zintuigen, H5"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Opdracht 1: Rome van dorp tot imperium",
+          "stof": "H5, §1: Rome van dorp tot imperium"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Latijn tekst 9",
+          "stof": "Latijn: achtergronden TB46, tekst 9 inclusief woorden, woorden les 8 en 9 HB116, grammatica t/m HB88 (nadruk thema 2)"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO TV A t/m F",
+          "stof": "TV A t/m F"
+        }
+      ],
+      "7": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "PRESENTATIE SCÈNE VOOR CIJFER",
+          "stof": "Script schrijven, repeteren (speelstijl, mise en scène, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, einde in freeze), tekst uit het hoofd geleerd, kostuums en rekwisieten"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Opdracht 4 + 5: Augustus",
+          "stof": "H5, §5: Augustus"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Godenopdracht Grieks",
+          "stof": "Grieks: eigen godheid bedenken of roast schrijven"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Gramm F t/m J",
+          "stof": "Gramm F t/m J"
+        }
+      ],
+      "2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO unit 3",
+          "stof": "Unit 3: Work"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "PRESENTATIE SCÈNE VOOR CIJFER",
+          "stof": "Script schrijven, repeteren (speelstijl, mise en scène, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, einde in freeze), tekst uit het hoofd geleerd, kostuums en rekwisieten"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Roald Dahl assignment",
+          "stof": "Roald Dahl: The Twits"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Opdracht 3: de gevolgen van de veroveringen en Caesar",
+          "stof": "H5, §3: de gevolgen van de veroveringen, H5, §4: Caesar"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5",
+          "stof": "H5"
+        }
+      ],
+      "10": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Diagnostic test unit 4 and 5",
+          "stof": "Unit 4: People en Unit 5: Education"
+        }
+      ],
+      "3": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2",
+          "stof": "Unité 2 (vocabulaire, regelmatige werkwoorden aimer, onregelmatige werkwoorden être, avoir, faire)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Verslag Samos schrijven en inleveren",
+          "stof": "Samos"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "oefenUSO Latijn",
+          "stof": "Latijn thema 2"
+        },
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H4 §4.1 t/m §4.5A",
+          "stof": "H4 §4.1 t/m §4.5A"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Test diagnostique Unité 3",
+          "stof": "Unité 3"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Spotprentopdracht",
+          "stof": "H5: Romeinen (herhaling)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Godenopdracht Grieks (moet voldoende zijn)",
+          "stof": "Grieks: godelijke karakters"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H4 paragraaf 1 t/m 4",
+          "stof": "Hoofdstuk 4, paragraaf 1-4"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Inleveren voorstellen in enveloppe bij docent",
+          "stof": "Samos"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Latijn toets bespreken",
+          "stof": "Latijn"
+        }
+      ],
+      "5": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Opdracht 2A+2B: de Romeinen en hun bestuurders",
+          "stof": "H5, §2: de Romeinen en hun bestuurders"
+        }
+      ],
+      "51": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grieks",
+          "stof": "Grieks: achtergronden TB28, tekst 3, woorden les 2 en 3, grammatica thema 1 HB84-94"
+        }
+      ],
+      "50": [
+        {
+          "vak": "wiskunde",
+          "vak_kort": "Wi",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO H3 §3.3 t/m §3.6",
+          "stof": "H3 §3.3 t/m §3.6"
+        }
+      ]
+    }
+  }
+}
