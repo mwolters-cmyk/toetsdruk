@@ -385,9 +385,15 @@ def build_data():
             OEFENTOETS_KEYWORDS = [
                 "oefentoets", "diagnostisch", "diagnostic", "d-toets",
                 "nulmeting", "formatief", "practice test", "practice exam",
+                "proeftoets",
             ]
             desc_check = beschrijving_plus.lower()
             if any(kw in desc_check for kw in OEFENTOETS_KEYWORDS):
+                toets_type = "oefentoets"
+            # "quiz" apart: wel Oef, maar alleen in beschrijving (niet stof),
+            # en niet als het onderdeel is van presentatie/po
+            elif ("quiz" in beschrijving
+                  and toets_type not in ("presentatie", "po")):
                 toets_type = "oefentoets"
 
             dedup_key = (klas, week, vak, toets_type)

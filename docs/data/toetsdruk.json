@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-13T10:55:17",
+  "gegenereerd": "2026-03-13T11:15:46",
   "kalender": {
     "module_weken": {
       "1": [
@@ -1210,8 +1210,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "proefwerk-quiz",
           "stof": "Begrippen, theorie, luistervaardigheid"
         }
@@ -1474,8 +1474,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "pw quiz",
           "stof": "Theorie 1.2, kennistoetsstof"
         }
@@ -1686,8 +1686,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Proefwerk-quiz",
           "stof": "Begrippen en theorie (noten, toonduur, ostinato, motief)"
         }
@@ -1844,8 +1844,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "PW Quiz (pw bespreken, enquete op laptops)",
           "stof": "Theorie 1.2"
         }
@@ -5244,8 +5244,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "proefwerk",
-          "type_kort": "PW",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Beoordeling The Mandalorian proefwerk-quiz",
           "stof": "The Mandalorian soundtrack"
         }
@@ -5632,8 +5632,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "proefwerk",
-          "type_kort": "PW",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "proefwerk-quiz (Beoordeling The Mandalorian)",
           "stof": "The Mandalorian"
         }
@@ -5812,8 +5812,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Kerstquiz",
           "stof": "Vaste Voortekens, Ritme in het Raster"
         },
@@ -5860,6 +5860,14 @@
           "type_kort": "SO",
           "beschrijving": "Zingen©",
           "stof": "Zangstukken, liedjes"
+        },
+        {
+          "vak": "Muziek",
+          "vak_kort": "Mu",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Pw quiz",
+          "stof": "KT blz 10, 13"
         }
       ],
       "3": [
@@ -6126,8 +6134,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "proefwerk",
-          "type_kort": "PW",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Proefwerk-quiz",
           "stof": "Begrippen en theorie (KT blz 2-7), alle liedjes, muzikale lagen, dynamiek, majeur/mineur, opmaat"
         }
@@ -6260,8 +6268,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Pw quiz",
           "stof": "Voorbereiding op proefwerk"
         }
@@ -6414,16 +6422,16 @@
         {
           "vak": "Duits",
           "vak_kort": "Du",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Proeftoets",
           "stof": "Kapitel 1, 2 en 3"
         },
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "proefwerk-quiz",
           "stof": "Begrippen, theorie (KT blz 2,3), alle liedjes"
         }
@@ -6740,8 +6748,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Kerstquiz",
           "stof": "Ritme in het Raster, Vaste Voortekens, Ostinato, muzikale lagen, ST&P"
         }
@@ -6758,8 +6766,8 @@
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Pw quiz",
           "stof": "Begrippen module 2, theorie (KT blz 8,9), luisteren, schrijven"
         }
@@ -6930,16 +6938,8 @@
         {
           "vak": "Duits",
           "vak_kort": "Du",
-          "type": "proefwerk",
-          "type_kort": "PW",
-          "beschrijving": "Proeftoets",
-          "stof": "Kapitel 1, 2, 3"
-        },
-        {
-          "vak": "Duits",
-          "vak_kort": "Du",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Proeftoets",
           "stof": "Kapitel 1, 2, 3"
         }
@@ -7482,8 +7482,8 @@
         {
           "vak": "Duits",
           "vak_kort": "Du",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Proeftoets",
           "stof": "Kapitel 1, 2, 3"
         }
@@ -7862,18 +7862,10 @@
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
-          "type": "mondeling",
-          "type_kort": "MO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Quiz Verlichting en eilandenopdracht",
           "stof": "Verlichting"
-        },
-        {
-          "vak": "Geschiedenis",
-          "vak_kort": "Gs",
-          "type": "anders",
-          "type_kort": "?",
-          "beschrijving": "Quiz over Eilandenopdracht",
-          "stof": null
         },
         {
           "vak": "Wiskunde",
@@ -11160,8 +11152,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "mondeling",
-          "type_kort": "MO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "New year's Quiz",
           "stof": "Chapter Three"
         },
