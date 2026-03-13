@@ -436,7 +436,7 @@ async def process_single(path: Path):
     print(json.dumps(output, indent=2, ensure_ascii=False))
 
 
-async def process_all(filter_pattern: str | None = None):
+async def process_all(filter_pattern: str | None = None, skip_existing: bool = False):
     """Verwerk alle studiewijzers."""
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
@@ -446,6 +446,12 @@ async def process_all(filter_pattern: str | None = None):
     files = find_studiewijzers()
     if filter_pattern:
         files = [f for f in files if re.search(filter_pattern, str(f))]
+
+    if skip_existing:
+        before = len(files)
+        files = [f for f in files
+                 if not (OUTPUT_DIR / f.relative_to(EXTRACTED_DIR).with_suffix(".json")).exists()]
+        print(f"Skip-existing: {before - len(files)} al verwerkt, {len(files)} nieuw")
 
     print(f"Verwerken van {len(files)} studiewijzers...")
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -533,6 +539,8 @@ def main():
                         help="Verwerk één bestand (pad relatief t.o.v. _extracted/)")
     parser.add_argument("--filter", type=str,
                         help="Regex filter op bestandspaden (bijv. 'klas3.*Module 1')")
+    parser.add_argument("--skip-existing", action="store_true",
+                        help="Sla bestanden over die al een output JSON hebben")
     args = parser.parse_args()
 
     files = find_studiewijzers()
@@ -549,7 +557,7 @@ def main():
             sys.exit(1)
         asyncio.run(process_single(single_path))
     else:
-        asyncio.run(process_all(args.filter))
+        asyncio.run(process_all(args.filter, skip_existing=args.skip_existing))
 
 
 if __name__ == "__main__":
