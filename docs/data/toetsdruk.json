@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-13T09:57:40",
+  "gegenereerd": "2026-03-13T10:05:00",
   "kalender": {
     "module_weken": {
       "1": [
@@ -186,7 +186,7 @@
           "stof": "Leesboek"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -294,7 +294,7 @@
           "stof": "Unité 2: vocabulaire, grammaire, verbes"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -408,7 +408,7 @@
           "stof": "TV A t/m F"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -446,7 +446,7 @@
       ],
       "50": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -638,7 +638,7 @@
           "stof": "Bronnen (H1 p.14-17), H2 §2 en 3, H3 §1"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -702,7 +702,7 @@
           "stof": "Woorden les 8, Grammatica 8.1 en 8.2"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -744,7 +744,7 @@
           "stof": "TV A, TV B, TV C (lesonderdelen tekstverwerving)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -912,7 +912,7 @@
           "stof": "woorden les 2 (HB blz. 156) en grammatica 2.1 (HB blz. 88)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -1244,7 +1244,7 @@
           "stof": "Lied Martinillo (delen A t/m D)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -1278,7 +1278,7 @@
           "stof": "Vitamine C"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -1304,7 +1304,7 @@
           "stof": "Paragraaf 3: Gevolgen veroveringen"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -1402,7 +1402,7 @@
           "stof": "Vitamine C"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -1492,7 +1492,7 @@
       ],
       "14": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -1502,7 +1502,7 @@
       ],
       "21": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -1586,7 +1586,7 @@
           "stof": "Bronnen (blz. 14), De eerste mens (H2 paragraaf 2-3), Het oude Egypte (H3 paragraaf 1-3)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -1774,7 +1774,7 @@
           "stof": "Vitamine C"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -1808,7 +1808,7 @@
           "stof": "Laat horen wie je bent"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -1932,7 +1932,7 @@
           "stof": "Samos"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -2098,7 +2098,7 @@
           "stof": "Woordjes Latijn les 1 en 2 (thema 1 t/m 4)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -2352,7 +2352,7 @@
           "stof": "Grammatica thema 1, specifiek les 3 (3.1, 3.2, 3.3)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -2362,7 +2362,7 @@
       ],
       "50": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -2396,7 +2396,7 @@
           "stof": "Samos-project"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -2566,7 +2566,7 @@
           "stof": "Bronnen (pagina 14), paragrafen 2 en 3 (hoofdstuk 2), paragrafen 1 t/m 3 (hoofdstuk 3), gekleurde vakken pagina 45, 46, 49-51"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -2682,7 +2682,7 @@
           "stof": "woorden Les 8 en 9, grammatica 8.1 t/m 9.2"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -2702,7 +2702,7 @@
       ],
       "50": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -2720,7 +2720,7 @@
           "stof": "Samos"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -2916,7 +2916,7 @@
       ],
       "41": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -3004,7 +3004,7 @@
           "stof": "Roald Dahl: The Twits"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -3048,7 +3048,7 @@
           "stof": "Voorbereiding op USO week 4"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -3094,7 +3094,7 @@
           "stof": "Conferentie Samos - onderhandelingen"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -3268,7 +3268,7 @@
           "stof": "Leesautobiografie"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -3538,7 +3538,7 @@
           "stof": "achtergronden TB46, tekst 9 inclusief woorden, woorden les 8 HB116, grammatica t/m HB88 (thema 2: HB82-88)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -3576,7 +3576,7 @@
           "stof": "Groepsscène met script, speelstijl, mise en scène, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, einde in freeze"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -3640,7 +3640,7 @@
       ],
       "50": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -3732,6 +3732,14 @@
           "type_kort": "PO",
           "beschrijving": "Praktische opdracht (knutselopdracht)",
           "stof": "Nader niet gespecificeerd in studiewijzer"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Hoofdstuk 1",
+          "stof": "Hoofdstuk 1"
         }
       ],
       "42": [
@@ -3866,7 +3874,7 @@
           "stof": "Lezen en Inleven"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -3982,7 +3990,7 @@
           "stof": "Zelfgeschreven script met aandacht voor speelstijl, mise en scène, spanningsopbouw, muziek, sfeer, theatervormgeving, dramatische cliffhanger, einde in freeze"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -3992,7 +4000,7 @@
       ],
       "50": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -4158,7 +4166,7 @@
           "stof": "Leesautobiografie"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -4202,7 +4210,7 @@
           "stof": "woorden les 2 en 3, grammatica 3.1 (Persoonsvorm en infinitivus), 3.2 (zelfstandig naamwoord – nominativus en accusativus), 3.3 (lidwoord - geslacht, getal en naamval)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -4246,7 +4254,7 @@
           "stof": "H4 paragrafen 1 tot en met 5"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -4282,7 +4290,7 @@
           "stof": "Goden thema (proloog p. 38, p. 40, epiloog p. 34)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -4368,7 +4376,7 @@
           "stof": "Improvisatie, expressie van emotie en gedachten, samenspel, mise-en-scène, spanningsboog"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -4378,7 +4386,7 @@
       ],
       "14": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -4524,7 +4532,7 @@
           "stof": "Chapter 3: Vocabulary & Grammar"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -4644,7 +4652,7 @@
           "stof": "unité 2, leçon 1"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -4680,7 +4688,7 @@
           "stof": "Grieks woordjes 2 t/m 4"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -4924,7 +4932,7 @@
           "stof": "production écrite, rédaction d'une carte de vœux"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -4978,7 +4986,7 @@
           "stof": "Grammatica en woorden thema 1"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -5006,7 +5014,7 @@
           "stof": "vocabulaire et grammaire unité 2, verbes réguliers (aimer) et irréguliers (être, avoir, faire)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -5216,7 +5224,7 @@
           "stof": "Alle liedjes"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -5278,7 +5286,7 @@
           "stof": "Blues compositie - Everybody ... Blues"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -5354,7 +5362,7 @@
           "stof": "5.3 Veerkracht en uitrekking (voorbereiding veerproef)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -5390,7 +5398,7 @@
           "stof": "Unité 2: leçon 1, 2, 3 - vocabulaire, prépositions de lieu, pronoms COD, passé composé avec avoir et être, verbes"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -5436,7 +5444,7 @@
       ],
       "51": [
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -5484,7 +5492,7 @@
           "stof": "Unit 2: sections 2.1, 2.2, 2.5 and vocabulary (science, technology, past simple, past continuous, used to, linking words)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -5542,7 +5550,7 @@
           "stof": "The Mandalorian (percussie en klok)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -5586,7 +5594,7 @@
           "stof": "Blues schema, composities"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -5612,7 +5620,7 @@
           "stof": "Zingdelen uit katernen"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -5678,7 +5686,7 @@
           "stof": "Veerkracht en uitrekking (Hoofdstuk 5.3)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -5810,7 +5818,7 @@
           "stof": "Vaste Voortekens, Ritme in het Raster"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -5828,7 +5836,7 @@
           "stof": "BagBeats composities"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -5970,7 +5978,7 @@
           "stof": "Zingen, dynamiek"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -6038,7 +6046,7 @@
           "stof": "Geleiders en isolatoren (Hoofdstuk 3)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -6064,7 +6072,7 @@
           "stof": "Blues, muzikale lagen"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -6098,7 +6106,7 @@
           "stof": "Hoofdstuk 2: Kleuren zien (2.2 alleen kleuren onder verschillende lampen), Schaduw (2.3 zonder verdieping), Spiegelbeelden bekijken (2.4 zonder verdieping)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -6182,6 +6190,14 @@
       ],
       "51": [
         {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "D-toets over Paragraaf 1 en 2",
+          "stof": "Paragraaf 1 en 2 (Wetenschappelijke Revolutie en Verlichting)"
+        },
+        {
           "vak": "Muziek",
           "vak_kort": "Mu",
           "type": "so",
@@ -6264,8 +6280,8 @@
       ],
       "4": [
         {
-          "vak": "Onbekend",
-          "vak_kort": "??",
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO (Grand Exam) over paragraaf 1 t/m 4",
@@ -6406,7 +6422,7 @@
           "stof": "Paragraaf 2.4 Spiegelbeelden (hoogtebepaling met spiegel)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -6432,7 +6448,7 @@
           "stof": "Hoofdstuk 2: Kleuren zien (alleen kleuren zien onder verschillende lampen), Schaduw (zonder verdieping), Spiegelbeelden (zonder verdieping)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -6528,6 +6544,14 @@
           "type_kort": "USO",
           "beschrijving": "USO Unité 2 – vocabulaire + grammaire",
           "stof": "Unité 2 (leçons 1, 2, 3): vocabulaire complet; grammaire: prépositions de lieu (grammar 1 p. 94), pronoms COD (2 p. 34), passé composé avec avoir et être (5 p. 35, doc extra), pronoms relatifs (4 p. 34), prépositions voor vervoermiddelen (3 p. 34)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO (Grand Exam) over Paragraaf 1 t/m 4",
+          "stof": "Paragraaf 1 t/m 4 (Hoofdstuk 2)"
         },
         {
           "vak": "Muziek",
@@ -6682,20 +6706,20 @@
       ],
       "51": [
         {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "D-toets over Paragraaf 1 en 2",
+          "stof": "Paragraaf 1 en 2 (Hoofdstuk 2)"
+        },
+        {
           "vak": "Muziek",
           "vak_kort": "Mu",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "Kerstquiz",
           "stof": "Ritme in het Raster, Vaste Voortekens, Ostinato, muzikale lagen, ST&P"
-        },
-        {
-          "vak": "Onbekend",
-          "vak_kort": "??",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "D-toets over Paragraaf 1 en 2",
-          "stof": "Paragraaf 1 en 2 (Hoofdstuk 2)"
         }
       ],
       "9": [
@@ -6870,7 +6894,7 @@
           "stof": "Chapter 2: Science and Technology"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -6968,7 +6992,7 @@
           "stof": "Paragraaf 2.4 Spiegelbeelden bekijken - spiegelwet toepassen bij het construeren van lichtstralen en blikveld construeren via spiegel"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -7144,6 +7168,14 @@
           "type_kort": "SO",
           "beschrijving": "SO unit 4: grammar, listening & writing",
           "stof": "Unit 4: grammar, listening, writing"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H4 deel 1 - Schriftelijk toetsje over §4.1+§4.2+§4.4 (individueel)",
+          "stof": "Hoofdstuk 4: §4.1, §4.2, §4.4 - Procentuele toe- en afname, frequentiediagrammen, histogrammen"
         }
       ],
       "50": [
@@ -7284,20 +7316,12 @@
       ],
       "51": [
         {
-          "vak": "Onbekend",
-          "vak_kort": "??",
-          "type": "so",
-          "type_kort": "SO",
-          "beschrijving": "SO H2 (§2.4 t/m §2.6)",
-          "stof": "Hoofdstuk 2: §2.4, §2.5, §2.6 - Zwaartelijnen, hoogtelijnen, oppervlakte driehoeken, parallellogrammen, trapezia"
-        },
-        {
           "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
-          "beschrijving": "SO H2 (§2.4 t/m §2.6) - Zwaartelijnen, hoogtelijnen, oppervlakte driehoeken, parallellogrammen en trapeziums",
-          "stof": "Hoofdstuk 2: §2.4, §2.5, §2.6"
+          "beschrijving": "SO H2 (§2.4 t/m §2.6)",
+          "stof": "Hoofdstuk 2: §2.4, §2.5, §2.6 - Zwaartelijnen, hoogtelijnen, oppervlakte driehoeken, parallellogrammen, trapezia"
         }
       ]
     },
@@ -7414,7 +7438,7 @@
           "stof": "2.2 Kleuren zien, 2.3 Schaduw, 2.4 Spiegelbeelden"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -7510,7 +7534,7 @@
           "stof": "Unit 1: Vocabulary, Grammar, Irregular Verbs, Listening, Sentence Creation"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -7560,7 +7584,7 @@
           "stof": "Werkwoordspelling (Taalverzorging C), p. 194-197 TB en p. 116-117 OB"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -7726,7 +7750,7 @@
           "stof": "Franse Revolutie"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -7812,7 +7836,7 @@
           "stof": null
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -7962,7 +7986,7 @@
           "stof": "Chapter 2 (Unit 2), Irregular Verbs Groups 1-11"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -8004,7 +8028,7 @@
           "stof": "H3: Paragraaf 3.4 Elektrische stroom (geleiders en isolatoren)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -8222,8 +8246,8 @@
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
-          "beschrijving": "SO H2 (§2.4 t/m §2.6) - Zwaartelijnen, hoogtelijnen, oppervlakte driehoeken en vierhoeken",
-          "stof": "Hoofdstuk 2: §2.4, §2.5, §2.6"
+          "beschrijving": "SO H2 (§2.4 t/m §2.6)",
+          "stof": "Hoofdstuk 2: §2.4, §2.5, §2.6 - Zwaartelijnen, hoogtelijnen, oppervlakte driehoek, parallellogram, trapezium"
         }
       ],
       "6": [
@@ -8486,7 +8510,7 @@
           "stof": "Kapitel 2"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -8536,7 +8560,7 @@
           "stof": "Geleiders en isolatoren (paragraaf 3.4 ontdekken en begrijpen)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -8564,7 +8588,7 @@
           "stof": "Sprachmittel S. 26 + S. 31"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -8598,7 +8622,7 @@
           "stof": "Taal en Cultuur (A 1, 2 en 4) en Verhalen en gedichten (D 1, 2 en 4)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -8800,7 +8824,7 @@
           "stof": "Werkwoordspelling C"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
@@ -8842,7 +8866,7 @@
           "stof": "Oorzaken Franse Revolutie, historische figuren en rollen"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -8930,7 +8954,7 @@
           "stof": "Cultuur: Triclinium, Fullonia, Pistrina, Thermae, Vesuvius"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
@@ -9152,7 +9176,7 @@
           "stof": "woorden en grammatica D37-38"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -9214,8 +9238,8 @@
           "stof": "Woorden les 9 t/m 13"
         },
         {
-          "vak": "Onbekend",
-          "vak_kort": "??",
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
           "beschrijving": "Proefwerk H3",
@@ -9486,8 +9510,8 @@
       ],
       "49": [
         {
-          "vak": "Onbekend",
-          "vak_kort": "??",
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
           "type": "proefwerk",
           "type_kort": "PW",
           "beschrijving": "Proefwerk VS (besproken in week 49)",
@@ -9600,7 +9624,7 @@
           "stof": "Paragraaf 1.1 t/m 1.4 (Elektrische apparaten, Elektrische energie, Spanning en stroomsterkte, Weerstand)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -9850,7 +9874,7 @@
           "stof": "Th 4 BS 1-4 en 8 + aantekeningen (geslachtsorganen, puberteit, vruchtbaar worden, zwanger worden, geboorte)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -9972,7 +9996,7 @@
           "stof": "Vocabulaire, grammaire et verbes unité 1 (leçons 1, 2, 3)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -10438,7 +10462,7 @@
           "stof": "H1.3 en H1.4 (fascisme, WOII oorzaken, verzet en collaboratie)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -10724,8 +10748,8 @@
       ],
       "49": [
         {
-          "vak": "Onbekend",
-          "vak_kort": "??",
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
           "type": "proefwerk",
           "type_kort": "PW",
           "beschrijving": "Proefwerk bespreken",
@@ -10924,7 +10948,7 @@
           "stof": "§4.2 Snelheid"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -10952,7 +10976,7 @@
           "stof": "H1.3 en H1.4 (fascisme, WWII context, verzet en collaboratie)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -11300,8 +11324,8 @@
       ],
       "49": [
         {
-          "vak": "Onbekend",
-          "vak_kort": "??",
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
           "type": "proefwerk",
           "type_kort": "PW",
           "beschrijving": "Proefwerk bespreken",
@@ -11490,7 +11514,7 @@
           "stof": "Vermaken en ontroeren: C (Opvallend schrijven)"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -11626,7 +11650,7 @@
           "stof": "Odyssee"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -11958,7 +11982,7 @@
           "stof": "Grammatik A+B S. 52, Grammatik blok 1-2 S. 280-281, blok 5-6 S. 283"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -12224,7 +12248,7 @@
           "stof": "Unit 1: A new look - All vocabulary, grammar, reading, writing, irregular verbs"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -13118,7 +13142,7 @@
           "stof": "Grammatik A+B S. 52 / Grammatik blok 1-2 S. 280-281 / blok 5-6 S. 283"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",
@@ -13218,7 +13242,7 @@
           "stof": "Unit 3: Present & Past Speculation, used to & would, Phrasal Verbs, Writing"
         },
         {
-          "vak": "wiskunde",
+          "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
           "type_kort": "PW",

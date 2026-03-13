@@ -3,6 +3,7 @@
 
 import json
 import os
+import re
 import unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -23,6 +24,31 @@ VAKANTIE_WEEKS = [43, 52, 1, 9, 18, 19]
 
 # Onderbouw locatie-indeling: A-F = Socrates, G-Q = Athena
 SOCRATES_LETTERS = set("ABCDEF")
+
+# Docentcode → vak mapping (afgeleid uit bestanden met bekend vak, ≥80% betrouwbaar)
+DOCENT_VAK = {
+    "AUS": "Muziek", "AVP": "Geschiedenis", "BAR": "Wiskunde",
+    "BOO": "Latijn", "BOS": "Kunst - BV", "BRD": "Geschiedenis",
+    "BRM": "Nederlands", "DDP": "Nederlands", "DHE": "Duits",
+    "DJK": "Muziek", "DWB": "Scheikunde", "EBE": "Drama",
+    "ESC": "Drama", "FER": "Natuurkunde", "GDR": "Wiskunde",
+    "GES": "Geschiedenis", "GRN": "Muziek", "HDE": "Duits",
+    "HPR": "Wiskunde", "HSC": "Wiskunde", "IST": "Engels",
+    "JCB": "Biologie", "JJO": "Wiskunde", "JNG": "Engels",
+    "JST": "Engels", "JVZ": "Engels", "JWI": "Wiskunde",
+    "KFM": "Frans", "KOM": "Wiskunde", "KUA": "Kunst - BV",
+    "LIN": "Engels", "LNS": "Engels", "LSK": "Nederlands",
+    "LVL": "Nederlands", "LWN": "Aardrijkskunde", "MER": "Scheikunde",
+    "MHA": "Engels", "MKP": "Scheikunde", "MRA": "Duits",
+    "MRL": "Frans", "NBL": "Nederlands", "NBR": "Wiskunde",
+    "NHE": "Drama", "NVM": "Nederlands", "NVS": "Nederlands",
+    "OJN": "Engels", "PHN": "Frans", "RET": "Engels",
+    "RJO": "Wiskunde", "RTP": "Geschiedenis", "SGL": "Muziek",
+    "SMI": "Scheikunde", "SON": "Kunst - BV", "TVL": "Latijn",
+    "VHL": "Kunst - BV", "VHN": "Geschiedenis", "VKO": "Kunst - BV",
+    "VRT": "Scheikunde", "WAG": "Natuurkunde", "WLT": "Wiskunde",
+    "ZAN": "Natuurkunde",
+}
 
 
 def classify_locatie(klas: str) -> str:
@@ -132,6 +158,20 @@ def detect_vak_from_filename(bron: str) -> str | None:
     return None
 
 
+def detect_vak_from_docentcode(bron: str) -> str | None:
+    """Detecteer vak via docentcode (3-4 hoofdletters) in bestandsnaam."""
+    name = os.path.splitext(os.path.basename(bron))[0]
+    # Zoek 3-4 letter uppercase codes op logische posities
+    candidates = re.findall(r'(?:^|[\s_\-])([A-Z]{3,4})(?:[\s_\-.]|$)', name)
+    end_match = re.search(r'[^A-Z]([A-Z]{3,4})$', name)
+    if end_match:
+        candidates.append(end_match.group(1))
+    for code in candidates:
+        if code in DOCENT_VAK:
+            return DOCENT_VAK[code]
+    return None
+
+
 def detect_vak_from_beschrijving(beschrijving: str) -> str | None:
     """Detecteer vak uit toetsbeschrijving als laatste fallback.
 
@@ -231,8 +271,12 @@ def build_data():
 
             vak = (meta.get("vak")
                    or detect_vak_from_filename(doc.get("bron_bestand", ""))
+                   or detect_vak_from_docentcode(doc.get("bron_bestand", ""))
                    or detect_vak_from_beschrijving(toets.get("beschrijving", ""))
                    or "Onbekend")
+            # Normaliseer wiskunde-varianten (Wiskunde A/B/C/D → Wiskunde)
+            if "iskunde" in vak.lower() or vak.lower() == "wiskunde":
+                vak = "Wiskunde"
             # Gecombineerde studiewijzers: Latijn/Grieks-correctie
             if vak == "Latijn":
                 desc_lower = beschrijving
