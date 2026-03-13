@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-13T10:44:52",
+  "gegenereerd": "2026-03-13T10:55:17",
   "kalender": {
     "module_weken": {
       "1": [
@@ -554,8 +554,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "proefwerk",
-          "type_kort": "PW",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic Test M1 PW Prep - Unit 1 & 2: all vocabulary, all grammar + reading test",
           "stof": "Unit 1 & 2: all vocabulary, all grammar, reading test"
         }
@@ -632,8 +632,8 @@
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
-          "type": "mondeling",
-          "type_kort": "MO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Oefentoets H1 p.14 t/m 17 (bronnen); H2 §2 en 3; H3§1",
           "stof": "Bronnen (H1 p.14-17), H2 §2 en 3, H3 §1"
         },
@@ -756,8 +756,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "proefwerk",
-          "type_kort": "PW",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic Test M2 PW: Unit 4 & 5 all vocabulary, all grammar + reading test",
           "stof": "Unit 4 & 5: all vocabulary, all grammar + reading test"
         },
@@ -924,8 +924,8 @@
         {
           "vak": "Rekenen",
           "vak_kort": "Re",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Nulmeting afnemen",
           "stof": null
         }
@@ -1012,8 +1012,8 @@
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
-          "type": "mondeling",
-          "type_kort": "MO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets verbuigingsgroepen (diagnostische toets)",
           "stof": "Grammatica 6.1 en 7.2 - verbuigingsgroepen"
         }
@@ -1022,8 +1022,8 @@
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
-          "type": "mondeling",
-          "type_kort": "MO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets woorden 2-9 (diagnostische toets)",
           "stof": "Woorden lessen 2 t/m 9"
         }
@@ -1194,8 +1194,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "proefwerk",
-          "type_kort": "PW",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic Test M1 PW Prep - Unit 1 & 2: all vocabulary, all grammar + reading test",
           "stof": "Unit 1 & 2: all vocabulary, all grammar, reading"
         },
@@ -1614,8 +1614,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets proefwerkstof",
           "stof": "Alle grammatica (thema 1, naamvallen, servus, femina, lupa) en woordjes geleerd tot nu toe"
         },
@@ -2066,8 +2066,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets proefwerkstof",
           "stof": "Alle grammatica en woordjes geleerd tot dan toe: Inleiding p.8-16, Grammatica thema 1 (HB p.61-76, overzichten p.103-106), Woorden thema 1 t/m 4 (HB p.115-116), teksten 1-2 inclusief vertalingen"
         }
@@ -2456,8 +2456,8 @@
         {
           "vak": "Rekenen",
           "vak_kort": "Re",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Nulmeting afnemen",
           "stof": null
         }
@@ -2742,8 +2742,8 @@
         {
           "vak": "Rekenen",
           "vak_kort": "Re",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Nulmeting afnemen",
           "stof": "Rekenboek klas 1 - nulmeting"
         }
@@ -3016,8 +3016,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic test unit 4 and 5",
           "stof": "Unit 4: People, Unit 5: Education"
         }
@@ -3410,8 +3410,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic test",
           "stof": "Unit 2: Vocabulary (Words 2.1-2.5, p.33)"
         },
@@ -3550,8 +3550,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic test Unit 4 & 5",
           "stof": "Unit 4 & 5: Vocabulary (Words 4.1-4.7, 5.1-5.7), Grammar (Comparatives & superlatives, have to/don't have to, must/mustn't, should/shouldn't, past simple)"
         }
@@ -3948,8 +3948,8 @@
         {
           "vak": "Frans",
           "vak_kort": "Fr",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Test-D U2+3 (diagnostische/oefentoets)",
           "stof": "Unité 2 en 3"
         }
@@ -3958,16 +3958,16 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic test Unit 4 & 5",
           "stof": "Unit 4 & 5: Vocabulary, Grammar (Comparatives & Superlatives, have to/don't have to, must/musn't, should/shouldn't, Past simple), Listening, Reading, Speaking, Writing"
         },
         {
           "vak": "Frans",
           "vak_kort": "Fr",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Test-D U2+3 (diagnostische toets)",
           "stof": "Unité 2 + Unité 3"
         },
@@ -4072,8 +4072,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic test",
           "stof": "Unit 1 + 2 vocabulary en grammar"
         },
@@ -4222,16 +4222,16 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic PW",
           "stof": "Unit 4 & 5 Vocabulary"
         },
         {
           "vak": "Frans",
           "vak_kort": "Fr",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Test diagnostique Unité 3 (Diagnostische test)",
           "stof": "Unité 3"
         },
@@ -4426,16 +4426,16 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "mondeling",
-          "type_kort": "MO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic test",
           "stof": "Unit 1 + 2: Vocabulary, Grammar, Reading"
         },
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Oefentoets / benoemblad",
           "stof": "Inleiding en thema 1"
         }
@@ -4544,16 +4544,16 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic PW",
           "stof": "Unit 4 & 5"
         },
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Oefentoets GRIEKS",
           "stof": "Grieks: thema 1 totaal"
         },
@@ -4568,8 +4568,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Oefentoets LATIJN",
           "stof": "Latijn: thema 2 totaal"
         }
@@ -4998,8 +4998,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic test unit 4 and 5",
           "stof": "Unit 4: People en Unit 5: Education"
         }
@@ -6216,8 +6216,8 @@
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets over Paragraaf 1 en 2",
           "stof": "Paragraaf 1 en 2 (Wetenschappelijke Revolutie en Verlichting)"
         },
@@ -6732,8 +6732,8 @@
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets over Paragraaf 1 en 2",
           "stof": "Paragraaf 1 en 2 (Hoofdstuk 2)"
         },
@@ -7098,6 +7098,14 @@
           "type_kort": "SO",
           "beschrijving": "SO Werkwoordspelling (Taalverzorging C)",
           "stof": "Werkwoordspelling (Taalverzorging C), p. 194-197 TB en p. 116-117 OB"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "SO Werkwoordspelling (Taalverzorging C) incl. D-toets",
+          "stof": "Taalverzorging C, p. 194-197 TB en p. 116-117 OB"
         }
       ],
       "49": [
@@ -7120,8 +7128,8 @@
         {
           "vak": "Nederlands",
           "vak_kort": "Ne",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets Werkwoordspelling",
           "stof": "Werkwoordspelling, Taalverzorging C"
         }
@@ -7216,8 +7224,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic test unit 4 and 5",
           "stof": "Unit 4 and 5"
         }
@@ -7606,6 +7614,14 @@
           "type_kort": "SO",
           "beschrijving": "SO Werkwoordspelling (Taalverzorging C)",
           "stof": "Werkwoordspelling (Taalverzorging C), p. 194-197 TB en p. 116-117 OB"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "SO Werkwoordspelling (Taalverzorging C) incl. D-toets",
+          "stof": "Werkwoordspelling (p. 194-197 TB en p. 116-117 OB)"
         },
         {
           "vak": "Wiskunde",
@@ -8482,8 +8498,8 @@
         {
           "vak": "Duits",
           "vak_kort": "Du",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Oefentoets K4+K5+K6",
           "stof": "Kapitel 4, 5, 6"
         },
@@ -8528,8 +8544,8 @@
         {
           "vak": "Duits",
           "vak_kort": "Du",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Oefentoets Kapitel 2",
           "stof": "Kapitel 2"
         },
@@ -8554,18 +8570,10 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic Test Chapter 2",
           "stof": "Unit 2 Words, Grammar, Use of English, and irregular verbs – groups 1-11"
-        },
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
-          "beschrijving": "Diagnostic Test Chapter 2",
-          "stof": "Unit 2 Words, Grammar, Use of English, irregular verbs – groups 1-11"
         },
         {
           "vak": "Grieks",
@@ -8600,6 +8608,14 @@
           "type_kort": "SO",
           "beschrijving": "SO Lernliste N-D S. 30 + sein",
           "stof": "Lernliste N-D S. 30 + sein"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Oefentoets Kapitel 1",
+          "stof": "Kapitel 1"
         }
       ],
       "39": [
@@ -8784,8 +8800,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic Test Unit 5",
           "stof": "Unit 5 - Words, Grammar, Use of English, Word Store, Listening"
         },
@@ -9062,8 +9078,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic Test Unit 7 - Words (+Word Store), Grammar, Listening, Writing",
           "stof": "Unit 7: Words, Word Store, Grammar, Listening, Writing"
         }
@@ -9072,8 +9088,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic Test Unit 8 - Words (+Word Store), Grammar, Listening, Writing",
           "stof": "Unit 8: Words, Word Store, Grammar, Listening, Writing"
         }
@@ -9360,16 +9376,16 @@
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostische Toets Les 17+18 woorden + grammatica (formatief, correctiemodel mee naar huis)",
           "stof": "Woorden les 17+18, grammatica les 17+18"
         },
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostisch USO over les 40-42 (Praedicatief/Attributief en Trappen van vergelijking)",
           "stof": "Les 40, 41, 42 - Praedicatief/Attributief en Trappen van vergelijking"
         }
@@ -9678,8 +9694,8 @@
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostisch USO woorden t/m 7",
           "stof": "woorden t/m 7"
         }
@@ -10620,8 +10636,8 @@
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets over blz. 17 t/m 20",
           "stof": "blz. 17 t/m 20 (fascisme, Weimar, Hitler)"
         },
@@ -10984,8 +11000,8 @@
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
-          "type": "so",
-          "type_kort": "SO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets over blz. 17 t/m 20",
           "stof": "blz. 17 t/m 20 (fascisme, Weimar, Hitler)"
         }
@@ -11246,8 +11262,8 @@
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostische Toets Les 17+18 woorden + grammatica",
           "stof": "Woorden + grammatica les 17+18"
         }
@@ -11694,8 +11710,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostische USO over les 40-42 (Praedicatief/Attributief en Trappen van vergelijking)",
           "stof": "Les 40, 41, 42 - Praedicatief/Attributief en Trappen van vergelijking"
         }
@@ -11972,8 +11988,8 @@
         {
           "vak": "Natuurkunde",
           "vak_kort": "Na",
-          "type": "mondeling",
-          "type_kort": "MO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostische toets §2.2 t/m §2.4",
           "stof": "Hoofdstuk 2 (Licht) §2.2 t/m §2.4"
         },
@@ -12336,8 +12352,8 @@
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D-toets",
           "stof": "Grammatica onderdeel D (het werkwoord), waarschijnlijk ter voorbereiding op proefwerk"
         }
@@ -12346,8 +12362,8 @@
         {
           "vak": "Natuurkunde",
           "vak_kort": "Na",
-          "type": "mondeling",
-          "type_kort": "MO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostische toets §2.2 t/m §2.4",
           "stof": "Hoofdstuk 2 Licht - paragrafen 2.2 t/m 2.4"
         }
@@ -12734,8 +12750,8 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "proefwerk",
-          "type_kort": "PW",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostic PW unit 4 + 5",
           "stof": "Unit 4 + 5"
         },
@@ -13030,8 +13046,8 @@
         {
           "vak": "Natuurkunde",
           "vak_kort": "Na",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Diagnostische toets §4.2 t/m §4.4",
           "stof": "§4.2 Snelheid, §4.3 Versnelling, §4.4 Diagram van de afstand"
         }

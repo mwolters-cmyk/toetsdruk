@@ -138,7 +138,7 @@ VAK_AFKORTINGEN = {
 TYPE_AFKORTINGEN = {
     "proefwerk": "PW", "so": "SO", "uso": "USO", "po": "PO",
     "mondeling": "MO", "presentatie": "PR", "portfolio": "PF",
-    "handelingsdeel": "HD", "anders": "?",
+    "handelingsdeel": "HD", "oefentoets": "Oef", "anders": "?",
 }
 
 
@@ -380,6 +380,16 @@ def build_data():
                 if "grieks" in desc_lower and "latijn" not in desc_lower:
                     vak = "Grieks"
             toets_type = toets.get("type", "anders")
+
+            # Herclassificeer oefentoetsen/diagnostische toetsen → "oefentoets"
+            OEFENTOETS_KEYWORDS = [
+                "oefentoets", "diagnostisch", "diagnostic", "d-toets",
+                "nulmeting", "formatief", "practice test", "practice exam",
+            ]
+            desc_check = beschrijving_plus.lower()
+            if any(kw in desc_check for kw in OEFENTOETS_KEYWORDS):
+                toets_type = "oefentoets"
+
             dedup_key = (klas, week, vak, toets_type)
 
             if dedup_key in seen:

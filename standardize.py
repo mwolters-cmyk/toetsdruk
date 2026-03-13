@@ -62,6 +62,8 @@ TOETSTYPEN die je moet herkennen:
 - portfolio: doorlopende verzameling werk
 - handelingsdeel (hd): voldaan/niet-voldaan onderdeel
 - presentatie: presentatieopdracht
+- oefentoets: diagnostische toets, oefentoets, d-toets, nulmeting, formatieve toets, \
+practice test — NIET summatief maar wel relevant om te registreren
 - anders: alles wat niet in bovenstaande past
 
 INSTRUCTIES:
@@ -74,8 +76,9 @@ of het in de toetsweek valt, en de toetsstof.
    - "laag": impliciet of onduidelijk
 4. Wees CONSERVATIEF: liever een toets missen dan er een verzinnen.
 5. Als de tekst geen toetsen bevat (bijv. alleen een begrippenlijst), retourneer een lege lijst.
-6. Huiswerk, oefenopgaven en diagnostische toetsen zijn GEEN echte toetsen tenzij ze \
-expliciet als SO/USO/toets worden benoemd.
+6. Huiswerk en oefenopgaven (die niet als toets benoemd worden) zijn GEEN toetsen.
+7. Diagnostische toetsen, oefentoetsen, d-toetsen en nulmetingen WEL opnemen \
+als type "oefentoets" — ook als ze niet meetellen voor het cijfer.
 """
 
 JSON_SCHEMA = {
@@ -89,7 +92,8 @@ JSON_SCHEMA = {
                     "type": {
                         "type": "string",
                         "enum": ["proefwerk", "so", "uso", "po", "mondeling",
-                                 "portfolio", "handelingsdeel", "presentatie", "anders"]
+                                 "portfolio", "handelingsdeel", "presentatie",
+                                 "oefentoets", "anders"]
                     },
                     "beschrijving": {"type": "string"},
                     "week": {"type": ["integer", "null"]},
