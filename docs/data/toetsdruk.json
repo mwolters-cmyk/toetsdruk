@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-13T10:16:40",
+  "gegenereerd": "2026-03-13T10:25:24",
   "kalender": {
     "module_weken": {
       "1": [
@@ -5898,6 +5898,14 @@
       ],
       "5": [
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Luistertoets",
+          "stof": "Luisteropdrachten K4+5"
+        },
+        {
           "vak": "Engels",
           "vak_kort": "En",
           "type": "so",
@@ -6152,6 +6160,14 @@
           "type_kort": "PR",
           "beschrijving": "Presentatie Restaurantspiel",
           "stof": "Restaurantspiel (Gespräch)"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Luistertoets (luisteropdrachten K4+5 opnieuw maken)",
+          "stof": "Luisteropdrachten K4, K5"
         },
         {
           "vak": "Grieks",
@@ -9508,8 +9524,8 @@
       ],
       "40": [
         {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
+          "vak": "Biologie",
+          "vak_kort": "Bi",
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO Thema 1 Verbranding en ademhaling (BS 1-7 en Aantekeningen startles)",
@@ -9910,8 +9926,8 @@
       ],
       "40": [
         {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
+          "vak": "Biologie",
+          "vak_kort": "Bi",
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO Thema 1: Verbranding en ademhaling (BS 1–7 en Aantekeningen startles)",
@@ -10132,20 +10148,20 @@
       ],
       "40": [
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Herhaling brugklas en Thema 1 BS1–7",
+          "stof": "Thema 1 (Verbranding en ademhaling): BS1–7, aantekeningen en startles"
+        },
+        {
           "vak": "Frans",
           "vak_kort": "Fr",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO vocabulaire unité 1 (leçons 1 et 2)",
           "stof": "Vocabulaire unité 1 leçons 1 et 2"
-        },
-        {
-          "vak": "Onbekend",
-          "vak_kort": "??",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO Herhaling brugklas en Thema 1 BS1–7",
-          "stof": "Thema 1 (Verbranding en ademhaling): BS1–7, aantekeningen en startles"
         }
       ],
       "3": [
@@ -10516,20 +10532,20 @@
       ],
       "40": [
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Thema 1: Verbranding en ademhaling (BS 1-7 en aantekeningen startles)",
+          "stof": "Thema 1: Verbranding en ademhaling, BS 1-7, aantekeningen startles"
+        },
+        {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "S.O. D37-38 (woorden en grammatica)",
           "stof": "Woorden D37-38, grammatica D37-38 (futurum)"
-        },
-        {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO Thema 1: Verbranding en ademhaling (BS 1-7 en aantekeningen startles)",
-          "stof": "Thema 1: Verbranding en ademhaling, BS 1-7, aantekeningen startles"
         }
       ],
       "42": [
@@ -10656,8 +10672,8 @@
           "stof": "H2: Demografische dimensie, De stad in 2050"
         },
         {
-          "vak": "Duits",
-          "vak_kort": "Du",
+          "vak": "Frans",
+          "vak_kort": "Fr",
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO Grammatik Kapitel 2+5",
@@ -10854,6 +10870,14 @@
     "3E": {
       "40": [
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Thema 1, Verbranding en ademhaling (BS 1–7 en Aantekeningen en startles)",
+          "stof": "Thema 1: Verbranding en ademhaling, BS 1–7, aantekeningen startles"
+        },
+        {
           "vak": "Frans",
           "vak_kort": "Fr",
           "type": "so",
@@ -10868,14 +10892,6 @@
           "type_kort": "SO",
           "beschrijving": "S.O. D37-38 (woorden en grammatica)",
           "stof": "woorden D37-38, grammatica D37-38"
-        },
-        {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO Thema 1, Verbranding en ademhaling (BS 1–7 en Aantekeningen en startles)",
-          "stof": "Thema 1: Verbranding en ademhaling, BS 1–7, aantekeningen startles"
         }
       ],
       "42": [
@@ -11206,6 +11222,14 @@
         {
           "vak": "Aardrijkskunde",
           "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5: 5.1 t/m 5.4 (of 5.5)",
+          "stof": "H5: 5.1 t/m 5.4 (mogelijk 5.5) - India: land verschillen, Het land van de moesson, Booming India/Verstedelijking, De Malediven"
+        },
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
           "type": "po",
           "type_kort": "PO",
           "beschrijving": "Portfolio India: Vorming van de Himalaya",
@@ -11226,14 +11250,6 @@
           "type_kort": "?",
           "beschrijving": "Diagnostische Toets Les 17+18 woorden + grammatica",
           "stof": "Woorden + grammatica les 17+18"
-        },
-        {
-          "vak": "Onbekend",
-          "vak_kort": "??",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO H5: 5.1 t/m 5.4 (of 5.5)",
-          "stof": "H5: 5.1 t/m 5.4 (mogelijk 5.5) - India: land verschillen, Het land van de moesson, Booming India/Verstedelijking, De Malediven"
         }
       ],
       "12": [
@@ -11810,20 +11826,20 @@
       ],
       "40": [
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Thema 1 Verbranding en ademhaling (BS 1-7 en aantekeningen startles)",
+          "stof": "Thema 1 Verbranding en ademhaling BS 1-7, aantekeningen startles"
+        },
+        {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "mondeling",
           "type_kort": "MO",
           "beschrijving": "Leesles - taal en identiteit (thema en motieven)",
           "stof": "Taal en identiteit: E (Thema en motieven)"
-        },
-        {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO Thema 1 Verbranding en ademhaling (BS 1-7 en aantekeningen startles)",
-          "stof": "Thema 1 Verbranding en ademhaling BS 1-7, aantekeningen startles"
         }
       ],
       "46": [
@@ -11838,20 +11854,20 @@
       ],
       "49": [
         {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5: 5.1 t/m 5.4 (of 5.5)",
+          "stof": "H5: India (5.1-5.4, mogelijk 5.5)"
+        },
+        {
           "vak": "Biologie",
           "vak_kort": "Bi",
           "type": "proefwerk",
           "type_kort": "PW",
           "beschrijving": "PW bespreken - Staatsinrichting VS",
           "stof": "Staatsinrichting VS (5.1)"
-        },
-        {
-          "vak": "Onbekend",
-          "vak_kort": "??",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO H5: 5.1 t/m 5.4 (of 5.5)",
-          "stof": "H5: India (5.1-5.4, mogelijk 5.5)"
         }
       ],
       "52": [

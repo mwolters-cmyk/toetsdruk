@@ -110,6 +110,7 @@ DOCENT_VAK = {
 # Key: (deel van) bestandsnaam (lowercase), Value: vaknaam
 MANUAL_OVERRIDES = {
     "studiewijzer klas 3 gh module 2 25-26": "Wiskunde",  # Goudriaan (GDR)
+    "sw k3m1 25-26": "Biologie",  # Centrale Bio studiewijzer klas 3
 }
 
 
@@ -262,7 +263,8 @@ def detect_vak_from_beschrijving(beschrijving: str) -> str | None:
                      "oppervlakte driehoek", "procenten", "evenwijdige lijnen",
                      "exceltoets"],
         "Scheikunde": ["verbranding en ademhaling"],
-        "Aardrijkskunde": ["himalaya", "croquis", "demografie", "croquisatlas"],
+        "Aardrijkskunde": ["himalaya", "croquis", "demografie", "croquisatlas",
+                           "moesson", "verstedelijking", "malediven"],
         "Nederlands": ["leesles", "fictie en werkelijkheid", "vermaken en ontroeren",
                        "taal en identiteit", "opvallend schrijven"],
         "Geschiedenis": ["franse revolutie", "staten-generaal", "rechtszaak",
@@ -327,6 +329,26 @@ def build_data():
         if not klas or not leerjaar or leerjaar > 3:
             continue  # Alleen onderbouw
 
+        # Bepaal vak op bestandsniveau (eenmalig per document)
+        bron = doc.get("bron_bestand", "")
+        file_vak = (meta.get("vak")
+                    or detect_vak_from_override(bron)
+                    or detect_vak_from_filename(bron)
+                    or detect_vak_from_docentcode(bron))
+
+        # Als bestandsniveau geen vak oplevert: probeer alle beschrijvingen
+        # in het bestand. Als meerdere toetsen hetzelfde vak aanwijzen, gebruik dat.
+        if not file_vak:
+            detected_vaks = set()
+            for t in doc.get("toetsen", []):
+                combo = ((t.get("beschrijving") or "") + " " +
+                         (t.get("stof") or "")).strip()
+                v = detect_vak_from_beschrijving(combo)
+                if v:
+                    detected_vaks.add(v)
+            if len(detected_vaks) == 1:
+                file_vak = detected_vaks.pop()
+
         for toets in doc.get("toetsen", []):
             # Filter: proefwerkweek-toetsen uitsluiten
             if toets.get("in_toetsweek", False):
@@ -341,11 +363,11 @@ def build_data():
             if not week:
                 continue
 
-            vak = (meta.get("vak")
-                   or detect_vak_from_override(doc.get("bron_bestand", ""))
-                   or detect_vak_from_filename(doc.get("bron_bestand", ""))
-                   or detect_vak_from_docentcode(doc.get("bron_bestand", ""))
-                   or detect_vak_from_beschrijving(toets.get("beschrijving", ""))
+            # Combineer beschrijving + stof voor bredere detectie
+            beschrijving_plus = ((toets.get("beschrijving") or "") + " " +
+                                 (toets.get("stof") or "")).strip()
+            vak = (file_vak
+                   or detect_vak_from_beschrijving(beschrijving_plus)
                    or "Onbekend")
             # Normaliseer wiskunde-varianten (Wiskunde A/B/C/D → Wiskunde)
             if "iskunde" in vak.lower() or vak.lower() == "wiskunde":
