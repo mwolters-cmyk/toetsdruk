@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-13T10:25:24",
+  "gegenereerd": "2026-03-13T10:44:52",
   "kalender": {
     "module_weken": {
       "1": [
@@ -65,7 +65,7 @@
       43,
       52,
       1,
-      9,
+      8,
       18,
       19
     ],
@@ -922,8 +922,8 @@
       ],
       "36": [
         {
-          "vak": "Wiskunde",
-          "vak_kort": "Wi",
+          "vak": "Rekenen",
+          "vak_kort": "Re",
           "type": "anders",
           "type_kort": "?",
           "beschrijving": "Nulmeting afnemen",
@@ -1104,8 +1104,8 @@
           "stof": "Leesautobiografie"
         },
         {
-          "vak": "Wiskunde",
-          "vak_kort": "Wi",
+          "vak": "Rekenen",
+          "vak_kort": "Re",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "Rekentoets (eerste moment)",
@@ -2126,8 +2126,8 @@
           "stof": "Grammatica A t/m E (oef. p. 84 t/m 93 + tb)"
         },
         {
-          "vak": "Wiskunde",
-          "vak_kort": "Wi",
+          "vak": "Rekenen",
+          "vak_kort": "Re",
           "type": "proefwerk",
           "type_kort": "PW",
           "beschrijving": "Rekentoets",
@@ -2454,8 +2454,8 @@
       ],
       "37": [
         {
-          "vak": "Wiskunde",
-          "vak_kort": "Wi",
+          "vak": "Rekenen",
+          "vak_kort": "Re",
           "type": "anders",
           "type_kort": "?",
           "beschrijving": "Nulmeting afnemen",
@@ -2740,8 +2740,8 @@
       ],
       "36": [
         {
-          "vak": "Wiskunde",
-          "vak_kort": "Wi",
+          "vak": "Rekenen",
+          "vak_kort": "Re",
           "type": "anders",
           "type_kort": "?",
           "beschrijving": "Nulmeting afnemen",
@@ -2758,8 +2758,8 @@
           "stof": "Samos"
         },
         {
-          "vak": "Wiskunde",
-          "vak_kort": "Wi",
+          "vak": "Rekenen",
+          "vak_kort": "Re",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "Rekentoets",

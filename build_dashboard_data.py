@@ -20,7 +20,7 @@ MODULE_WEEKS = {
     3: list(range(12, 27)),                           # wk 12-26
 }
 TOETSWEEK_WEEKS = [47, 48, 10, 11, 25, 26]
-VAKANTIE_WEEKS = [43, 52, 1, 9, 18, 19]
+VAKANTIE_WEEKS = [43, 52, 1, 8, 18, 19]
 
 # Onderbouw locatie-indeling: A-F = Socrates, G-Q = Athena
 SOCRATES_LETTERS = set("ABCDEF")
@@ -130,6 +130,7 @@ VAK_AFKORTINGEN = {
     "Muziek": "Mu", "Drama": "Dr", "Techniek": "Te",
     "Lichamelijke opvoeding": "LO", "Godsdienst": "Go",
     "Mens en maatschappij": "M&M", "Mens en natuur": "M&N",
+    "Rekenen": "Re",
     "Onbekend": "??",
 }
 
@@ -202,7 +203,8 @@ def detect_vak_from_filename(bron: str) -> str | None:
         "Frans": ["français", "francais", "fran ", "planning fa ", "planning période",
                   "planning periode", " fa p"],
         "Duits": ["deutsch", "duits", " du ", "2k m2 2526", "2m m2 2526"],
-        "Wiskunde": ["wiskunde", " wi ", "wis ", "rekenen", "rekenlessen"],
+        "Wiskunde": ["wiskunde", " wi ", "wis "],
+        "Rekenen": ["rekenen", "rekenlessen"],
         "Biologie": ["biologie", "bio ", "k3m1 biologie", "k3m2"],
         "Natuurkunde": ["natuurkunde", "nask", "elektriciteit", "kracht en beweging",
                         "warmte", "geluid", "licht fer"],
