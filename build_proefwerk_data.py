@@ -276,6 +276,8 @@ def build_proefwerk_data():
         file_vak = detect_file_vak(doc)
 
         for toets in doc.get("toetsen", []):
+            if not isinstance(toets, dict):
+                continue
             # INVERSE filter: alleen proefwerkweek-toetsen
             if not toets.get("in_toetsweek", False):
                 continue

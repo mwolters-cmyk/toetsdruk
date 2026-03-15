@@ -44,12 +44,12 @@
         return parseInt(state.jaarlaag) >= 4;
     }
 
-    // ── Module mapping: klas 6 gebruikt modules 4-5-6 ──
+    // ── Module mapping: klas 6 gebruikt modules 4-5 ──
     function getEffectiveModule() {
         const lj = parseInt(state.jaarlaag);
         const mod = parseInt(state.module);
         if (lj === 6) {
-            return String(mod + 3); // knop 1→mod 4, knop 2→mod 5, knop 3→mod 6
+            return String(mod + 3); // knop 1→mod 4, knop 2→mod 5
         }
         return state.module;
     }
@@ -61,11 +61,18 @@
         if (lj === 6) {
             btns[0].textContent = '4';
             btns[1].textContent = '5';
-            btns[2].textContent = '6';
+            btns[2].style.display = 'none';
+            // Als module 3 actief was, reset naar module 1 (=4)
+            if (state.module === '3') {
+                btns[2].classList.remove('active');
+                btns[0].classList.add('active');
+                state.module = '1';
+            }
         } else {
             btns[0].textContent = '1';
             btns[1].textContent = '2';
             btns[2].textContent = '3';
+            btns[2].style.display = '';
         }
     }
 
@@ -77,7 +84,7 @@
         const locatieGroup = document.getElementById('locatie-btns').closest('.control-group');
         locatieGroup.style.display = isBovenbouw() ? 'none' : '';
 
-        // Update module labels (klas 6 = modules 4-5-6)
+        // Update module labels (klas 6 = modules 4-5)
         updateModuleLabels();
 
         if (isBovenbouw()) {

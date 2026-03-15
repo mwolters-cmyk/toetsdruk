@@ -18,10 +18,9 @@ MODULE_WEEKS = {
     1: list(range(36, 49)),                          # wk 36-48
     2: list(range(49, 53)) + list(range(1, 12)),     # wk 49-52 + 1-11
     3: list(range(12, 27)),                           # wk 12-26
-    # Klas 6: modules 4-5-6 vallen in dezelfde periodes als 1-2-3
+    # Klas 6: modules 4-5 vallen in dezelfde periodes als 1-2
     4: list(range(36, 49)),                          # = module 1
     5: list(range(49, 53)) + list(range(1, 12)),     # = module 2
-    6: list(range(12, 27)),                           # = module 3
 }
 TOETSWEEK_WEEKS = [47, 48, 10, 11, 25, 26]
 VAKANTIE_WEEKS = [43, 52, 1, 8, 18, 19]
@@ -356,6 +355,8 @@ def build_data():
                 file_vak = detected_vaks.pop()
 
         for toets in doc.get("toetsen", []):
+            if not isinstance(toets, dict):
+                continue
             # Filter: proefwerkweek-toetsen uitsluiten
             if toets.get("in_toetsweek", False):
                 continue
@@ -526,6 +527,8 @@ def build_bovenbouw(all_files: list[dict]) -> dict:
                 file_vak = detected_vaks.pop()
 
         for toets in doc.get("toetsen", []):
+            if not isinstance(toets, dict):
+                continue
             # Filter: alleen BUITEN toetsweek
             if toets.get("in_toetsweek", False):
                 continue

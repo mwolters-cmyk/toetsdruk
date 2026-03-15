@@ -511,6 +511,8 @@ async def process_all(filter_pattern: str | None = None, skip_existing: bool = F
         summary["per_vak"][vak] = summary["per_vak"].get(vak, 0) + n_toetsen
 
         for toets in result.get("toetsen", []):
+            if not isinstance(toets, dict):
+                continue
             t = toets.get("type", "anders")
             summary["per_type"][t] = summary["per_type"].get(t, 0) + 1
 

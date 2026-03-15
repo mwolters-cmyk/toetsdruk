@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-15T16:41:23",
+  "gegenereerd": "2026-03-15T17:00:35",
   "toetsweken": {
     "module_1": {
       "weken": [
@@ -26,14 +26,64 @@
   },
   "proefwerken": {
     "6": {
+      "module_2": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk over Zuid-Amerika",
+          "stof": "H1 §1 t/m 4, H2 §1 t/m 3, H3 §1 en §2",
+          "week": 49
+        },
+        {
+          "vak": "Economie",
+          "vak_kort": "Ec",
+          "type": "proefwerk",
+          "beschrijving": "Toetsweek Module 5 - Concepten: Markt, Ruilen over de tijd, Risico en informatie, Welvaart en groei en Wisselkoersen",
+          "stof": "Concepten volgens de inhoud van de syllabus economie 2026; Wisselkoersen: Conjunctuur en beleid (§4.3 en §4.4)",
+          "week": 10
+        },
+        {
+          "vak": "Kunst - DR",
+          "vak_kort": "Kuns",
+          "type": "proefwerk",
+          "beschrijving": "Digitale toets H9 Massacultuur (Toetsweek 2)",
+          "stof": "H9 Massacultuur 1945-heden: paragrafen 9.1, 9.2, 9.3, kunstbeschouwelijke begrippen (theater, dans, muziek, film, beeldend)",
+          "week": 10
+        },
+        {
+          "vak": "Muziek",
+          "vak_kort": "Mu",
+          "type": "proefwerk",
+          "beschrijving": "Toets Algemene Muziekleer",
+          "stof": "Algemene Muziekleer (Kennen in jouw muziekboek INTRO)",
+          "week": 11
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "SE M5 - Scheikunde schriftelijk examen Module 5 (H8, 9, 10, 12, 14, 15, 17, 18 + deel 1 examenbundel)",
+          "stof": "H8, H9, H10, H12, H14, H15, H17, H18, examenbundel deel 1",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk VWO B deel 4 H14 + H15",
+          "stof": "H14 (VK + 4, 5, 6, 8, 9, 13, 14) en H15 (4, 5, 6, 7, 12, 13, 14, 19, 20, 21, 22, 26, 27, 28, 29, 32, 33, 34, 35, 40, 42, 43, 47, 48, 49, 54, 55, 56, 57, 58, 61, 62, 63, 64, 67, 68, 69)",
+          "week": 10
+        }
+      ],
       "module_1": [
         {
           "vak": "Aardrijkskunde",
           "vak_kort": "Ak",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Zuid-Amerika",
-          "stof": "H1 §1t/m4, H2 §1t/m3, H3 §1 en §2",
-          "week": 47
+          "beschrijving": "Proefwerk week (pww) - Zelfstandige voorbereiding",
+          "stof": "Alle stof module 4",
+          "week": 46
         },
         {
           "vak": "Duits",
@@ -44,62 +94,44 @@
           "week": 47
         },
         {
+          "vak": "Filosofie",
+          "vak_kort": "Fi",
+          "type": "proefwerk",
+          "beschrijving": "SE filosofie",
+          "stof": "EDT4 Mens en Techniek deel I – eindterm 1 t/m 12 (syllabus p10-37)",
+          "week": 48
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Geschiedenis Module 4: Duitsland (H4) en Verlichting (H3, par. 8-9)",
+          "stof": "Examenkatern Walburg HC Duitsland (H4) en par. 8 en par 9 uit HC Verlichting (H3)",
+          "week": 47
+        },
+        {
           "vak": "Kunst - BV",
           "vak_kort": "KuBV",
           "type": "proefwerk",
           "beschrijving": "Toets KUA Modernisme",
-          "stof": "Paragrafen 8.1, 8.2, 8.3 - Modernisme",
+          "stof": "Modernisme (paragrafen 8.1, 8.2, 8.3)",
           "week": 47
-        },
-        {
-          "vak": "Wiskunde B",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Toets tweede toetsweek (M5): VWO B deel 4 H14 + H15",
-          "stof": "VWO B deel 4 H14 + H15",
-          "week": 48
-        }
-      ],
-      "module_2": [
-        {
-          "vak": "Economie",
-          "vak_kort": "Ec",
-          "type": "proefwerk",
-          "beschrijving": "Toetsweek Module 5 - Concepten: Markt, Ruilen over de tijd, Risico en informatie, Welvaart en groei, Wisselkoersen (Conjunctuur en beleid §4.3 en §4.4)",
-          "stof": "Markt, Ruilen over de tijd, Risico en informatie, Welvaart en groei, Wisselkoersen (§4.3 en §4.4 uit Conjunctuur en economisch beleid)",
-          "week": 10
         },
         {
           "vak": "Kunst - DR",
           "vak_kort": "Kuns",
           "type": "proefwerk",
-          "beschrijving": "KuA toets - Schriftelijke toets Kunstgeschiedenis/analyse",
-          "stof": "KuA 9.1, 9.2, 9.3 - Kunstgeschiedenis/analyse",
-          "week": 10
-        },
-        {
-          "vak": "Muziek",
-          "vak_kort": "Mu",
-          "type": "anders",
-          "beschrijving": "Toets katern Chew, chew, chew - Lucky (Luisteren blz. 4-5 en 12-13 + Theorie 1.2)",
-          "stof": "Katern Chew, chew, chew - Lucky; Luisteren blz. 4, 5, 12, 13; Theorie 1.2",
-          "week": 10
-        },
-        {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
-          "type": "proefwerk",
-          "beschrijving": "SE Module 5: H8, 9, 10, 12, 14, 15, 17, 18 + deel 1 examenbundel (100 minuten, rekenmachine en Binas 6e editie toegestaan)",
-          "stof": "H8, H9, H10, H12, H14, H15, H17, H18 + deel 1 examenbundel",
-          "week": 10
+          "beschrijving": "Digitale toets in moodle - Cultuur van het Moderne (1900-1950)",
+          "stof": "H8 Cultuur van het Moderne: paragrafen 8.1 (expressie en focus), 8.2 (abstractie en focus), 8.3 (constructie en focus); kunstbeschouwelijke begrippen",
+          "week": 44
         },
         {
           "vak": "Wiskunde B",
           "vak_kort": "Wisk",
           "type": "proefwerk",
-          "beschrijving": "Toets derde toetsweek (M5): H14 en H15",
-          "stof": "H14 en H15",
-          "week": 10
+          "beschrijving": "Toets eerste toetsweek (M4): VWO B deel 4 H13 en VWO B deel 3 HK",
+          "stof": "VWO B deel 4 H13 en VWO B deel 3 HK (Primitieven, integreren, breuksplitsen)",
+          "week": 47
         }
       ]
     },
@@ -109,20 +141,28 @@
           "vak": "Biologie",
           "vak_kort": "Bi",
           "type": "proefwerk",
-          "beschrijving": "Toets Thema 3 en 4 (100 minuten) - Open en gesloten vragen. BINAS en eenvoudige rekenmachine toegestaan. NL woordenboek niet toegestaan.",
-          "stof": "BVJ6: Th3 Gaswisseling en uitscheiding, Th4 Afweer, Th5 Samenhang. Bekend verondersteld: BVJ5 Th1–5",
+          "beschrijving": "Toets Thema 3 en 4 (100 min), open en gesloten vragen. BINAS en eenvoudige rekenmachine toegestaan. NL woordenboek niet toegestaan.",
+          "stof": "BVJ6: Th3 Gaswisseling en uitscheiding, Th4 Afweer, Th5 Samenhang. Bekend verondersteld: BVJ5 Th1–5. Uitgereikt materiaal, demo's en bekend veronderstelde stof.",
           "week": 10
         },
         {
           "vak": "Engels",
           "vak_kort": "En",
           "type": "proefwerk",
-          "beschrijving": "Literature Test",
-          "stof": "Literature (theme novels, free choice novels, comparison analysis)",
+          "beschrijving": "Literature Test (testweek)",
+          "stof": "Literature – comparison and test questions",
           "week": 10
         }
       ],
       "module_1": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 4 (Thema 12 'Voeding en Vertering' en Thema 13 'Transport')",
+          "stof": "BVJ 6V Thema 12 'Voeding en Vertering' en Thema 13 'Transport', lesmateriaal + practica; bekend verondersteld: BVJ 4V Th 1–4, BVJ 5V Th 1–3",
+          "week": 47
+        },
         {
           "vak": "Latijn",
           "vak_kort": "La",
@@ -135,9 +175,593 @@
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "proefwerk",
-          "beschrijving": "Opstel (beschouwing)",
-          "stof": "Beschouwing: structuur, inleiding, slot, middenstuk, formulering (Communicatie 14, 19, 20, 21, 22); klassikaal gelezen boek",
+          "beschrijving": "Proefwerk: opstel (beschouwing)",
+          "stof": "Beschouwing",
           "week": 47
+        }
+      ]
+    },
+    "klas 6": {
+      "module_2": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "beschrijving": "Edt5 spreektoets in tweetalen - Deel 1: Artikel samenvatten, mening formuleren, voorbeelden geven; Deel 2: Discussie over stellingen",
+          "stof": "Reader met zes artikelen uit groepspresentaties, stellingen, spreekvaardigheden",
+          "week": 11
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "Literature speaking skill",
+          "stof": "Literature Theme C en Theme D",
+          "week": 10
+        },
+        {
+          "vak": "Filosofie",
+          "vak_kort": "Fi",
+          "type": "proefwerk",
+          "beschrijving": "EDT5 Mens en Techniek deel II – eindterm 13 t/m 22",
+          "stof": "Syllabus p 38 t/m 63",
+          "week": 11
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "mondeling",
+          "beschrijving": "Oraux (Production de l'oral)",
+          "stof": "Production de l'oral",
+          "week": 10
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "proefwerk",
+          "beschrijving": "Toets tekstvragen en vertaling",
+          "stof": "Examenbundel hfst. 5 blz. 74 t/m hfst. 11 blz. 147 + hfst. 16/17/18; vragen op gelezen tekst en proefvertaling",
+          "week": 10
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Toets TW2",
+          "stof": "",
+          "week": 10
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "mondeling",
+          "beschrijving": "Mondeling literatuurexamen (module 5 schoolexamen)",
+          "stof": "Poëzie (moderne dichters, bloemlezing), literatuurtheorie (basisbegrippen, intertekstualiteit, engagement/het boek en de wereld), moderne roman",
+          "week": 11
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "SE H8, 9, 10, 12, 14, 15, 17, 18 + deel 1 van de examenbundel (100 minuten, gewone rekenmachine + onbeschreven binas toegestaan)",
+          "stof": "Hoofdstukken 8, 9, 10, 12, 14, 15, 17, 18 + deel 1 van de examenbundel",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets tweede toetsweek",
+          "stof": "H8, H10, H12, H13, H14, H15",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets module 5 (M5): VWO B deel 4 H14 + H15",
+          "stof": "VWO B deel 4 H14, VWO B deel 4 H15",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde C",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets tweede toetsweek",
+          "stof": "H13.3, H13.4, H14, H15.3, H15.4, H15.6",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde D",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toetsweek M5",
+          "stof": "Boek 4 H15",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "beschrijving": "Mündliche Prüfung Literatur (Testwoche)",
+          "stof": "Literatuur",
+          "week": 47
+        },
+        {
+          "vak": "Economie",
+          "vak_kort": "Ec",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Katern Conjunctuur en economisch beleid (Hoofdstukken 1-4)",
+          "stof": "H1 De conjunctuurbeweging, H2 Het IS-MB-GA-model, H3 Conjunctuur en begrotingsbeleid, H4 Conjunctuur en monetair beleid",
+          "week": 47
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "beschrijving": "Writing an essay",
+          "stof": "Essay writing",
+          "week": 47
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "beschrijving": "Test de PE (Practical Exam / schriftelijk examen)",
+          "stof": "",
+          "week": 47
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Grieks (toetsweek module 4)",
+          "stof": "Examenbundel t/m hfst. 5 blz. 73 + hfst. 16, 17 en 18",
+          "week": 48
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 4 Latijn",
+          "stof": "Cic. Laelius (§ 18-64), Cic. brieven (AF 5.7, AF 16.4, AA 12.14), Sen. brief 3 (§ 3.1-3.6), Gerundium, Ablativus absolutus, Conjunctivus, Vormleer (vnw., vragend vnw., futurum, participium, aci, deponentia, comparativus, superlativus, genitivus), Blokken 1-19, Hoofdstuk 15-16",
+          "week": 47
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H12: Versnellen en afbuigen (Elektrisch en magnetisch veld)",
+          "stof": "H12: Elektrisch en magnetisch veld, §12.1-12.4, §12.6",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets eerste toetsweek",
+          "stof": "H12, H13.1-13.3, H15.1-15.3",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets module 4 (M4): VWO B deel 4 H13 en VWO B deel 3 HK",
+          "stof": "VWO B deel 4 H13, VWO B deel 3 HK",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde C",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk eerste toetsweek: H12 + H13 t/m 13.2",
+          "stof": "H12, H13 t/m 13.2",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde D",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Wiskunde D Module 4 - H13",
+          "stof": "Boek 4 H13",
+          "week": 47
+        }
+      ],
+      "module_3": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "beschrijving": "Literatuurmondeling boekenlijst – 10 minuten (vooraf aan deelname aan literatuurexamen)",
+          "stof": "Boekenlijst van 3 boeken (waarvan één al gepresenteerd in klas 5)",
+          "week": 25
+        },
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "po",
+          "beschrijving": "Zelfstandig Ontwikkelde Opdracht (ZOO) - Twee- of driedimensionaal kunstwerk naar eigen keuze. Inlevering: ingevuld beoordelingsformulier, werkstuk en procesverslag (weging 2)",
+          "stof": "Beeldende aspecten (licht, vorm, kleur, compositie, ruimte, inhoud), vrije keuze onderwerp/materiaal/techniek",
+          "week": 25
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "proefwerk",
+          "beschrijving": "Toets + proefvertaling: Cicero & Seneca (Seneca brieven 3, 6, 9, 34, 35 + context; grammatica en vertaalstrategie; stilistische middelen)",
+          "stof": "Seneca brieven 3, 6, 9, 34 en 35 + context (hoofdstuk 6-11); Hoofdstuk 15 en 16 (Grammatica, vertaalstrategie, stilistische en narratologische middelen); grammatica voorkomend in teksten",
+          "week": 25
+        }
+      ]
+    },
+    "6E": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "Oral Literature Exam",
+          "stof": "Literature Theme D: Identity",
+          "week": 10
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "mondeling",
+          "beschrijving": "mondeling literatuurexamen",
+          "stof": "literatuur (poëzie, beschouwing, column, artikel)",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "SE Writing: an Essay",
+          "stof": "Writing - Essay",
+          "week": 47
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk: opstel (beschouwing)",
+          "stof": "Beschouwing",
+          "week": 47
+        }
+      ]
+    },
+    "6F": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "Literature Oral Exam",
+          "stof": "Literature, Identity novels",
+          "week": 11
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "po",
+          "beschrijving": "Writing: essay",
+          "stof": "Essay writing",
+          "week": 47
+        }
+      ]
+    },
+    "6G": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "Literature Test – discussion and comparison of novels",
+          "stof": "Literature novels, character development, comparison",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "School Exam (SE) – Period 4 – Focus on writing skills",
+          "stof": "Reading, writing, speaking, listening; Units 8-16 Spotlight on Advanced",
+          "week": 47
+        }
+      ]
+    },
+    "6H": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "Literature Oral Exam",
+          "stof": "Literature: Identity",
+          "week": 11
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "portfolio",
+          "beschrijving": "Novel File: Open Option (catching-up)",
+          "stof": "Open option novel",
+          "week": 46
+        }
+      ]
+    },
+    "6K": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "Literature Oral Exam",
+          "stof": "Literature: Identity theme",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "Essay Writing (test M1)",
+          "stof": "Essay writing, War Novels literature",
+          "week": 48
+        }
+      ]
+    },
+    "6B": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "CITO Listening Test",
+          "stof": "CITO Listening",
+          "week": 4
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "Test week Essay writing (Dictionaries may be used)",
+          "stof": "Essay writing",
+          "week": 47
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk: opstel (beschouwing)",
+          "stof": "beschouwing",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Wiskunde B Module 4: Boek4 H13 en Boek3 HK (limieten, perforatie, continuïteit, goniometrie, stapeldeling, asymptoten, logaritmen, herschrijven, substitutie, partiële integratie, breuksplitsing)",
+          "stof": "Boek4 H13 + Boek3 HK",
+          "week": 47
+        }
+      ]
+    },
+    "6D": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "Literature Test",
+          "stof": "Literature Theme D - Character development, novel analysis, comparisons",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "Cambridge CAE Speaking Paper",
+          "stof": "Speaking skills",
+          "week": 47
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "beschrijving": "Schriftelijke toets over het gehele katern Duitsland",
+          "stof": "Duitsland 1918-1991 (gehele katern H5)",
+          "week": 48
+        }
+      ]
+    },
+    "6KUBV": {
+      "module_2": [
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "proefwerk",
+          "beschrijving": "KUA SE Massacultuur",
+          "stof": "Massacultuur (paragrafen 9.1, 9.2, 9.3)",
+          "week": 11
+        }
+      ]
+    },
+    "6LA": {
+      "module_2": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "proefwerk",
+          "beschrijving": "Toetsweek 2: Latijn proefwerk (Tekstvragen + proefvertaling)",
+          "stof": "Hoofdstuk 6, 8, 9 en 14; Hoofdstuk 7 t/m 13 inclusief Nederlandse teksten (brief 3 behoort tot de stof van M5); Hoofdstuk 15 en 16",
+          "week": 11
+        }
+      ]
+    },
+    "6A": {
+      "module_2": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "mondeling",
+          "beschrijving": "Mondeling literatuurexamen (Module 5)",
+          "stof": "Literatuur",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets eerste toetsweek: H12, H13.1-13.3, H15.1-3",
+          "stof": "H12, H13.1-13.3, H15.1-3",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "CAE Speaking Paper (Cambridge exam)",
+          "stof": "Speaking",
+          "week": 47
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk: opstel (beschouwing)",
+          "stof": "Beschouwing",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk eerste toetsweek - Hoofdstukken 12, 13.1-13.3, 15.1-3",
+          "stof": "H12, H13.1-13.3, H15.1-3",
+          "week": 47
+        }
+      ]
+    },
+    "3": {
+      "module_2": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "SE hoofdstuk H8, H9, H10, H12, H14, H15, H17 (energie-effecten, energiediagram, reactiewarmte, vormingswarmte, katalyse, redoxreacties, elektrochemische cel, corrosie, alcoholen, ethers, aldehyden, ketonen, carbonzuren, esters, aminen, systematische naamgeving, cis-trans isomerie, spiegelbeeldisomerie, thermoharders, thermoplasten, polymerisatiereactie, additiepolymeren, condensatiepolymeren, beïnvloeden eigenschappen kunststoffen, micro/meso/macroniveau, Blokschema's, atoomeconomie, E-factor, rendement, Voeding, koolhydraten, vetten, eiwitten, enzymen, eiwitsynthese DNA/RNA/transcriptie/translatie, zelf halfreacties opstellen, opladen batterij, brandstofcellen) - 100 minuten",
+          "stof": "H8, H9, H10, H12, H14, H15, H17",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "beschrijving": "SE Scheikunde Module 4: Hoofdstuk 6, 7, 10, 11, 13, 16 (H1, 2, 3, 4, 5 zijn voorkennis). 100 minuten. Rekenmachine + onbeschreven BINAS 6e editie toegestaan.",
+          "stof": "H6 (Reactiesnelheid, evenwichten, evenwichtsvoorwaarde, evenwichtsconstante, beïnvloeding van evenwichten, samenstelling in evenwicht berekenen met BOE-schema's), H7 (Zuren en basen sterk, notaties, reactievergelijkingen, pH-berekeningen), H10 (Massaspectrometrie, stereo-isomerie cis/trans en spiegelbeeld, systematische naamgeving), H11 (Analysemethoden: chromatografie, colorimetrie, zuur-base titraties), H13 (Zwakke zuren en basen, notaties, reactievergelijkingen, pH-berekeningen, ionisatiepercentage, buffers), H16 (Lewisstructuren, octetregel, mesomerie, verplaatsing elektronenparen bij reacties). Voorkennis: H1 (Indeling moleculaire stoffen/zouten/metalen, stroomgeleiding, atoombouw, naamgeving), H2 (Systematische naamgeving koolwaterstoffen, additie en substitutie), H3 (Chemisch rekenen: mol, molair volume, dichtheid, molariteit), H4 (Zouten, oplosbaarheid tabel 45, neerslagreacties), H5 (Polaire atoombinding, dipoolmoment, waterstofbruggen, polair/apolair, hydrofoob/hydrofiel)",
+          "week": 47
+        }
+      ],
+      "module_3": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H5 + H6 + 7.1 t/m 7.3",
+          "stof": "H5 (Energie en reactie, Reactiewarmte berekenen, Reactiesnelheid, Reactiesnelheid beïnvloeden) + H6 (Chemisch evenwicht, Evenwichtsvoorwaarde, Bijzondere evenwichten, Beïnvloeding van evenwichten) + §7.1 (Zure en basische oplossingen) + §7.2 (Sterke en zwakke zuren en basen) + §7.3 (Zuur-base reacties)",
+          "week": 25
+        }
+      ]
+    },
+    "6C": {
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "Oral Literature Exam",
+          "stof": "Literature Theme A (Mythology), Theme B (Dystopia), Theme C (War), Theme D (Identity), recent prize winner, other works",
+          "week": 47
+        }
+      ]
+    },
+    "2": {
+      "module_1": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Opstel (beschouwing)",
+          "stof": "Beschouwing: structuur, inleiding, slot, middenstuk, formulering (Communicatie 14, 19, 20, 21, 22)",
+          "week": 47
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Toets H1 en H2 (t/m 2.3)",
+          "stof": "H1 (Atoombouw en periodiek systeem, Chemische hoeveelheid, Rekenen aan gehaltes, Rekenen aan reacties) en H2 (t/m 2.3: Atoombinding, Binding tussen moleculen, Metaalbinding)",
+          "week": 47
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk boek Klimaatverandering H1, H2 en H3",
+          "stof": "Klimaatverandering H1, H2 en H3",
+          "week": 10
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H3 + H4",
+          "stof": "H3 (Koolstofverbindingen en systematische naamgeving) + H4 (Ionbinding, zouten, oplosbaarheid, rekenen aan zoutoplossingen)",
+          "week": 10
+        }
+      ],
+      "module_3": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk literatuurgeschiedenis (Module 3)",
+          "stof": "Literatuurgeschiedenis",
+          "week": 25
+        }
+      ]
+    },
+    "6S": {
+      "module_1": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Toets Module 4 - Scheikunde (100 minuten, gewone rekenmachine + BINAS toegestaan)",
+          "stof": "Hoofdstukken 1, 2, 3, 4, 5, 6, 7, 10, 11, 13, 16: scheidingsmethoden, atoombouw, naamgeving, chemisch rekenen, zouten, polaire bindingen, reactiesnelheid, evenwichten, massaspectrometrie, titraties, zwakke zuren/basen, lewisstructuren, mesomerie, reactiemechanismen",
+          "week": 46
         }
       ]
     },
@@ -158,6 +782,22 @@
           "beschrijving": "Oral de français - Mondeling examen in toetsweek 2 in aanwezigheid van twee docenten Frans (weging 4/5 van eindcijfer mondeling)",
           "stof": "Mondelinge productie Frans - voorbereiding op bachelor/examen",
           "week": 10
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "schriftelijk_toets",
+          "beschrijving": "Schriftelijke toets Verlichting 1650-1900, Amerikaanse en Franse Revolutie",
+          "stof": "Verlichting 1650-1900, Amerikaanse Revolutie, Franse Revolutie, MEMO en Staatsinrichting Feniks 3 t/m 5",
+          "week": 10
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "proefwerk",
+          "beschrijving": "Toets (besproken op 19/3)",
+          "stof": "Penelope en Odysseus herenigd, voorgaande stof",
+          "week": 11
         },
         {
           "vak": "Latijn",
@@ -214,9 +854,49 @@
           "beschrijving": "Toets toetsweek (module 5)",
           "stof": "H13, H14, H15.3, H15.4, H15.6",
           "week": 10
+        },
+        {
+          "vak": "Wiskunde D",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 2 - Boek3 H10 + AC (Complexe getallen) + Statistiek WisD 2",
+          "stof": "Boek3 H10, Aanvulling Complexe getallen (AC), Boekje Statistiek voor WisD deel 2",
+          "week": 10
         }
       ],
       "module_3": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "proefwerk",
+          "beschrijving": "Prüfung Schreiben - schrijfvaardigheid (150 woorden)",
+          "stof": "Schrijfvaardigheid - Kapitel 1, 3, 4, 8, 9",
+          "week": 26
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "mondeling",
+          "beschrijving": "Speaking Test",
+          "stof": "Speaking (Spotlight Units 6-9, WASP, Catalyst)",
+          "week": 26
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "beschrijving": "Test de Roman 2",
+          "stof": "Roman 2 - essai argumentatif sur une thèse portant sur le roman",
+          "week": 20
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Thema 9 Tragedie, Medea - vragen over gelezen achtergronden en teksten en een proefvertaling",
+          "stof": "Thema 9 Tragedie, Medea, gelezen achtergronden en teksten, proefvertaling",
+          "week": 25
+        },
         {
           "vak": "Kunst - BV",
           "vak_kort": "KuBV",
@@ -231,6 +911,22 @@
           "type": "proefwerk",
           "beschrijving": "Toets + proefvertaling (Cicero & Seneca): brieven Seneca 3, 6, 9, 34, 35 + context; grammatica; vertaalstrategie; stilistische, narratologische en argumentatieve middelen",
           "stof": "Seneca brieven 3, 6, 9, 34, 35 + context (hoofdstuk 6-11); Hoofdstuk 15-16 (Grammatica, vertaalstrategie, stilistische middelen); Grammatica voorkomend in teksten",
+          "week": 25
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Toets Kern- en deeltjesprocessen (Keuzekatern 3: Kern- en deeltjesprocessen)",
+          "stof": "Kern- en deeltjesprocessen: §K3.1 t/m §K3.8",
+          "week": 25
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets eerste toetsweek: VWO B deel 2 H7 Meetkunde met coördinaten + H8 Goniometrische functies",
+          "stof": "H7 Meetkunde met coördinaten, H8 Goniometrische functies",
           "week": 25
         }
       ],
@@ -338,199 +1034,13 @@
           "beschrijving": "Toets tweede toetsweek",
           "stof": "H13.3, H13.4, H14, H15.3, H15.4, H15.6",
           "week": 48
-        }
-      ]
-    },
-    "6F": {
-      "module_2": [
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "mondeling",
-          "beschrijving": "Literature Oral Exam",
-          "stof": "Literature: Identity",
-          "week": 11
-        }
-      ],
-      "module_1": [
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "proefwerk",
-          "beschrijving": "Writing: essay",
-          "stof": "Essay writing (Magpie writing instruction)",
-          "week": 47
-        }
-      ]
-    },
-    "6G": {
-      "module_2": [
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "proefwerk",
-          "beschrijving": "Literature Test",
-          "stof": "Literature - all novels read, comparison essay",
-          "week": 10
-        }
-      ]
-    },
-    "6H": {
-      "module_2": [
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "mondeling",
-          "beschrijving": "Literature Oral Exam",
-          "stof": "Literature, Identity novels",
-          "week": 11
-        }
-      ],
-      "module_1": [
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "proefwerk",
-          "beschrijving": "Writing: essay",
-          "stof": "Essay writing",
-          "week": 47
-        }
-      ]
-    },
-    "6K": {
-      "module_2": [
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "mondeling",
-          "beschrijving": "Literature Oral Exam (spoken exam in test week)",
-          "stof": "Literature - Identity theme and all eight literary works",
-          "week": 10
-        }
-      ],
-      "module_1": [
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "so",
-          "beschrijving": "Essay Writing (test M1) - War Novels essay writing met literaire elementen",
-          "stof": "Essay writing technique, War Novels theme C, literary elements",
-          "week": 48
-        }
-      ]
-    },
-    "6KUBV": {
-      "module_2": [
-        {
-          "vak": "Kunst - BV",
-          "vak_kort": "KuBV",
-          "type": "proefwerk",
-          "beschrijving": "KUA SE Massacultuur",
-          "stof": "Massacultuur (paragrafen 9.1 American Dream, 9.2 Nieuwe wegen, 9.3 Globalisering)",
-          "week": 11
-        }
-      ]
-    },
-    "3": {
-      "module_2": [
-        {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
-          "type": "proefwerk",
-          "beschrijving": "SE hoofdstuk H8, H9, H10, H12, H14, H15, H17 - 100 minuten - gewone rekenmachine + onbeschreven BINAS 6e editie toegestaan",
-          "stof": "H8 (energie-effecten, energiediagram, reactiewarmte, vormingswarmte, katalyse), H9 (redoxreacties, elektrochemische cel, corrosie), H10 (alcoholen, ethers, aldehyden, ketonen, carbonzuren, esters, aminen, systematische naamgeving, cis-trans isomerie, spiegelbeeldisomerie), H12 (thermoharders, thermoplasten, polymerisatiereactie, additiepolymeren, condensatiepolymeren, eigenschappen kunststoffen, micro-mesomacrونiveau), H14 (blokschema's, atoomeconomie, E-factor, rendement), H15 (voeding, koolhydraten, vetten, eiwitten, enzymen, eiwitsynthese met DNA, RNA, transcriptie, translatie), H17 (halfreacties, opladen batterij, brandstofcellen)",
-          "week": 10
-        }
-      ],
-      "module_1": [
-        {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
-          "type": "proefwerk",
-          "beschrijving": "SE Hoofdstuk 6, 7, 10, 11, 13, 16 (H1, 2, 3, 4 en 5 zijn voorkennis). 100 minuten - gewone rekenmachine + onbeschreven BINAS 6e editie toegestaan.",
-          "stof": "H6: Reactiesnelheid, evenwichten, evenwichtsvoorwaarde, evenwichtsconstante, beïnvloeden van evenwichten, samenstelling in een evenwicht berekenen (BOE-schema's). H7: Zuren en basen (voornamelijk sterk), juiste notaties, reactievergelijkingen, pH-berekeningen. H10: Massaspectrometrie, stereo-isomerie (cis/trans en spiegelbeeld), systematische naamgeving. H11: Analysemethoden: chromatografie, colorimetrie, zuur-base titraties. H13: Zwakke zuren en basen, juiste notaties, reactievergelijkingen, pH-berekeningen, ionisatiepercentage, buffers. H16: Lewisstructuren, octetregel, mesomerie, verplaatsen van elektronenparen bij reacties. Voorkennis: H1: Indeling in moleculaire stoffen / zouten / metalen. Stroomgeleiding, atoombouw, naamgeving. H2: Systematische naamgeving koolwaterstoffen, additie en substitutiereactie. H3: Chemisch rekenen (mol, molair volume, dichtheid, molariteit). H4: Zouten, oplosbaarheid (Tabel 45), neerslagreacties. H5: Polaire atoombinding, dipoolmoment, waterstofbruggen, polair/apolair, hydrofoob/hydrofiel.",
-          "week": 47
-        }
-      ]
-    },
-    "6A": {
-      "module_2": [
-        {
-          "vak": "Wiskunde A",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Toets eerste toetsweek - H12, H13.1-13.3, H15.1-3",
-          "stof": "H12, H13.1-13.3, H15.1-3",
-          "week": 10
-        }
-      ],
-      "module_1": [
-        {
-          "vak": "Wiskunde A",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk eerste toetsweek - H12, H13.1-13.3, H15.1-3",
-          "stof": "H12, H13.1-13.3, H15.1-3",
-          "week": 47
-        }
-      ]
-    },
-    "2": {
-      "module_1": [
-        {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk: opstel (beschouwing)",
-          "stof": "Beschouwing (structuur, inleiding, slot, middenstuk, formulering)",
-          "week": 47
         },
         {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
-          "type": "proefwerk",
-          "beschrijving": "Toets H1 en H2 (t/m 2.3)",
-          "stof": "H1 (Atoombouw en periodiek systeem, Chemische hoeveelheid, Rekenen aan gehaltes, Rekenen aan reacties) en H2 (t/m 2.3: Atoombinding, Binding tussen moleculen, Metaalbinding)",
-          "week": 47
-        }
-      ],
-      "module_2": [
-        {
-          "vak": "Aardrijkskunde",
-          "vak_kort": "Ak",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk boek Klimaatverandering H1, H2 en H3",
-          "stof": "Klimaatverandering H1, H2 en H3",
-          "week": 10
-        },
-        {
-          "vak": "Scheikunde",
-          "vak_kort": "Sk",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk H3 + H4",
-          "stof": "H3 (Koolstofverbindingen en systematische naamgeving) + H4 (Ionbinding, zouten, oplosbaarheid, rekenen aan zoutoplossingen)",
-          "week": 10
-        }
-      ],
-      "module_3": [
-        {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk literatuurgeschiedenis (Module 3)",
-          "stof": "Literatuurgeschiedenis",
-          "week": 25
-        }
-      ]
-    },
-    "6B": {
-      "module_1": [
-        {
-          "vak": "Wiskunde B",
+          "vak": "Wiskunde D",
           "vak_kort": "Wisk",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Wiskunde B - Boek 4 H13 + Boek 3 HK",
-          "stof": "Boek 4 H13 (limieten, perforaties, asymptoten, staartdeling, samengestelde functies) en Boek 3 HK (substitutie, partiële integratie, breuksplitsing)",
+          "beschrijving": "Proefwerk Module 1 (Toetsweek 1)",
+          "stof": "Boek 3 H9 + H12.2 t/m 12.4 + Standaardnormale verdeling; Boek 2 H5.4 (Binomiale verdeling); Statistiek (SD) H0 t/m H2",
           "week": 47
         }
       ]
@@ -578,6 +1088,14 @@
           "beschrijving": "Toets in de toetsweek H9 + H10 50 minuten",
           "stof": "H9 (Redoxreacties) en H10 (Klassen van organische verbindingen en reacties)",
           "week": 10
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Wiskunde A: Hoofdstuk 11 + Syllabus 11.6 t/m 11.8 + Stencil (SSV)",
+          "stof": "Hoofdstuk 11, Syllabus 11.6-11.8, Stencil (SSV)",
+          "week": 11
         }
       ],
       "module_1": [
@@ -587,6 +1105,14 @@
           "type": "mondeling",
           "beschrijving": "Luistertoets (listening exam - listening test period I)",
           "stof": "Alle luisteropgaven boek 'So geht's zu' (B2 niveau)",
+          "week": 47
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "portfolio",
+          "beschrijving": "Portfolio Kenmerkende Aspecten China 1842-2001 (10 KA's)",
+          "stof": "China 1842-2001: Opiumoorlogen, einde keizerrijk, ontstaan Volksrepubliek, Lange Mars, Mao, Volksrepubliek als wereldmacht (1949-2001)",
           "week": 47
         },
         {
@@ -608,6 +1134,16 @@
       ]
     },
     "5M": {
+      "module_3": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "proefwerk",
+          "beschrijving": "Toets Thema 10 DNA en Thema 11 Planten (alle BS)",
+          "stof": "Thema 10 DNA (BS1-BS5), Thema 11 Planten (BS1-BS5), CRISP-Cas (examenstof)",
+          "week": 26
+        }
+      ],
       "module_2": [
         {
           "vak": "Biologie",
@@ -636,6 +1172,14 @@
       ],
       "module_1": [
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "proefwerk",
+          "beschrijving": "Toets Biologie module 1 (Thema 7 Regeling en Thema 8 Waarneming en Gedrag) - open en gesloten vragen",
+          "stof": "Thema 7 Regeling (BS 3-5) en Thema 8 Waarneming en Gedrag",
+          "week": 47
+        },
+        {
           "vak": "Engels",
           "vak_kort": "En",
           "type": "po",
@@ -662,6 +1206,16 @@
       ]
     },
     "5G": {
+      "module_3": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "po",
+          "beschrijving": "Letter to the Editor (exam)",
+          "stof": "Letter to the Editor writing, grammar, vocabulary",
+          "week": 26
+        }
+      ],
       "module_2": [
         {
           "vak": "Engels",
@@ -670,6 +1224,206 @@
           "beschrijving": "English test: Listening & Spotlight",
           "stof": "Listening & Spotlight Unit 2 & 5",
           "week": 10
+        }
+      ]
+    },
+    "5A": {
+      "module_3": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "PW Literatuurgeschiedenis 1800-1960",
+          "stof": "Literatuurgeschiedenis 1800-1960 (Kern H21-H24, selectieve onderdelen): Romantiek, 1880-1914 beweging, Modernisme (1914-1940), Naoorlogse literatuur (1940-1960); Literaire werken: Multatuli - Max Havelaar (fragmenten), J.J. Cremer - Fabriekskinderen, Piet Paaltjens - selectie uit Snikken en grimlachjes",
+          "week": 26
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets derde toetsweek: Hoofdstuk 11 + Syllabus 11.6 t/m 11.8",
+          "stof": "Hoofdstuk 11, Syllabus 11.6 t/m 11.8",
+          "week": 25
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "beschrijving": "Listening & Spotlight Units 2 & 5",
+          "stof": "Listening, Spotlight Units 2 & 5",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets tweede toetsweek: Hoofdstuk 8 en 10",
+          "stof": "Hoofdstuk 8, Hoofdstuk 10",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "SE Spotlight Units 1+2 and Reading",
+          "stof": "Spotlight Units 1 & 2, Reading",
+          "week": 47
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Taalkunde Kern (schriftelijk, 50 min.)",
+          "stof": "H5, H7, H8, H9, H10 + gemaakte opdrachten",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets eerste toetsweek: Hoofdstuk 9 + Stencil Standaardnormale Verdeling",
+          "stof": "Hoofdstuk 9, Stencil Standaardnormale Verdeling",
+          "week": 48
+        }
+      ]
+    },
+    "5B": {
+      "module_3": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "PW Literatuurgeschiedenis 1800-1960",
+          "stof": "Literatuurgeschiedenis 1800-1960 (Kern H21-H24): romantiek, humor, inspiratie (1800-1880), periode 1880-1914, periode 1914-1940, periode 1940-1960; literaire werken: Multatuli Max Havelaar (1860) fragmenten, J.J. Cremer Fabriekskinderen (1863), Piet Paaltjens selectie uit Snikken en grimlachjes (1867)",
+          "week": 26
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk VWO B deel 3: H11 Integraalrekening + H12 Goniometrische formules",
+          "stof": "H11 Integraalrekening, H12 Goniometrische formules",
+          "week": 26
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "beschrijving": "Test Listening Skills",
+          "stof": "Listening Skills",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets tweede toetsweek: VWO B deel 3 H9 Exponentiële en logaritmische functies + H10 Meetkunde met vectoren",
+          "stof": "H9 Exponentiële en logaritmische functies, H10 Meetkunde met vectoren",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Taalkunde Kern H5, H7, H8, H9 en H10 + gemaakte opdrachten, schriftelijk",
+          "stof": "Taalkunde H5, H7, H8, H9, H10",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H7 + H8",
+          "stof": "Boek 4 H13 (hoofdstuk 8) + Boek 3 HK (hoofdstuk 7)",
+          "week": 47
+        }
+      ]
+    },
+    "5E": {
+      "module_3": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "PW Literatuurgeschiedenis 1800-1960",
+          "stof": "Literatuurgeschiedenis 1800-1960 (in Kern: H21 t/m H24): Romantiek, Inspiratie, Humor (p. 210); H21 p. 212-215 (met rode teksten); H22 p. 216-220 regel 12; H23 p. 224-231 (selectief); H24 p. 232-237 (selectief). Literaire werken: Multatuli - Max Havelaar (fragmenten), J.J. Cremer - Fabriekskinderen, Piet Paaltjens - selectie Snikken en grimlachjes",
+          "week": 26
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "SE Listening",
+          "stof": "Spotlight Unit 2 & 5, Listening skills",
+          "week": 11
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "Module 1 test - Spotlight Units 2 & 5 and Listening",
+          "stof": "Spotlight Units 2 & 5, Listening, Vocabulary Units 1-3",
+          "week": 47
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Taalkunde Kern H5, H7, H8, H9 en H10 + gemaakte opdrachten, schriftelijk",
+          "stof": "H5, H7, H8, H9, H10",
+          "week": 47
+        }
+      ]
+    },
+    "5S": {
+      "module_3": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Toets in de toetsweek H11 + H12",
+          "stof": "H11 Reactiemechanismen (reactiemechanismen, radicaalreacties, polaire reacties, reactiesnelheid) + H12 Materialen (materiaaleigenschappen, polymeren maken, polymeren toepassen, keramiek en composieten)",
+          "week": 25
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Toets in de toetsweek H9 + H10",
+          "stof": "H9 (Elektronenoverdracht, redoxreacties, energie uit redoxreacties, energie-opslag) + H10 (Klassen van organische verbindingen, reacties van alkanen/alkenen/alkynen, condensatie- en hydrolysereacties, analoge reacties)",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "beschrijving": "Schriftelijke toets over het gehele China",
+          "stof": "China 1842-2001: Opiumoorlogen, binnenlands verzet, China als Republiek, GMD gezag, Chinese communisme, Japanse agressie, lange mars, Mao, CCP macht, economische koerswijziging, breuk met SU",
+          "week": 47
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Toets H7 + H8",
+          "stof": "H7 (Zuur-basereacties, pH berekeningen, buffers) + H8 (Lewisstructuren, ruimtelijke bouw, isomerie)",
+          "week": 47
         }
       ]
     },
@@ -719,6 +1473,26 @@
         }
       ]
     },
+    "5D": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "Spotlight Units 2+5 + Listening",
+          "stof": "Spotlight Units 2+5 (A Child's World, Safe and Sound), Listening skills, Victorian Period, Novel Development",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde D",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 2 - Boek3 H10 + AC (Complexe getallen) + Statistiek WisD 2",
+          "stof": "Boek3 H10 + Aanvulling Complexe getallen (AC) + Statistiek WisD deel 2 (H3-H6)",
+          "week": 10
+        }
+      ]
+    },
     "5KUBV": {
       "module_2": [
         {
@@ -753,69 +1527,15 @@
         }
       ]
     },
-    "5A": {
+    "5SAK": {
       "module_1": [
         {
-          "vak": "Wiskunde A",
-          "vak_kort": "Wisk",
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
           "type": "proefwerk",
-          "beschrijving": "Toets eerste toetsweek: Hoofdstuk 9 + Stencil Standaardnormale Verdeling",
-          "stof": "Hoofdstuk 9, Stencil Standaardnormale Verdeling",
-          "week": 48
-        }
-      ],
-      "module_2": [
-        {
-          "vak": "Wiskunde A",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Toets tweede toetsweek: Hoofdstuk 8 en 10",
-          "stof": "Hoofdstuk 8, Hoofdstuk 10",
-          "week": 10
-        }
-      ],
-      "module_3": [
-        {
-          "vak": "Wiskunde A",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Toets derde toetsweek: Hoofdstuk 11 + Syllabus 11.6 t/m 11.8",
-          "stof": "Hoofdstuk 11, Syllabus 11.6 t/m 11.8",
-          "week": 25
-        }
-      ]
-    },
-    "5B": {
-      "module_2": [
-        {
-          "vak": "Wiskunde B",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Toets tweede toetsweek: VWO B deel 3 H9 Exponentiële en logaritmische functies + H10 Meetkunde met vectoren",
-          "stof": "H9 Exponentiële en logaritmische functies, H10 Meetkunde met vectoren",
-          "week": 10
-        }
-      ],
-      "module_1": [
-        {
-          "vak": "Wiskunde B",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk H7 + H8",
-          "stof": "Boek 4 H13 (hoofdstuk 8) + Boek 3 HK (hoofdstuk 7)",
+          "beschrijving": "Toets Module 1",
+          "stof": "Leefomgeving H3-H4, Globalisering H4",
           "week": 47
-        }
-      ]
-    },
-    "5D": {
-      "module_2": [
-        {
-          "vak": "Wiskunde D",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 2 - Boek3 H10 + AC (Complexe getallen) + Statistiek WisD 2",
-          "stof": "Boek3 H10 + Aanvulling Complexe getallen (AC) + Statistiek WisD deel 2 (H3-H6)",
-          "week": 10
         }
       ]
     },
@@ -843,14 +1563,370 @@
         }
       ]
     },
-    "5S": {
+    "5C": {
       "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "School exam - English (Module 1 test week)",
+          "stof": "Unit 1 & Unit 3: vocabulary, grammar, reading, writing, listening, speaking at C1 level",
+          "week": 47
+        }
+      ]
+    },
+    "5SNAT": {
+      "module_1": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Hoofdstuk 7 en 8",
+          "stof": "Hoofdstuk 7 (§7.1 t/m §7.4 helemaal, §7.5 alleen resonantie en demping); Hoofdstuk 8 (helemaal)",
+          "week": 47
+        }
+      ]
+    },
+    "4B": {
+      "module_3": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "Test week test: Reading",
+          "stof": "Reading (exam texts), Open World Units 10-12",
+          "week": 26
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets module 2: H3 + H4 + H8 (par 8.1 en par 8.3)",
+          "stof": "Hoofdstuk 3, Hoofdstuk 4, Hoofdstuk 8 (paragraaf 8.1 en 8.3)",
+          "week": 11
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "so",
+          "beschrijving": "Open World Unit 1-3 and Listening (in test week)",
+          "stof": "Open World Units 1-3, Listening",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets eerste toetsweek - Hoofdstuk 2, 4.1 en 4.2",
+          "stof": "H2, H4.1, H4.2",
+          "week": 47
+        }
+      ]
+    },
+    "klas 4": {
+      "module_3": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "beschrijving": "Test de compréhension de l'oral DELF B1 + vidéo",
+          "stof": "DELF B1 compréhension de l'oral, vocabulaire unité 4 (Travail, notes et examens en France, école deuxième chance) et unité 5 (Culture Jeune, outils), vidéo",
+          "week": 26
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 3: Vragen bij gelezen tekst, vertaaloefening/proefvertaling met woordenboek (Argo thema 4)",
+          "stof": "Argo thema 4 (Aiolos en Telemachos, alle teksten), alle grammatica behandeld tot nu toe, woorden les 16-44",
+          "week": 25
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Toets H2 + H4",
+          "stof": "H2 + H4 (Energie en Krachten)",
+          "week": 25
+        },
+        {
+          "vak": "WORDLIST FOR M2 PW.pdf",
+          "vak_kort": "WORD",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 3 - Argo thema 4 (Aiolos en Telemachos). Vragen bij gelezen tekst, vertaalopgave/proefvertaling met woordenboek. Stof: herhaling alle grammatica, woorden les 16-44.",
+          "stof": "Argo thema 4 (Aiolos en Telemachos), grammatica (alle behandelde grammatica tot nu toe), woorden les 16-44",
+          "week": 25
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H5 (5.1, 5.3 en 5.4)",
+          "stof": "Hoofdstuk 5 (paragrafen 5.1, 5.3 en 5.4)",
+          "week": 25
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets derde toetsweek: H5 + H6 + H8",
+          "stof": "H5, H6, H8",
+          "week": 25
+        },
+        {
+          "vak": "Wiskunde D",
+          "vak_kort": "Wisk",
+          "type": "anders",
+          "beschrijving": "Toets 7",
+          "stof": "Hoofdstukken 26 t/m 29",
+          "week": 26
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "proefwerk",
+          "beschrijving": "Prüfung Lesen (2x) & Schreiben (1x) - Deel 1: schrijftoets K2 (Woordenschat, Sprachmittel, grammatica); Deel 2: leestoets",
+          "stof": "Kapitel 2, CITO-Texte Niveau Havo 5, Wortschatz S. 121-123, Sprachmittel S. 87+112, Grammatik (Modalverben, Naamvallen, Pronomen, der/ein-Gruppe, Präpositionen + Dativ/Akkusativ/Wechselpräpositionen), Neue Kontakte online oefeningen",
+          "week": 10
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "Test week test: Writing & Open World Units 6-8",
+          "stof": "Writing Bank (pp 234-241), Writing task pages, Open World Units 6-8, Vocabulary, Use of English, Grammar (pp 216-223)",
+          "week": 10
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "beschrijving": "Examen blanc DELF (vervolg)",
+          "stof": "DELF voorbereiding",
+          "week": 11
+        },
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "proefwerk",
-          "beschrijving": "Schriftelijke toets over het gehele China",
-          "stof": "China 1842-2001: Opiumoorlogen, binnenlands verzet, China als Republiek, GMD gezag, Chinese communisme, Japanse agressie, lange mars, Mao, CCP macht, economische koerswijziging, breuk met SU",
+          "beschrijving": "Proefwerk Geschiedenis",
+          "stof": "Katern (boekje) Slavernij, Kolonisatie, Dekolonisatie en Zuid-Afrika (gehele module 2)",
+          "week": 10
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk module 2 Grieks - Argo thema 1 (tekst 3-4 in vertaling) en thema 3 (tekst 1-5). Grammatica: coniunctivus, optativus, perfectum, plusquamperfectum. Woorden: les 26-44. Vorm: vragen bij gelezen teksten, vertaaloefening, achtergronden.",
+          "stof": "Argo thema 1 tekst 3-4 (vertaling), Argo thema 3 tekst 1-5, Grammatica: coniunctivus, optativus, perfectum, plusquamperfectum (Pharos p.58-59), Woorden: les 26-44",
+          "week": 11
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "proefwerk",
+          "beschrijving": "Toets over gelezen teksten en achtergronden met kleine proefvertaling, woordenboek toegestaan",
+          "stof": "Alle teksten uit witregelboekje, achtergronden H3 en H4, grammatica, stijlmiddelen en genrekenmerken, Romeinse geschiedenis H.A, auteursbiografie Catullus en Seneca",
+          "week": 10
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Toets TW2 (proefwerk module 2)",
+          "stof": "Hoofdstuk 5 (Ioniserende straling) + Werkbladen: logaritmes bij halveringsdikte, logaritmes bij radioactiviteit. (§5.6 is gén toetsstof)",
+          "week": 10
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Toets argumentatieleer",
+          "stof": "KERN H19-H23",
+          "week": 10
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H3 + H4",
+          "stof": "H3 (koolstofverbindingen, naamgeving, brandstoffen, organische chemie) + H4 (zouten)",
+          "week": 10
+        },
+        {
+          "vak": "WORDLIST FOR M2 PW.pdf",
+          "vak_kort": "WORD",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 2 - Argo thema 1 (tekst 3-4 in vertaling) en thema 3 (Euphiletos). Vragen bij gelezen teksten, vertaaloefening en achtergronden. Stof: grammatica (inclusief coniunctivus en optativus), woorden les 26-44.",
+          "stof": "Argo thema 1 (tekst 3-4: Stichting Alexandrië, Alexanders jeugd), thema 3 (Euphiletos verdedigt zich, Feiten, Merkwaardige gebeurtenissen, Euphiletos krijgt argwaan, De afrekening), grammatica (tot en met coniunctivus en optativus), woorden les 26-44",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H1 (1.3 en 1.4) en H3 (3.1, 3.2A en 3.4B)",
+          "stof": "Hoofdstuk 1 (paragrafen 1.3 en 1.4) en Hoofdstuk 3 (paragrafen 3.1, 3.2A en 3.4B)",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets eerste toetsweek: H2 en H4.1 en H4.2",
+          "stof": "H2, H4.1, H4.2",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde D",
+          "vak_kort": "Wisk",
+          "type": "anders",
+          "beschrijving": "Toets 3",
+          "stof": "Hoofdstukken 10 t/m 13",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "proefwerk",
+          "beschrijving": "Toets toetsweek: Deel 1 - Schrijftoets Kapitel 1 (woordenschat, Sprachmittel en grammatica)",
+          "stof": "Kapitel 1: Wortschatz (S. 63-65), Sprachmittel (S. 30 & 55), Grammatik (hebben/zijn/worden Präsens und Präteritum; Personalpronomen; Interrogativpronomen)",
+          "week": 47
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "beschrijving": "Examen de littérature et de vocabulaire (film Amélie + roman Monsieur Ibrahim)",
+          "stof": "Film 'Le fabuleux destin d'Amélie Poulain', roman 'Monsieur Ibrahim et les Fleurs du Coran', vocabulaire Frans-Nederlands (Amélie, Monsieur Ibrahim, littérature générale et cinéma), thèmes et comparaisons",
+          "week": 47
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "beschrijving": "Weging praktische opdracht / geen proefwerk in toetsweek",
+          "stof": "Geen schriftelijke toets; beoordeling op basis van PO-componenten",
+          "week": 47
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 1: Vragen bij gelezen tekst, korte vertaaloefening, achtergronden (Argo thema 2 en thema 1 tekst 1-2)",
+          "stof": "Argo thema 2 (David & Goliath), Argo thema 1 tekst 1-2 (Boukephalos, Alexander & Boukephalos), alle achtergronden, grammatica tot nu toe, woorden les 36-39 en 41-44",
+          "week": 47
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "proefwerk",
+          "beschrijving": "50 minuten toets over gelezen teksten en achtergronden (zonder gebruik van woordenboek)",
+          "stof": "Alle teksten uit het witregelboekje. Achtergronden H1 en H2. Indeling Romeinse geschiedenis in koningstijd, Republiek en keizertijd a.h.v. hoofdstuk A (TB, blz. 188 t/m 192). Hoofdstuk B §5: Inscripties TB blz. 199. Hoofdstuk C Auteursbiografie Phaedrus (bij H1). Grammatica voorkomend in de teksten: coniunctivus (vormleer en gebruik), deponentia, abl.abs. gerundium, rijtjes van de (voor)naamwoorden, gebruik relativum. Stijlmiddelen: alliteratie, anafoor, antithese, asyndeton, chiasme, climax, hyperbaton, litotes, metonymia, parallellie, retorische vraag, trikolon (Summa blz. 49-51).",
+          "week": 47
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Toets Module 1",
+          "stof": "H1 Elektriciteit + §6.1 Rekenvaardigheden + §6.2 Grafieken formules en verbanden",
+          "week": 47
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Kern Literatuur H17 – 20",
+          "stof": "Literatuur H17, H18, H19, H20 (Middeleeuwen, Renaissance, Verlichting)",
+          "week": 47
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H1 + H2",
+          "stof": "H1 + H2 (§2.1 + §2.2 + §2.3)",
+          "week": 47
+        },
+        {
+          "vak": "WORDLIST FOR M2 PW.pdf",
+          "vak_kort": "WORD",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 1 - Argo thema 2 (David & Goliath) en thema 1 (Boukephalos en Alexander). Vragen bij gelezen tekst, korte vertaaloefening en achtergronden. Stof: grammatica (werkwoord, naamwoord, athematische werkwoorden, futurum), woorden les 36-39 en 41-44.",
+          "stof": "Argo thema 2 (David & Goliath), thema 1 (Boukephalos, Alexander & Boukephalos), grammatica (herhaling klas 3, athematisch werkwoord, futurum), woorden les 36-39 en 41-44",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H4 en H6",
+          "stof": "Hoofdstuk 4 en Hoofdstuk 6",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde B",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "Toets eerste toetsweek - H2 en H4.1 en H4.2",
+          "stof": "H2, H4.1, H4.2",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde D",
+          "vak_kort": "Wisk",
+          "type": "anders",
+          "beschrijving": "Toets 12",
+          "stof": "Hoofdstukken 46 t/m 48",
+          "week": 46
+        }
+      ]
+    },
+    "4C": {
+      "module_3": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Toets H2 + H4",
+          "stof": "H2: Eigenschappen van materie, H4: Krachten",
+          "week": 25
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Toets Hoofdstuk 5 - Ioniserende straling",
+          "stof": "Hoofdstuk 5 (H5): Röntgenstraling (5.1), Kernstraling (5.2), Activiteit en halveringstijd (5.3), Stralingsbelasting (5.4), Beeldvorming (5.5). Werkbladen: logaritmes bij halveringsdikte, logaritmes bij radioactiviteit. §5.6 is GEEN toetsstof.",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 1: Open World Starter, Units 1, 2, 3, (5) - schriftelijk examen met luistergedeelte CITO HAVO",
+          "stof": "Open World: Starter (present perfect continuous, comparatives, superlatives), Unit 1 (gerunds, infinitives, linking words), Unit 2 (passive, used to/be used to), Unit 3 (first and second conditionals), Unit 5 (past simple vs past perfect continuous), CITO HAVO luistervaardigheid B2-niveau",
+          "week": 47
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H1 + §6.1 + §6.2",
+          "stof": "H1 + §6.1 + §6.2",
           "week": 47
         }
       ]
@@ -896,11 +1972,35 @@
           "week": 10
         },
         {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "oefentoets",
+          "beschrijving": "Oefentoets (herhalen)",
+          "stof": "Slavernij, Modern Imperialisme en Zuid Afrika",
+          "week": 10
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 2 (toetsweek)",
+          "stof": "Alle stof van Module 2: basiswoorden les 26-34, alle grammatica (Perfectum, plusquamperfectum, stamtijden Aorist, coniunctivus en optativus)",
+          "week": 10
+        },
+        {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "proefwerk",
           "beschrijving": "Proefwerk Module 2 - Alle teksten, achtergronden, grammatica, stijlmiddelen, genrekenmerken, Romeinse geschiedenis, auteursbiografie",
           "stof": "Alle teksten uit het witregelboekje, Achtergronden hoofdstuk 3 en 4, Grammatica, stijlmiddelen en genrekenmerken zoals in de gelezen teksten, Romeinse geschiedenis hoofdstuk A, Auteursbiografia Catullus en Seneca",
+          "week": 10
+        },
+        {
+          "vak": "Muziek",
+          "vak_kort": "Mu",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Module 2",
+          "stof": "H1 Middeleeuwen, H2 Renaissance, H8 Vroege Pop",
           "week": 10
         },
         {
@@ -926,7 +2026,7 @@
           "vak_kort": "Ec",
           "type": "proefwerk",
           "beschrijving": "Proefwerk Module 1 - Katern Heden, verleden en toekomst",
-          "stof": "Katern Heden, verleden en toekomst (Domein E: Ruilen over de tijd; § 1.1-1.4, § 2.1-2.3, § 3.1-3.4, § 4.1-4.4)",
+          "stof": "Katern Heden, verleden en toekomst (§1.1-1.4, §2.1-2.3, §3.1-3.4, §4.1-4.4)",
           "week": 47
         },
         {
@@ -944,6 +2044,14 @@
           "beschrijving": "Proefwerk Latijn module 1",
           "stof": "De teksten uit SPQR, hoofdstuk 1 en 2 (alle teksten uit het witregelboekje), Achtergronden: tekstboek p. 188-192, p. 199 en 203, Grammatica en stijlmiddelen",
           "week": 47
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Kern Literatuur H17-20",
+          "stof": "Literatuurgeschiedenis H17, H18, H19, H20 (Middeleeuwen, Renaissance, Warenar, Communicatie)",
+          "week": 47
         }
       ]
     },
@@ -953,7 +2061,7 @@
           "vak": "Biologie",
           "vak_kort": "Bi",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 2 - Thema 3 Erfelijkheid (BS 1-7) + Thema 4 Evolutie (BS 1-6)",
+          "beschrijving": "Toets Module 2 - Thema 3 Erfelijkheid (BS 1-7) + Thema 4 Evolutie (BS 1-6)",
           "stof": "Thema 3 Erfelijkheid BS 1 t/m BS 7 (deel 4a) + Thema 4 Evolutie BS 1 t/m BS 6 (deel 4b)",
           "week": 11
         },
@@ -990,174 +2098,6 @@
           "beschrijving": "Proefwerk Module 1: voorkennis, Hoofdstuk 1, Hoofdstuk 2",
           "stof": "Atoombouw, periodiek systeem, chemische hoeveelheid (mol), rekenen aan gehaltes, rekenen aan reacties, atoombinding, binding tussen moleculen, metaalbinding, ionbinding",
           "week": 47
-        }
-      ]
-    },
-    "klas 4": {
-      "module_2": [
-        {
-          "vak": "Duits",
-          "vak_kort": "Du",
-          "type": "proefwerk",
-          "beschrijving": "Prüfung Lesen (2x) & Schreiben (1x). Deel 1: schrijftoets K2 - Woordenschat, Sprachmittel en grammatica",
-          "stof": "Wortschatz S. 121-123, Sprachmittel S. 87 + 112, modale Hilfsverben, Naamvallen, persönliches Pronomen, der-Gruppe en ein-Gruppe, Voorzetsels + Dativ, Voorzetsels + Akkusativ, Keuzevoorzetsels, Oefeningen Moodle",
-          "week": 10
-        },
-        {
-          "vak": "Frans",
-          "vak_kort": "Fr",
-          "type": "proefwerk",
-          "beschrijving": "Examen blanc DELF (vervolg)",
-          "stof": "DELF voorbereiding",
-          "week": 11
-        },
-        {
-          "vak": "Geschiedenis",
-          "vak_kort": "Gs",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk Geschiedenis",
-          "stof": "Katern (boekje) Slavernij, Kolonisatie, Dekolonisatie en Zuid-Afrika (gehele module 2)",
-          "week": 10
-        },
-        {
-          "vak": "Grieks",
-          "vak_kort": "Gr",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk module 2 Grieks - Argo thema 1 (tekst 3-4 in vertaling) en thema 3 (tekst 1-5). Grammatica: coniunctivus, optativus, perfectum, plusquamperfectum. Woorden: les 26-44. Vorm: vragen bij gelezen teksten, vertaaloefening, achtergronden.",
-          "stof": "Argo thema 1 tekst 3-4 (vertaling), Argo thema 3 tekst 1-5, Grammatica: coniunctivus, optativus, perfectum, plusquamperfectum (Pharos p.58-59), Woorden: les 26-44",
-          "week": 11
-        },
-        {
-          "vak": "Latijn",
-          "vak_kort": "La",
-          "type": "proefwerk",
-          "beschrijving": "Toets over gelezen teksten en achtergronden met kleine proefvertaling, woordenboek toegestaan",
-          "stof": "Alle teksten uit witregelboekje, achtergronden H3 en H4, grammatica, stijlmiddelen en genrekenmerken, Romeinse geschiedenis H.A, auteursbiografie Catullus en Seneca",
-          "week": 10
-        },
-        {
-          "vak": "Natuurkunde",
-          "vak_kort": "Na",
-          "type": "proefwerk",
-          "beschrijving": "Toets Ioniserende straling (Hoofdstuk 5) - §5.1 t/m §5.5 + Werkbladen logaritmes. Verdieping §5.6 is GEEN toetsstof. Oefentoets duurt 30 minuten.",
-          "stof": "H5 (§5.1, §5.2, §5.3, §5.4, §5.5) + Werkbladen logaritmes bij halveringsdikte en radioactiviteit. EXCLUSIEF §5.6 verdieping.",
-          "week": 10
-        },
-        {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
-          "type": "proefwerk",
-          "beschrijving": "Toets argumentatieleer",
-          "stof": "KERN H19-H23",
-          "week": 10
-        },
-        {
-          "vak": "Wiskunde B",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Toets tweede toetsweek - H3 + H4 + H8 (par 8.1 en par 8.3)",
-          "stof": "H3, H4, H8 (par 8.1 en 8.3)",
-          "week": 10
-        },
-        {
-          "vak": "Wiskunde D",
-          "vak_kort": "Wisk",
-          "type": "anders",
-          "beschrijving": "Toets 3",
-          "stof": "Hoofdstukken 10 t/m 13",
-          "week": 10
-        }
-      ],
-      "module_1": [
-        {
-          "vak": "Duits",
-          "vak_kort": "Du",
-          "type": "proefwerk",
-          "beschrijving": "Toets toetsweek: Deel 1 - Schrijftoets Kapitel 1 (woordenschat, Sprachmittel en grammatica)",
-          "stof": "Kapitel 1: Wortschatz (S. 63-65), Sprachmittel (S. 30 & 55), Grammatik (hebben/zijn/worden Präsens und Präteritum; Personalpronomen; Interrogativpronomen)",
-          "week": 47
-        },
-        {
-          "vak": "Frans",
-          "vak_kort": "Fr",
-          "type": "proefwerk",
-          "beschrijving": "Examen Periode 1 - Littérature et vocabulaire (M. Ibrahim, Amélie Poulain, A Plus U1)",
-          "stof": "Littérature: Roman 'M. Ibrahim et les Fleurs du Coran', Film 'Le fabuleux destin d'Amélie Poulain'; Vocabulaire: Amélie (dossier p.17-18, Quizlet) et M. Ibrahim (dossier p.31-35, Quizlet), vocabulaire général littérature/cinéma (dossier p.30); A Plus U1 'D'Ici et d'ailleurs'",
-          "week": 47
-        },
-        {
-          "vak": "Geschiedenis",
-          "vak_kort": "Gs",
-          "type": "po",
-          "beschrijving": "Weging praktische opdracht / geen proefwerk in toetsweek",
-          "stof": "Geen schriftelijke toets; beoordeling op basis van PO-componenten",
-          "week": 47
-        },
-        {
-          "vak": "Grieks",
-          "vak_kort": "Gr",
-          "type": "proefwerk",
-          "beschrijving": "Verplichte Toets 1 van 3",
-          "stof": "Goliath 1-3, Boukephalos, Alexander, grammatica (thematische Aoristus, athematische werkwoorden, futurum), basiswoorden lessen 36-43, Pharos pagina's 14-49",
-          "week": 47
-        },
-        {
-          "vak": "Latijn",
-          "vak_kort": "La",
-          "type": "proefwerk",
-          "beschrijving": "Toets Latijn Module 1 - Tekstrepetitie (50 min, zonder woordenboek)",
-          "stof": "Module 1 H1 Gebeiteld en H2 Mens & Dier: alle teksten uit witregelboekje, achtergronden H1 en H2, Romeinse geschiedenis (koningstijd, Republiek, keizertijd), inscripties, auteursbiografia Phaedrus, grammatica (coniunctivus, deponentia, abl.abs., gerundium, voornaamwoorden, relativum), stijlmiddelen (alliteratie, anafoor, antithese, asyndeton, chiasme, climax, hyperbaton, litotes, metonymia, parallellie, retorische vraag, trikolon)",
-          "week": 47
-        },
-        {
-          "vak": "Natuurkunde",
-          "vak_kort": "Na",
-          "type": "proefwerk",
-          "beschrijving": "Toets Module 1",
-          "stof": "H1 Elektriciteit + §6.1 Rekenvaardigheden + §6.2 Grafieken formules en verbanden",
-          "week": 47
-        },
-        {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
-          "type": "proefwerk",
-          "beschrijving": "toets literatuurgeschiedenis H17 t/m 20",
-          "stof": "literatuurgeschiedenis H17, H18, H19, H20",
-          "week": 47
-        },
-        {
-          "vak": "Wiskunde B",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Toets eerste toetsweek - H2 en H4.1 en H4.2",
-          "stof": "H2, H4.1, H4.2",
-          "week": 47
-        },
-        {
-          "vak": "Wiskunde D",
-          "vak_kort": "Wisk",
-          "type": "anders",
-          "beschrijving": "Toets 12",
-          "stof": "Hoofdstukken 46 t/m 48",
-          "week": 46
-        }
-      ],
-      "module_3": [
-        {
-          "vak": "Wiskunde B",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Toets derde toetsweek - H5 + H6 + H8",
-          "stof": "H5, H6, H8",
-          "week": 25
-        },
-        {
-          "vak": "Wiskunde D",
-          "vak_kort": "Wisk",
-          "type": "anders",
-          "beschrijving": "Toets 7",
-          "stof": "Hoofdstukken 26 t/m 29",
-          "week": 26
         }
       ]
     },
@@ -1205,6 +2145,28 @@
         }
       ]
     },
+    "4D": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "PW Open World Units 6-8 + Writing (formal letter)",
+          "stof": "Open World Units 6-8 and Writing",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "PW Open World and Listening: Open World (Starter and Units 1-3, vocabulary, Use of English, grammar) and Listening",
+          "stof": "Open World Units Starter, 1-3 and Listening",
+          "week": 47
+        }
+      ]
+    },
     "4H": {
       "module_2": [
         {
@@ -1224,6 +2186,44 @@
           "beschrijving": "Test: Open World Units starter, 1, 2, 3 + Listening (CITO HAVO)",
           "stof": "Open World Units Starter, 1, 2, 3, Listening (CITO HAVO), literature: prose & story structure",
           "week": 47
+        }
+      ]
+    },
+    "4A": {
+      "module_2": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "Module 2 test: Open World Units 6-8 and Writing (in test week)",
+          "stof": "Open World Units 6-8, Writing skills",
+          "week": 10
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "H1 (1.3 en 1.4) en H3 (3.1, 3.2A en 3.4B)",
+          "stof": "H1 (1.3 en 1.4) en H3 (3.1, 3.2A en 3.4B)",
+          "week": 10
+        }
+      ],
+      "module_1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "beschrijving": "Diagnostic Test on Units 1-4 (ungraded)",
+          "stof": "Open World Units Starter, 1, 2, 3, 5 + Havo Listening",
+          "week": 47
+        },
+        {
+          "vak": "Wiskunde A",
+          "vak_kort": "Wisk",
+          "type": "proefwerk",
+          "beschrijving": "H4 en H6",
+          "stof": "H4 en H6",
+          "week": 48
         }
       ]
     },
@@ -1249,46 +2249,58 @@
         }
       ]
     },
-    "4A": {
+    "4E": {
       "module_1": [
         {
-          "vak": "Wiskunde A",
-          "vak_kort": "Wisk",
+          "vak": "Engels",
+          "vak_kort": "En",
           "type": "proefwerk",
-          "beschrijving": "H4 en H6",
-          "stof": "H4 en H6",
-          "week": 48
-        }
-      ],
-      "module_2": [
-        {
-          "vak": "Wiskunde A",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "H1 (1.3 en 1.4) en H3 (3.1, 3.2A en 3.4B)",
-          "stof": "H1 (1.3 en 1.4) en H3 (3.1, 3.2A en 3.4B)",
-          "week": 10
+          "beschrijving": "Test week test: Listening & Open World Starter + Units 1, 2, 3 & 5 (Vocabulary / Use of English, Grammar)",
+          "stof": "Open World Starter, Units 1-3, 5; Listening; Vocabulary; Use of English; Grammar",
+          "week": 47
         }
       ]
     },
-    "4B": {
-      "module_2": [
-        {
-          "vak": "Wiskunde B",
-          "vak_kort": "Wisk",
-          "type": "proefwerk",
-          "beschrijving": "Toets module 2: H3 + H4 + H8 (par 8.1 en par 8.3)",
-          "stof": "Hoofdstuk 3, Hoofdstuk 4, Hoofdstuk 8 (paragraaf 8.1 en 8.3)",
-          "week": 11
-        }
-      ],
+    "4LA": {
       "module_1": [
         {
-          "vak": "Wiskunde B",
-          "vak_kort": "Wisk",
+          "vak": "Latijn",
+          "vak_kort": "La",
           "type": "proefwerk",
-          "beschrijving": "Toets eerste toetsweek - Hoofdstuk 2, 4.1 en 4.2",
-          "stof": "H2, H4.1, H4.2",
+          "beschrijving": "50 minuten toets over gelezen teksten en achtergronden (zonder gebruik van woordenboek) - Module 1 (H1 Gebeiteld en H2 Mens & Dier)",
+          "stof": "Alle teksten uit het witregelboekje. Achtergronden H1 en H2. Indeling Romeinse geschiedenis (koningstijd, Republiek, keizertijd). Hoofdstuk B §5: Inscripties. Auteursbiografie Phaedrus.",
+          "week": 47
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "proefwerk",
+          "beschrijving": "50 minuten toets over gelezen teksten en achtergronden + (kleine) proefvertaling (met gebruik van woordenboek) - Module 2 (H3 Verliefd en H4 Slavernij)",
+          "stof": "Alle teksten uit het witregelboekje. Achtergronden H3 en H4. Indeling Romeinse geschiedenis. Genre poëzie bij Catullus en genre epistolografie bij Seneca. Auteursbiografia Catullus en Seneca.",
+          "week": 10
+        }
+      ],
+      "module_3": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "proefwerk",
+          "beschrijving": "100 minuten toets over gelezen teksten + proefvertaling (met gebruik woordenboek) - Module 3 (H5 Beeldschoon en H6 Terug in de Tijd)",
+          "stof": "Alle teksten Ovidius en Plinius uit het witregelboekje. Achtergronden H5 en H6. Metrum dactylische hexameter. Indeling Romeinse geschiedenis. Genre epos bij Ovidius en genre epistolografie bij Plinius. Auteursbiografie Plinius Minor, Plinius Maior en Ovidius.",
+          "week": 25
+        }
+      ]
+    },
+    "4S": {
+      "module_1": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H1, H2",
+          "stof": "H1 (Atoombouw, mol, gehaltes, reacties), H2 (Atoombinding, bindingen tussen moleculen, metaalbinding, ionbinding)",
           "week": 47
         }
       ]
@@ -5356,10 +6368,10 @@
         {
           "vak": "Engels",
           "vak_kort": "En",
-          "type": "so",
-          "beschrijving": "SO Unit 1 (Vocabulary & Grammar)",
-          "stof": "Unit 1 (1.2 and 1.5 grammar + 1.1 – 1.4 vocabulary)",
-          "week": 45
+          "type": "proefwerk",
+          "beschrijving": "PW Unit 1 & 2 - Reading component (1.4, 2.4 + Exam Time)",
+          "stof": "Unit 1 and 2 (all parts + all vocabulary) and Reading (1.4, 2.4 + Exam Time)",
+          "week": 47
         },
         {
           "vak": "Frans",
@@ -5370,19 +6382,11 @@
           "week": 47
         },
         {
-          "vak": "Kunst - BV",
-          "vak_kort": "KuBV",
-          "type": "uso",
-          "beschrijving": "Inleveren van werkstukken lesopdracht 1 en 2: twee tekeningen met kleurpotlood en drie geschilderde werkstukken. Dit levert één uso cijfer op voor alle werkstukken tezamen.",
-          "stof": "Tekenen naar de waarneming: schetsen (vooraanzicht, zijaanzicht, bovenaanzicht), licht-donker effecten met potlood, kleurpotlood technieken, transparante en dekkende schildertechnieken",
-          "week": 48
-        },
-        {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "proefwerk",
-          "beschrijving": "Toets 1 Latijn (proefwerk in toetsweek)",
-          "stof": "Inleiding p.8-16, grammatica thema 1 (Hulpboek p.61-76, overzichten p.103-106), woorden thema 1 (blokken hoofdstuk 1-6 Hulpboek p.115-116 + verplichte aanvullingen en meervoudsvormen), achtergronden bij tekst 4 (Tekstboek p.30), tekst 4 inclusief woorden, tekstvertaling",
+          "beschrijving": "Toets 1 Latijn (in toetsweek)",
+          "stof": "inleiding p.8-16, grammatica thema 1 (Hulpboek p.61-76 en overzichten p.103-106), woorden thema 1 (blokken hoofdstuk 1 t/m 6, Hulpboek p.115-116), achtergronden bij tekst 4 (Nederlandse inleiding Tekstboek p.30), tekst 4 inclusief woorden, vertaling tekstgedeelte",
           "week": 47
         },
         {
@@ -5390,7 +6394,15 @@
           "vak_kort": "Ne",
           "type": "proefwerk",
           "beschrijving": "Proefwerk Geletterdheid",
-          "stof": "Geletterdheid A t/m E (oef. blz. 8 t/m 21) + Dichterlijke taal E + Woordenschat ieder hoofdstuk",
+          "stof": "Geletterdheid A t/m E (oef. blz. 8-21 + handboek) + Dichterlijke taal E + woordenschat elk hoofdstuk",
+          "week": 48
+        },
+        {
+          "vak": "Rekenen",
+          "vak_kort": "Re",
+          "type": "proefwerk",
+          "beschrijving": "Rekentoets (H1-H4 volgens opgaven per les)",
+          "stof": "H1, H2, H3, H4 - Rekenboek klas 1",
           "week": 48
         },
         {
@@ -5490,27 +6502,27 @@
     "1E": {
       "module_1": [
         {
-          "vak": "Aardrijkskunde",
-          "vak_kort": "Ak",
-          "type": "uso",
-          "beschrijving": "USO H4 par 1 t/m 5",
-          "stof": "H4 paragrafen 1 t/m 5",
-          "week": 48
-        },
-        {
           "vak": "Biologie",
           "vak_kort": "Bi",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk H3 Cellen (Boek 1, H3) - Symbiose: open en gesloten vragen",
-          "stof": "BS 3.1-3.6 (Cellen)",
-          "week": 47
+          "beschrijving": "Proefwerk Symbiose - Boek 1, H3 Cellen",
+          "stof": "BS 3.1-3.6 (Organismen en hun cellen, Cellen als bouwers, Energie voor cellen, Van één cel naar meerdere cellen, Weefsels organen en orgaanstelsels, Organen en orgaanstelsels)",
+          "week": 48
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "presentatie",
+          "beschrijving": "Presentatie 'Eerste voorstelling van de 1e klas': korte theatrale voorstelling (circa 10 minuten) met toneel, zang en dans voor publiek (ouders) in de aula",
+          "stof": "5 W's (wie, wat, waar, waarom, wanneer), personagevorming (transformatie in fysiek en stem), tekstbehandeling, emoties en schakelen tussen emoties, theatrale enscenering (kostuums, rekwisieten, mise-en-scene), concentratie, samenwerking, presenteren voor publiek",
+          "week": 48
         },
         {
           "vak": "Engels",
           "vak_kort": "En",
           "type": "proefwerk",
-          "beschrijving": "PW Unit 1 & 2 (all parts + all vocabulary) and Reading (1.4, 2.4 + Exam Time)",
-          "stof": "Unit 1 en 2 (alle onderdelen, alle vocabulary) + Reading (1.4, 2.4, Exam Time)",
+          "beschrijving": "PW Unit 1 & 2 (all parts + all vocabulary) and Reading",
+          "stof": "Unit 1 and 2 (all parts + all vocabulary), reading (1.4, 2.4 + Exam Time)",
           "week": 47
         },
         {
@@ -5518,31 +6530,31 @@
           "vak_kort": "Fr",
           "type": "proefwerk",
           "beschrijving": "PW lire et écrire : unités 0 et 1",
-          "stof": "Lire et écrire unités 0 et 1 (comprendre instructions en français, vocabulaire, grammaire)",
+          "stof": "lire et écrire unités 0 et 1",
           "week": 47
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "presentatie",
+          "beschrijving": "Samos: naamkaartje, kleding en presentatie; verdragen sluiten",
+          "stof": "Samos",
+          "week": 48
         },
         {
           "vak": "Kunst - BV",
           "vak_kort": "KuBV",
           "type": "uso",
-          "beschrijving": "USO (2x cijfer) - inlevering van best gelukte geschilderde werk uit Lesopdracht 2 samen met twee andere tekeningen uit Opdracht 1",
-          "stof": "Tekenen en schilderen naar de waarneming: schetsen naar waarneming (vooraanzicht, zijaanzicht, bovenaanzicht), uitwerking met potlood en kleur, licht- en schaduweffecten, transparant en dekkend schilderen",
+          "beschrijving": "Inlevering Lesopdracht 1 en 2: tekeningen en geschilderde werkstukken naar de waarneming (fruit/voorwerpen). Lesopdracht 1: drie schetsen (vooraanzicht, zijaanzicht, bovenaanzicht), één uitgewerkt met lichtdonker-effecten, één met kleurpotlood. Lesopdracht 2: drie geschilderde voorwerpen (één transparant, één dekkend, één gecombineerd). Één USO-cijfer voor alle drie werkstukken.",
+          "stof": "Tekenen naar de waarneming, schetsen naar waarneming, licht- en schaduweffecten, kleurpotlood, transparante en dekkende schildertechniek, compositie",
           "week": 48
-        },
-        {
-          "vak": "Latijn",
-          "vak_kort": "La",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk Latijn",
-          "stof": "Inleiding p.8-16, Grammatica thema 1 (HB p.61-76, overzichten p.103-106), Woorden thema 1 t/m 4 (HB p.115-116), Achtergronden bij tekst 4 (Tekstboek p.30), tekst 4 inclusief vertaling",
-          "week": 47
         },
         {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Geletterdheid",
-          "stof": "Geletterdheid A t/m E (oef. p. 8 t/m 21 + tb) + Dichterlijke taal E + woordenschat ieder hoofdstuk",
+          "beschrijving": "Proefwerk Geletterdheid A t/m E + Dichterlijke taal E",
+          "stof": "Geletterdheid A t/m E + Dichterlijke taal E + woordenschat ieder hoofdstuk",
           "week": 47
         },
         {
@@ -5559,16 +6571,16 @@
           "vak": "Biologie",
           "vak_kort": "Bi",
           "type": "proefwerk",
-          "beschrijving": "Toetsweek module 2: Symbiose Boek 1, H4 Bewegen en H5 Waarnemen",
-          "stof": "Symbiose, H4 Bewegen (BS 4.1-4.6), H5 Waarnemen (BS 5.1-5.7)",
+          "beschrijving": "Proefwerk Symbiose, Bewegen en Waarnemen",
+          "stof": "Symbiose (Boek 1), H4 Bewegen, H5 Waarnemen",
           "week": 10
         },
         {
           "vak": "Engels",
           "vak_kort": "En",
           "type": "proefwerk",
-          "beschrijving": "PW Unit 4 & 5 (all parts + vocabulary and Reading)",
-          "stof": "Unit 4 and 5 (all parts + all vocabulary) and Reading (4.4, 5.4 + Exam Time)",
+          "beschrijving": "PW Unit 4 and 5 (all parts + all vocabulary) and Reading (4.4, 4.4 + Exam Time)",
+          "stof": "Unit 4 and 5 (all grammar, vocabulary, reading skills including 4.4)",
           "week": 10
         },
         {
@@ -5576,39 +6588,31 @@
           "vak_kort": "Fr",
           "type": "proefwerk",
           "beschrijving": "PW lire et écrire: unités 2 + 3",
-          "stof": "Unités 2 et 3: lecture et écriture, vocabulaire, grammaire (verbes réguliers et irréguliers être, avoir, faire, mettre, lire, aller), adjectifs, questions, descriptions, vêtements, famille, loisirs et activités",
+          "stof": "Unité 2 (vocabulaire, grammaire, werkwoorden, schoolthema's) en Unité 3 (vocabulaire, grammaire, werkwoorden, beschrijvingen, kleding, familie, hobby's)",
           "week": 10
         },
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "proefwerk",
-          "beschrijving": "Eerste proefwerk geschiedenis: Hoofdstuk 5, paragraaf 1 t/m 5 (Romeinen)",
-          "stof": "Hoofdstuk 5 Romeinen, paragrafen 1-5",
+          "beschrijving": "Proefwerk geschiedenis",
+          "stof": "Romeinen: hoofdstuk 5, paragraaf 1 t/m 5",
           "week": 11
         },
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 2 Grieks (vragen over tekst 4, grammatica oefeningen, vragen over achtergronden, kleine proefvertaling)",
-          "stof": "Achtergronden bij tekst 2, 3 en 4 (blz. 26, 28, 30); Grammatica thema 1; Woorden thema 1",
+          "beschrijving": "Proefwerk module 2 Grieks",
+          "stof": "Achtergronden bij tekst 2, 3 en 4; Grammatica thema 1; Woorden thema 1; Vragen over tekst 4; Grammaticale oefeningen; Vragen over achtergronden; Kleine proefvertaling",
           "week": 10
         },
         {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Latijn Module 2 - Grammatica t/m les 10, Woorden t/m les 10, Achtergronden 8, 9 en 10, Tekst 10",
-          "stof": "Grammatica t/m les 10, Woorden t/m les 10, Achtergronden 8, 9 en 10, Tekst 10 als tekst voor de toets",
-          "week": 10
-        },
-        {
-          "vak": "Muziek",
-          "vak_kort": "Mu",
-          "type": "proefwerk",
-          "beschrijving": "Toets module 2 - Katern Chew, chew, chew - Lucky; Luisteren blz. 4, 5, 12, 13; Theorie 1.2",
-          "stof": "Katern Chew, chew, chew - Lucky; Canon in D en Memories; Luisteren blz. 4, 5, 12, 13; Theorie 1.2",
+          "beschrijving": "Proefwerk Latijn Module 2 – Grammatica t/m les 10, Woorden t/m les 10, Achtergronden 8-10, Tekst 10",
+          "stof": "Grammatica t/m les 10, Woorden t/m les 10, Achtergronden 8, 9 en 10, Tekst 10",
           "week": 10
         },
         {
@@ -5625,31 +6629,23 @@
           "vak": "Drama",
           "vak_kort": "Dr",
           "type": "mondeling",
-          "beschrijving": "Improvisatie opdracht in duo's (mondeling, tijdens de les, geen voorbereiding vereist). Beoordeling op: Expressie (personage & emoties), Samenspel, Ruimtegebruik en publieksbewustzijn, Dynamiek en ontwikkeling in de scene, Concentratie.",
-          "stof": "Improvisatie: concentratie, overtuigend samenspelen, schakelen in emoties, dynamiek, conflict, status, ruimtegebruik, tekstzegging",
+          "beschrijving": "Improvisatie opdracht in duo's (mondeling, tijdens de les, geen voorbereiding vereist). Beoordeling criteria: Expressie (personage & emoties), Samenspel, Ruimtegebruik en publieksbewustzijn, Dynamiek en ontwikkeling in de scene, Concentratie.",
+          "stof": "Improvisatie: personage, emoties, samenspel, ruimtegebruik, publieksbewustzijn, dynamiek, status, conflict, tekstzegging, concentratie",
           "week": 25
         },
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 3 Grieks",
+          "beschrijving": "Proefwerk Grieks Module 3",
           "stof": "Grammatica t/m les 8, Woorden t/m les 8, Tekst 9",
-          "week": 25
-        },
-        {
-          "vak": "Latijn",
-          "vak_kort": "La",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 3 (toetsweek 25-26)",
-          "stof": "Grammatica t/m 16, Woorden t/m 16, Achtergronden 15 en 16, Tekst 16",
           "week": 25
         },
         {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "proefwerk",
-          "beschrijving": "PW: Kracht van verhalen (A t/m F) + woordenschat en Dichterlijke taal (B+C+F) + woordenschat",
+          "beschrijving": "PW: Kracht van verhalen A t/m F+woordenschat en Dichterlijke taal B+C+F+woordenschat",
           "stof": "Kracht van verhalen A t/m F, woordenschat, Dichterlijke taal B+C+F, woordenschat",
           "week": 26
         },
@@ -5657,9 +6653,9 @@
           "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk H8 (niet §8.4BC) en §6.6",
-          "stof": "H8 (niet §8.4BC) en §6.6",
-          "week": 26
+          "beschrijving": "PW H8 en §6.6",
+          "stof": "PW H8 (niet §8.4BC) en §6.6",
+          "week": 27
         }
       ]
     },
@@ -5669,16 +6665,16 @@
           "vak": "Biologie",
           "vak_kort": "Bi",
           "type": "uso",
-          "beschrijving": "Proefwerk H3 Cellen (Boek 1, H3) - Symbiose",
-          "stof": "BS 3.1-3.6 (Cellen)",
+          "beschrijving": "USO Symbiose - Boek 1, H3 Cellen: open en gesloten vragen",
+          "stof": "BS 3.1-3.6",
           "week": 47
         },
         {
           "vak": "Drama",
           "vak_kort": "Dr",
-          "type": "handelingsdeel",
-          "beschrijving": "Brugstuk – voorstelling voor publiek. Handelingsdeel voldoende/onvoldoende. Je behaalt dit onderdeel als je je goed inzet (inzet qua spel en qua werkhouding/concentratie) en meespeelt met het optreden voor de ouders.",
-          "stof": "Alle geleerde vaardigheden uit module 1: transformatie in fysiek en stem, tekst spelen met tekstbehandeling, emoties spelen, theatrale mise-en-scene, ruimtegebruik, kostuum en rekwisieten, concentratie, samenwerken, presenteren. Inclusief klassikaal zang & dans moment.",
+          "type": "presentatie",
+          "beschrijving": "Brugstuk – voorstelling voor publiek",
+          "stof": "Transformatie in fysiek en stem, tekstbehandeling, emoties spelen, theatrale mise-en-scene, kostuum/rekwisieten, concentratie en samenwerking",
           "week": 48
         },
         {
@@ -5686,14 +6682,14 @@
           "vak_kort": "En",
           "type": "proefwerk",
           "beschrijving": "Testweek: Chapters 1+2",
-          "stof": "Chapter 1 (Present Simple, Present Simple Questions, listening, reading, speaking, writing) en Chapter 2 (Countable and uncountable nouns, Articles, listening, reading, writing)",
+          "stof": "Chapters 1 en 2",
           "week": 47
         },
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "po",
-          "beschrijving": "Samos-project: producerende fase met naamkaartje, kleding, presentatie en verdragensluitingen",
+          "beschrijving": "Samos-project: producerende fase met naamkaartje, kleding en presentatie; verdragen sluiten; praatjes landen; inleveren voorstellen in enveloppe",
           "stof": "Samos",
           "week": 48
         },
@@ -5701,32 +6697,32 @@
           "vak": "Kunst - BV",
           "vak_kort": "KuBV",
           "type": "uso",
-          "beschrijving": "USO (2x) voor lesopdracht 2: best gelukte geschilderde werk met twee andere tekeningen van opdracht 1. Evaluatie van drie werkstukken (transparant/dekkend schildertechnieken)",
-          "stof": "Tekenen naar waarneming, schetsen, lichtdonker-effecten, kleurpotlood, transparant en dekkend schilderen",
+          "beschrijving": "USO (2x) - Inlevering werkstukken uit lesopdracht 1 en 2: drie schetsen naar waarneming (vooraanzicht, zijaanzicht, bovenaanzicht) uitgewerkt met potlood en kleurpotlood, en drie geschilderde voorwerpen (transparant, dekkend, combinatie). Één cijfer voor alle drie werkstukken.",
+          "stof": "Tekenen en schilderen naar waarneming: basisvormen, lichtval, schaduw, kleurmenging, transparante en dekkende schildertechniek, compositie",
           "week": 48
         },
         {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Latijn (module 1)",
-          "stof": "Inleiding p.8-16; Grammatica thema 1 (HB p.61-76, p.103-106); Woorden thema 1 (1-4); Achtergronden tekst 4 (TB p.30); Vertaling tekst 4",
+          "beschrijving": "Proefwerk Latijn module 1 (tekstvertaling inbegrepen)",
+          "stof": "Inleiding p.8-16, Grammatica thema 1 (HB p.61-76 en overzichten p.103-106), Woorden thema 1 (1 tm 4), Achtergronden bij tekst 4 (TB p.30), Tekst 4 en woorden ervan, Vertalen",
           "week": 47
         },
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
           "type": "proefwerk",
-          "beschrijving": "Toetsweek I - Proefwerk Muziek 1.1",
-          "stof": "Begrippen en theorie, luisteropdrachten naar liedjes (Martinillo, Can't Stop, Ease on down, Boogie Wonderland, Close Encounters), notenleer",
+          "beschrijving": "Toetsweek I - Schriftelijk proefwerk + voorbereiding",
+          "stof": "Begrippen, theorie, alle liedjes, opdrachten uit lesmateriaal",
           "week": 48
         },
         {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Geletterdheid",
-          "stof": "GEL. A t/m E + Dichterlijke taal E + woordenschat ieder hoofdstuk (oef p. 8 t/m 21 + tb)",
+          "beschrijving": "Proefwerk geletterdheid",
+          "stof": "Geletterdheid A t/m E (oef. p. 8-21 + tb) + Dichterlijke taal E + woordenschat ieder hoofdstuk",
           "week": 47
         },
         {
@@ -5740,11 +6736,19 @@
       ],
       "module_2": [
         {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "beschrijving": "USO H4 par 1 t/m 5",
+          "stof": "H4 paragrafen 1-5",
+          "week": 9
+        },
+        {
           "vak": "Biologie",
           "vak_kort": "Bi",
           "type": "proefwerk",
-          "beschrijving": "Toetsweek Module 2: Symbiose Boek 1, H4 Bewegen en H5 Waarnemen",
-          "stof": "Symbiose Boek 1, H4 Bewegen (BS 4.1-4.6), H5 Waarnemen (BS 5.1-5.7)",
+          "beschrijving": "Proefwerk: Symbiose Boek 1, H4 Bewegen en H5 Waarnemen",
+          "stof": "Symbiose Boek 1, H4 Bewegen en H5 Waarnemen",
           "week": 10
         },
         {
@@ -5752,22 +6756,30 @@
           "vak_kort": "En",
           "type": "proefwerk",
           "beschrijving": "Testweek: Chapters 4+5",
-          "stof": "Chapter 4: People; Chapter 5: Education - Vocabulary, Grammar (Comparative/Superlative, have to, must/should, past simple), Reading, Listening, Writing",
+          "stof": "Chapter 4: People (Vocabulary, Comparative/Superlative, have to) en Chapter 5: Education (Vocabulary, must/should, past simple)",
           "week": 11
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "beschrijving": "PW unités 2 + 3: lire + écrire",
+          "stof": "Unités 2 + 3 - lees- en schrijfvaardigheid (lire + écrire) naar aanleiding van de leerdoelen en thematiek",
+          "week": 10
         },
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk geschiedenis",
-          "stof": "Hoofdstuk 5, paragraaf 1 t/m 5 (Romeinen: Rome van dorp tot imperium, bestuurders, gevolgen van veroveringen, Caesar, Augustus)",
+          "beschrijving": "Eerste proefwerk geschiedenis",
+          "stof": "Hoofdstuk 5, paragraaf 1 t/m 5 (Romeinen)",
           "week": 11
         },
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk module 2 (vragen over tekst 4, grammatica oefeningen, vragen over achtergronden, kleine proefvertaling)",
+          "beschrijving": "Proefwerk Module 2 (vragen over tekst 4, grammatica oefeningen, vragen over achtergronden, kleine proefvertaling)",
           "stof": "Achtergronden bij tekst 2, 3 en 4 (blz. 26, 28 en 30), Grammatica thema 1, Woorden thema 1",
           "week": 10
         },
@@ -5776,42 +6788,42 @@
           "vak_kort": "La",
           "type": "proefwerk",
           "beschrijving": "Proefwerk Latijn Module 2 - Grammatica t/m les 10, Woorden t/m les 10, Achtergronden 8/9/10, Tekst 10",
-          "stof": "Grammatica t/m les 10, Woorden t/m les 10, Achtergronden 8, 9 en 10, Tekst 10",
+          "stof": "Grammatica t/m les 10; Woorden t/m les 10; Achtergronden 8, 9 en 10; Tekst 10",
           "week": 10
         },
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 2 - Theorie en kennistoets",
-          "stof": "Theorie 1.2 en Kennen 1.2, alle geleerde liedjes",
-          "week": 11
+          "beschrijving": "Proefwerk Muziek 1.2",
+          "stof": "Theorie 1.2, Kennen 1.2, alle liedjes, opdrachten uit boekje",
+          "week": 10
         },
         {
           "vak": "Wiskunde",
           "vak_kort": "Wi",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk H6 §6.1 t/m §6.5 en §8.1 (toetsweek module 2)",
+          "type": "oefentoets",
+          "beschrijving": "D-toets H6 (p. 46) en D-toets H8.1 (p. 136 deel 2 som 1, herhaling blz 138 deel 2 som 2 en som 3)",
           "stof": "H6 §6.1 t/m §6.5 en §8.1",
           "week": 10
         }
       ],
       "module_3": [
         {
-          "vak": "Grieks",
-          "vak_kort": "Gr",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 3 (toetsweek)",
-          "stof": "Grammatica t/m les 8, Woorden t/m les 8, Tekst 9",
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "beschrijving": "USO H2 par 1 t/m 5",
+          "stof": "H2 paragrafen 1-5",
           "week": 26
         },
         {
-          "vak": "Latijn",
-          "vak_kort": "La",
+          "vak": "Grieks",
+          "vak_kort": "Gr",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 3 (toetsweek)",
-          "stof": "Grammatica t/m 16, Woorden t/m 16, Achtergronden 15 en 16, Tekst 16",
-          "week": 25
+          "beschrijving": "Proefwerk Module 3",
+          "stof": "Grammatica t/m les 8, Woorden t/m les 8, Tekst 9",
+          "week": 26
         }
       ]
     },
@@ -5820,25 +6832,25 @@
         {
           "vak": "Biologie",
           "vak_kort": "Bi",
-          "type": "uso",
-          "beschrijving": "USO H3 Cellen (Boek 1, H3) - Toetsweek",
-          "stof": "BS 3.1-3.6 (Cellen)",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H3 Cellen: open en gesloten vragen",
+          "stof": "Boek 1, H3 Cellen",
           "week": 47
         },
         {
           "vak": "Drama",
           "vak_kort": "Dr",
           "type": "handelingsdeel",
-          "beschrijving": "Brugstuk – voorstelling voor publiek. Handelingsdeel voldoende/onvoldoende. Je behaalt een V(oldoende) als je je goed inzet (inzet qua spel en qua werkhouding/concentratie) en meespeelt met het optreden voor de ouders.",
-          "stof": "Theatrale presentatie 'brugstuk': toepassing van de 5 w's, transformatie in fysiek en stem, tekstbehandeling, emoties spelen, mise-en-scene, kostuum/rekwisieten, concentratie, samenwerking, presenteren voor publiek, klassikaal zang & dans",
+          "beschrijving": "Brugstuk – voorstelling voor publiek. Je dient goed in te zetten qua spel en werkhouding/concentratie, en mee te spelen met het optreden voor de ouders op vrijdagavond 28 november in de aula van Socrates.",
+          "stof": "Alle vaardigheden uit module 1: de 5 w's in een scene, personage spelen door transformatie in fysiek en stem, tekst spelen en tekstbehandeling, emoties spelen, theatrale mise-en-scene en ruimtegebruik, zelf een rol vormgeven met kostuum/rekwisieten, geconcentreerd spelen en naar elkaar kijken, samenwerken, presenteren voor publiek. Inclusief zang & dans.",
           "week": 48
         },
         {
           "vak": "Engels",
           "vak_kort": "En",
           "type": "proefwerk",
-          "beschrijving": "M1 PW - Module 1 Proefwerk",
-          "stof": "Unit 1 & 2: all vocabulary, all grammar, reading",
+          "beschrijving": "M1 PW (Module 1 Proefwerk)",
+          "stof": "Unit 1 & 2: all vocabulary, all grammar + reading test",
           "week": 47
         },
         {
@@ -5846,192 +6858,32 @@
           "vak_kort": "Fr",
           "type": "proefwerk",
           "beschrijving": "PW lire et écrire: unités 0 et 1",
-          "stof": "Unités 0 et 1: lire et écrire (voir objectifs)",
+          "stof": "Unités 0 et 1 (lire et écrire): vocabulaire, grammaire, werkwoorden (être, avoir, aimer)",
           "week": 47
-        },
-        {
-          "vak": "Kunst - BV",
-          "vak_kort": "KuBV",
-          "type": "uso",
-          "beschrijving": "Inleveren van werkstukken uit Lesopdracht 1 en 2: drie tekeningen met potlood/kleurpotlood en drie geschilderde werken (transparant, dekkend, combinatie). Telt als 2x USO cijfer, maar één cijfer voor alle drie werkstukken.",
-          "stof": "Tekenen naar waarneming, schetsen (vooraanzicht, zijaanzicht, bovenaanzicht), lichtdonker/schaduweffecten, kleurpotlood, transparante en dekkende schildertechniek",
-          "week": 48
-        },
-        {
-          "vak": "Latijn",
-          "vak_kort": "La",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk Latijn: Inleiding, Grammatica thema 1, Woorden thema 1 (H1-4), Achtergronden bij tekst 4, Tekst 4 met proefvertaling",
-          "stof": "Inleiding: Tekstboek pp. 8-16, Grammatica thema 1: Hulpboek pp. 61-76, 103-106, Woorden thema 1: H1-4 Hulpboek 115-116, Achtergronden bij tekst 4: Tekstboek p.30, Tekst 4",
-          "week": 47
-        },
-        {
-          "vak": "Muziek",
-          "vak_kort": "Mu",
-          "type": "proefwerk",
-          "beschrijving": "Toetsweek I - schrijftoets Muziek 1.1",
-          "stof": "Begrippen, theorie, liedjes (Martinillo, Can't Stop, Ease on down, Close Encounters), Horen 1.1, Schrijven 1.1, Zien 1.1",
-          "week": 47
-        },
-        {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk geletterdheid: A t/m E (oef p. 8 t/m 21 + tb) + dichterlijke taal E",
-          "stof": "Geletterdheid A t/m E, dichterlijke taal E, woordenschat ieder hoofdstuk",
-          "week": 47
-        },
-        {
-          "vak": "Wiskunde",
-          "vak_kort": "Wi",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk H2, H3.1 t/m 3.2",
-          "stof": "Hoofdstuk 2, Hoofdstuk 3.1 t/m 3.2",
-          "week": 47
-        }
-      ],
-      "module_2": [
-        {
-          "vak": "Biologie",
-          "vak_kort": "Bi",
-          "type": "proefwerk",
-          "beschrijving": "Toetsweek examen: Symbiose (Boek 1), H4 Bewegen en H5 Waarnemen",
-          "stof": "Symbiose Boek 1, H4 Bewegen, H5 Waarnemen (Signalen via cellen, Ruiken en proeven, Horen en evenwicht, Kijken, Zintuigen in de huid, Zenuwstelsel, Reflexen)",
-          "week": 10
-        },
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "proefwerk",
-          "beschrijving": "Diagnostic Test M2 PW - Unit 4 & 5: all vocabulary, all grammar + reading test",
-          "stof": "Unit 4 & 5: all vocabulary, all grammar, reading",
-          "week": 9
-        },
-        {
-          "vak": "Frans",
-          "vak_kort": "Fr",
-          "type": "proefwerk",
-          "beschrijving": "PW lire et écrire: unités 2 + 3",
-          "stof": "Unité 2 en Unité 3: lezen en schrijven (alle woorden, werkwoorden, bijvoeglijke naamwoorden, vragen stellen, beschrijvingen, kledingstijlen, familieleden, activiteiten en hobby's)",
-          "week": 10
-        },
-        {
-          "vak": "Geschiedenis",
-          "vak_kort": "Gs",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk module 2 (Toetsweek II)",
-          "stof": "H5 – Het Romeinse Rijk: §1 t/m §5, §7 + blz. 85 Hannibal + blz. 83 kaart Romeinse Rijk + blz. 87 Bestuur + aantekeningen + gemaakte opdrachten",
-          "week": 10
-        },
-        {
-          "vak": "Grieks",
-          "vak_kort": "Gr",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk Grieks",
-          "stof": "Grammatica thema 1, Woorden thema 1, Tekst Ζευς, Achtergronden H2, H3 en H4",
-          "week": 10
         },
         {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "proefwerk",
           "beschrijving": "Proefwerk Latijn",
-          "stof": "Grammatica t/m H10, Woorden t/m H10, Tekst Spectacula, Achtergronden H8, H9 en H10",
-          "week": 10
+          "stof": "Inleiding: Tekstboek pp. 8-16, Grammatica thema 1: Hulpboek pp. 61-76, 103-106, Woorden thema 1: H1-4 Hulpboek 115-116 (inclusief verplichte aanvullingen en meervoudsvormen), Achtergronden bij tekst 4: Tekstboek p.30, Tekst 4 (inclusief de dikgedrukte woorden van H4), Proefvertaling",
+          "week": 47
         },
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "mondeling",
-          "beschrijving": "Zingen©",
-          "stof": "Zingen (in eerste les na toetsweek)",
-          "week": 10
-        },
-        {
-          "vak": "Wiskunde",
-          "vak_kort": "Wi",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk H6 en H8.1: §6.1 t/m §6.5 en §8.1",
-          "stof": "Hoofdstuk 6 (secties 6.1 tot en met 6.5) en Hoofdstuk 8 (sectie 8.1)",
-          "week": 10
-        }
-      ],
-      "module_3": [
-        {
-          "vak": "Frans",
-          "vak_kort": "Fr",
-          "type": "proefwerk",
-          "beschrijving": "PW lire et écrire: unité 4 + Petit Nicolas",
-          "stof": "Unité 4, Petit Nicolas, lire et écrire",
-          "week": 26
-        },
-        {
-          "vak": "Wiskunde",
-          "vak_kort": "Wi",
-          "type": "proefwerk",
-          "beschrijving": "PW H8 (niet §8.4BC) en §6.6",
-          "stof": "Hoofdstuk 8 (zonder §8.4BC) en Hoofdstuk 6.6",
-          "week": 25
-        }
-      ]
-    },
-    "1B": {
-      "module_1": [
-        {
-          "vak": "Biologie",
-          "vak_kort": "Bi",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk Toetsweek - Symbiose Boek 1, H3 Cellen: 50 minuten, open en gesloten vragen",
-          "stof": "BS 3.1-3.6 (H3 Cellen)",
-          "week": 47
-        },
-        {
-          "vak": "Drama",
-          "vak_kort": "Dr",
-          "type": "handelingsdeel",
-          "beschrijving": "Brugstuk – voorstelling voor publiek",
-          "stof": "Speloefeningen met emotie, groot spel, interpretatie, subtekst, tekstbehandeling, mise-en-scène, beweging, dans, kostuums en rekwisieten",
-          "week": 48
-        },
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "proefwerk",
-          "beschrijving": "M1 PW - Module 1 Proefwerk (toetsweek)",
-          "stof": "Unit 0, Unit 1, Unit 2",
-          "week": 47
-        },
-        {
-          "vak": "Kunst - BV",
-          "vak_kort": "KuBV",
-          "type": "uso",
-          "beschrijving": "Inlevering Lesopdracht 1 en 2: drie geschilderde werkstukken (transparant, dekkend, en gemengd) voor USO-beoordeling",
-          "stof": "Tekenen en schilderen naar de waarneming: schetsen, lichtdonker-effecten, kleurgebruik, transparante en dekkende schildertechniek",
-          "week": 48
-        },
-        {
-          "vak": "Latijn",
-          "vak_kort": "La",
-          "type": "so",
-          "beschrijving": "S.O. woorden les 2 (telt 1x mee)",
-          "stof": "Basiswoorden les 2",
+          "beschrijving": "Proefwerk Module 1 - Toetsweek I",
+          "stof": "Begrippen en theorie Module 1 (alle onderdelen)",
           "week": 47
         },
         {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Geletterdheid",
-          "stof": "Geletterdheid A t/m E (oef p. 8 t/m 21 + tb) + Dichterlijke taal E + Woordenschat ieder hoofdstuk",
+          "beschrijving": "Proefwerk Geletterdheid: A t/m E + Dichterlijke taal E",
+          "stof": "GEL. A t/m E (oef. p. 8 t/m 21 + tb) + Dichterlijke taal E + woordenschat ieder hoofdstuk",
           "week": 47
-        },
-        {
-          "vak": "Rekenen",
-          "vak_kort": "Re",
-          "type": "proefwerk",
-          "beschrijving": "Rekentoets",
-          "stof": "H1, H2, H3, H4",
-          "week": 44
         },
         {
           "vak": "Wiskunde",
@@ -6047,23 +6899,31 @@
           "vak": "Biologie",
           "vak_kort": "Bi",
           "type": "proefwerk",
-          "beschrijving": "Toetsweek - Symbiose Boek 2, H4 Bewegen en H5 Waarnemen",
-          "stof": "Symbiose (Boek 2), H4 Bewegen (BS 4.1-4.6), H5 Waarnemen (BS 5.1-5.7)",
+          "beschrijving": "Toetsweek: Symbiose Boek 1, H4 Bewegen en H5 Waarnemen",
+          "stof": "Symbiose Boek 1, H4 Bewegen en H5 Waarnemen",
+          "week": 10
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "M2 PW - Test Week (Module 2 Proefwerk)",
+          "stof": "Unit 4 & 5: all vocabulary, all grammar, reading",
           "week": 10
         },
         {
           "vak": "Frans",
           "vak_kort": "Fr",
           "type": "proefwerk",
-          "beschrijving": "PW unités 2 + 3: lire + écrire (lees- en schrijfvaardigheid)",
-          "stof": "Unités 2 + 3 - Lees- en schrijfvaardigheid naar aanleiding van leerdoelen en thematiek",
+          "beschrijving": "PW lire et écrire : unités 2 + 3",
+          "stof": "Unités 2 + 3 - lire et écrire",
           "week": 10
         },
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Romeinse Rijk (toetsweek II)",
+          "beschrijving": "Proefwerk Toetsweek II",
           "stof": "H5 – Het Romeinse Rijk: §1 t/m §5, §7 + blz. 85 Hannibal en blz. 83 kaart Romeinse Rijk + blz. 87 Bestuur + aantekeningen + gemaakte opdrachten",
           "week": 10
         },
@@ -6071,31 +6931,167 @@
           "vak": "Grieks",
           "vak_kort": "Gr",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Grieks module 2: vragen over tekst 4, grammaticaoefeningen, vragen over achtergronden, kleine proefvertaling",
-          "stof": "Achtergronden bij tekst 2, 3 en 4 (blz. 26, 28 en 30), grammatica thema 1, woorden thema 1",
+          "beschrijving": "Proefwerk Grieks",
+          "stof": "Griekse grammatica thema 1, woorden thema 1, tekst Ζευς, achtergronden H2, H3 en H4",
           "week": 10
         },
         {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 2",
-          "stof": "Grammatica t/m les 10, Woorden t/m les 10, Achtergronden 8, 9 en 10, Tekst 10",
+          "beschrijving": "Proefwerk Latijn",
+          "stof": "Latijnse grammatica t/m H10, woorden t/m H10, tekst Spectacula, achtergronden H8, H9 en H10",
           "week": 10
         },
         {
           "vak": "Muziek",
           "vak_kort": "Mu",
-          "type": "uso",
-          "beschrijving": "Horen 1.2 - Schriftelijke opgaven over notenduur, resten, noten identificeren en maatvolgorde",
-          "stof": "Notenduur, resten, noten identificeren, maatvolgorde, herhalingstekens",
+          "type": "mondeling",
+          "beschrijving": "Zingen© (beoordeling in toetsweek of eerste les na toetsweek)",
+          "stof": "Alle liedjes",
           "week": 10
         },
         {
           "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk H6 §6.1 t/m §6.5 en §8.1",
+          "beschrijving": "Proefwerk H6 en H8.1 (toetsweek module 2)",
+          "stof": "H6 §6.1 t/m §6.5 en §8.1",
+          "week": 10
+        }
+      ],
+      "module_3": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "beschrijving": "PW lire et écrire : unité 4 + Petit Nicolas",
+          "stof": "Unité 4 (lire et écrire), Petit Nicolas (vocabulaire, contenu du film, cartes postales, histoires de vacances)",
+          "week": 25
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H8 (niet §8.4BC) en §6.6",
+          "stof": "Hoofdstuk 8 (exclusief paragrafen 8.4B en 8.4C) en paragraaf 6.6",
+          "week": 26
+        }
+      ]
+    },
+    "1B": {
+      "module_1": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "beschrijving": "USO H3 Cellen (Boek 1, H3): open en gesloten vragen",
+          "stof": "BS 3.1-3.6",
+          "week": 47
+        },
+        {
+          "vak": "Drama",
+          "vak_kort": "Dr",
+          "type": "handelingsdeel",
+          "beschrijving": "Brugstuk – voorstelling voor publiek. Je behaalt dit handelingsdeel als je goed inzet qua spel en werkhouding/concentratie en meespeelt met het optreden voor de ouders.",
+          "stof": "Speelvaardigheden: transformatie in fysiek en stem, tekstbehandeling, emoties spelen, theatrale mise-en-scene, gebruik kostuum en rekwisieten, concentratie, samenwerking, presentatie voor publiek. Brugstuk script met klassikaal zang- en dansmoment.",
+          "week": 48
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "M1 PW (Module 1 Proefwerk)",
+          "stof": "Unit 1 & 2: all vocabulary, all grammar + reading",
+          "week": 47
+        },
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "uso",
+          "beschrijving": "Inlevering lesopdracht 1 en 2: drie schetsen naar waarneming (vooraanzicht, zijaanzicht, bovenaanzicht) uitgewerkt met lichtdonker/schaduweffecten en kleurpotlood (opdracht 1), plus drie geschilderde voorwerpen transparant/dekkend/gecombineerd (opdracht 2). Beoordeling als één USO-cijfer voor alle drie werkstukken.",
+          "stof": "Tekenen en schilderen naar de waarneming: vooraanzicht, zijaanzicht, bovenaanzicht, lichtval, schaduw, eigen schaduw, kleurmenging, transparant, dekkend, compositie, overlapping, afsnijding",
+          "week": 48
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Geletterdheid (GEL): A t/m E (oef p. 8 t/m 21 + tb) + dichterlijke taal E",
+          "stof": "GEL A t/m E, dichterlijke taal E, woordenschat ieder hoofdstuk",
+          "week": 47
+        },
+        {
+          "vak": "Rekenen",
+          "vak_kort": "Re",
+          "type": "proefwerk",
+          "beschrijving": "Rekentoets",
+          "stof": "H1, H2, H3, H4",
+          "week": 45
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk H2, H3.1 t/m 3.2",
+          "stof": "H2, H3.1 t/m 3.2",
+          "week": 47
+        }
+      ],
+      "module_2": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Symbiose (Boek 2), H4 Bewegen en H5 Waarnemen",
+          "stof": "Symbiose (Boek 2), H4 Bewegen, H5 Waarnemen (Signalen via cellen, Ruiken en proeven, Horen en evenwicht, Kijken, Zintuigen in de huid, Zenuwstelsel, Reflexen)",
+          "week": 10
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "beschrijving": "M1 PW (Module 2 Proefwerk)",
+          "stof": "",
+          "week": 10
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "beschrijving": "PW unités 2 + 3: lire + écrire",
+          "stof": "Lees- en schrijfvaardigheid naar aanleiding van de leerdoelen + thematiek van unités 2 + 3",
+          "week": 10
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Geschiedenis Module 2",
+          "stof": "H5 – Het Romeinse Rijk: §1 t/m §5, §7 + blz. 85 Hannibal en blz. 83 kaart Romeinse Rijk + blz. 87 Bestuur + aantekeningen + gemaakte opdrachten",
+          "week": 10
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "proefwerk",
+          "beschrijving": "Proefwerk Thema 1 (vragen over tekst 4, grammatica oefeningen, vragen over achtergronden, kleine proefvertaling)",
+          "stof": "Achtergronden bij tekst 2, 3 en 4 (blz. 26, 28 en 30), Grammatica thema 1, Woorden thema 1",
+          "week": 10
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "proefwerk",
+          "beschrijving": "Toets over Thema 1, les 1 t/m 4",
+          "stof": "Inleiding blz. 8-16, grammatica thema 1 (les 1-4), woorden les 1-4, achtergronden tekst 4, tekst 4",
+          "week": 8
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "beschrijving": "PW H6: §6.1 t/m §6.5 en §8.1",
           "stof": "H6 §6.1 t/m §6.5 en §8.1",
           "week": 10
         }
@@ -6105,15 +7101,15 @@
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Kracht van verhalen",
-          "stof": "Kracht van verhalen A t/m F+woordenschat en Dichterlijke taal B+C+F+woordenschat",
+          "beschrijving": "Kracht van verhalen A t/m F + woordenschat en Dichterlijke taal B+C+F+woordenschat",
+          "stof": "Kracht van Verhalen A t/m F, woordenschat, Dichterlijke Taal B, C, F, woordenschat",
           "week": 26
         },
         {
           "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
-          "beschrijving": "PW H8 (niet §8.4BC) en §6.6",
+          "beschrijving": "PW H8 en §6.6",
           "stof": "H8 (niet §8.4BC) en §6.6",
           "week": 27
         }
@@ -6124,17 +7120,17 @@
         {
           "vak": "Biologie",
           "vak_kort": "Bi",
-          "type": "uso",
-          "beschrijving": "USO H3 Cellen (toetsweek)",
-          "stof": "Boek 1, H3 Cellen",
+          "type": "proefwerk",
+          "beschrijving": "Toetsweek - Symbiose Boek 1, H3 Cellen: 50 minuten, open en gesloten vragen",
+          "stof": "Symbiose Boek 1, H3 Cellen",
           "week": 47
         },
         {
           "vak": "Drama",
           "vak_kort": "Dr",
           "type": "handelingsdeel",
-          "beschrijving": "Brugstuk – voorstelling voor publiek. Dit is een handelingsdeel (voldoende/onvoldoende). Je behaalt het vak als je goed inzet toont (qua spel en werkhouding/concentratie) en meespeelt met het optreden voor de ouders.",
-          "stof": "Alle dramaonderdelen uit module 1: de 5 w's, transformatie in fysiek en stem, tekst spelen met tekstbehandeling, emoties spelen en schakelen, theatrale mise-en-scene, kostuum/rekwisieten, concentratie, samenwerking, presenteren",
+          "beschrijving": "Brugstuk – voorstelling voor publiek. Handelingsdeel voldoende/onvoldoende. Je behaalt dit als je je goed inzet (inzet qua spel en qua werkhouding/concentratie) en meesoelt met het optreden voor de ouders.",
+          "stof": "Spelen van een theatrale presentatie (brugstuk) met aandacht voor: transformatie in fysiek en stem, tekstbehandeling, emoties spelen, mise-en-scene, ruimtegebruik, samenwerking, concentratie en presenteren voor publiek. Onderdeel van de presentatie zijn toneel, zang en dans.",
           "week": 48
         },
         {
@@ -6142,55 +7138,47 @@
           "vak_kort": "En",
           "type": "proefwerk",
           "beschrijving": "Testweek: Chapters 1+2",
-          "stof": "Chapter 1 en Chapter 2: Present Simple, Countable and uncountable nouns, Articles, Listening, Reading, Writing, Speaking",
+          "stof": "Chapters 1 en 2",
           "week": 47
         },
         {
           "vak": "Frans",
           "vak_kort": "Fr",
           "type": "proefwerk",
-          "beschrijving": "PW lire et écrire: unités 0 et 1",
-          "stof": "Unités 0 et 1: lire et écrire, vocabulaire, grammaire (verbes réguliers et irréguliers être/avoir)",
+          "beschrijving": "PW lire et écrire : unités 0 et 1",
+          "stof": "lire et écrire unités 0 et 1 - vocabulaire, grammaire, verbes réguliers et irréguliers (être, avoir)",
           "week": 47
         },
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
           "type": "uso",
-          "beschrijving": "Grieks module 1: USO over het alfabet. Doelen: herkennen en schrijven van alle letters, bijzondere tekens (spiriti), vlot doorlezen van Griekse teksten",
-          "stof": "Grieks alfabet, bijzondere tekens (spiriti), Griekse teksten",
+          "beschrijving": "Grieks module 1 - USO over het alfabet",
+          "stof": "Alfabet (herkennen en schrijven van alle letters, bijzondere tekens zoals spiriti, vlot doorlezen van Griekse teksten)",
           "week": 47
         },
         {
           "vak": "Kunst - BV",
           "vak_kort": "KuBV",
           "type": "uso",
-          "beschrijving": "Lesopdracht 2: Drie geschilderde tekeningen naar de waarneming (transparant, dekkend, gecombineerd). Inlevering van één beste werkstuk samen met twee tekeningen van opdracht 1. Telt als 2x uso cijfer.",
-          "stof": "Tekenen en schilderen naar de waarneming: compositie, lichtval, schaduw, kleurgebruik, transparante en dekkende schildertechnieken",
+          "beschrijving": "Inlevering Lesopdracht 1 & 2: drie schetsen met lichtdonker/schaduweffecten (potlood) en drie geschilderde tekeningen (transparant, dekkend, combinatie). Één USO-cijfer voor alle werkstukken.",
+          "stof": "Tekenen naar de waarneming, schaduweffecten, lichtval, kleurmenging, transparante en dekkende verfechniek",
           "week": 48
         },
         {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "proefwerk",
-          "beschrijving": "Latijn module 1: combinatie van gelezen teksten, grammatica-opdrachten en korte vertaling. Stof: Forum (Thema 1), Inleiding p. 8-16, Grammatica H1-4, Woorden H1-4, Achtergronden H1-4",
-          "stof": "Forum (Thema 1), Inleiding p. 8-16, Grammatica thema 1 H1-4, Woorden thema 1 H1-4, Achtergronden H1-4",
-          "week": 47
-        },
-        {
-          "vak": "Muziek",
-          "vak_kort": "Mu",
-          "type": "uso",
-          "beschrijving": "Horen 1.1 - Luistervaardigheden (noten herkennen, maten ordenen, toonduur identificeren)",
-          "stof": "Toonduur, toonhoogte, maat, maatsoort, notenwaarden",
+          "beschrijving": "Latijn module 1 - Forum: gelezen teksten, grammatica-opdrachten en korte vertaling",
+          "stof": "Inleiding p. 8-16, Grammatica thema 1 H 1-4, Woorden thema 1 H1-4, Achtergronden H1-4",
           "week": 47
         },
         {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Geletterdheid A t/m E + Dichterlijke taal E + Woordenschat",
-          "stof": "Geletterdheid A t/m E (oef. p. 8-21) + Dichterlijke taal E (oef. p. 64) + Woordenschat van alle hoofdstukken",
+          "beschrijving": "Proefwerk geletterdheid",
+          "stof": "Geletterdheid A t/m E (oef p. 8 t/m 21 + tb) + dichterlijke taal E + woordenschat van deze hoofdstukken",
           "week": 47
         },
         {
@@ -6198,7 +7186,7 @@
           "vak_kort": "Wi",
           "type": "proefwerk",
           "beschrijving": "Proefwerk H2, H3.1 t/m 3.2",
-          "stof": "H2, H3.1 t/m 3.2",
+          "stof": "Hoofdstuk 2, Hoofdstuk 3.1 t/m 3.2",
           "week": 47
         }
       ],
@@ -6207,8 +7195,8 @@
           "vak": "Biologie",
           "vak_kort": "Bi",
           "type": "proefwerk",
-          "beschrijving": "Toetsweek module 2: Symbiose Boek 1, H4 Bewegen en H5 Waarnemen",
-          "stof": "Symbiose (Boek 1), H4 Bewegen, H5 Waarnemen (Signalen via cellen, Ruiken en proeven, Horen en evenwicht, Kijken, Zintuigen in de huid, Zenuwstelsel, Reflexen, Skeletten, Botten, Spieren, Beweging, Gewrichten, Pijn)",
+          "beschrijving": "Proefwerk Symbiose Boek 1, H4 Bewegen en H5 Waarnemen",
+          "stof": "Symbiose Boek 1, H4 Bewegen en H5 Waarnemen",
           "week": 10
         },
         {
@@ -6216,30 +7204,30 @@
           "vak_kort": "En",
           "type": "proefwerk",
           "beschrijving": "Testweek: Chapters 4+5",
-          "stof": "Chapter 4: People (Comparative/Superlative, have to) en Chapter 5: Education (Vocabulary 5.1-5.2, Grammar: Past simple of to be & can, Reading, Listening, Writing)",
+          "stof": "Chapter 4: People (Vocabulary, Grammar: Comparative/Superlative, have to) and Chapter 5: Education (Vocabulary 5.1-5.2, Grammar: Past simple of to be & can, Reading, Listening, Writing)",
           "week": 11
         },
         {
           "vak": "Frans",
           "vak_kort": "Fr",
           "type": "proefwerk",
-          "beschrijving": "PW lire et écrire: unités 2 + 3",
-          "stof": "Unités 2 + 3: lire et écrire (voir objectifs)",
+          "beschrijving": "PW lire et écrire",
+          "stof": "unités 2 + 3",
           "week": 10
         },
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk Module 2 - Het Romeinse Rijk",
+          "beschrijving": "Proefwerk Römerse Rijk",
           "stof": "H5 – Het Romeinse Rijk: §1 t/m §5, §7 + blz. 85 Hannibal en blz. 83 kaart Romeinse Rijk + blz. 87 Bestuur + aantekeningen + gemaakte opdrachten",
           "week": 10
         },
         {
           "vak": "Wiskunde",
           "vak_kort": "Wi",
-          "type": "proefwerk",
-          "beschrijving": "Proefwerk H6 §6.1 t/m §6.5 en §8.1 (Toetsweek Module 2)",
+          "type": "oefentoets",
+          "beschrijving": "D-toets H6 (ter voorbereiding proefwerk)",
           "stof": "H6 §6.1 t/m §6.5 en §8.1",
           "week": 10
         }
@@ -6250,15 +7238,15 @@
           "vak_kort": "Fr",
           "type": "proefwerk",
           "beschrijving": "PW lire et écrire: unité 4 + Petit Nicolas",
-          "stof": "Unité 4 (objectifs), Petit Nicolas",
+          "stof": "unité 4 (lire et écrire), Petit Nicolas",
           "week": 26
         },
         {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "proefwerk",
-          "beschrijving": "Proefwerk: Kracht van verhalen A t/m F + woordenschat en Dichterlijke taal B+C+F + woordenschat",
-          "stof": "Kracht van verhalen A t/m F + woordenschat, Dichterlijke taal B+C+F + woordenschat",
+          "beschrijving": "Kracht van verhalen A t/m F + woordenschat en Dichterlijke taal B+C+F+woordenschat",
+          "stof": "Kracht van verhalen A t/m F, woordenschat, Dichterlijke taal B+C+F, woordenschat",
           "week": 26
         }
       ]
