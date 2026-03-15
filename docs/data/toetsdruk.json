@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-15T09:26:32",
+  "gegenereerd": "2026-03-15T09:32:24",
   "kalender": {
     "module_weken": {
       "1": [
@@ -452,6 +452,26 @@
           "type_kort": "SO",
           "beschrijving": "SO H3 §3.3 t/m §3.6",
           "stof": "H3 §3.3 t/m §3.6"
+        }
+      ],
+      "21": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Creatieve opdracht poëzie: Dichterlijke taal A+D+Syllabus Poëzie",
+          "stof": "Dichterlijke taal A+D+Syllabus Poëzie"
+        }
+      ],
+      "14": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "Geschiedenis van het Nederlands A t/m D - Eindopdracht in de les",
+          "stof": "Geschiedenis van het Nederlands A t/m D"
         }
       ],
       "42": [
@@ -920,6 +940,112 @@
           "stof": "H3 §3.3 t/m §3.6"
         }
       ],
+      "13": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "GsvhN afsluiting - Eindopdracht in de les",
+          "stof": "Geschiedenis van het Nederlands A t/m D"
+        }
+      ],
+      "21": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "U.S.O. les 8 (woorden + alfabet)",
+          "stof": "Woorden les 8, grammatica 8.1-8.2, alfabet"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Creatieve opdracht poëzie: Dichterlijke taal",
+          "stof": "Dichterlijke taal A+D+Syllabus Poëzie"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets H9",
+          "stof": "H9"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H9 (t/m blz 182)",
+          "stof": "H9 t/m blz 182"
+        }
+      ],
+      "14": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Dialoog Godenopdracht (inleveren)",
+          "stof": "Grieks - Theme 2"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "S.O. les 6 (woorden + alfabet)",
+          "stof": "Woorden les 6, grammatica 6.1-6.2, alfabet"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets H7",
+          "stof": "H7"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "S.O. les 11",
+          "stof": "woorden en grammatica les 11"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H7 (niet §7.3C en §7.5)",
+          "stof": "H7 (niet §7.3C en §7.5)"
+        }
+      ],
+      "25": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets woorden 2-9 (diagnostische toets)",
+          "stof": "Woorden lessen 2 t/m 9"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets H8 (niet 10,11)",
+          "stof": "H8 (niet 10,11)"
+        }
+      ],
       "36": [
         {
           "vak": "Rekenen",
@@ -970,24 +1096,6 @@
           "stof": "Grieks - Theme 2"
         }
       ],
-      "14": [
-        {
-          "vak": "Grieks",
-          "vak_kort": "Gr",
-          "type": "po",
-          "type_kort": "PO",
-          "beschrijving": "Dialoog Godenopdracht (inleveren)",
-          "stof": "Grieks - Theme 2"
-        },
-        {
-          "vak": "Grieks",
-          "vak_kort": "Gr",
-          "type": "so",
-          "type_kort": "SO",
-          "beschrijving": "S.O. les 6 (woorden + alfabet)",
-          "stof": "Woorden les 6, grammatica 6.1-6.2, alfabet"
-        }
-      ],
       "18": [
         {
           "vak": "Grieks",
@@ -998,16 +1106,6 @@
           "stof": "Woorden les 7, grammatica 7.1-7.2, alfabet"
         }
       ],
-      "21": [
-        {
-          "vak": "Grieks",
-          "vak_kort": "Gr",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "U.S.O. les 8 (woorden + alfabet)",
-          "stof": "Woorden les 8, grammatica 8.1-8.2, alfabet"
-        }
-      ],
       "24": [
         {
           "vak": "Grieks",
@@ -1016,26 +1114,6 @@
           "type_kort": "Oef",
           "beschrijving": "D-toets verbuigingsgroepen (diagnostische toets)",
           "stof": "Grammatica 6.1 en 7.2 - verbuigingsgroepen"
-        }
-      ],
-      "25": [
-        {
-          "vak": "Grieks",
-          "vak_kort": "Gr",
-          "type": "oefentoets",
-          "type_kort": "Oef",
-          "beschrijving": "D-toets woorden 2-9 (diagnostische toets)",
-          "stof": "Woorden lessen 2 t/m 9"
-        }
-      ],
-      "15": [
-        {
-          "vak": "Latijn",
-          "vak_kort": "La",
-          "type": "so",
-          "type_kort": "SO",
-          "beschrijving": "S.O. les 11",
-          "stof": "woorden en grammatica les 11"
         }
       ],
       "16": [
@@ -2404,6 +2482,34 @@
           "stof": "H4 §4.1 t/m §4.5A"
         }
       ],
+      "20": [
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO: Creatieve opdracht poëzie (Dichterlijke taal A+D+Syllabus Poëzie)",
+          "stof": "Dichterlijke taal A+D, Syllabus Poëzie"
+        }
+      ],
+      "24": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO woorden (lessen 1-13)",
+          "stof": "Woorden lessen 1-13"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "handelingsdeel",
+          "type_kort": "HD",
+          "beschrijving": "PO/HD: Geschiedenis van het Nederlands (A+D)",
+          "stof": "Geschiedenis van het Nederlands A+D"
+        }
+      ],
       "16": [
         {
           "vak": "Grieks",
@@ -2430,6 +2536,22 @@
           "type_kort": "SO",
           "beschrijving": "SO grammatica les 7",
           "stof": "Grammatica les 7 (dativus)"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets H9",
+          "stof": "H9"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H9 t/m blz 182",
+          "stof": "H9 t/m blz 182"
         }
       ],
       "22": [
@@ -2442,14 +2564,34 @@
           "stof": "Grammatica en woorden les 15"
         }
       ],
-      "24": [
+      "14": [
         {
-          "vak": "Latijn",
-          "vak_kort": "La",
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets H7",
+          "stof": "H7"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "USO woorden (lessen 1-13)",
-          "stof": "Woorden lessen 1-13"
+          "beschrijving": "USO H7 (niet §7.3C en §7.5)",
+          "stof": "H7 (niet §7.3C en §7.5)"
+        }
+      ],
+      "25": [
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets H8 (niet §8.4BC en H6 herhalingstoets)",
+          "stof": "H8 en H6"
         }
       ],
       "37": [
@@ -3656,9 +3798,25 @@
           "type_kort": "PO",
           "beschrijving": "P.O. IMPROVISATIE - In tweetallen presenteren tijdens de les",
           "stof": "Improvisatie: vrij kunnen associëren en fantaseren, expressie van emotie en gedachten, samenspel, mise-en-scène, spanningsboog"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Parler « Le Grand Oral »",
+          "stof": "Orale vaardigheden"
         }
       ],
       "21": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 4 Grammaire + Vocabulaire + Verbes",
+          "stof": "Unité 4: Grammaire, Vocabulaire, Verbes"
+        },
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
@@ -3666,6 +3824,26 @@
           "type_kort": "USO",
           "beschrijving": "Uitgebreide schriftelijke overhoring",
           "stof": "paragraaf 5.7, 5.8 en 6.1"
+        }
+      ],
+      "23": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Projet Petit Nicolas",
+          "stof": "Projet Petit Nicolas"
+        }
+      ],
+      "25": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "PW lire et écrire: unité 4",
+          "stof": "Unité 4: lezen en schrijven"
         }
       ]
     },
@@ -4016,6 +4194,36 @@
           "type_kort": "USO",
           "beschrijving": "USO woorden en grammatica t/m les 4",
           "stof": "Woorden les 1-4, grammatica thema 1"
+        }
+      ],
+      "23": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Parler « Le Grand Oral »",
+          "stof": "Parler, mondelinge vaardigheden"
+        }
+      ],
+      "24": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Projet Petit Nicolas",
+          "stof": "Projet Petit Nicolas"
+        }
+      ],
+      "12": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "PW lire et écrire: unité 4",
+          "stof": "Unité 4: lire et écrire"
         }
       ],
       "22": [
@@ -4376,6 +4584,14 @@
           "stof": "Improvisatie, expressie van emotie en gedachten, samenspel, mise-en-scène, spanningsboog"
         },
         {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Cultuur SO / naar RMO objecten over het dagelijks leven",
+          "stof": "Cultuur TB p. 63, 65, 66, 68, 70, 80, 82, 83"
+        },
+        {
           "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
@@ -4386,12 +4602,40 @@
       ],
       "14": [
         {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO les 6 en 7",
+          "stof": "Les 6 en 7: grammatica (p. 98, 100, 102, 104), woorden"
+        },
+        {
           "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO H7 (niet §7.3C en §7.5)",
           "stof": "H7 (niet §7.3C en §7.5)"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO over grammatica + woorden les 15 en 16",
+          "stof": "grammatica en woorden les 15 en 16"
+        }
+      ],
+      "19": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Cultuurles presentaties geven in groepjes",
+          "stof": "Cultuur (thema 3)"
         }
       ]
     },
