@@ -220,7 +220,10 @@ def parse_metadata_from_path(path: Path) -> dict:
             if leerjaar_match:
                 meta["leerjaar"] = int(leerjaar_match.group(1))
             if len(parts) >= 5:
-                meta["vak"] = parts[3]  # Vaknaam als directory
+                candidate_vak = parts[3]
+                # Guard: mapnamen die eruitzien als bestandsnamen negeren
+                if not re.search(r"\.(pdf|docx|xlsx|txt|zip|doc)$", candidate_vak, re.IGNORECASE):
+                    meta["vak"] = candidate_vak  # Vaknaam als directory
             # Klas uit bestandsnaam proberen
             meta["klas"] = _guess_klas_from_filename(path.stem, meta["leerjaar"])
 

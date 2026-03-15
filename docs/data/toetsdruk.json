@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-15T17:23:17",
+  "gegenereerd": "2026-03-15T17:29:03",
   "kalender": {
     "module_weken": {
       "1": [
@@ -15974,7 +15974,6 @@
         "Natuurkunde",
         "Nederlands",
         "Scheikunde",
-        "WORDLIST FOR M2 PW.pdf",
         "Wiskunde A",
         "Wiskunde B",
         "Wiskunde D"
@@ -17911,16 +17910,6 @@
               "type_kort": "Oef",
               "beschrijving": "Test Jezelf §7.2 (NOVA online, formatief)",
               "stof": "§7.2 Sterke en zwakke zuren en basen"
-            }
-          ]
-        },
-        "WORDLIST FOR M2 PW.pdf": {
-          "42": [
-            {
-              "type": "uso",
-              "type_kort": "USO",
-              "beschrijving": "Verplichte Toets 1 van 3 - Woorden en grammatica (futurum – athematische werkwoorden)",
-              "stof": "Basiswoorden les 36-41, grammatica futurum, athematische werkwoorden, Pharos pag 36-37, pag 39, pag 49"
             }
           ]
         },
