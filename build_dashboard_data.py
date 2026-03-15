@@ -28,6 +28,25 @@ VAKANTIE_WEEKS = [43, 52, 1, 8, 18, 19]
 # Onderbouw locatie-indeling: A-F = Socrates, G-Q = Athena
 SOCRATES_LETTERS = set("ABCDEF")
 
+# Keywords voor herclassificatie naar "oefentoets" (niet-meetellend, getoond als "Oef")
+# Check 1: exacte substring-match in beschrijving+stof
+OEFENTOETS_KEYWORDS = [
+    "oefentoets", "oefenproefwerk", "oefenpractice",
+    "oefenuso", "oefen-po", "oefenpo", "oefenvertaling",
+    "oefensessie", "oefenopgave", "oefenvragen",
+    "diagnostisch", "diagnostic",
+    "d-toets", "nulmeting", "formatief",
+    "practice test", "practice exam", "exam practice",
+    "test practice", "practice essay",
+    "practice writing", "writing practice",
+    "practice listening", "listening practice",
+    "practice speaking", "speaking practice",
+    "practice cito",
+    "proeftoets",
+]
+# Check 2: regex — beschrijving BEGINT met "oefen" (vangt oefenUSO, oefenPO, etc.)
+OEFENTOETS_PREFIX_RE = re.compile(r"^oefen", re.IGNORECASE)
+
 # Docentcode → vak mapping (bron: "Overzicht collega's 2025-2026" + bestandsanalyse)
 # kt = Klassieke Talen → standaard "Latijn", code corrigeert naar Grieks op basis van beschrijving
 DOCENT_VAK = {
@@ -142,6 +161,8 @@ TYPE_AFKORTINGEN = {
     "proefwerk": "PW", "so": "SO", "uso": "USO", "po": "PO",
     "mondeling": "MO", "presentatie": "PR", "portfolio": "PF",
     "handelingsdeel": "HD", "oefentoets": "Oef", "anders": "?",
+    # Veelvoorkomende LLM-typos
+    "handleingsdeel": "HD", "handleiding": "HD",
 }
 
 
@@ -389,13 +410,10 @@ def build_data():
             toets_type = toets.get("type", "anders")
 
             # Herclassificeer oefentoetsen/diagnostische toetsen → "oefentoets"
-            OEFENTOETS_KEYWORDS = [
-                "oefentoets", "diagnostisch", "diagnostic", "d-toets",
-                "nulmeting", "formatief", "practice test", "practice exam",
-                "proeftoets",
-            ]
             desc_check = beschrijving_plus.lower()
             if any(kw in desc_check for kw in OEFENTOETS_KEYWORDS):
+                toets_type = "oefentoets"
+            elif OEFENTOETS_PREFIX_RE.match(beschrijving.strip()):
                 toets_type = "oefentoets"
             # "quiz" apart: wel Oef, maar alleen in beschrijving (niet stof),
             # en niet als het onderdeel is van presentatie/po
@@ -562,11 +580,9 @@ def build_bovenbouw(all_files: list[dict]) -> dict:
 
             # Oefentoets herclassificatie (zelfde als onderbouw)
             desc_check = beschrijving_plus.lower()
-            if any(kw in desc_check for kw in [
-                "oefentoets", "diagnostisch", "diagnostic", "d-toets",
-                "nulmeting", "formatief", "practice test", "practice exam",
-                "proeftoets",
-            ]):
+            if any(kw in desc_check for kw in OEFENTOETS_KEYWORDS):
+                toets_type = "oefentoets"
+            elif OEFENTOETS_PREFIX_RE.match(beschrijving.strip()):
                 toets_type = "oefentoets"
             elif "quiz" in beschrijving and toets_type not in ("presentatie", "po"):
                 toets_type = "oefentoets"

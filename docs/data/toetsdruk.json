@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-15T17:10:25",
+  "gegenereerd": "2026-03-15T17:16:19",
   "kalender": {
     "module_weken": {
       "1": [
@@ -3596,17 +3596,33 @@
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "OefenUSO Grieks (alfabet en inleiding)",
           "stof": "Grieks: Tekstboek p.8-16, alfabet Tekstboek p.18-19 en Hulpboek p.80, 84 en 86"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grieks (alfabet en inleiding)",
+          "stof": "Grieks: Tekstboek p.8-16, het alfabet Tekstboek p.18-19 en Hulpboek p.80, 84 en 86"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "OefenUSO (weging: 0) - Grieks - DINSDAG het 2e uur i.p.v. Latijn",
+          "stof": "Grieks: inleiding Tekstboek p.8-16, het alfabet: Tekstboek p.18-19 en Hulpboek p.80, 84 en 86"
         },
         {
           "vak": "Latijn",
           "vak_kort": "La",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "OefenUSO (weging: 0) - Grieks - DINSDAG het 2e uur i.p.v. Latijn",
+          "beschrijving": "USO Grieks (weging: 2) - VR 7 NOV i.p.v. Latijn",
           "stof": "Grieks: inleiding Tekstboek p.8-16, het alfabet: Tekstboek p.18-19 en Hulpboek p.80, 84 en 86"
         }
       ],
@@ -3674,8 +3690,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "oefenUSO tekst 3 (weging: 0) - Leren tekst 3 inclusief woorden",
           "stof": "Latijn: tekst 3 inclusief woorden"
         }
@@ -3818,8 +3834,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Oefening USO Latijn - voorbereiding",
           "stof": "Voorbereiding op USO week 4"
         },
@@ -3894,6 +3910,14 @@
           "type_kort": "USO",
           "beschrijving": "USO Grieks - thema 1: achtergronden, tekst 3, woorden les 2 en 3, grammatica HB84-94",
           "stof": "Achtergronden TB28, tekst 3, woorden les 2 en 3, grammatica thema 1 (HB84-94)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Oefening USO Grieks - voorbereiding",
+          "stof": "Voorbereiding op USO week 51"
         }
       ],
       "5": [
@@ -4150,8 +4174,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "oefenUSO tekst 3",
           "stof": "Tekst 3 inclusief woorden H3, grammatica (Hulpboek p.103-104)"
         },
@@ -4290,8 +4314,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "oefenUSO Latijn: achtergronden TB46, tekst 9 inclusief woorden, woorden les 8 HB116, grammatica t/m HB88 met nadruk op thema 2 (HB82-88)",
           "stof": "achtergronden TB46, tekst 9 inclusief woorden, woorden les 8 HB116, grammatica t/m HB88 (thema 2: HB82-88)"
         },
@@ -4354,8 +4378,8 @@
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "oefenUSO Grieks: achtergronden TB28, tekst 3 inclusief woorden, woorden les 2 en 3, grammatica thema 1 HB84-94",
           "stof": "achtergronden TB28, tekst 3 inclusief woorden, woorden les 2 en 3, grammatica thema 1 HB84-94"
         },
@@ -12160,18 +12184,10 @@
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
-          "type": "so",
-          "type_kort": "SO",
-          "beschrijving": "Oefenproefwerk",
-          "stof": "H1.3 en H1.4, H2.1 en H2.4"
-        },
-        {
-          "vak": "Geschiedenis",
-          "vak_kort": "Gs",
           "type": "oefentoets",
           "type_kort": "Oef",
           "beschrijving": "Oefenproefwerk",
-          "stof": "H1.3, H1.4, H2.1, H2.2 (voorbereiding op proefwerk)"
+          "stof": "H1.3 en H1.4, H2.1 en H2.4"
         }
       ],
       "40": [
@@ -13040,8 +13056,8 @@
         {
           "vak": "Natuurkunde",
           "vak_kort": "Na",
-          "type": "po",
-          "type_kort": "PO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "OefenPO (meetonzekerheid/Pietje Precies)",
           "stof": "Meetonzekerheid"
         },
@@ -13052,14 +13068,6 @@
           "type_kort": "SO",
           "beschrijving": "SO-v Gemiddelde snelheid",
           "stof": "§4.2 Snelheid"
-        },
-        {
-          "vak": "Natuurkunde",
-          "vak_kort": "Na",
-          "type": "oefentoets",
-          "type_kort": "Oef",
-          "beschrijving": "Exit Card §4.2 en §4.3",
-          "stof": "§4.2 Snelheid; §4.3 Versnelling"
         }
       ],
       "5": [
@@ -14302,8 +14310,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "OefenUSO les 39 en 40 (onbeoordeeld)",
           "stof": "Woorden les 37-40, grammatica t/m les 40 (nadruk op les 39 en 40), tekst 40, achtergronden les 40"
         },
@@ -14418,8 +14426,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "oefenUSO participium en tekst 44",
           "stof": "Grammatica t/m les 44 (nadruk op les 43 en 44), woorden les 41-44, tekst 44 inclusief niet-dikgedrukte woorden, achtergronden les 43 en 44"
         },
@@ -14470,8 +14478,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Schrijfwerk en oefenUSO",
           "stof": "Grammatica t/m les 44, woorden les 41-44, tekst 44, achtergronden les 43 en 44"
         }
@@ -16525,6 +16533,12 @@
           ],
           "3": [
             {
+              "type": "oefentoets",
+              "type_kort": "Oef",
+              "beschrijving": "Writing practice 3: letter/email writing (multiple options for content, focus on format + editing)",
+              "stof": "Writing skills - letter and email writing"
+            },
+            {
               "type": "po",
               "type_kort": "PO",
               "beschrijving": "Literary task on novel reading",
@@ -16626,15 +16640,21 @@
           "50": [
             {
               "type": "handleiding",
-              "type_kort": "HAN",
+              "type_kort": "HD",
               "beschrijving": "Drama + Shakespeare Soliloquy Task",
               "stof": "Drama and Shakespeare"
             },
             {
-              "type": "po",
-              "type_kort": "PO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "Writing practice - part 2: report (p 89 - 1,2,3,4,5,6)",
               "stof": "Writing skills - report writing"
+            },
+            {
+              "type": "po",
+              "type_kort": "PO",
+              "beschrijving": "Crash assignment (4 parts: introduction, questions, part two, part three, part four, report writing)",
+              "stof": "Unit 6, Writing skills"
             },
             {
               "type": "presentatie",
@@ -17704,7 +17724,7 @@
             },
             {
               "type": "handleingsdeel",
-              "type_kort": "HAN",
+              "type_kort": "HD",
               "beschrijving": "Handelingsdeel schrijfdossier II: Recensie schrijven in de les",
               "stof": "Recensie schrijven"
             }
@@ -17753,12 +17773,6 @@
             {
               "type": "oefentoets",
               "type_kort": "Oef",
-              "beschrijving": "Test jezelf 1.2 (online)",
-              "stof": "§1.2 De chemische hoeveelheid, dichtheid"
-            },
-            {
-              "type": "po",
-              "type_kort": "PO",
               "beschrijving": "Oefen-PO",
               "stof": "H1 - Rekenen aan reacties"
             }
@@ -18722,10 +18736,16 @@
           ],
           "40": [
             {
-              "type": "po",
-              "type_kort": "PO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "Practice Writing assignment (essay writing practice)",
               "stof": "Essay writing - planning and descriptive/analytical writing"
+            },
+            {
+              "type": "po",
+              "type_kort": "PO",
+              "beschrijving": "Poetry into Prose (PiP) - Students turn poems into prose using Romantic elements as theme",
+              "stof": "Romantic poetry, paraphrasing and rewriting"
             },
             {
               "type": "presentatie",
@@ -19262,8 +19282,8 @@
           ],
           "24": [
             {
-              "type": "mondeling",
-              "type_kort": "MO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "Speaking 3 – pronunciation long individual turn and response practice",
               "stof": "Speaking, pronunciation, individual turn, response practice"
             }
@@ -19274,6 +19294,12 @@
               "type_kort": "MO",
               "beschrijving": "Speaking 4 – collaborative task + revision individual turn",
               "stof": "Speaking, collaborative task, individual turn"
+            },
+            {
+              "type": "oefentoets",
+              "type_kort": "Oef",
+              "beschrijving": "Speaking 5 – test practice",
+              "stof": "Speaking test practice"
             }
           ],
           "13": [
@@ -19740,8 +19766,8 @@
           ],
           "22": [
             {
-              "type": "mondeling",
-              "type_kort": "MO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "Rondetafelgesprek (oefensessie mondelinge voorbereiding)",
               "stof": "Het gehele katern Midden-Oosten (m.u.v. HK3)"
             }
@@ -20416,16 +20442,16 @@
           ],
           "13": [
             {
-              "type": "po",
-              "type_kort": "PO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "Oefenvertaling 1 (inleveren)",
               "stof": "Latijnse vertaling"
             }
           ],
           "15": [
             {
-              "type": "po",
-              "type_kort": "PO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "Oefenvertaling 2 (inleveren)",
               "stof": "Latijnse vertaling"
             }
@@ -20440,21 +20466,27 @@
           ],
           "21": [
             {
-              "type": "po",
-              "type_kort": "PO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "Oefenvertaling 3 (inleveren)",
               "stof": "Latijnse vertaling"
             }
           ],
           "22": [
             {
-              "type": "po",
-              "type_kort": "PO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "Oefenvertaling 4 (inleveren)",
               "stof": "Latijnse vertaling"
             }
           ],
           "23": [
+            {
+              "type": "oefentoets",
+              "type_kort": "Oef",
+              "beschrijving": "Oefenvertaling 5 (inleveren)",
+              "stof": "Latijnse vertaling"
+            },
             {
               "type": "po",
               "type_kort": "PO",
@@ -21549,12 +21581,6 @@
               "type_kort": "PW",
               "beschrijving": "CAE and CPE written exams",
               "stof": "CAE and CPE writing, listening, reading, use of English"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
-              "beschrijving": "Listening CITO oefenpractice",
-              "stof": "Listening"
             }
           ],
           "4": [
@@ -21663,12 +21689,6 @@
               "type_kort": "Oef",
               "beschrijving": "CITO Listening (2)",
               "stof": "CITO Listening"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
-              "beschrijving": "Listening CITO oefenpractice",
-              "stof": "Listening"
             }
           ],
           "5": [
