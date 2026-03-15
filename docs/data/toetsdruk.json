@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-13T11:15:46",
+  "gegenereerd": "2026-03-15T09:26:32",
   "kalender": {
     "module_weken": {
       "1": [
@@ -9110,12 +9110,36 @@
     "3A": {
       "36": [
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "MO/SO (Mondelinge/Schriftelijke Overhoring)",
+          "stof": "K1A (basisstof eerste hoofdstuk)"
+        },
+        {
           "vak": "Kunst - BV",
           "vak_kort": "KuBV",
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO Lesopdracht 1 - Droge naald: voorbereidende tekeningetjes met lijn en arcering (minimaal 2, maximaal 4). Beoordeling: ontwerpen, arcering, licht-donkercontrast, structuren, ritme.",
           "stof": "Droge naald techniek, arcering, licht-donkercontrast, close-up, stileren, abstraheren, lijnsoort, lijnstructuur, ritme, textuur"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Diagnostische toets §2.2 t/m §2.4",
+          "stof": "§2.2, §2.3, §2.4 (Licht)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Tekenen H2 Licht",
+          "stof": "Hoofdstuk 2 Licht (tekenen)"
         }
       ],
       "45": [
@@ -9214,6 +9238,14 @@
           "type_kort": "PW",
           "beschrijving": "Proefwerk 1 - Hoofdstuk 1",
           "stof": "Hoofdstuk 1"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Oefenen PW H1: D-toets + GemOpgn",
+          "stof": "Hoofdstuk 1"
         }
       ],
       "37": [
@@ -9227,6 +9259,14 @@
         }
       ],
       "9": [
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Koeien van Helios",
+          "stof": "Koeien van Helios-episode"
+        },
         {
           "vak": "Kunst - BV",
           "vak_kort": "KuBV",
@@ -9242,6 +9282,14 @@
           "type_kort": "PW",
           "beschrijving": "Lesopdracht: Linoleumsnede uitvoering met minimaal één goede zwart-wit druk op wit papier (en optioneel meerdere afdrukken met andere kleurondergrondes). Beoordelingscriteria: goede compositie, contrast(en), vormgebruik, techniek, veiligheidstechniek",
           "stof": "Linoleumsnede/druktechnieken: compositorische vaardigheden, contrastgebruik, vormcontrast, technische uitvoering (snij- en druktechniek)"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Oefenen pw H7 blz84 1 2 3 + blz88 1 2 3",
+          "stof": "H7 (Lineaire ongelijkheden)"
         }
       ],
       "4": [
@@ -9304,6 +9352,22 @@
           "stof": "Projet BD - L'Afrique francophone"
         },
         {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "SO project L'Afrique francophone en BD",
+          "stof": "L'Afrique francophone"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Lotuseters",
+          "stof": "Lotuseters-episode"
+        },
+        {
           "vak": "Natuurkunde",
           "vak_kort": "Na",
           "type": "so",
@@ -9330,12 +9394,28 @@
           "stof": "Lees- en luistervaardigheden"
         },
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Lees- en luistertoets",
+          "stof": "K5"
+        },
+        {
           "vak": "Grieks",
           "vak_kort": "Gr",
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO woorden les 15 t/m 18",
           "stof": "Woorden les 15 t/m 18"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Presentatie Laistrygonen",
+          "stof": "Laistrygonen-episode"
         },
         {
           "vak": "Latijn",
@@ -9348,12 +9428,28 @@
       ],
       "2": [
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Pecha Kucha Berühmtheiten",
+          "stof": "Berühmtheiten"
+        },
+        {
           "vak": "Engels",
           "vak_kort": "En",
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO Chapter Three",
           "stof": "Chapter Three: On the Go"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO/toets (40 minuten, maandag)",
+          "stof": "Boekje VS H3"
         },
         {
           "vak": "Natuurkunde",
@@ -9365,6 +9461,22 @@
         }
       ],
       "10": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets uitloop/herhaling",
+          "stof": "Bloedsomloop (Module 2 deel 2)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO/toets (40 minuten, dinsdag)",
+          "stof": "Uitloop/Boekje VS"
+        },
         {
           "vak": "Grieks",
           "vak_kort": "Gr",
@@ -9384,6 +9496,14 @@
       ],
       "5": [
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "anders",
+          "type_kort": "?",
+          "beschrijving": "Biologie Olympiade Junior",
+          "stof": "Bloedsomloop"
+        },
+        {
           "vak": "Frans",
           "vak_kort": "Fr",
           "type": "uso",
@@ -9398,6 +9518,14 @@
           "type_kort": "USO",
           "beschrijving": "Cultuuropdracht Odysseus, gekoppeld aan presentatie (inlevering als groep)",
           "stof": "Odysseus-materiaal, presentatie"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Cultuuropdracht Odysseus: powerpointpresentatie + uitwerking teksten",
+          "stof": "Odysseus-mythologie"
         }
       ],
       "1": [
@@ -9416,6 +9544,22 @@
           "type_kort": "PO",
           "beschrijving": "Uitdagende opdracht",
           "stof": "§4.1 Starten, §4.2 Snelheid"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §4.2 t/m §4.4",
+          "stof": "§4.2 Gemiddelde snelheid, §4.3 Versnelling, §4.4 Een diagram van de afstand"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Uitdagende opdracht (insturen)",
+          "stof": "§4.1-4.2 Snelheid"
         }
       ],
       "3": [
@@ -9428,12 +9572,28 @@
           "stof": "BS 1-4 en 8 (geslachtsorganen, puberteit, vruchtbaar worden, zwanger worden, geboorte)"
         },
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets herhaling/samenhang",
+          "stof": "Voortplanting (Module 2 deel 1)"
+        },
+        {
           "vak": "Natuurkunde",
           "vak_kort": "Na",
           "type": "po",
           "type_kort": "PO",
           "beschrijving": "SO-v technisch ontwerp (meetopdracht en verslag)",
           "stof": "Meetonzekerheid, §4.2 Snelheid"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets / Gemengde Opgaven",
+          "stof": "H3"
         }
       ],
       "12": [
@@ -9510,6 +9670,14 @@
           "type_kort": "PW",
           "beschrijving": "Übungstest",
           "stof": null
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Übungstest",
+          "stof": "Kapitel 4 und 6"
         }
       ],
       "21": [
@@ -9530,6 +9698,16 @@
           "stof": "§6.1 en §6.2 (voedsel/eiwitten)"
         }
       ],
+      "46": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Practice test Chapters 1-2",
+          "stof": "Chapters 1-2: A new look & It's just a game"
+        }
+      ],
       "40": [
         {
           "vak": "Biologie",
@@ -9538,6 +9716,34 @@
           "type_kort": "USO",
           "beschrijving": "USO Thema 1 Verbranding en ademhaling (BS 1-7 en Aantekeningen startles)",
           "stof": "Thema 1: Verbranding en ademhaling, BS 1-7, aantekeningen startles"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets",
+          "stof": "§1.1 t/m §1.4 (Elektrische apparaten)"
+        }
+      ],
+      "43": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Tabellen en grafieken H1 + H2",
+          "stof": "Hoofdstuk 1 Elektrische apparaten + Hoofdstuk 2 Licht (tabellen en grafieken)"
+        }
+      ],
+      "48": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "PW back (proefwerk teruggave)",
+          "stof": "Chapter 3"
         }
       ],
       "49": [
@@ -9558,6 +9764,26 @@
           "type_kort": "USO",
           "beschrijving": "USO Production de l'oral DELF A2",
           "stof": "DELF A2 production orale"
+        }
+      ],
+      "50": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO/toets (40 minuten, context week 50 of later)",
+          "stof": "Boekje VS H2"
+        }
+      ],
+      "51": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO/toets (40 minuten, maandag/dinsdag)",
+          "stof": "Boekje VS H3"
         }
       ]
     },
@@ -9614,6 +9840,22 @@
           "stof": "Geologisch Tijdperk (groepsopdracht, 3-4 personen)"
         },
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Probeprüfung (proeftoets)",
+          "stof": "K1+3"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Practice test Chapters 1-2",
+          "stof": "Chapters 1 and 2"
+        },
+        {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "presentatie",
@@ -9640,6 +9882,14 @@
           "stof": "H1 par. 3 en 4"
         },
         {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "(D)-toets par. 3 en 4 van H1",
+          "stof": "H1 paragraaf 3 en 4"
+        },
+        {
           "vak": "Grieks",
           "vak_kort": "Gr",
           "type": "uso",
@@ -9654,6 +9904,14 @@
           "type_kort": "USO",
           "beschrijving": "Formatieve toets",
           "stof": "Paragraaf 1.1 t/m 1.4 (Elektrische apparaten, Elektrische energie, Spanning en stroomsterkte, Weerstand)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets",
+          "stof": "Paragraaf 1.1 t/m 1.4"
         },
         {
           "vak": "Wiskunde",
@@ -9672,6 +9930,14 @@
           "type_kort": "USO",
           "beschrijving": "USO Lesopdracht 1: Ontwerpen droge naald - minimaal twee en maximaal vier tekeningetjes met grijspotlood in lijn en arcering, uitgewerkt met fineliner of Oost-Indische inkt. Beoordeling: ontwerpen, arcering, licht-donkercontrast, structuren, ritme.",
           "stof": "Droge naald techniek, licht-donkercontrast, lijnsoort, lijnstructuur, arcering, stileren, abstraheren, ritme, textuur"
+        },
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Lesopdracht 2: Het beste ontwerp van lesopdracht 1 overnemen op plastic plaatje en afdrukken met etspers. Beoordeling: het ontwerp, zeggingskracht, techniek van etsen, expressie van het dier, lijnvoering en donkercontrast, presentatie van afdrukken (passe-partout), naam en oplage op elke druk.",
+          "stof": "Droge naald techniek, etsnaald, etspers, inkt, licht-donkercontrast, lijnvoering, presentatie, oplage"
         }
       ],
       "39": [
@@ -9868,9 +10134,25 @@
           "type_kort": "SO",
           "beschrijving": "SO-v gemiddelde snelheid (§4.2)",
           "stof": "§4.2 Snelheid"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §4.2 t/m §4.4",
+          "stof": "§4.2 t/m §4.4"
         }
       ],
       "5": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Biologie Olympiade Junior",
+          "stof": "Biologie Olympiade"
+        },
         {
           "vak": "Frans",
           "vak_kort": "Fr",
@@ -9906,6 +10188,14 @@
           "stof": "Th 4 BS 1-4 en 8 + aantekeningen (geslachtsorganen, puberteit, vruchtbaar worden, zwanger worden, geboorte)"
         },
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets herhaling/samenhang",
+          "stof": "Voortplanting (BS 1-4, 8): geslachtsorganen, puberteit, vruchtbaar worden, zwanger worden, geboorte"
+        },
+        {
           "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
@@ -9915,6 +10205,14 @@
         }
       ],
       "16": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Sprechtest: 6 Schüler (Clotilde, Isabelle, Olivier, Mustafa, Livia, Isabelle)",
+          "stof": ""
+        },
         {
           "vak": "Latijn",
           "vak_kort": "La",
@@ -9929,6 +10227,82 @@
           "type": "po",
           "type_kort": "PO",
           "beschrijving": "Bordspel ontwerpen en maken met thema 'voedsel'. Leerdoelen uit §6.1 en §6.2.",
+          "stof": "6.1, 6.2"
+        }
+      ],
+      "14": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO 2.1 Moleculen en atomen",
+          "stof": "2.1 Moleculen en atomen"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Sprechtest: 8 Schüler (Pieter, Lennart, Elyse, Iris, Jasper, Mina, Emilie, Clint)",
+          "stof": ""
+        }
+      ],
+      "19": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Sprechtest: 6 Schüler (Arthur, Nanne, Oscar, Mia, Keet, Erik)",
+          "stof": ""
+        }
+      ],
+      "24": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik Kapitel 4+6 (Kapitel 4 Grammatik A+B, Kapitel 6 Grammatik A+B, Blatt Wechselpräpositionen idiomatisch)",
+          "stof": "Kapitel 4 Grammatik A, Kapitel 4 Grammatik B, Kapitel 6 Grammatik A, Kapitel 6 Grammatik B, Blatt Wechselpräpositionen idiomatisch"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Skillstree 19 en 20 inleveren",
+          "stof": "Skillstree onderdelen t/m 20"
+        }
+      ],
+      "25": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Übungstest / Kapitel 6: 49-51 (Lesen)",
+          "stof": ""
+        }
+      ],
+      "20": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 4 + DELF CO (Compréhension Orale)",
+          "stof": "Unité 4 (leçons 1, 2, 3) + DELF A2 luistervaardigheid"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Spelontwerp opdracht - bordspel ontwerpen en maken met thema 'voedsel' over §6.1 en §6.2",
           "stof": "6.1, 6.2"
         }
       ],
@@ -9962,16 +10336,6 @@
           "stof": "DELF A2, mondelinge vaardigheden"
         }
       ],
-      "20": [
-        {
-          "vak": "Frans",
-          "vak_kort": "Fr",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO Unité 4 + DELF CO (Compréhension Orale)",
-          "stof": "Unité 4 (leçons 1, 2, 3) + DELF A2 luistervaardigheid"
-        }
-      ],
       "23": [
         {
           "vak": "Grieks",
@@ -9990,14 +10354,24 @@
           "stof": "Woorden 41-48 (alle woorden uit Module 3)"
         }
       ],
-      "24": [
+      "4": [
         {
-          "vak": "Grieks",
-          "vak_kort": "Gr",
+          "vak": "Biologie",
+          "vak_kort": "Bi",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "Skillstree 19 en 20 inleveren",
-          "stof": "Skillstree onderdelen t/m 20"
+          "beschrijving": "USO Th 4 BS 1-4 en 8 (bespreken)",
+          "stof": "Th 4 BS 1-4 en 8"
+        }
+      ],
+      "10": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets uitloop/herhaling",
+          "stof": "Bloedsomloop (BS 1-8): bloed, bloedsomloop, hart, uitscheiding, immuunsysteem, gezond leven, weefselvloeistof en lymfe, bloedgroepen"
         }
       ]
     },
@@ -10028,6 +10402,14 @@
           "stof": "Vocabulaire, grammaire et verbes unité 1 (leçons 1, 2, 3)"
         },
         {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "Grammaticatoets t/m Les 39",
+          "stof": "Woorden Les 31 t/m 39, Grammatica Les 37, Les 38 en Les 39, Grammatica-overzicht Les 31 t/m Les 38, Tekst Les 37/38"
+        },
+        {
           "vak": "Wiskunde",
           "vak_kort": "Wi",
           "type": "proefwerk",
@@ -10054,6 +10436,14 @@
           "stof": "Eigen keuze Engelstalig roman (deadline voor volledig lezen: 6 november 2025)"
         },
         {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Novel Task",
+          "stof": "Zelfgekozen Engels roman"
+        },
+        {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "so",
@@ -10070,6 +10460,30 @@
           "type_kort": "HD",
           "beschrijving": "Gesteentepracticum",
           "stof": "Gesteenten"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Probeprüfung",
+          "stof": "K1+3"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Prose writing task in class",
+          "stof": "Writing skills"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Oefenen PW",
+          "stof": "Grammatica Les 37-39, Tekst Les 37/38"
         }
       ],
       "43": [
@@ -10126,6 +10540,22 @@
           "stof": "Chapter 2: It's just a game (vocabulair, grammatica, reading, use of English, speaking, writing)"
         },
         {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §1.2 t/m §1.4",
+          "stof": "§1.2 t/m §1.4 (niet verdiepen §1.3)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Tabellen en grafieken (Practicumvaardigheden)",
+          "stof": "Practicumvaardigheden"
+        },
+        {
           "vak": "Scheikunde",
           "vak_kort": "Sk",
           "type": "so",
@@ -10142,6 +10572,14 @@
           "type_kort": "USO",
           "beschrijving": "Formatieve toets §2.2 t/m §2.4 (Licht)",
           "stof": "§2.2 t/m §2.4 (Hoe werkt een lens, Afbeelden met licht, Grote en kleine beelden)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §2.2 t/m §2.4 (Licht)",
+          "stof": "§2.2 t/m §2.4"
         }
       ],
       "37": [
@@ -10196,6 +10634,14 @@
           "type_kort": "USO",
           "beschrijving": "USO Th 4 BS 1-4 en 8 + aantekeningen",
           "stof": "Th 4 BS 1-4 en 8 + aantekeningen"
+        },
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets (herhaling/samenhang)",
+          "stof": "BS 4 en 8 (zwanger worden, geboorte)"
         },
         {
           "vak": "Engels",
@@ -10300,6 +10746,14 @@
           "stof": "Hör- und Lesefertigkeit Kapitel 2+5"
         },
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Prüfung Hör- und Lesefertigkeit Kapitel 2+5",
+          "stof": "Hör- und Lesefertigkeit Kapitel 2+5"
+        },
+        {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "anders",
@@ -10332,6 +10786,14 @@
           "type_kort": "PO",
           "beschrijving": "Croquisatlas van Nederland in 2050 - Scenario deel 3: Croquis 'energie' en 'eigen toekomst' (deadline)",
           "stof": "H2: 2.1, 2.2, 2.3, 2.5 - De stad in 2050, het platteland, mobiliteit, circulaire economie"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Projekt Berühmtheiten (Stunde 1-3)",
+          "stof": "Berühmtheiten (Duitse beroemdheden)"
         },
         {
           "vak": "Nederlands",
@@ -10370,6 +10832,22 @@
           "stof": "Berühmtheiten"
         },
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Mündliche Prüfung M3 (Sprechtest)",
+          "stof": "Kapitel 4 Wortschatz und Grammatik"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Filmprojekt",
+          "stof": "Filmprojekt Arbeitsblätter"
+        },
+        {
           "vak": "Scheikunde",
           "vak_kort": "Sk",
           "type": "so",
@@ -10379,6 +10857,14 @@
         }
       ],
       "5": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Biologie Olympiade Junior",
+          "stof": "Voortplanting en bloedsomloop"
+        },
         {
           "vak": "Engels",
           "vak_kort": "En",
@@ -10408,6 +10894,14 @@
       ],
       "4": [
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO bespreken",
+          "stof": "BS 1-4 en 8"
+        },
+        {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "po",
@@ -10424,6 +10918,14 @@
           "type_kort": "?",
           "beschrijving": "Formatieve toets §4.2 t/m §4.4",
           "stof": "§4.2 t/m §4.4"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §4.2 t/m §4.4",
+          "stof": "§4.2 t/m §4.4"
         }
       ],
       "18": [
@@ -10438,6 +10940,14 @@
       ],
       "23": [
         {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card vervalvergelijkingen",
+          "stof": "Hoofdstuk 3: §3.4 (Atoomkernen en straling)"
+        },
+        {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "uso",
@@ -10447,6 +10957,14 @@
         }
       ],
       "24": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik Kapitel 4+6",
+          "stof": "Kapitel 4 Grammatik A + B, Kapitel 6 Grammatik A + B, Blatt Wechselpräpositionen idiomatisch"
+        },
         {
           "vak": "Nederlands",
           "vak_kort": "Ne",
@@ -10458,12 +10976,104 @@
       ],
       "19": [
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Sprechtest: 6 Schüler (Eva, Hugo, Lennart, Tom, Veerle, Ivar)",
+          "stof": "Kapitel 4 Lernliste A + B + C + D + H"
+        },
+        {
           "vak": "Scheikunde",
           "vak_kort": "Sk",
           "type": "po",
           "type_kort": "PO",
           "beschrijving": "Bordspel ontwerpopdracht met thema 'voedsel' - §6.1 en §6.2",
           "stof": "§6.1 en §6.2 (voedsel/eiwitten)"
+        }
+      ],
+      "10": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets (uitloop/herhaling)",
+          "stof": "Bloedsomloop BS 1 t/m 8"
+        },
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Huiswerkopdracht: Ontwerp linoleumsnede met gestileerde plant- en/of diermotieven op juiste formaat. Gebruik 2B potlood, OI inkt, gouacheverf of tekenstiften. Volledige uitwerking vereist met goede compositie en contrast(en).",
+          "stof": "Linoleumsnede, compositie, contrast(en), gestileerde vormen, aandachtsplek, ritme, herhaling, patroon, positieve en negatieve vorm"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Sprechtest: 8 Schüler (Anne, Saliou, Meilin, Leila, Elyas, Josephine, Michele, Veronica)",
+          "stof": "Kapitel 4 Lernliste A + B + C"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Spelontwerp opdracht (bordspel ontwerpen en maken met thema 'voedsel', §6.1 en §6.2)",
+          "stof": "§6.1 en §6.2 (voedsel/eiwitten)"
+        }
+      ],
+      "16": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Sprechtest: 6 Schüler (Thor, Rafael, Ralph, Valerio, Zachary, Jan)",
+          "stof": "Kapitel 4 Lernliste A + B + C"
+        }
+      ],
+      "25": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Übungstest",
+          "stof": "Kapitel 6"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Optioneel: SO/HD over gelezen boek (eigen keuze)",
+          "stof": "Gelezen boek naar eigen keuze"
+        }
+      ],
+      "14": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §5.3 en §5.4",
+          "stof": "Hoofdstuk 5: §5.3 (Energie en vervoer) en §5.4 (Energie en sport)"
+        }
+      ],
+      "20": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card radioactief verval",
+          "stof": "Hoofdstuk 3: §3.3 (Radioactiviteit en straling)"
         }
       ]
     },
@@ -10530,12 +11140,28 @@
           "stof": "Gesteenten"
         },
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Probeprüfung (oefentoets)",
+          "stof": "K1+K3"
+        },
+        {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "Oefenproefwerk",
           "stof": "H1.3 en H1.4, H2.1 en H2.4"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Oefenproefwerk",
+          "stof": "H1.3, H1.4, H2.1, H2.2 (voorbereiding op proefwerk)"
         }
       ],
       "40": [
@@ -10616,6 +11242,14 @@
           "stof": "Thema 4 BS 1-4 en 8 + aantekeningen"
         },
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets (herhaling/samenhang)",
+          "stof": "Voortplanting (BS 1-4, BS 8)"
+        },
+        {
           "vak": "Engels",
           "vak_kort": "En",
           "type": "uso",
@@ -10662,12 +11296,28 @@
           "stof": "India: topografie, Himalaya-vorming"
         },
         {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "New year's Quiz",
+          "stof": "Chapter Four"
+        },
+        {
           "vak": "Natuurkunde",
           "vak_kort": "Na",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO-v Gemiddelde snelheid",
           "stof": "§4.2 Gemiddelde snelheid"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §4.2 en §4.3",
+          "stof": "§4.2 Snelheid, §4.3 Versnelling"
         }
       ],
       "6": [
@@ -10694,6 +11344,14 @@
           "type_kort": "SO",
           "beschrijving": "SO-v Technisch ontwerp momenten",
           "stof": "§4.6 Hefbomen en momenten"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Praktische opdracht technisch ontwerp (momenten)",
+          "stof": "§4.5 Krachten, §4.6 Hefbomen"
         }
       ],
       "7": [
@@ -10712,6 +11370,14 @@
           "type_kort": "?",
           "beschrijving": "Prüfung Hör- und Lesefertigkeit Kapitel 2+5",
           "stof": "Hör- und Lesefertigkeit Kapitel 2+5"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Prüfung Hör- und Lesefertigkeit Kapitel 2+5",
+          "stof": "Kapitel 2 + Kapitel 5 Hör- en Leseverstehen"
         },
         {
           "vak": "Frans",
@@ -10746,6 +11412,14 @@
           "type_kort": "SO",
           "beschrijving": "SO Intouchables",
           "stof": "Intouchables"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §5.3 en §5.4",
+          "stof": "§5.3 Energie en vervoer, §5.4 Energie en sport"
         }
       ],
       "51": [
@@ -10778,14 +11452,60 @@
           "stof": "Hoofdstuk 5: Energie en technologie (Deel B)"
         }
       ],
-      "49": [
+      "36": [
         {
-          "vak": "Geschiedenis",
-          "vak_kort": "Gs",
-          "type": "proefwerk",
-          "type_kort": "PW",
-          "beschrijving": "Proefwerk bespreken",
-          "stof": "Boekje VS H2"
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §2.2 t/m §2.4",
+          "stof": "§2.2 t/m §2.4 (Hoe werkt een lens, Afbeelden met licht, Grote en kleine beelden)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-t tekenen licht",
+          "stof": "§2.2 t/m §2.4"
+        }
+      ],
+      "43": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §1.2 t/m §1.4",
+          "stof": "§1.2 t/m §1.4 (niet verdiepen §1.3)"
+        }
+      ],
+      "12": [
+        {
+          "vak": "Kunst - BV",
+          "vak_kort": "KuBV",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Huiswerkopdracht: Ontwerp linoleumsnede met gestileerde plant- en/of dierenmotieven (2B potlood, inkt, gouacheverf of tekenstiften). Moet volledig uitgewerkt zijn met goede compositie en contrasten.",
+          "stof": "Linoleumsnede, compositie, contrasten, spiegelbeeld, beeldende begrippen: aandachtsplek, abstract, abstraheren, afsnijding, asymmetrisch, compositie, compositierichting, compositieschema, contour, dynamisch, figuratief, herhaling, organische vorm, overlapping, patroon, restvorm, ritme, statisch, stileren, structuur, uitsnede, verkleining, vorm, vormcontrast, positieve en negatieve vorm"
+        }
+      ],
+      "4": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §4.5 en §4.6",
+          "stof": "§4.5 Krachten, §4.6 Hefbomen"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "USO Beroepenpresentatie in duo's",
+          "stof": "Interviewen (p.92 handboek), Spreken voor publiek (p.96 handboek)"
         }
       ],
       "14": [
@@ -10798,12 +11518,100 @@
           "stof": "Chapter Six: Good Health"
         },
         {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §5.3 en §5.4",
+          "stof": "Hoofdstuk 5, paragrafen 5.3 en 5.4"
+        },
+        {
           "vak": "Scheikunde",
           "vak_kort": "Sk",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO rekenen",
           "stof": "3.4 en 4.3"
+        }
+      ],
+      "22": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Oraux (production orale)",
+          "stof": "Production orale Unités 1, 3, 4 + DELF A2"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card radioactief verval",
+          "stof": "Hoofdstuk 3, radioactief verval"
+        }
+      ],
+      "23": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO woorden D41-48",
+          "stof": "woorden D41-48"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card vervalvergelijkingen",
+          "stof": "Hoofdstuk 3, vervalvergelijkingen"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO betoog schrijven: Brand in het landhuis",
+          "stof": "Brand in het landhuis"
+        }
+      ],
+      "25": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Mock test Chapters 7 & 8 Grammar Time",
+          "stof": "Chapter Seven: Entertain Me & Chapter Eight: Modern Society"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Mock test Chapters 7 & 8 Grammar Time",
+          "stof": "Chapters 7 & 8"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Proeftoets H3",
+          "stof": "Hoofdstuk 3: Straling"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk bespreken",
+          "stof": "Boekje VS H2"
         }
       ],
       "13": [
@@ -10834,16 +11642,6 @@
           "stof": "DELF A2 production orale"
         }
       ],
-      "25": [
-        {
-          "vak": "Engels",
-          "vak_kort": "En",
-          "type": "proefwerk",
-          "type_kort": "PW",
-          "beschrijving": "Mock test Chapters 7 & 8 Grammar Time",
-          "stof": "Chapter Seven: Entertain Me & Chapter Eight: Modern Society"
-        }
-      ],
       "15": [
         {
           "vak": "Latijn",
@@ -10862,16 +11660,24 @@
           "type_kort": "USO",
           "beschrijving": "Vaardighedentoets met LB",
           "stof": "woorden 41-47 + grammatica 45-46"
-        }
-      ],
-      "23": [
+        },
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO woorden D41-48",
-          "stof": "woorden D41-48"
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Vaardighedentoets met LB",
+          "stof": "woorden D41-47 + grammatica 45-46"
+        }
+      ],
+      "10": [
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO 2.1 Moleculen en atomen (elementen en formules)",
+          "stof": "2.1 Moleculen en atomen, elementen, formules, tabellen 1-5 blz. 60-61"
         }
       ]
     },
@@ -10952,6 +11758,14 @@
           "type_kort": "SO",
           "beschrijving": "SO – Ch 2 / Creative",
           "stof": "Chapter Two: It's just a game (p18-20, p21-23, p24-25, p26-27, p28, p30-31) - Vocabulary 2.1-2.2, Grammar 2.1-2.2, Listening 2.3, Reading 2.4, Grammar 2.5, Use of English 2.6, Writing 2.7, Speaking 2.8"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Socrative over H1 en 2 (online, thuis)",
+          "stof": "H1 en H2"
         }
       ],
       "3": [
@@ -10962,6 +11776,14 @@
           "type_kort": "USO",
           "beschrijving": "USO Thema 4: Bloedsomloop en voortplanting BS 1-4 en 8 + aantekeningen",
           "stof": "Thema 4: BS 1 (geslachtsorganen), BS 2 (puberteit), BS 3 (vruchtbaar worden), BS 4 (zwanger worden), BS 8 (geboorte) + aantekeningen"
+        },
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets herhaling/samenhang",
+          "stof": "Herhaling/samenhang"
         },
         {
           "vak": "Engels",
@@ -10978,6 +11800,14 @@
           "type_kort": "USO",
           "beschrijving": "SO-v Gemiddelde snelheid",
           "stof": "§4.2 Snelheid"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "USO Beroepenpresentatie in duo's",
+          "stof": "Interviewen (p.92 handboek) en Spreken voor publiek (p.96 handboek)"
         },
         {
           "vak": "Wiskunde",
@@ -11024,6 +11854,14 @@
           "type_kort": "SO",
           "beschrijving": "SO-t tekenen licht (§2.2 t/m §2.4)",
           "stof": "§2.2 t/m §2.4 - Licht, lenzen, afbeeldingen, beelden"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §2.2 t/m §2.4",
+          "stof": "§2.2 t/m §2.4 (Licht)"
         }
       ],
       "44": [
@@ -11034,6 +11872,14 @@
           "type_kort": "SO",
           "beschrijving": "SO-v Tabellen en grafieken (niet individueel)",
           "stof": "Practicumvaardigheden - Tabellen en grafieken"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §1.2 t/m §1.4",
+          "stof": "§1.2 t/m §1.4 (niet verdiepen §1.3)"
         },
         {
           "vak": "Scheikunde",
@@ -11096,6 +11942,14 @@
           "stof": "§4.6 Hefbomen en technisch ontwerp"
         },
         {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v technisch ontwerp momenten",
+          "stof": "§4.6 Hefbomen"
+        },
+        {
           "vak": "Scheikunde",
           "vak_kort": "Sk",
           "type": "so",
@@ -11150,6 +12004,14 @@
       ],
       "2": [
         {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Pecha Kucha Berühmtheiten",
+          "stof": "Pecha Kucha - presentatie"
+        },
+        {
           "vak": "Engels",
           "vak_kort": "En",
           "type": "oefentoets",
@@ -11172,6 +12034,22 @@
           "type_kort": "PO",
           "beschrijving": "OefenPO (meetonzekerheid/Pietje Precies)",
           "stof": "Meetonzekerheid"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Gemiddelde snelheid",
+          "stof": "§4.2 Snelheid"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §4.2 en §4.3",
+          "stof": "§4.2 Snelheid; §4.3 Versnelling"
         }
       ],
       "5": [
@@ -11206,6 +12084,22 @@
           "type_kort": "USO",
           "beschrijving": "USO Cultuuropdracht Odysseus, gekoppeld aan presentatie",
           "stof": "Cultuuropdracht Odysseus (PowerPoint-presentatie + uitwerking teksten)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Cultuuropdracht Odysseus (groepsopdracht), gekoppeld aan presentatie",
+          "stof": "Odysseus (cultuur), teksten uit lessen 17-18"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Praktische Opdracht technisch ontwerp momenten",
+          "stof": "§4.6 Hefbomen (technisch ontwerp)"
         }
       ],
       "9": [
@@ -11244,6 +12138,14 @@
           "stof": "Vorming van de Himalaya"
         },
         {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets uitloop/herhaling",
+          "stof": "Herhaling voortplanting en bloedsomloop"
+        },
+        {
           "vak": "Frans",
           "vak_kort": "Fr",
           "type": "so",
@@ -11268,9 +12170,25 @@
           "type_kort": "MO",
           "beschrijving": "Mündliche Prüfungen M3 - Start",
           "stof": "Mündliche Prüfungen Modul 3"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Filmprojekt",
+          "stof": null
         }
       ],
       "14": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario deel 2: Croquis 'mobiliteit'",
+          "stof": "Mobiliteit in 2050"
+        },
         {
           "vak": "Duits",
           "vak_kort": "Du",
@@ -11286,6 +12204,14 @@
           "type_kort": "USO",
           "beschrijving": "USO Chapter Six",
           "stof": "Chapter Six: Good Health"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §5.2 + §5.5",
+          "stof": "§5.2: Energie in huis, §5.5: Energie opslaan"
         }
       ],
       "16": [
@@ -11332,6 +12258,14 @@
           "type_kort": "SO",
           "beschrijving": "SO Holes & part chapter 7",
           "stof": "Holes & deel van Chapter Seven"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card radioactief verval",
+          "stof": "Radioactief verval (§3.3)"
         }
       ],
       "24": [
@@ -11342,6 +12276,14 @@
           "type_kort": "USO",
           "beschrijving": "USO Grammatik Kapitel 4+6",
           "stof": "Kapitel 4 Grammatik A, Kapitel 4 Grammatik B, Kapitel 6 Grammatik B, Blatt Wechselpräpositionen idiomatisch"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Proeftoets H3 (leerdoelen en proeftoets)",
+          "stof": "Hoofdstuk 3: Straling - leerdoelen"
         }
       ],
       "18": [
@@ -11354,17 +12296,35 @@
           "stof": "Hoofdstuk 5: Energie en technologie (Deel B)"
         }
       ],
-      "49": [
+      "46": [
         {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
-          "type": "proefwerk",
-          "type_kort": "PW",
-          "beschrijving": "Proefwerk bespreken",
-          "stof": "Boekje VS H1-H2"
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Oefenproefwerk",
+          "stof": null
+        }
+      ],
+      "1": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "New year's Quiz",
+          "stof": "Chapter Four (introductie)"
         }
       ],
       "4": [
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Th 4 BS 1-4 en aantekeningen (2x)",
+          "stof": "Th 4 BS 1-4 en aantekeningen"
+        },
         {
           "vak": "Frans",
           "vak_kort": "Fr",
@@ -11380,9 +12340,35 @@
           "type_kort": "PW",
           "beschrijving": "PWS Les 5 sens + le superlatif",
           "stof": "Les 5 sens, le superlatif"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §4.5 en §4.6",
+          "stof": "§4.5 Krachten; §4.6 Hefbomen"
+        }
+      ],
+      "8": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §5.3 en §5.4",
+          "stof": "§5.3 Energie en vervoer; §5.4 Energie en sport"
         }
       ],
       "25": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Übungstest",
+          "stof": "Kapitel 6"
+        },
         {
           "vak": "Engels",
           "vak_kort": "En",
@@ -11390,16 +12376,50 @@
           "type_kort": "PW",
           "beschrijving": "Mock test Chapters 7 & 8 Grammar Time",
           "stof": "Chapter Seven & Chapter Eight (grammar focus)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Mock test Chapters 7 & 8 Grammar Time",
+          "stof": "Chapter Seven: Entertain Me & Chapter Eight: Modern Society"
         }
       ],
-      "15": [
+      "22": [
         {
-          "vak": "Latijn",
-          "vak_kort": "La",
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
           "type": "so",
           "type_kort": "SO",
-          "beschrijving": "S.O. les 45-46",
-          "stof": "woorden en grammatica les 45-46"
+          "beschrijving": "SO-v Poster energie",
+          "stof": "Hoofdstuk 5: Energie en technologie (Deel B)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card vervalvergelijkingen",
+          "stof": "Vervalvergelijkingen (§3.4)"
+        }
+      ],
+      "13": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario deel 1: Croquis 'demografie'",
+          "stof": "Demografie - De stad en het platteland in 2050"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Exit Card §5.3 en §5.4",
+          "stof": "§5.3: Energie en vervoer, §5.4: Energie en sport"
         }
       ],
       "23": [
@@ -11410,6 +12430,62 @@
           "type_kort": "USO",
           "beschrijving": "USO woorden D41-48",
           "stof": "woorden D41-48"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO betoog schrijven: Brand in het landhuis",
+          "stof": "Brand in het landhuis, betoog schrijven"
+        }
+      ],
+      "49": [
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk bespreken",
+          "stof": "Boekje VS H1-H2"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario deel 3: Croquis 'energie'",
+          "stof": "Energie - Amsterdam in 2050"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "S.O. les 45-46",
+          "stof": "woorden en grammatica les 45-46"
+        }
+      ],
+      "11": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Portfolio India: Vorming van de Himalaya",
+          "stof": "India - Vorming van de Himalaya"
+        }
+      ],
+      "17": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Werkles en deadline (CoB) 'croquisatlas van NLD in 2050'",
+          "stof": "Croquisatlas - Scenario onderdelen (demografie, mobiliteit, energie)"
         }
       ]
     },
@@ -11422,6 +12498,14 @@
           "type_kort": "SO",
           "beschrijving": "SO herhaalboekje (herhaalboekje, zelfstandig naamwoord, persoonlijk voornaamwoord, werkwoordstijden: praesens, imperfecum, sigmatische, pseudosigmatische en thematische aoristus, bijvoeglijk naamwoord)",
           "stof": "Herhaalboekje, zelfstandig naamwoord, persoonlijk voornaamwoord, werkwoordstijden (praesens, imperfecum, sigmatische, pseudosigmatische en thematische aoristus), bijvoeglijk naamwoord"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Geniusproject",
+          "stof": null
         },
         {
           "vak": "Latijn",
@@ -11456,6 +12540,14 @@
           "type_kort": "PF",
           "beschrijving": "Novel Task - presentatie bevindingen van zelfgekozen Engelstalig boek",
           "stof": "Zelfgekozen Engelstalig roman (deadline titel: 25-26 september; volledig uit hebben: 6 november)"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Novel Task - presentatie bevindingen",
+          "stof": "Novel reading (deadline voor titel: 26 Sept., volledig gelezen voor: 6 Nov.)"
         },
         {
           "vak": "Geschiedenis",
@@ -11520,12 +12612,36 @@
           "stof": "Unité 1: vocabulaire leçon 1, 2, 3; grammaire 1, 2, 3, 4 (imparfait, comparatifs, démonstratifs, pages 18/19)"
         },
         {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Test diagnostique unité 1",
+          "stof": "Unité 1 (leçon 1, 2, 3)"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "U.S.O. woorden D31-38 en LB blz. 22 t/m 24 + stencil naamval-functie",
+          "stof": "woorden D31-38 en LB blz. 22 t/m 24 + stencil naamval-functie"
+        },
+        {
           "vak": "Natuurkunde",
           "vak_kort": "Na",
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO-v Tabellen en grafieken H1 + H2",
           "stof": "Hoofdstuk 1 Elektrische apparaten en Hoofdstuk 2 Licht (tabellen en grafieken)"
+        },
+        {
+          "vak": "Scheikunde",
+          "vak_kort": "Sk",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO atoomsoorten en moleculen (tabellen 1 t/m 3 blz. 60-61 + blad moleculen)",
+          "stof": "Atoomsoorten en moleculen: tabellen 1 t/m 3 blz. 60-61 + molecuulblad"
         }
       ],
       "41": [
@@ -11535,6 +12651,14 @@
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "(D)-toets H1 (par. 3 en 4)",
+          "stof": "H1 par. 3 en 4"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "(D)-toets: Republiek van Weimar, oorzaken succes Hitler, gelijkschakeling, Holocaust, verzet en collaboratie",
           "stof": "H1 par. 3 en 4"
         },
         {
@@ -11642,6 +12766,14 @@
           "type_kort": "SO",
           "beschrijving": "SO: woorden + grammatica lessen 43-44",
           "stof": "Woorden lessen 43-44, grammatica lessen 43-44 (participia, PFA)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Technisch ontwerp momenten",
+          "stof": "§4.6"
         }
       ],
       "51": [
@@ -11662,6 +12794,22 @@
           "type_kort": "SO",
           "beschrijving": "SO Chapter 4 - Listening and Writing a formal email",
           "stof": "Chapter 4: vocabulary 4.1-4.6, grammar 4.2, 4.5, listening, formal email writing"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Formatieve toets §4.2 t/m §4.4",
+          "stof": "§4.2 t/m §4.4"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Beroepenpresentaties (sprekers in verschillende weken ingedeeld)",
+          "stof": "Interviewen en Spreken voor publiek"
         }
       ],
       "3": [
@@ -11672,6 +12820,14 @@
           "type_kort": "USO",
           "beschrijving": "USO Bloedsomloop (1e van 2x) - Stof: Th 4 BS 1-4 en 8 + aantekeningen",
           "stof": "Th 4 BS 1-4 en 8 + aantekeningen"
+        },
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets (diagnostische toets)",
+          "stof": "Voortplantingsstof (herhaling/samenhang)"
         },
         {
           "vak": "Grieks",
@@ -11688,9 +12844,41 @@
           "type_kort": "PW",
           "beschrijving": "Proefwerk H3",
           "stof": "H3"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "DT of GO H3",
+          "stof": "Hoofdstuk 3"
         }
       ],
       "10": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO H5: 5.1 t/m 5.4 (of 5.5)",
+          "stof": "H5: India (5.1 t/m 5.4 of 5.5)"
+        },
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Portfolio India: Vorming van de Himalaya",
+          "stof": "India, Himalaya"
+        },
+        {
+          "vak": "Biologie",
+          "vak_kort": "Bi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "D-toets (diagnostische toets)",
+          "stof": "Bloedsomloop (herhaling)"
+        },
         {
           "vak": "Frans",
           "vak_kort": "Fr",
@@ -11728,12 +12916,36 @@
           "stof": "Unité 3 - schrijven en lezen"
         },
         {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO écrire: raconter une histoire (schrijven - verhaal vertellen)",
+          "stof": "Unité 3 - structuur van een verhaal, gebruik van imparfait/passé composé"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Diagnostische USO over les 40-42 (Praedicatief/Attributief en Trappen van vergelijking)",
+          "stof": "Les 40, 41, 42 - Praedicatief/Attributief en Trappen van vergelijking"
+        },
+        {
           "vak": "Nederlands",
           "vak_kort": "Ne",
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO creatief schrijven (ingedeeld duo; gekoppeld aan leesboek)",
           "stof": "Fictie en werkelijkheid E: dialoog (blz. 44-45 oefenboek), Perspectief E: vertelperspectief (blz. 84-85 oefenboek), Vermaken en ontroeren E: karakter (blz. 100-101 oefenboek), Stijlfiguren, Beeldspraak"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "DT of Herh H5",
+          "stof": "Hoofdstuk 5"
         }
       ],
       "2": [
@@ -11770,6 +12982,14 @@
           "type_kort": "PO",
           "beschrijving": "Filmprojekt",
           "stof": "Film/Projekt Kapitel 4"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Filmprojekt",
+          "stof": null
         }
       ],
       "16": [
@@ -11783,6 +13003,14 @@
         }
       ],
       "19": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Croquisatlas van NLD in 2050 (deadline)",
+          "stof": "Scenario, croquis, Nederland 2050"
+        },
         {
           "vak": "Duits",
           "vak_kort": "Du",
@@ -11820,9 +13048,25 @@
           "type_kort": "?",
           "beschrijving": "Übungstest",
           "stof": "Kapitel 4 & 6"
+        },
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Übungstest",
+          "stof": null
         }
       ],
       "37": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "MO/SO (mondeling/schriftelijke overhoring in de les)",
+          "stof": "K1"
+        },
         {
           "vak": "Latijn",
           "vak_kort": "La",
@@ -11830,6 +13074,40 @@
           "type_kort": "MO",
           "beschrijving": "Leesles - romans (fictie en werkelijkheid A)",
           "stof": "Fictie en werkelijkheid: A (romans zijn beetje waargebeurd)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Diagnostische toets §2.2 t/m §2.4",
+          "stof": "§2.2, §2.3, §2.4 (Licht)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-t Tekenen H2 Licht",
+          "stof": "Hoofdstuk 2 Licht (tekenvaardigheden)"
+        }
+      ],
+      "46": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Prose writing task in class",
+          "stof": "Writing (formatief/diagnostisch)"
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Geniusproject presentaties (vervolg)",
+          "stof": null
         }
       ],
       "40": [
@@ -11844,20 +13122,42 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "S.O. D37-38",
+          "stof": "woorden en grammatica D37-38"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
           "type": "mondeling",
           "type_kort": "MO",
           "beschrijving": "Leesles - taal en identiteit (thema en motieven)",
           "stof": "Taal en identiteit: E (Thema en motieven)"
-        }
-      ],
-      "46": [
+        },
         {
-          "vak": "Geschiedenis",
-          "vak_kort": "Gs",
-          "type": "presentatie",
-          "type_kort": "PR",
-          "beschrijving": "Geniusproject presentaties (vervolg)",
-          "stof": null
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "Tussentoets §1.1-§1.4",
+          "stof": "§1.1, §1.2, §1.3, §1.4 (Elektrische apparaten)"
+        },
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Tabellen en grafieken H1 + H2",
+          "stof": "Hoofdstuk 1 (Elektrische apparaten) en Hoofdstuk 2 (Licht) - tabellen en grafieken"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Diagnostische toets H1",
+          "stof": "Hoofdstuk 1"
         }
       ],
       "49": [
@@ -11876,6 +13176,14 @@
           "type_kort": "PW",
           "beschrijving": "PW bespreken - Staatsinrichting VS",
           "stof": "Staatsinrichting VS (5.1)"
+        },
+        {
+          "vak": "Grieks",
+          "vak_kort": "Gr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "VK (voorkennis/diagnostische toets)",
+          "stof": "Woorden 17A, Taaloefeningen 17AB"
         }
       ],
       "52": [
@@ -11886,6 +13194,36 @@
           "type_kort": "PO",
           "beschrijving": "Scenario: Croquis 'demografie', 'mobiliteit' en 'energie' - croquisatlas van Nederland in 2050 (deadline CoB)",
           "stof": "H2: 2.1, 2.2, 2.3, 2.4, 2.5 - Scenario's toekomst Nederland (demografische, mobiliteits-, energie- en economische dimensie, klimaatverandering)"
+        }
+      ],
+      "13": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario deel 1: Croquis 'demografie'",
+          "stof": "Demografische dimensie, De stad in 2050"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario deel 2: Croquis 'mobiliteit'",
+          "stof": "Mobiliteit in 2050"
+        }
+      ],
+      "17": [
+        {
+          "vak": "Aardrijkskunde",
+          "vak_kort": "Ak",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Scenario deel 3: Croquis 'energie'",
+          "stof": "Energie, Amsterdam in 2050"
         }
       ]
     },
@@ -12230,16 +13568,14 @@
           "type_kort": "USO",
           "beschrijving": "USO les 47 en 48: woordenoverhoring + ongeziene tekst met vragen en vertalingsfragment",
           "stof": "Woorden les 45 t/m 48, grammatica t/m les 48, achtergronden hoofdstuk 47 en 48"
-        }
-      ],
-      "6": [
+        },
         {
-          "vak": "Duits",
-          "vak_kort": "Du",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO Grammatik Kapitel 2 + Kapitel 5",
-          "stof": "Grammatik K2+K5, Lernliste K2BD S. 90"
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Diagnostische toets Hoofdstuk 6",
+          "stof": "Hoofdstuk 6"
         }
       ],
       "12": [
@@ -12250,6 +13586,34 @@
           "type_kort": "PR",
           "beschrijving": "Projekt Berühmtheiten - Präsentation",
           "stof": "Projekt Berühmtheiten"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Kangoeroe",
+          "stof": null
+        }
+      ],
+      "20": [
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk Wiskunde A",
+          "stof": "Hoofdstuk 6 en Hoofdstuk 7.1 t/m 7.4"
+        }
+      ],
+      "6": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik Kapitel 2 + Kapitel 5",
+          "stof": "Grammatik K2+K5, Lernliste K2BD S. 90"
         }
       ]
     },
@@ -12534,6 +13898,22 @@
           "type_kort": "PO",
           "beschrijving": "Scenario deel 2: Croquis 'mobiliteit'",
           "stof": "Mobiliteit in 2050, H2: 2.3"
+        },
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "U.S.O. Unit 6 – Words (+Word Store), Grammar, Listening, Writing",
+          "stof": "Unit 6: Words, Grammar, Listening, Writing"
+        },
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Diagnostische toets H6",
+          "stof": "Hoofdstuk 6"
         }
       ],
       "18": [
@@ -12554,6 +13934,36 @@
           "type_kort": "PO",
           "beschrijving": "Deadline (CoB) 'croquisatlas van NLD in 2050'",
           "stof": "Samenstelling croquisatlas: demografie, mobiliteit, energie"
+        }
+      ],
+      "21": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Diagnostic Test Unit 7 – Words (+Word Store), Grammar, Listening, Writing",
+          "stof": "Unit 7: Words, Grammar, Listening, Writing"
+        }
+      ],
+      "24": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Diagnostic Test Unit 8 – Words (+Word Store), Grammar, Listening, Writing",
+          "stof": "Unit 8: Words, Grammar, Listening, Writing"
+        }
+      ],
+      "20": [
+        {
+          "vak": "Wiskunde",
+          "vak_kort": "Wi",
+          "type": "proefwerk",
+          "type_kort": "PW",
+          "beschrijving": "Proefwerk Wiskunde A",
+          "stof": "Hoofdstuk 6 en hoofdstuk 7.1 t/m 7.4"
         }
       ],
       "49": [
@@ -12840,6 +14250,14 @@
           "type_kort": "PO",
           "beschrijving": "Scenario-opdracht: Croquisatlas 'Nederland in 2050' - Deel 1: Croquis demografie, Deel 2: Croquis mobiliteit, Deel 3: Croquis energie",
           "stof": "H2: 2.1, 2.2, 2.3, 2.4 (klimaatverandering, demografische dimensie, mobiliteit, energie)"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO unité 4 (vocabulaire + grammaire) + DELF A2 écouter",
+          "stof": "Unité 4: vocabulaire (leçon 1+2+3), grammaire (futur simple, pronoms possessifs, si+présent+futur); DELF A2 écouter (chiffres, heure)"
         }
       ],
       "3": [
@@ -12866,6 +14284,54 @@
           "type_kort": "SO",
           "beschrijving": "SO over atoommodel",
           "stof": "3.1 Atoommodel"
+        }
+      ],
+      "22": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Spreekvaardigheid Film Tschick (10 minuten – in tweetallen)",
+          "stof": "Film Tschick"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "USO DELF A2 parler",
+          "stof": "DELF A2 parler: partie 1 (presentatie), partie 2 (monologue), partie 3 (dialogue)"
+        }
+      ],
+      "13": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "quiz leçon 1",
+          "stof": "Leçon 1: parler de l'avenir, le futur"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Pecha Kucha Presentatie Berühmtheiten (in de les)",
+          "stof": "Berühmtheiten"
+        }
+      ],
+      "21": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "SO-v Poster energie: onderzoekstoets met presentatie",
+          "stof": "Hoofdstuk 5: Energie en technologie"
         }
       ]
     },
@@ -13109,6 +14575,84 @@
           "beschrijving": "SO over §3.4",
           "stof": "§3.4 Atoommassa en molaire massa"
         }
+      ],
+      "16": [
+        {
+          "vak": "Engels",
+          "vak_kort": "En",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Praktische Opdracht Grieks",
+          "stof": null
+        }
+      ],
+      "19": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO unité 4 (vocabulaire + grammaire) + DELF A2 écouter",
+          "stof": "Unité 4: vocabulaire leçon 1, 2, 3 (FR>NL / NL>FR); grammaire pages 72/73; DELF A2 écouter (chiffres page 89, heure page 99)"
+        }
+      ],
+      "22": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Spreekvaardigheid Film Tschick (10 minuten – in tweetallen)",
+          "stof": "Film Tschick"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "USO DELF A2 parler (Test DELF A2 parler)",
+          "stof": "DELF A2 parler: partie 1 (texte + répondre à des questions), partie 2 (monologue: 3 sujets), partie 3 (dialogue)"
+        }
+      ],
+      "13": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "quiz leçon 1",
+          "stof": "Leçon 1: parler de l'avenir, le futur, vocabulaire"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Pecha Kucha Presentatie Berühmtheiten (In de les)",
+          "stof": "Berühmtheiten (Kapitel 4)"
+        }
+      ],
+      "24": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Übungstest Schreiben und Lesen",
+          "stof": "Schreiben und Lesen (Kapitel 4 & 6)"
+        }
+      ],
+      "20": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "SO-v Poster energie: onderzoeksopdracht met presentatie en inlevering",
+          "stof": "Hoofdstuk 5: Energie en technologie (delen 5.1-5.6)"
+        }
       ]
     },
     "3P": {
@@ -13336,6 +14880,76 @@
           "type_kort": "SO",
           "beschrijving": "SO over §3.4",
           "stof": "§3.4 Atoommassa en molaire massa"
+        }
+      ],
+      "19": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 4 (vocabulaire + grammaire) + DELF A2 écouter",
+          "stof": "Unité 4 vocabulaire (leçon 1+2+3 FR>NL/NL>FR), grammaire (pages 72/73), DELF A2 écouter (chiffres page 89, heure page 99)"
+        }
+      ],
+      "21": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "USO DELF A2 parler (mondelinge toets)",
+          "stof": "DELF A2 parler: partie 1 (tekst + vragen beantwoorden), partie 2 (monologue: 3 sujets), partie 3 (dialogue)"
+        }
+      ],
+      "14": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Quiz leçon 1",
+          "stof": "Leçon 1: parler de l'avenir, le futur"
+        }
+      ],
+      "15": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "presentatie",
+          "type_kort": "PR",
+          "beschrijving": "Pecha Kucha Presentatie Berühmtheiten",
+          "stof": "Wortschatz Kapitel 4"
+        }
+      ],
+      "23": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "Spreekvaardigheid Film Tschick (in tweetallen)",
+          "stof": "Film Tschick"
+        }
+      ],
+      "24": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Übungstest Schreiben und Lesen",
+          "stof": "Lesen und Schreiben"
+        }
+      ],
+      "20": [
+        {
+          "vak": "Natuurkunde",
+          "vak_kort": "Na",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO-v Poster energie",
+          "stof": "Hoofdstuk 5: Energie en technologie"
         }
       ]
     }
