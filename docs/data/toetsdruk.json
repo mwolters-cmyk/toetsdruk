@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-15T09:36:05",
+  "gegenereerd": "2026-03-15T13:55:02",
   "kalender": {
     "module_weken": {
       "1": [
@@ -3452,40 +3452,6 @@
           "stof": "Pagina 14 over bronnen, paragraaf 2 en 3 (hoofdstuk 2), paragraaf 1 t/m 3 (hoofdstuk 3), gekleurde vakken pagina 45, 46, 49 t/m 51"
         }
       ],
-      "44": [
-        {
-          "vak": "Frans",
-          "vak_kort": "Fr",
-          "type": "po",
-          "type_kort": "PO",
-          "beschrijving": "Repêchage SO Projet (inlevering op Teams)",
-          "stof": "Projet"
-        },
-        {
-          "vak": "Frans",
-          "vak_kort": "Fr",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO unités 0+1 (vocabulaire + grammaire)",
-          "stof": "Unité 0 + Unité 1 vocabulaire en grammaire"
-        },
-        {
-          "vak": "Latijn",
-          "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "oefenUSO tekst 3",
-          "stof": "Tekst 3 inclusief woorden H3, grammatica (Hulpboek p.103-104)"
-        },
-        {
-          "vak": "Nederlands",
-          "vak_kort": "Ne",
-          "type": "so",
-          "type_kort": "SO",
-          "beschrijving": "SO Grammatica (GRAM. A t/m E)",
-          "stof": "GRAM. A t/m E (oef. p. 84 t/m 93 + tekstboek)"
-        }
-      ],
       "45": [
         {
           "vak": "Engels",
@@ -3538,14 +3504,30 @@
           "stof": "Woorden H1 Flumen (Hulpboek p.115), verplichte aanvullingen (+ acc), meervoudsvormen (rex, reges)"
         }
       ],
-      "43": [
+      "44": [
         {
           "vak": "Frans",
           "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO unités 0+1 (vocabulaire + grammaire)",
+          "stof": "Unité 0 + Unité 1 vocabulaire en grammaire"
+        },
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "oefenUSO tekst 3",
+          "stof": "Tekst 3 inclusief woorden H3, grammatica (Hulpboek p.103-104)"
+        },
+        {
+          "vak": "Nederlands",
+          "vak_kort": "Ne",
           "type": "so",
           "type_kort": "SO",
-          "beschrijving": "Repêchage SO Projet",
-          "stof": "Projet"
+          "beschrijving": "SO Grammatica (GRAM. A t/m E)",
+          "stof": "GRAM. A t/m E (oef. p. 84 t/m 93 + tekstboek)"
         }
       ],
       "46": [
@@ -3946,16 +3928,6 @@
           "stof": "Hoofdstuk 2 (paragraaf 2-3), Hoofdstuk 3 Egypte (paragraaf 1-4 en pagina 46), aantekeningen uit les, stencils"
         }
       ],
-      "43": [
-        {
-          "vak": "Frans",
-          "vak_kort": "Fr",
-          "type": "so",
-          "type_kort": "SO",
-          "beschrijving": "Rattrapage SO Projet (inleveren op Teams)",
-          "stof": "Projet préparations"
-        }
-      ],
       "44": [
         {
           "vak": "Frans",
@@ -4004,8 +3976,8 @@
           "vak_kort": "Fr",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "Rattrapage USO",
-          "stof": "Unité 0+1"
+          "beschrijving": "USO unités 0+1 (vocabulaire + grammaire)",
+          "stof": "Vocabulaire + grammaire Unité 0 et 1"
         },
         {
           "vak": "Latijn",
@@ -14654,14 +14626,6 @@
           "type_kort": "PO",
           "beschrijving": "Scenario-opdracht: Croquisatlas 'Nederland in 2050' - Deel 1: Croquis demografie, Deel 2: Croquis mobiliteit, Deel 3: Croquis energie",
           "stof": "H2: 2.1, 2.2, 2.3, 2.4 (klimaatverandering, demografische dimensie, mobiliteit, energie)"
-        },
-        {
-          "vak": "Frans",
-          "vak_kort": "Fr",
-          "type": "uso",
-          "type_kort": "USO",
-          "beschrijving": "USO unité 4 (vocabulaire + grammaire) + DELF A2 écouter",
-          "stof": "Unité 4: vocabulaire (leçon 1+2+3), grammaire (futur simple, pronoms possessifs, si+présent+futur); DELF A2 écouter (chiffres, heure)"
         }
       ],
       "3": [
@@ -14688,6 +14652,16 @@
           "type_kort": "SO",
           "beschrijving": "SO over atoommodel",
           "stof": "3.1 Atoommodel"
+        }
+      ],
+      "16": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO unité 4 (vocabulaire + grammaire) + DELF A2 écouter",
+          "stof": "Unité 4: vocabulaire (leçon 1+2+3), grammaire (futur simple, pronoms possessifs, si+présent+futur); DELF A2 écouter (chiffres, heure)"
         }
       ],
       "22": [
@@ -14988,9 +14962,7 @@
           "type_kort": "PO",
           "beschrijving": "Praktische Opdracht Grieks",
           "stof": null
-        }
-      ],
-      "19": [
+        },
         {
           "vak": "Frans",
           "vak_kort": "Fr",
@@ -15286,7 +15258,7 @@
           "stof": "§3.4 Atoommassa en molaire massa"
         }
       ],
-      "19": [
+      "16": [
         {
           "vak": "Frans",
           "vak_kort": "Fr",
