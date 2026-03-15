@@ -24,10 +24,11 @@ Een heatmap/tabel met:
 
 ## Scope & afbakeningen
 
-- **Onderbouw eerst** (klas 1-3), bovenbouw (klas 4-6 met clustergroepen) komt later
+- **Onderbouw (klas 1-3):** rijen = klassen, locatiefilter (Athena/Socrates)
+- **Bovenbouw (klas 4-6):** rijen = vakken (clusters samengevoegd via dedup), geen locatiefilter. Klas 6 heeft modules 4-5 (geen module 6, alleen CE's). Wiskunde A/B/C/D zijn aparte vakken.
 - **Proefwerken in proefwerkweken worden UITGESLOTEN** — die worden apart geregeld
 - **Zwaarte/piekdruk is geen issue** — we tonen alleen wat er is, niet hoe zwaar het weegt
-- **Wat telt als toets:** alles wat meetelt voor het cijfer — SO, USO, PO, mondeling, presentatie, portfolio, handelingsdeel, anders. Diagnostische toetsen en oefentoetsen tellen NIET mee.
+- **Wat telt als toets:** SO, USO, PO, mondeling, presentatie, portfolio, handelingsdeel, anders. Oefentoetsen (diagnostisch, d-toets, nulmeting, formatief, proeftoets, quiz) worden herclassificeerd en getoond als "Oef" — ze tellen niet voor het cijfer maar zijn wel zichtbaar als toetsdruk.
 
 ## Schoolstructuur
 

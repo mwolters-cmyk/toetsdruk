@@ -14,6 +14,7 @@ Toetsdruk/
 ├── vision.md                    # Projectvisie & ontwerp (LEES DIT EERST)
 ├── standardize.py               # Studiewijzer → JSON pipeline (Claude Haiku API)
 ├── build_dashboard_data.py      # Aggregeert output/ → docs/data/toetsdruk.json
+├── build_proefwerk_data.py      # Aggregeert output/ → docs/data/proefwerken.json (voor Woordjes Leren)
 ├── _extracted/                  # Bronbestanden studiewijzers (niet in git)
 ├── output/                      # Verwerkte JSON per studiewijzer (niet in git)
 └── docs/                   # GitHub Pages site
@@ -22,7 +23,8 @@ Toetsdruk/
     ├── app.js                   # Heatmap rendering + filters
     ├── auth.js                  # PIN-authenticatie (zelfde PIN als Vensters)
     └── data/
-        └── toetsdruk.json       # Gegenereerd door build_dashboard_data.py
+        ├── toetsdruk.json       # Gegenereerd door build_dashboard_data.py
+        └── proefwerken.json     # Gegenereerd door build_proefwerk_data.py
 ```
 
 ## Data pipeline
@@ -45,13 +47,20 @@ Toetsdruk/
 - **Onderbouw (klas 1-3):** vaste klassen, locatie op basis van klasletter
   - A-F = Socrates, G-Q = Athena (dynamisch gedetecteerd uit data)
   - Klas 1: ~17 klassen (1A t/m 1Q), klas 2 en 3 iets minder
-- **Bovenbouw (klas 4-6):** later, clustergroepen per profiel
+- **Bovenbouw (klas 4-6):** clustergroepen per profielvak, rijen = vakken (niet klassen)
+  - Clusters (bijv. 4AK1, 4AK2) worden samengevoegd via dedup
+  - Wiskunde A/B/C/D zijn aparte vakken in bovenbouw (niet samenvoegen)
+  - Klas 6 gebruikt modules 4-5 (zelfde kalenderperiode als modules 1-2)
+  - Geen module 6 — alleen CE's in die periode
+  - Locatie-filter niet relevant voor bovenbouw
 - **3 modules** per jaar, proefwerkweken: wk 47-48, 10-11, 25-26
-- **Vakanties:** wk 43, 52, 1, 9, 18-19
+- **Vakanties:** wk 43, 52, 1, 8, 18-19
 
 ## Scope-afbakeningen
 
 - Proefwerken in proefwerkweken worden UITGESLOTEN (apart geregeld)
 - Zwaarte/piekdruk is niet relevant — alleen wat er is, niet hoe zwaar
-- Alleen meetellende toetsen: SO, USO, PO, mondeling, presentatie, portfolio, HD
-- Bovenbouw komt later
+- Meetellende toetsen: SO, USO, PO, mondeling, presentatie, portfolio, HD
+- **Oefentoetsen worden HERCLASSIFICEERD** (niet uitgefilterd): oefentoets, diagnostisch, d-toets, nulmeting, formatief, proeftoets, quiz → type "oefentoets" → getoond als "Oef" in het dashboard. Consistent voor onderbouw én bovenbouw.
+- Herkansingen worden uitgefilterd (herkans, resit, rattrapage)
+- LLM kan strings i.p.v. dicts in toetsenlijst retourneren → `isinstance(toets, dict)` check nodig
