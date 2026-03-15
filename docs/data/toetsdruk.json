@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-15T09:32:24",
+  "gegenereerd": "2026-03-15T09:36:05",
   "kalender": {
     "module_weken": {
       "1": [
@@ -5369,7 +5369,7 @@
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO vocabulaire leçon 1 et 2 + écouter (luistervaardigheid)",
-          "stof": "Vocabulaire leçon 1 et 2, luistervaardigheid (écouter), heure"
+          "stof": "Vocabulaire leçon 1 et 2, verbes en -ER, être, avoir, heure, exercices écoute"
         },
         {
           "vak": "Geschiedenis",
@@ -5410,8 +5410,8 @@
           "vak_kort": "Fr",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "USO unité 1 : vocabulaire leçon 1, 2, 3 + grammaire pages 18/19 + verbes (-ER, avoir, être, faire, aller, prendre, devoir)",
-          "stof": "Vocabulaire leçon 1, 2, 3; grammaire pages 18/19 (verbes pronominaux, adverbes, avoir mal à, obligation, futur proche, propositions d'invitation); verbes réguliers -ER, avoir, être, faire, aller, prendre, devoir"
+          "beschrijving": "USO unité 1: vocabulaire leçon 1, 2, 3 + grammaire pages 18/19 + verbes (-ER, avoir, être, faire, aller, prendre, devoir)",
+          "stof": "Vocabulaire leçon 1, 2, 3; grammaire 1, 2, 3, 4, 5 pages 18/19; verbes en -ER, avoir, être, faire, aller, prendre, devoir"
         },
         {
           "vak": "Natuurkunde",
@@ -5558,6 +5558,14 @@
         {
           "vak": "Frans",
           "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet – Développer un jeu en français",
+          "stof": "Projet: développement d'un jeu en français"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
           "type": "po",
           "type_kort": "PO",
           "beschrijving": "SO projet - Développer un jeu en français",
@@ -5658,6 +5666,22 @@
           "type_kort": "MO",
           "beschrijving": "Hörprüfung Kapitel 4&5",
           "stof": "Kapitel 4 und 5, Hörverstehen"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2 – vocabulaire + grammaire",
+          "stof": "Unité 2 (leçon 1, 2, 3): vocabulaire (prépositions de lieu, moyens de transport, météo, prépositions pour villes/pays/lieux) et grammaire (pronoms COD, passé composé avec avoir et être, pronoms relatifs)"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Test diagnostique – voorbereiding USO",
+          "stof": "Unité 2: vocabulaire en grammaire"
         }
       ],
       "7": [
@@ -5705,6 +5729,46 @@
           "beschrijving": "PRESENTATIES: Scène uit Hamlet spelen voor een cijfer (inhaalles)",
           "stof": "Scène uit Hamlet van Shakespeare"
         }
+      ],
+      "15": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO Lernliste K7: A + B + C + D + H (S. 60-61)",
+          "stof": "Lernliste K7: A + B + C + D + H (Seiten 60-61)"
+        }
+      ],
+      "22": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Grammatik K. 7+8 + Präpositionen & Personalpronomen Dativ (K. 9)",
+          "stof": "Grammatik Kapitel 7+8 + Präpositionen & Personalpronomen Dativ (Kapitel 9)"
+        }
+      ],
+      "24": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "mondeling",
+          "type_kort": "MO",
+          "beschrijving": "USO Sprechfertigkeit K.1 t/m 8",
+          "stof": "Sprechfertigkeit Kapitel 1 bis 8"
+        }
+      ],
+      "25": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Übungstest Kapitel 7+8",
+          "stof": "Kapitel 7+8"
+        }
       ]
     },
     "2B": {
@@ -5741,7 +5805,7 @@
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO vocabulaire/verbes Unité 1",
-          "stof": "A Plus 2 Unité 1, vocabulaire leçons 1-3, verbes (être, avoir, aller, pouvoir, prendre, faire, lire, mettre)"
+          "stof": "Vocabulaire A Plus 2 Unité 1 (leçons 1, 2, 3), verbes (présent, passé composé, et autres verbes étudiés)"
         }
       ],
       "45": [
@@ -5799,7 +5863,7 @@
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO Unité 1 (vocabulaire, grammaire, verbes)",
-          "stof": "A Plus 2 Unité 1, vocabulaire leçons 1-3, grammaire, verbes (présent et passé composé, futur proche et simple)"
+          "stof": "A Plus 2 Unité 1: vocabulaire, grammaire, verbes (complet)"
         }
       ],
       "44": [
@@ -6090,6 +6154,22 @@
       ],
       "9": [
         {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2 - vocabulaire + grammaire (leçon 1 + leçon 2 + leçon 3, blocs 1-5 pages 34/35 LT, passé composé avec avoir et être)",
+          "stof": "vocabulaire unité 2 (leçon 1, 2, 3), prépositions de lieu, pronoms COD, pronoms relatifs (qui, où), passé composé avec avoir et être"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Test diagnostique sur Teams",
+          "stof": "unité 2 voorbereiding"
+        },
+        {
           "vak": "Geschiedenis",
           "vak_kort": "Gs",
           "type": "po",
@@ -6242,8 +6322,8 @@
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
-          "beschrijving": "SO vocabulaire/verbes Unité 1",
-          "stof": "Vocabulaire (leçons 1, 2, 3) en verbes (être, avoir, aller, pouvoir, prendre, faire, lire, mettre)"
+          "beschrijving": "SO U1 vocabulaire/verbes",
+          "stof": "A Plus 2, Unité 1, vocabulaire en verbes (leçons 1, 2, 3)"
         }
       ],
       "44": [
@@ -6310,8 +6390,8 @@
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "USO Unité 1 - A Plus 2 (vocabulaire, grammaire, verbes)",
-          "stof": "A Plus 2, Unité 1: vocabulaire, grammaire, verbes (TOUT)"
+          "beschrijving": "USO U1",
+          "stof": "A Plus 2, Unité 1 (vocabulaire, grammaire, verbes - tout)"
         }
       ],
       "39": [
@@ -6510,6 +6590,22 @@
       ],
       "9": [
         {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Test diagnostique sur Teams",
+          "stof": "Voorbereiding op USO unité 2"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2 - vocabulaire (leçon 1+2+3) + grammaire (prépositions, pronoms COD, moyens de transport, pronoms relatifs qui/où, passé composé avec avoir et être)",
+          "stof": "Unité 2: vocabulaire leçon 1, 2, 3; prépositions de lieux; pronoms COD; prépositions moyens de transport; pronoms relatifs (qui, où); passé composé avec avoir et être; onregelmatige voltooid deelwoorden"
+        },
+        {
           "vak": "Muziek",
           "vak_kort": "Mu",
           "type": "oefentoets",
@@ -6625,7 +6721,7 @@
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO vocabulaire leçon 1 et 2 + écouter (luistervaardigheid)",
-          "stof": "Vocabulaire leçon 1 et 2 + écouter"
+          "stof": "Vocabulaire leçon 1 + 2, luistervaardigheid, uur (heure), werkwoorden in -ER, être, avoir"
         }
       ],
       "44": [
@@ -6754,8 +6850,8 @@
           "vak_kort": "Fr",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "USO unité 1: vocabulaire leçon 1 + 2 + 3, grammaire 1-5 pages 18/19, verbes (-ER, avoir, être, faire, aller, prendre, devoir)",
-          "stof": "Vocabulaire leçon 1, 2, 3 + grammaire pages 18/19 + verbes (-ER, avoir, être, faire, aller, prendre, devoir)"
+          "beschrijving": "USO unité 1: vocabulaire leçon 1+2+3 + grammaire (pages 18/19) + verbes (-ER, avoir, être, faire, aller, prendre, devoir)",
+          "stof": "Vocabulaire leçon 1, 2, 3; grammaire (werkwoordvervoeging, pronominale werkwoorden, adverbia, 'avoir mal à', obligation, futur proche); werkwoorden: -ER, avoir, être, faire, aller, prendre, devoir"
         },
         {
           "vak": "Grieks",
@@ -6892,6 +6988,22 @@
       ],
       "5": [
         {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 2 – vocabulaire en grammaire",
+          "stof": "Vocabulaire leçon 1 + 2 + 3; Grammaire pages 34/35 LT, passé composé avec avoir et être"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Test diagnostique op Teams",
+          "stof": "Unité 2"
+        },
+        {
           "vak": "Grieks",
           "vak_kort": "Gr",
           "type": "po",
@@ -6968,8 +7080,8 @@
           "vak_kort": "Fr",
           "type": "so",
           "type_kort": "SO",
-          "beschrijving": "SO projet – Développer un jeu en français",
-          "stof": "Unité 2, leçons 1-3: vocabulaire en grammatica (prépositions de lieu, pronoms COD, passé composé avec avoir et être, pronoms relatifs, météo, prépositions voor steden/landen/plaatsen)"
+          "beschrijving": "SO Projet – Ontwikkelen van een spel in het Frans",
+          "stof": "Unité 2, leçon 3 t/m il neige, passé composé avec être"
         },
         {
           "vak": "Natuurkunde",
@@ -7048,6 +7160,16 @@
       ]
     },
     "2G": {
+      "47": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO Unité 1: vocabulaire, grammaire, verbes",
+          "stof": "A Plus 2, Unité 1 - vocabulaire, grammaire, verbes (leçons 1, 2, 3)"
+        }
+      ],
       "36": [
         {
           "vak": "Frans",
@@ -7298,8 +7420,8 @@
           "vak_kort": "Fr",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "USO grammaire + vocabulaire A Plus 2, Unité 2 + een deel van Unité 3",
-          "stof": "A Plus 2 Unité 2 (grammaire + vocabulaire inclusief Nos Outils) + A Plus 2 Unité 3 (geselecteerde grammaire + vocabulaire uit aparte lijst)"
+          "beschrijving": "USO grammaire + vocabulaire A Plus 2, Unité 2 + deel Unité 3",
+          "stof": "A Plus 2 Unité 2 (grammaire + vocabulaire, inclusief Nos Outils) + A Plus 2 Unité 3 (grammaire sélectionnée + vocabulaire lijst)"
         },
         {
           "vak": "Wiskunde",
@@ -7650,8 +7772,8 @@
           "vak_kort": "Fr",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "USO - A Plus 2, Unité 1 (vocabulaire, grammaire, verbes)",
-          "stof": "A Plus 2, Unité 1: vocabulaire (leçons 1, 2, 3), grammaire, verbes (être, avoir, aller, pouvoir, prendre, faire, lire, mettre)"
+          "beschrijving": "USO: A Plus 2, Unité 1 (vocabulaire, grammaire, verbes)",
+          "stof": "A Plus 2 Unité 1 (vocabulaire, grammaire, verbes, TOUT)"
         },
         {
           "vak": "Grieks",
@@ -7678,6 +7800,16 @@
           "type_kort": "SO",
           "beschrijving": "Beoordeling van oren, ogen, neuzen en monden",
           "stof": "plasticiteit, geleidelijke toonovergangen, stofuitdrukking, verhoudingen van gezichtsdelen (oren, ogen, neuzen, monden)"
+        }
+      ],
+      "43": [
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "so",
+          "type_kort": "SO",
+          "beschrijving": "SO projet (praktische opdracht)",
+          "stof": "Unité 1 (vocabulaire + grammaire)"
         }
       ],
       "41": [
@@ -8014,8 +8146,8 @@
           "vak_kort": "Fr",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "USO grammaire + vocabulaire A Plus 2, Unité 2 + une partie d'Unité 3",
-          "stof": "A Plus 2, Unité 2 (grammaire + vocabulaire inclusif Nos Outils) + Unité 3 (grammaire sélectionnée + vocabulaire d'une liste séparée)"
+          "beschrijving": "USO grammaire + vocabulaire A Plus 2, Unité 2 + deel Unité 3",
+          "stof": "A Plus 2 Unité 2 (grammaire + vocabulaire incl. Nos Outils) + A Plus 2 Unité 3 (grammaire geselecteerd + woordenlijst)"
         },
         {
           "vak": "Geschiedenis",
@@ -8188,6 +8320,16 @@
           "stof": "Kapitel 7+8"
         }
       ],
+      "19": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: les 30 en 31 alle grammatica + woorden",
+          "stof": "Les 30 en 31: grammatica en woorden"
+        }
+      ],
       "37": [
         {
           "vak": "Grieks",
@@ -8266,8 +8408,8 @@
           "vak_kort": "Wi",
           "type": "so",
           "type_kort": "SO",
-          "beschrijving": "SO vocabulaire/verbes (Unité 1)",
-          "stof": "Vocabulaire (F-N/N-F leçons 1,2,3) et verbes (être, avoir, aller, pouvoir, faire, prendre, lire, mettre)"
+          "beschrijving": "SO vocabulaire/verbes Unité 1",
+          "stof": "A Plus 2, Unité 1: vocabulaire en verbes (leçons 1, 2, 3)"
         }
       ],
       "45": [
@@ -8308,8 +8450,8 @@
           "vak_kort": "Wi",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "USO Unité 1 (vocabulaire, grammaire, verbes, tout)",
-          "stof": "A Plus 2, Unité 1 - vocabulaire, grammaire, verbes (complet)"
+          "beschrijving": "USO Unité 1 - vocabulaire, grammaire, verbes",
+          "stof": "A Plus 2, Unité 1: vocabulaire, grammaire, verbes (leçons 1, 2, 3)"
         }
       ],
       "38": [
@@ -8464,8 +8606,8 @@
           "vak_kort": "Fr",
           "type": "uso",
           "type_kort": "USO",
-          "beschrijving": "USO Unité 2 - vocabulaire + grammaire",
-          "stof": "Unité 2 (leçon 1, 2, 3): vocabulaire complet; grammaire: prépositions de lieu, pronoms COD, moyens de transport, passé composé avec avoir et être"
+          "beschrijving": "USO Unité 2 vocabulaire + grammaire",
+          "stof": "Unité 2 (leçon 1, 2, 3): vocabulaire, prépositions de lieu, pronoms COD, passé composé avec avoir et être"
         },
         {
           "vak": "Grieks",
@@ -8490,6 +8632,32 @@
           "type_kort": "SO",
           "beschrijving": "SO-v: Veerproef",
           "stof": "Hoofdstuk 5.3 Grootte van krachten - veerkracht"
+        }
+      ],
+      "9": [
+        {
+          "vak": "Duits",
+          "vak_kort": "Du",
+          "type": "oefentoets",
+          "type_kort": "Oef",
+          "beschrijving": "Oefentoets K4+K5+K6",
+          "stof": "Kapitel 4, 5, 6"
+        },
+        {
+          "vak": "Frans",
+          "vak_kort": "Fr",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "SO Projet Album de vacances en vidéo",
+          "stof": null
+        },
+        {
+          "vak": "Geschiedenis",
+          "vak_kort": "Gs",
+          "type": "po",
+          "type_kort": "PO",
+          "beschrijving": "Verslag rechtszaak (uit te werken op laptops)",
+          "stof": "Rechtszaak (Franse Revolutie)"
         }
       ],
       "51": [
@@ -8633,7 +8801,7 @@
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO Projet – Développer un jeu en français",
-          "stof": "Unité 2, leçon 2 en 3 - Passé composé avec avoir et être"
+          "stof": "Unité 2, leçon 3"
         },
         {
           "vak": "Latijn",
@@ -8691,7 +8859,7 @@
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO cartes de vœux",
-          "stof": "Unité 2, leçon 1: en ville - Les prépositions de lieu"
+          "stof": "Unité 2, leçon 1: en ville"
         }
       ],
       "41": [
@@ -8728,24 +8896,6 @@
           "type_kort": "SO",
           "beschrijving": "SO Projekt album de vacances en vidéo",
           "stof": "Projet album de vacances en vidéo"
-        }
-      ],
-      "9": [
-        {
-          "vak": "Duits",
-          "vak_kort": "Du",
-          "type": "oefentoets",
-          "type_kort": "Oef",
-          "beschrijving": "Oefentoets K4+K5+K6",
-          "stof": "Kapitel 4, 5, 6"
-        },
-        {
-          "vak": "Geschiedenis",
-          "vak_kort": "Gs",
-          "type": "po",
-          "type_kort": "PO",
-          "beschrijving": "Verslag rechtszaak (uit te werken op laptops)",
-          "stof": "Rechtszaak (Franse Revolutie)"
         }
       ]
     },
@@ -8791,7 +8941,7 @@
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO vocabulaire/verbes Unité 1",
-          "stof": "Vocabulaire (leçons 1, 2, 3) en verbes (être, avoir, aller, pouvoir, prendre, faire, lire, mettre)"
+          "stof": "Vocabulaire en verbes A Plus 2, Unité 1 (leçons 1, 2, 3)"
         }
       ],
       "45": [
@@ -8833,7 +8983,7 @@
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO Unité 1 (vocabulaire, grammaire, verbes)",
-          "stof": "A Plus 2, Unité 1: vocabulaire, grammaire, verbes"
+          "stof": "A Plus 2, Unité 1: vocabulaire, grammaire, verbes (leçons 1, 2, 3)"
         }
       ],
       "38": [
@@ -9173,7 +9323,7 @@
           "type": "uso",
           "type_kort": "USO",
           "beschrijving": "USO Unité 2 - vocabulaire + grammaire",
-          "stof": "Unité 2 vocabulaire (leçon 1, 2, 3), grammaire: prépositions de lieu, pronoms COD, passé composé avec avoir et être, pronoms relatifs, météo, prépositions pour villes/pays/lieux"
+          "stof": "Unité 2 vocabulaire (leçon 1, 2, 3), grammaire: prépositions de lieu, pronoms COD, passé composé avec avoir et être"
         },
         {
           "vak": "Grieks",
@@ -9219,7 +9369,7 @@
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO Projet – Développer un jeu en français",
-          "stof": "développement d'un jeu en français"
+          "stof": "Developing a game in French based on Unité 2 material"
         },
         {
           "vak": "Latijn",
@@ -9281,7 +9431,7 @@
           "type": "so",
           "type_kort": "SO",
           "beschrijving": "SO cartes de vœux",
-          "stof": "cartes de vœux"
+          "stof": "Unité 2, leçon 1: vocabulary and material for holiday cards"
         },
         {
           "vak": "Geschiedenis",
@@ -9328,6 +9478,16 @@
           "type_kort": "Oef",
           "beschrijving": "Diagnostic Test Unit 8 - Words (+Word Store), Grammar, Listening, Writing",
           "stof": "Unit 8: Words, Word Store, Grammar, Listening, Writing"
+        }
+      ],
+      "19": [
+        {
+          "vak": "Latijn",
+          "vak_kort": "La",
+          "type": "uso",
+          "type_kort": "USO",
+          "beschrijving": "USO: les 30 en 31 alle grammatica + woorden",
+          "stof": "Les 30 en 31: grammatica + woorden"
         }
       ],
       "18": [
