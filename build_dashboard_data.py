@@ -35,17 +35,26 @@ OEFENTOETS_KEYWORDS = [
     "oefenuso", "oefen-po", "oefenpo", "oefenvertaling",
     "oefensessie", "oefenopgave", "oefenvragen",
     "diagnostisch", "diagnostic",
-    "d-toets", "nulmeting", "formatief",
+    "d-toets", "d toets", "nulmeting", "formatief",
     "practice test", "practice exam", "exam practice",
     "test practice", "practice essay",
     "practice writing", "writing practice",
     "practice listening", "listening practice",
     "practice speaking", "speaking practice",
     "practice cito",
-    "proeftoets",
+    "proeftoets", "pretest",
+    "übungstest", "probeprüfung",
 ]
 # Check 2: regex — beschrijving BEGINT met "oefen" (vangt oefenUSO, oefenPO, etc.)
 OEFENTOETS_PREFIX_RE = re.compile(r"^oefen", re.IGNORECASE)
+
+# Rescue-keywords: als LLM iets als "oefentoets" classificeert maar het beschrijving
+# een van deze patronen bevat, is het WEL een echte toets (override terug naar origineel type)
+# SE = schoolexamen, CITO/Goethe zonder oefen/practice prefix = echte toetsen
+OEFENTOETS_RESCUE_RE = re.compile(
+    r"^SE\b|^CSE\b|^schoolexamen|^cito\b|^goethe\b",
+    re.IGNORECASE,
+)
 
 # Docentcode → vak mapping (bron: "Overzicht collega's 2025-2026" + bestandsanalyse)
 # kt = Klassieke Talen → standaard "Latijn", code corrigeert naar Grieks op basis van beschrijving
@@ -408,18 +417,24 @@ def build_data():
                 if "grieks" in desc_lower and "latijn" not in desc_lower:
                     vak = "Grieks"
             toets_type = toets.get("type", "anders")
+            raw_beschrijving = (toets.get("beschrijving") or "").strip()
 
             # Herclassificeer oefentoetsen/diagnostische toetsen → "oefentoets"
             desc_check = beschrijving_plus.lower()
             if any(kw in desc_check for kw in OEFENTOETS_KEYWORDS):
                 toets_type = "oefentoets"
-            elif OEFENTOETS_PREFIX_RE.match(beschrijving.strip()):
+            elif OEFENTOETS_PREFIX_RE.match(raw_beschrijving):
                 toets_type = "oefentoets"
             # "quiz" apart: wel Oef, maar alleen in beschrijving (niet stof),
             # en niet als het onderdeel is van presentatie/po
             elif ("quiz" in beschrijving
                   and toets_type not in ("presentatie", "po")):
                 toets_type = "oefentoets"
+
+            # Rescue: LLM classificeert soms echte toetsen als oefentoets
+            # SE (schoolexamen), CITO, Goethe zonder oefen/practice prefix = echte toets
+            if toets_type == "oefentoets" and OEFENTOETS_RESCUE_RE.match(raw_beschrijving):
+                toets_type = "uso"  # veilige default voor meetellende toetsen
 
             dedup_key = (klas, week, vak, toets_type)
 
@@ -577,15 +592,20 @@ def build_bovenbouw(all_files: list[dict]) -> dict:
                     vak = "Grieks"
 
             toets_type = toets.get("type", "anders")
+            raw_beschrijving = (toets.get("beschrijving") or "").strip()
 
             # Oefentoets herclassificatie (zelfde als onderbouw)
             desc_check = beschrijving_plus.lower()
             if any(kw in desc_check for kw in OEFENTOETS_KEYWORDS):
                 toets_type = "oefentoets"
-            elif OEFENTOETS_PREFIX_RE.match(beschrijving.strip()):
+            elif OEFENTOETS_PREFIX_RE.match(raw_beschrijving):
                 toets_type = "oefentoets"
             elif "quiz" in beschrijving and toets_type not in ("presentatie", "po"):
                 toets_type = "oefentoets"
+
+            # Rescue: LLM classificeert soms echte toetsen als oefentoets
+            if toets_type == "oefentoets" and OEFENTOETS_RESCUE_RE.match(raw_beschrijving):
+                toets_type = "uso"
 
             # Dedup: clusters samenvoegen
             dedup_key = (leerjaar, vak, week, toets_type)

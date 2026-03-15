@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-15T17:16:19",
+  "gegenereerd": "2026-03-15T17:23:17",
   "kalender": {
     "module_weken": {
       "1": [
@@ -5642,8 +5642,8 @@
         {
           "vak": "Latijn",
           "vak_kort": "La",
-          "type": "uso",
-          "type_kort": "USO",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "D toetsje over woorden Flumen en de rijtjes van femina, servus en donum (p.74). Is nog niet voor een officieel cijfer!",
           "stof": "Woorden Flumen, rijtjes femina, servus, donum (HB p.74)"
         }
@@ -8296,8 +8296,8 @@
         {
           "vak": "Duits",
           "vak_kort": "Du",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Übungstest Kapitel 7+8",
           "stof": "Kapitel 7+8"
         }
@@ -8944,8 +8944,8 @@
         {
           "vak": "Duits",
           "vak_kort": "Du",
-          "type": "anders",
-          "type_kort": "?",
+          "type": "oefentoets",
+          "type_kort": "Oef",
           "beschrijving": "Übungstest Kapitel 7+8",
           "stof": "Kapitel 7+8"
         }
@@ -10700,18 +10700,10 @@
         {
           "vak": "Duits",
           "vak_kort": "Du",
-          "type": "proefwerk",
-          "type_kort": "PW",
-          "beschrijving": "Übungstest",
-          "stof": null
-        },
-        {
-          "vak": "Duits",
-          "vak_kort": "Du",
           "type": "oefentoets",
           "type_kort": "Oef",
           "beschrijving": "Übungstest",
-          "stof": "Kapitel 4 und 6"
+          "stof": null
         }
       ],
       "21": [
@@ -14062,18 +14054,10 @@
         {
           "vak": "Duits",
           "vak_kort": "Du",
-          "type": "anders",
-          "type_kort": "?",
-          "beschrijving": "Übungstest",
-          "stof": "Kapitel 4 & 6"
-        },
-        {
-          "vak": "Duits",
-          "vak_kort": "Du",
           "type": "oefentoets",
           "type_kort": "Oef",
           "beschrijving": "Übungstest",
-          "stof": null
+          "stof": "Kapitel 4 & 6"
         }
       ],
       "37": [
@@ -19782,16 +19766,10 @@
               "stof": "Stof klas 4"
             },
             {
-              "type": "so",
-              "type_kort": "SO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "D toets Pharos blz 33 t/m 38",
               "stof": "Pharos blz 33-38, werkwoord"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
-              "beschrijving": "D toets blz. 84 (stamtijden)",
-              "stof": "Stamtijden blz. 84"
             }
           ],
           "38": [
@@ -19800,12 +19778,6 @@
               "type_kort": "Oef",
               "beschrijving": "D toets Pharos blz 33 t/m 38",
               "stof": "Pharos blz 33 t/m 38"
-            },
-            {
-              "type": "so",
-              "type_kort": "SO",
-              "beschrijving": "D toets Pharos blz 33 t/m 38",
-              "stof": "Pharos blz 33-38, werkwoord"
             }
           ],
           "39": [
@@ -19814,18 +19786,6 @@
               "type_kort": "Oef",
               "beschrijving": "D toets Pharos blz 39 t/m 43",
               "stof": "Pharos blz 39 t/m 43"
-            },
-            {
-              "type": "so",
-              "type_kort": "SO",
-              "beschrijving": "D toets Pharos blz. 33-40",
-              "stof": "Pharos blz. 33-40"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
-              "beschrijving": "D toets Pharos 33 t/m 40",
-              "stof": "Pharos 33 t/m 40"
             }
           ],
           "44": [
@@ -19846,30 +19806,24 @@
           ],
           "43": [
             {
-              "type": "so",
-              "type_kort": "SO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "D toets stamtijden",
               "stof": "Stamtijden Pharos blz 83-85"
             }
           ],
           "45": [
             {
-              "type": "po",
-              "type_kort": "PO",
-              "beschrijving": "Facultatieve proefvertaling uit bundel (inleveren voor nakijking)",
-              "stof": "Examenbundel proefvertalingen"
-            },
-            {
-              "type": "so",
-              "type_kort": "SO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "D toets Pharos blz 48 t/m 57",
               "stof": "Pharos blz 48-57, literaire epigrammen"
             },
             {
-              "type": "uso",
-              "type_kort": "USO",
-              "beschrijving": "D toets Pharos 50 t/m 55",
-              "stof": "Pharos 50 t/m 55"
+              "type": "po",
+              "type_kort": "PO",
+              "beschrijving": "Facultatieve proefvertaling uit bundel (inleveren voor nakijking)",
+              "stof": "Examenbundel proefvertalingen"
             }
           ],
           "36": [
@@ -19878,18 +19832,6 @@
               "type_kort": "Oef",
               "beschrijving": "Handelingsdeel/pub quiz stof klas 4",
               "stof": "Stof klas 4"
-            },
-            {
-              "type": "so",
-              "type_kort": "SO",
-              "beschrijving": "D toets stamtijden blz. 83",
-              "stof": "Stamtijden blz. 83"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
-              "beschrijving": "D toets blz. 83 (stamtijden)",
-              "stof": "Stamtijden blz. 83"
             }
           ],
           "8": [
@@ -19916,27 +19858,27 @@
           ],
           "49": [
             {
-              "type": "proefwerk",
-              "type_kort": "PW",
-              "beschrijving": "D toets eerste 3 teksten met het werkwoord uit Pharos",
-              "stof": "Examenbundel hfst. 5-7, Pharos werkwoord herhalen blz. 58-63, Schimmen en schaduwen, Waarschuwing Odysseus, Orestes"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "d toets perfectum en tekst 1",
               "stof": "Pharos 48 (perfectum), Tekst 1"
             }
           ],
           "1": [
             {
-              "type": "uso",
-              "type_kort": "USO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "d toets tekst 2 en futurum",
               "stof": "Pharos 48 (futurum), Tekst 2"
             }
           ],
           "2": [
+            {
+              "type": "oefentoets",
+              "type_kort": "Oef",
+              "beschrijving": "d toets tekst 3 met Pharos 50 t/m 55",
+              "stof": "Pharos 50-55, Tekst 3"
+            },
             {
               "type": "proefwerk",
               "type_kort": "PW",
@@ -19948,32 +19890,20 @@
               "type_kort": "SO",
               "beschrijving": "Overhoring grammatica p. 60 Pharos (participium)",
               "stof": "Participium (p. 60-61 Pharos)"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
-              "beschrijving": "d toets tekst 3 met Pharos 50 t/m 55",
-              "stof": "Pharos 50-55, Tekst 3"
             }
           ],
           "3": [
             {
-              "type": "proefwerk",
-              "type_kort": "PW",
-              "beschrijving": "D toets 4 teksten - De trouwe helpster",
-              "stof": "Examenbundel hfst. 5-9, Odysseus op Ithaka, De list met het weefgetouw, Ten einde raad, Eurykleia ontdekt het litteken"
+              "type": "oefentoets",
+              "type_kort": "Oef",
+              "beschrijving": "d toets tekst 4 en Pharos 56 t/m 58",
+              "stof": "Pharos 56-58, Tekst 4"
             },
             {
               "type": "so",
               "type_kort": "SO",
               "beschrijving": "Overhoring grammatica p. 61 Pharos (participium)",
               "stof": "Participium (p. 61 Pharos)"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
-              "beschrijving": "d toets tekst 4 en Pharos 56 t/m 58",
-              "stof": "Pharos 56-58, Tekst 4"
             }
           ],
           "7": [
@@ -20048,28 +19978,16 @@
           ],
           "40": [
             {
-              "type": "so",
-              "type_kort": "SO",
-              "beschrijving": "D toets Pharos blz. 41-45",
-              "stof": "Pharos blz. 41-45"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "D toets Pharos 41 t/m 45",
               "stof": "Pharos 41 t/m 45"
             }
           ],
           "41": [
             {
-              "type": "so",
-              "type_kort": "SO",
-              "beschrijving": "D toets Pharos blz. 46-48",
-              "stof": "Pharos blz. 46-48"
-            },
-            {
-              "type": "uso",
-              "type_kort": "USO",
+              "type": "oefentoets",
+              "type_kort": "Oef",
               "beschrijving": "D toets Pharos 46 t/m 48",
               "stof": "Pharos 46 t/m 48"
             }
@@ -20790,8 +20708,8 @@
           ],
           "46": [
             {
-              "type": "oefentoets",
-              "type_kort": "Oef",
+              "type": "uso",
+              "type_kort": "USO",
               "beschrijving": "SE oefenopgave H8 (blz. 132-135)",
               "stof": "H8 Lewisstructuren, ruimtelijke bouw, isomerie"
             }
@@ -21319,8 +21237,8 @@
           ],
           "42": [
             {
-              "type": "oefentoets",
-              "type_kort": "Oef",
+              "type": "uso",
+              "type_kort": "USO",
               "beschrijving": "SE Sehfertigkeit CITO",
               "stof": "Kijkvaardigheid"
             }
@@ -21333,8 +21251,8 @@
               "stof": "Literatuur (3 boeken, waarvan 1 uit klas 5)"
             },
             {
-              "type": "oefentoets",
-              "type_kort": "Oef",
+              "type": "uso",
+              "type_kort": "USO",
               "beschrijving": "Goethe Hörfertigkeit C1",
               "stof": "Luistervaardigheid"
             }
@@ -21357,16 +21275,10 @@
           ],
           "4": [
             {
-              "type": "oefentoets",
-              "type_kort": "Oef",
-              "beschrijving": "Cito luistertoets!!!",
-              "stof": "Hörverstehen"
-            },
-            {
               "type": "uso",
               "type_kort": "USO",
-              "beschrijving": "Kijk-luistervaardigheid",
-              "stof": "Sehen und Hören, Kijk-luistervaardigheid"
+              "beschrijving": "Cito luistertoets!!!",
+              "stof": "Hörverstehen"
             }
           ]
         },
@@ -21547,6 +21459,12 @@
               "type_kort": "PW",
               "beschrijving": "CAE Writing Papers",
               "stof": "CAE Writing"
+            },
+            {
+              "type": "uso",
+              "type_kort": "USO",
+              "beschrijving": "CITO Listening (1)",
+              "stof": "Listening"
             }
           ],
           "48": [
@@ -21561,6 +21479,12 @@
               "type_kort": "PW",
               "beschrijving": "Cambridge CAE Writing Papers",
               "stof": "Writing, Use of English"
+            },
+            {
+              "type": "uso",
+              "type_kort": "USO",
+              "beschrijving": "CITO Listening (1)",
+              "stof": "CITO Listening test"
             }
           ],
           "50": [
@@ -21581,6 +21505,12 @@
               "type_kort": "PW",
               "beschrijving": "CAE and CPE written exams",
               "stof": "CAE and CPE writing, listening, reading, use of English"
+            },
+            {
+              "type": "uso",
+              "type_kort": "USO",
+              "beschrijving": "CITO Listening (2) – Video 2017",
+              "stof": "Listening"
             }
           ],
           "4": [
@@ -21617,8 +21547,8 @@
             {
               "type": "uso",
               "type_kort": "USO",
-              "beschrijving": "CITO Listening 1st & 2nd period",
-              "stof": "Listening"
+              "beschrijving": "CITO Listening (6)",
+              "stof": "CITO Listening"
             }
           ],
           "2": [
@@ -21627,6 +21557,12 @@
               "type_kort": "Oef",
               "beschrijving": "Practise CITO Listening – globaal luisteren 1",
               "stof": "CITO Listening"
+            },
+            {
+              "type": "uso",
+              "type_kort": "USO",
+              "beschrijving": "CITO Watching & Listening (4)",
+              "stof": "CITO Listening, Watching"
             }
           ],
           "3": [
@@ -21641,6 +21577,12 @@
               "type_kort": "SO",
               "beschrijving": "Listening CITO",
               "stof": "Listening comprehension"
+            },
+            {
+              "type": "uso",
+              "type_kort": "USO",
+              "beschrijving": "CITO Listening note taking (3) & Listening (5)",
+              "stof": "CITO Listening"
             }
           ],
           "9": [
@@ -21687,6 +21629,12 @@
             {
               "type": "oefentoets",
               "type_kort": "Oef",
+              "beschrijving": "5-minutes On (2)",
+              "stof": "Identity novels"
+            },
+            {
+              "type": "uso",
+              "type_kort": "USO",
               "beschrijving": "CITO Listening (2)",
               "stof": "CITO Listening"
             }
