@@ -1,6 +1,6 @@
 {
   "schooljaar": "2025-2026",
-  "gegenereerd": "2026-03-15T17:29:03",
+  "gegenereerd": "2026-03-15T17:33:11",
   "kalender": {
     "module_weken": {
       "1": [
@@ -22645,12 +22645,6 @@
             }
           ],
           "4": [
-            {
-              "type": "mondeling",
-              "type_kort": "MO",
-              "beschrijving": "K6 luistertoetsen",
-              "stof": null
-            },
             {
               "type": "oefentoets",
               "type_kort": "Oef",

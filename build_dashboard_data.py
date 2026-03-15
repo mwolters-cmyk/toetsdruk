@@ -583,6 +583,12 @@ def build_bovenbouw(all_files: list[dict]) -> dict:
                    or detect_vak_from_beschrijving(beschrijving_plus)
                    or "Onbekend")
 
+            # Filter: misplaatste schoolbrede items (bijv. luistertoetsen in wiskunde-SW)
+            TALEN = {"Engels", "Frans", "Duits", "Nederlands", "Grieks", "Latijn",
+                      "Spaans", "Chinees"}
+            if vak not in TALEN and "luistertoets" in beschrijving:
+                continue
+
             # Bovenbouw: Wiskunde A/B/C/D zijn aparte vakken
             # (NIET samenvoegen zoals in onderbouw)
 
