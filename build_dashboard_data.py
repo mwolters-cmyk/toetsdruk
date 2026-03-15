@@ -18,6 +18,10 @@ MODULE_WEEKS = {
     1: list(range(36, 49)),                          # wk 36-48
     2: list(range(49, 53)) + list(range(1, 12)),     # wk 49-52 + 1-11
     3: list(range(12, 27)),                           # wk 12-26
+    # Klas 6: modules 4-5-6 vallen in dezelfde periodes als 1-2-3
+    4: list(range(36, 49)),                          # = module 1
+    5: list(range(49, 53)) + list(range(1, 12)),     # = module 2
+    6: list(range(12, 27)),                           # = module 3
 }
 TOETSWEEK_WEEKS = [47, 48, 10, 11, 25, 26]
 VAKANTIE_WEEKS = [43, 52, 1, 8, 18, 19]
@@ -472,6 +476,11 @@ def build_data():
         n = sum(len(t) for k in alle for t in klas_toetsen.get(k, {}).values())
         print(f"  Klas {lj}: {n} toetsen ({klassen_per_lj[lj]['Athena']} Athena, {klassen_per_lj[lj]['Socrates']} Socrates)")
 
+    # ── Bovenbouw (klas 4-6): rijen per vak, clusters samengevoegd ──────────
+    bovenbouw = build_bovenbouw(all_files)
+    if bovenbouw:
+        output["bovenbouw"] = bovenbouw
+
     # Schrijf output
     DASHBOARD_DATA_DIR.mkdir(parents=True, exist_ok=True)
     out_path = DASHBOARD_DATA_DIR / "toetsdruk.json"
@@ -480,6 +489,122 @@ def build_data():
         encoding="utf-8",
     )
     print(f"Geschreven: {out_path}")
+
+
+def build_bovenbouw(all_files: list[dict]) -> dict:
+    """Bovenbouw: groepeer per leerjaar → vak → week.
+
+    Clusters worden samengevoegd: als meerdere clusters (4AK1, 4AK2) hetzelfde
+    vak in dezelfde week hebben, tonen we dat 1x. Rijen = vakken, niet klassen.
+    """
+    # Structuur: leerjaar -> vak -> week -> [toets-entries]
+    lj_data = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+    seen = set()  # dedup per (leerjaar, vak, week, type)
+
+    for doc in all_files:
+        meta = doc["metadata"]
+        leerjaar = meta.get("leerjaar")
+        if not leerjaar or leerjaar < 4:
+            continue  # Alleen bovenbouw
+
+        bron = doc.get("bron_bestand", "")
+        file_vak = (meta.get("vak")
+                    or detect_vak_from_override(bron)
+                    or detect_vak_from_filename(bron)
+                    or detect_vak_from_docentcode(bron))
+
+        # File-level vak inheritance
+        if not file_vak:
+            detected_vaks = set()
+            for t in doc.get("toetsen", []):
+                combo = ((t.get("beschrijving") or "") + " " +
+                         (t.get("stof") or "")).strip()
+                v = detect_vak_from_beschrijving(combo)
+                if v:
+                    detected_vaks.add(v)
+            if len(detected_vaks) == 1:
+                file_vak = detected_vaks.pop()
+
+        for toets in doc.get("toetsen", []):
+            # Filter: alleen BUITEN toetsweek
+            if toets.get("in_toetsweek", False):
+                continue
+
+            # Filter: herkansingen
+            beschrijving = (toets.get("beschrijving") or "").lower()
+            if any(kw in beschrijving for kw in [
+                "herkans", "resit", "rattrapage", "repêchage",
+            ]):
+                continue
+
+            week = toets.get("week")
+            if not week:
+                continue
+
+            beschrijving_plus = ((toets.get("beschrijving") or "") + " " +
+                                 (toets.get("stof") or "")).strip()
+            vak = (file_vak
+                   or detect_vak_from_beschrijving(beschrijving_plus)
+                   or "Onbekend")
+
+            # Bovenbouw: Wiskunde A/B/C/D zijn aparte vakken
+            # (NIET samenvoegen zoals in onderbouw)
+
+            # Latijn/Grieks correctie
+            if vak == "Latijn":
+                if "grieks" in beschrijving and "latijn" not in beschrijving:
+                    vak = "Grieks"
+
+            toets_type = toets.get("type", "anders")
+
+            # Oefentoets herclassificatie (zelfde als onderbouw)
+            desc_check = beschrijving_plus.lower()
+            if any(kw in desc_check for kw in [
+                "oefentoets", "diagnostisch", "diagnostic", "d-toets",
+                "nulmeting", "formatief", "practice test", "practice exam",
+                "proeftoets",
+            ]):
+                toets_type = "oefentoets"
+            elif "quiz" in beschrijving and toets_type not in ("presentatie", "po"):
+                toets_type = "oefentoets"
+
+            # Dedup: clusters samenvoegen
+            dedup_key = (leerjaar, vak, week, toets_type)
+            if dedup_key in seen:
+                continue
+            seen.add(dedup_key)
+
+            lj_data[leerjaar][vak][str(week)].append({
+                "type": toets_type,
+                "type_kort": type_kort(toets_type),
+                "beschrijving": toets.get("beschrijving", ""),
+                "stof": toets.get("stof", ""),
+            })
+
+    # Sorteer en structureer output
+    result = {}
+    for lj in sorted(lj_data):
+        vakken = sorted(lj_data[lj].keys())
+        total = sum(
+            len(toetsen)
+            for weeks in lj_data[lj].values()
+            for toetsen in weeks.values()
+        )
+        print(f"  Bovenbouw klas {lj}: {total} toetsen over {len(vakken)} vakken")
+
+        # Sorteer toetsen per week
+        vak_toetsen = {}
+        for vak in vakken:
+            vak_toetsen[vak] = dict(lj_data[lj][vak])
+            for w in vak_toetsen[vak]:
+                vak_toetsen[vak][w].sort(key=lambda t: t["type"])
+
+        result[str(lj)] = {
+            "vakken": vakken,
+            "toetsen": vak_toetsen,
+        }
+
+    return result
 
 
 if __name__ == "__main__":

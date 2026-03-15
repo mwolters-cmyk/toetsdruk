@@ -265,7 +265,12 @@ def build_proefwerk_data():
         meta = doc["metadata"]
         klas = meta.get("klas", "")
         leerjaar = meta.get("leerjaar")
-        if not klas or not leerjaar or leerjaar > 3:
+        if not leerjaar:
+            continue
+        # Bovenbouw: klas kan leeg zijn, gebruik dan "klas {leerjaar}"
+        if not klas and leerjaar >= 4:
+            klas = f"klas {leerjaar}"
+        elif not klas:
             continue
 
         file_vak = detect_file_vak(doc)
@@ -284,8 +289,10 @@ def build_proefwerk_data():
             vak = (file_vak
                    or detect_vak_from_beschrijving(beschrijving_plus)
                    or "Onbekend")
-            if "iskunde" in vak.lower() or vak.lower() == "wiskunde":
-                vak = "Wiskunde"
+            # Onderbouw: Wiskunde A/B/C/D samenvoegen. Bovenbouw: apart houden.
+            if leerjaar <= 3:
+                if "iskunde" in vak.lower() or vak.lower() == "wiskunde":
+                    vak = "Wiskunde"
             if vak == "Latijn":
                 desc_lower = (toets.get("beschrijving") or "").lower()
                 if "grieks" in desc_lower and "latijn" not in desc_lower:

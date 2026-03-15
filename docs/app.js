@@ -39,10 +39,56 @@
         });
     }
 
+    // ── Helper: is dit bovenbouw? ──
+    function isBovenbouw() {
+        return parseInt(state.jaarlaag) >= 4;
+    }
+
+    // ── Module mapping: klas 6 gebruikt modules 4-5-6 ──
+    function getEffectiveModule() {
+        const lj = parseInt(state.jaarlaag);
+        const mod = parseInt(state.module);
+        if (lj === 6) {
+            return String(mod + 3); // knop 1→mod 4, knop 2→mod 5, knop 3→mod 6
+        }
+        return state.module;
+    }
+
+    // ── Update module-knoplabels voor klas 6 ──
+    function updateModuleLabels() {
+        const lj = parseInt(state.jaarlaag);
+        const btns = document.querySelectorAll('#module-btns button');
+        if (lj === 6) {
+            btns[0].textContent = '4';
+            btns[1].textContent = '5';
+            btns[2].textContent = '6';
+        } else {
+            btns[0].textContent = '1';
+            btns[1].textContent = '2';
+            btns[2].textContent = '3';
+        }
+    }
+
     // ── Main render ──
     function render() {
         if (!DATA) return;
 
+        // Toggle locatie-filter visibility
+        const locatieGroup = document.getElementById('locatie-btns').closest('.control-group');
+        locatieGroup.style.display = isBovenbouw() ? 'none' : '';
+
+        // Update module labels (klas 6 = modules 4-5-6)
+        updateModuleLabels();
+
+        if (isBovenbouw()) {
+            renderBovenbouw();
+        } else {
+            renderOnderbouw();
+        }
+    }
+
+    // ── Onderbouw render (bestaande logica) ──
+    function renderOnderbouw() {
         const lj = state.jaarlaag;
         const mod = state.module;
         const loc = state.locatie;
@@ -90,8 +136,6 @@
         // Build body rows
         const body = document.getElementById('heatmap-body');
         let bodyHtml = '';
-
-        // Track column totals
         const colTotals = {};
         weeks.forEach(w => colTotals[w] = 0);
 
@@ -145,7 +189,7 @@
 
         body.innerHTML = bodyHtml;
 
-        // Wire up tooltips on data cells
+        // Wire up tooltips
         body.querySelectorAll('td[data-klas]').forEach(td => {
             td.addEventListener('mouseenter', showTooltip);
             td.addEventListener('mousemove', moveTooltip);
@@ -153,7 +197,113 @@
         });
     }
 
-    // ── Tooltip ──
+    // ── Bovenbouw render (rijen = vakken) ──
+    function renderBovenbouw() {
+        const lj = state.jaarlaag;
+        const mod = getEffectiveModule();
+        const kalender = DATA.kalender;
+        const weeks = kalender.module_weken[mod] || [];
+        const toetsweken = new Set(kalender.toetsweken);
+        const vakanties = new Set(kalender.vakanties);
+
+        // Bovenbouw data
+        const bvData = (DATA.bovenbouw || {})[lj] || {};
+        const vakken = bvData.vakken || [];
+        const vakToetsen = bvData.toetsen || {};
+
+        // Info bar
+        const infoBar = document.getElementById('info-bar');
+        const totalTests = vakken.reduce((sum, vak) => {
+            return sum + weeks.reduce((wsum, w) => {
+                const tests = (vakToetsen[vak] || {})[String(w)] || [];
+                return wsum + tests.length;
+            }, 0);
+        }, 0);
+        infoBar.innerHTML = `
+            <span class="info-item"><strong>${vakken.length}</strong> vakken</span>
+            <span class="info-item"><strong>${weeks.length}</strong> weken</span>
+            <span class="info-item"><strong>${totalTests}</strong> toetsen (excl. proefwerkweken)</span>
+            <span class="info-item">Schooljaar <strong>${DATA.schooljaar}</strong></span>
+        `;
+
+        // Build header
+        const head = document.getElementById('heatmap-head');
+        let headerHtml = '<tr><th>Vak</th>';
+        for (const w of weeks) {
+            const label = kalender.week_labels[String(w)] || `wk${w}`;
+            const cls = toetsweken.has(w) ? ' class="week-toetsweek"' : vakanties.has(w) ? ' class="week-vakantie"' : '';
+            headerHtml += `<th${cls}>${label}<span class="week-nr">wk ${w}</span></th>`;
+        }
+        headerHtml += '</tr>';
+        head.innerHTML = headerHtml;
+
+        // Build body rows
+        const body = document.getElementById('heatmap-body');
+        let bodyHtml = '';
+        const colTotals = {};
+        weeks.forEach(w => colTotals[w] = 0);
+
+        for (const vak of vakken) {
+            bodyHtml += `<tr><td>${esc(vak)}</td>`;
+            const vakData = vakToetsen[vak] || {};
+
+            for (const w of weeks) {
+                if (toetsweken.has(w)) {
+                    bodyHtml += '<td class="week-toetsweek">PW-week</td>';
+                    continue;
+                }
+                if (vakanties.has(w)) {
+                    bodyHtml += '<td class="week-vakantie">vakantie</td>';
+                    continue;
+                }
+
+                const tests = vakData[String(w)] || [];
+                const count = tests.length;
+                colTotals[w] += count;
+                const heatClass = `heat-${Math.min(count, 5)}`;
+
+                if (count === 0) {
+                    bodyHtml += `<td class="${heatClass}"></td>`;
+                } else {
+                    // Bovenbouw: toon alleen type (vak is al de rij)
+                    const cellContent = tests.map(t =>
+                        `<div class="toets-entry"><span class="type">${esc(t.type_kort)}</span></div>`
+                    ).join('');
+                    bodyHtml += `<td class="${heatClass}" data-vak="${esc(vak)}" data-week="${w}">${cellContent}</td>`;
+                }
+            }
+            bodyHtml += '</tr>';
+        }
+
+        // TOTAAL row
+        const rowCount = Math.max(vakken.length, 1);
+        bodyHtml += '<tr class="totaal-row"><td>TOTAAL</td>';
+        for (const w of weeks) {
+            if (toetsweken.has(w)) {
+                bodyHtml += '<td class="week-toetsweek">PW</td>';
+                continue;
+            }
+            if (vakanties.has(w)) {
+                bodyHtml += '<td class="week-vakantie"></td>';
+                continue;
+            }
+            const total = colTotals[w];
+            const heatClass = `heat-${Math.min(Math.ceil(total / rowCount), 5)}`;
+            bodyHtml += `<td class="${heatClass}">${total || ''}</td>`;
+        }
+        bodyHtml += '</tr>';
+
+        body.innerHTML = bodyHtml;
+
+        // Wire up tooltips on data cells (bovenbouw uses data-vak)
+        body.querySelectorAll('td[data-vak]').forEach(td => {
+            td.addEventListener('mouseenter', showTooltipBovenbouw);
+            td.addEventListener('mousemove', moveTooltip);
+            td.addEventListener('mouseleave', hideTooltip);
+        });
+    }
+
+    // ── Tooltip (onderbouw) ──
     function showTooltip(e) {
         const td = e.currentTarget;
         const klas = td.dataset.klas;
@@ -170,6 +320,36 @@
                 <span class="tt-type">${esc(t.type_kort)}</span>`;
             if (t.beschrijving) {
                 html += `<div class="tt-desc">${esc(t.beschrijving)}</div>`;
+            }
+            html += '</div>';
+        }
+
+        tooltip.innerHTML = html;
+        tooltip.classList.add('visible');
+        positionTooltip(e);
+    }
+
+    // ── Tooltip (bovenbouw) ──
+    function showTooltipBovenbouw(e) {
+        const td = e.currentTarget;
+        const vak = td.dataset.vak;
+        const week = td.dataset.week;
+        const lj = state.jaarlaag;
+        const tests = (((DATA.bovenbouw || {})[lj] || {}).toetsen || {})[vak] || {};
+        const weekTests = tests[week] || [];
+        if (!weekTests.length) return;
+
+        const weekLabel = DATA.kalender.week_labels[week] || `wk ${week}`;
+
+        let html = `<h4>${esc(vak)} — ${weekLabel} (wk ${week})</h4>`;
+        for (const t of weekTests) {
+            html += `<div class="tt-entry">
+                <span class="tt-type">${esc(t.type_kort)}</span>`;
+            if (t.beschrijving) {
+                html += `<div class="tt-desc">${esc(t.beschrijving)}</div>`;
+            }
+            if (t.stof) {
+                html += `<div class="tt-stof">${esc(t.stof)}</div>`;
             }
             html += '</div>';
         }
